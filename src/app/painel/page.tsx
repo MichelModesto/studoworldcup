@@ -5,18 +5,21 @@ import { StatCard } from "@/components/ui/stat-card";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { MatchCard } from "@/components/painel/match-card";
+import { LiveScores } from "@/components/painel/live-scores";
 import { DonutChart } from "@/components/charts/donut-chart";
 import {
   getConfederationBreakdown,
   getScorers,
   getSummary,
 } from "@/lib/worldcup";
+import { getLiveScoreboard } from "@/lib/worldcup/live";
 
 export default async function VisaoGeralPage() {
-  const [summary, scorers, confed] = await Promise.all([
+  const [summary, scorers, confed, live] = await Promise.all([
     getSummary(),
     getScorers(5),
     getConfederationBreakdown(),
+    getLiveScoreboard(),
   ]);
 
   const destaques = summary.jogosDisputados > 0 ? summary.ultimos : summary.proximos;
@@ -27,6 +30,8 @@ export default async function VisaoGeralPage() {
         titulo="Visão geral"
         descricao="Resumo do torneio com dados reais — Copa do Mundo FIFA 2026."
       />
+
+      <LiveScores initial={live} />
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <StatCard label="Seleções" value={summary.selecoes} hint="Classificadas" icon={Users} accent="brand" />

@@ -1,6 +1,8 @@
 import { PageHeader } from "@/components/ui/page-header";
 import { MatchCard } from "@/components/painel/match-card";
+import { LiveScores } from "@/components/painel/live-scores";
 import { getMatches, type Match } from "@/lib/worldcup";
+import { getLiveScoreboard } from "@/lib/worldcup/live";
 
 const FUSO = "America/Sao_Paulo";
 
@@ -30,7 +32,7 @@ function agruparPorData(jogos: Match[]) {
 }
 
 export default async function JogosPage() {
-  const matches = await getMatches();
+  const [matches, live] = await Promise.all([getMatches(), getLiveScoreboard()]);
   const ordenados = [...matches].sort((a, b) => a.sortKey.localeCompare(b.sortKey));
 
   const aoVivo = ordenados.filter((j) => j.status === "ao-vivo");
@@ -43,6 +45,8 @@ export default async function JogosPage() {
         titulo="Jogos"
         descricao={`Calendário completo da Copa 2026 — ${matches.length} partidas.`}
       />
+
+      <LiveScores initial={live} />
 
       {aoVivo.length > 0 && (
         <section className="mb-8">
