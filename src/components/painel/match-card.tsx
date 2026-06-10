@@ -1,4 +1,5 @@
-import { Clock, MapPin } from "lucide-react";
+import Link from "next/link";
+import { Clock, MapPin, Scale } from "lucide-react";
 import type { Match } from "@/lib/worldcup";
 
 const statusInfo: Record<Match["status"], { label: string; cls: string }> = {
@@ -31,9 +32,13 @@ export function MatchCard({ jogo }: { jogo: Match }) {
   const s = statusInfo[jogo.status];
   const temPlacar = jogo.placarMandante !== undefined;
   const hora = formatarHora(jogo);
+  const confronto =
+    jogo.fifaMandante && jogo.fifaVisitante
+      ? `/painel/confronto/${jogo.fifaMandante}-${jogo.fifaVisitante}`
+      : null;
 
-  return (
-    <div className="glass glass-hover p-4">
+  const card = (
+    <div className={`glass glass-hover p-4 ${confronto ? "transition group-hover:border-brand/40" : ""}`}>
       <div className="flex items-center justify-between text-xs text-muted">
         <span className="truncate">
           {jogo.fase}
@@ -87,7 +92,19 @@ export function MatchCard({ jogo }: { jogo: Match }) {
         <span className="truncate">
           {jogo.estadio} · {jogo.cidade}
         </span>
+        {confronto && (
+          <span className="ml-auto inline-flex shrink-0 items-center gap-1 font-medium text-brand opacity-0 transition group-hover:opacity-100">
+            <Scale className="h-3.5 w-3.5" /> Comparar
+          </span>
+        )}
       </div>
     </div>
+  );
+
+  if (!confronto) return card;
+  return (
+    <Link href={confronto} className="group block" title="Comparar as duas seleções">
+      {card}
+    </Link>
   );
 }

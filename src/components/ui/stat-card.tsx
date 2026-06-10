@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { LucideIcon } from "lucide-react";
 import { Counter } from "@/components/motion/counter";
 
@@ -17,6 +18,7 @@ export function StatCard({
   accent = "brand",
   suffix,
   prefix,
+  href,
 }: {
   label: string;
   value: string | number;
@@ -25,9 +27,11 @@ export function StatCard({
   accent?: "brand" | "brand-2" | "accent" | "violet" | "gold";
   suffix?: string;
   prefix?: string;
+  /** Torna o card clicável, levando à tela com o detalhe da métrica. */
+  href?: string;
 }) {
-  return (
-    <div className="glass glass-hover group p-5">
+  const card = (
+    <div className={`glass glass-hover group p-5 ${href ? "transition hover:border-brand/40" : ""}`}>
       <div className="flex items-start justify-between">
         <div className="min-w-0">
           <p className="text-xs uppercase tracking-wide text-muted">{label}</p>
@@ -47,5 +51,12 @@ export function StatCard({
         </span>
       </div>
     </div>
+  );
+
+  if (!href) return card;
+  return (
+    <Link href={href} className="block">
+      {card}
+    </Link>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { LiveMatch } from "@/lib/worldcup/live";
 
@@ -72,7 +73,12 @@ export function LiveScores({ initial }: { initial: LiveMatch[] }) {
       {jogos.map((j) => {
         const comPlacar = j.estado !== "pre";
         return (
-          <div key={j.id} className="glass flex items-center justify-between gap-3 p-4">
+          <Link
+            key={j.id}
+            href={`/painel/confronto/${j.mandante.fifa}-${j.visitante.fifa}`}
+            title="Comparar as duas seleções"
+            className="glass glass-hover flex items-center justify-between gap-3 p-4 transition hover:border-brand/40"
+          >
             <div className="min-w-0 flex-1 space-y-1.5">
               {[j.mandante, j.visitante].map((s) => (
                 <div key={s.fifa} className="flex items-center gap-2 text-sm">
@@ -89,7 +95,7 @@ export function LiveScores({ initial }: { initial: LiveMatch[] }) {
             <div className="shrink-0 text-right">
               <Badge jogo={j} />
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>

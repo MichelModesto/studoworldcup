@@ -39,6 +39,9 @@ export type Match = {
   flagMandante: string;
   visitante: string;
   flagVisitante: string;
+  /** Códigos FIFA para linkar páginas de seleção e confronto. */
+  fifaMandante?: string;
+  fifaVisitante?: string;
   estadio: string;
   cidade: string;
   placarMandante?: number;

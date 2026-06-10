@@ -51,6 +51,21 @@ export type TeamStats = {
   fontes: string[];
 };
 
+/** Carrega as estatísticas de todas as seleções com dados ingeridos. */
+export async function listTeamStats(): Promise<TeamStats[]> {
+  try {
+    const { readdir } = await import("node:fs/promises");
+    const dir = path.join(process.cwd(), "data", "teams");
+    const files = (await readdir(dir)).filter((f) => f.endsWith(".json"));
+    const all = await Promise.all(
+      files.map((f) => getTeamStats(f.replace(".json", ""))),
+    );
+    return all.filter((t): t is TeamStats => t !== null);
+  } catch {
+    return [];
+  }
+}
+
 export async function getTeamStats(fifa: string): Promise<TeamStats | null> {
   try {
     const file = path.join(process.cwd(), "data", "teams", `${fifa.toUpperCase()}.json`);

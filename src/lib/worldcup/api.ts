@@ -159,6 +159,8 @@ export async function getMatches(): Promise<Match[]> {
       flagMandante: flagOf(m.team1),
       visitante: ptOf(m.team2),
       flagVisitante: flagOf(m.team2),
+      fifaMandante: byName.get(m.team1)?.fifa,
+      fifaVisitante: byName.get(m.team2)?.fifa,
       estadio: stadium?.estadio ?? cidadePt(cidadeRaw),
       cidade: stadium?.cidade ?? cidadePt(cidadeRaw),
       placarMandante: temPlacar ? ft![0] : undefined,
