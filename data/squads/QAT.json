@@ -1,0 +1,168 @@
+{
+  "fifa": "QAT",
+  "team": "Qatar",
+  "espnTeamId": 4398,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:10.685Z",
+  "jogadores": [
+    {
+      "nome": "Meshaal Barsham",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 28
+    },
+    {
+      "nome": "Salah Zakaria",
+      "posicao": "Goleiro",
+      "numero": 21,
+      "idade": 27
+    },
+    {
+      "nome": "Mahmoud Abunada",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 26
+    },
+    {
+      "nome": "Pedro Miguel",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 35
+    },
+    {
+      "nome": "Lucas Mendes",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 35
+    },
+    {
+      "nome": "Boualem Khoukhi",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 35
+    },
+    {
+      "nome": "Sultan Al-Brake",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 30
+    },
+    {
+      "nome": "Homam Ahmed",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 26
+    },
+    {
+      "nome": "Jassem Gaber",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 24
+    },
+    {
+      "nome": "Ayoub Al-Oui",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 21
+    },
+    {
+      "nome": "Al-Hashmi Al-Hussain",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 22
+    },
+    {
+      "nome": "Issa Laye",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 28
+    },
+    {
+      "nome": "Abdulaziz Hatem",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 35
+    },
+    {
+      "nome": "Karim Boudiaf",
+      "posicao": "Meio-campista",
+      "numero": 12,
+      "idade": 35
+    },
+    {
+      "nome": "Assim Madibo",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 29
+    },
+    {
+      "nome": "Ahmed Fathy",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 33
+    },
+    {
+      "nome": "Mohamed Manai",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 23
+    },
+    {
+      "nome": "Edmílson Junior",
+      "posicao": "Atacante",
+      "numero": 8,
+      "idade": 31
+    },
+    {
+      "nome": "Mohammed Muntari",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 32
+    },
+    {
+      "nome": "Almoez Ali",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 29
+    },
+    {
+      "nome": "Akram Afif",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 29
+    },
+    {
+      "nome": "Hassan Al-Haydos",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 35
+    },
+    {
+      "nome": "Ahmed Alaaeldin",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 33
+    },
+    {
+      "nome": "Yusuf Abdurisag",
+      "posicao": "Atacante",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Ahmed Al-Ganehi",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 25
+    },
+    {
+      "nome": "Tahsin Jamshid",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 19
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

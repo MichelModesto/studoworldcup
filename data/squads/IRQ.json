@@ -1,0 +1,168 @@
+{
+  "fifa": "IRQ",
+  "team": "Iraq",
+  "espnTeamId": 4375,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:35.503Z",
+  "jogadores": [
+    {
+      "nome": "Fahad Talib",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 31
+    },
+    {
+      "nome": "Jalal Hassan",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 35
+    },
+    {
+      "nome": "Ahmed Basil",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 29
+    },
+    {
+      "nome": "Frans Putros",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 32
+    },
+    {
+      "nome": "Rebin Sulaka",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 34
+    },
+    {
+      "nome": "Hussein Ali",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 24
+    },
+    {
+      "nome": "Munaf Younus",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Merchas Doski",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 26
+    },
+    {
+      "nome": "Ahmed Maknazi",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 24
+    },
+    {
+      "nome": "Mustafa Saadoon",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 25
+    },
+    {
+      "nome": "Akam Hashim",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Zaid Tahseen",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 25
+    },
+    {
+      "nome": "Ibrahim Bayesh",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 26
+    },
+    {
+      "nome": "Kevin Yakob",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 25
+    },
+    {
+      "nome": "Aimar Sher",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 23
+    },
+    {
+      "nome": "Amir Al-Ammari",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 28
+    },
+    {
+      "nome": "Zidane Iqbal",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 23
+    },
+    {
+      "nome": "Marko Farji",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 22
+    },
+    {
+      "nome": "Zaid Ismael",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 24
+    },
+    {
+      "nome": "Aymen Hussein",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 30
+    },
+    {
+      "nome": "Mohanad Ali",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 25
+    },
+    {
+      "nome": "Ali Yousif",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 30
+    },
+    {
+      "nome": "Ali Jasim",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 22
+    },
+    {
+      "nome": "Ahmed Qasim",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 22
+    },
+    {
+      "nome": "Youssef Amyn",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 22
+    },
+    {
+      "nome": "Ali Al-Hamadi",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

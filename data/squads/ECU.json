@@ -1,0 +1,168 @@
+{
+  "fifa": "ECU",
+  "team": "Ecuador",
+  "espnTeamId": 209,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:21.975Z",
+  "jogadores": [
+    {
+      "nome": "Gonzalo Valle",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 30
+    },
+    {
+      "nome": "Hernán Galíndez",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 39
+    },
+    {
+      "nome": "Moisés Ramírez",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 25
+    },
+    {
+      "nome": "Pervis Estupiñán",
+      "posicao": "Defensor",
+      "numero": 7,
+      "idade": 28
+    },
+    {
+      "nome": "Félix Torres",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 29
+    },
+    {
+      "nome": "Ángelo Preciado",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 28
+    },
+    {
+      "nome": "Jackson Porozo",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 25
+    },
+    {
+      "nome": "Willian Pacho",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 24
+    },
+    {
+      "nome": "Piero Hincapié",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 24
+    },
+    {
+      "nome": "Yaimar Medina",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 21
+    },
+    {
+      "nome": "Joel Ordóñez",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 22
+    },
+    {
+      "nome": "Alan Franco",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 27
+    },
+    {
+      "nome": "Jordy Alcívar",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 26
+    },
+    {
+      "nome": "Moisés Caicedo",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 24
+    },
+    {
+      "nome": "Pedro Vite",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 24
+    },
+    {
+      "nome": "Denil Castillo",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 22
+    },
+    {
+      "nome": "Kendry Páez",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 19
+    },
+    {
+      "nome": "Enner Valencia",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 36
+    },
+    {
+      "nome": "Jordy Caicedo",
+      "posicao": "Atacante",
+      "numero": 16,
+      "idade": 28
+    },
+    {
+      "nome": "John Yeboah",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 25
+    },
+    {
+      "nome": "Gonzalo Plata",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 25
+    },
+    {
+      "nome": "Kevin Rodríguez",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 26
+    },
+    {
+      "nome": "Anthony Valencia",
+      "posicao": "Atacante",
+      "numero": 8,
+      "idade": 22
+    },
+    {
+      "nome": "Nilson Angulo",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 22
+    },
+    {
+      "nome": "Alan Minda",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 23
+    },
+    {
+      "nome": "Jeremy Arévalo",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

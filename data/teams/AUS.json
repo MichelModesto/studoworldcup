@@ -1,0 +1,146 @@
+{
+  "fifa": "AUS",
+  "team": "Australia",
+  "nomePt": "Austrália",
+  "espnTeamId": 628,
+  "atualizadoEm": "2026-06-10T14:44:24.589Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - AFC"
+  ],
+  "registro": {
+    "v": 9,
+    "e": 2,
+    "d": 4,
+    "gp": 25,
+    "gc": 14
+  },
+  "porJogo": {
+    "chutes": 7.3,
+    "chutesNoGol": 3.4,
+    "escanteios": 2.7,
+    "faltas": 11.1,
+    "impedimentos": 0.9,
+    "amarelos": 1,
+    "vermelhos": 0,
+    "posse": 41.6,
+    "defesasGoleiro": 3,
+    "desarmes": 8.9,
+    "golsPro": 1.7,
+    "golsContra": 0.9
+  },
+  "golsPorJanela": {
+    "0-15": 1,
+    "16-30": 6,
+    "31-45": 3,
+    "46-60": 4,
+    "61-75": 4,
+    "76-90": 7
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 2,
+    "31-45": 2,
+    "46-60": 3,
+    "61-75": 1,
+    "76-90": 5
+  },
+  "golsPorTempo": {
+    "1T": 10,
+    "2T": 15
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 5,
+    "46-60": 2,
+    "61-75": 2,
+    "76-90": 3
+  },
+  "artilheiros": [
+    {
+      "nome": "Nestory Irankunda",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jordan Bos",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jackson Irvine",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohamed Toure",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nishan Velupillay",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Kusini Yengi",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Tete Yengi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Awer Mabil",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Alessandro Circati",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Maximilien Balard",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Connor Metcalfe",
+      "assistencias": 2
+    },
+    {
+      "nome": "Riley McGree",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jordan Bos",
+      "assistencias": 1
+    },
+    {
+      "nome": "Nishan Velupillay",
+      "assistencias": 1
+    },
+    {
+      "nome": "Maximilien Balard",
+      "assistencias": 1
+    },
+    {
+      "nome": "Mohamed Toure",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

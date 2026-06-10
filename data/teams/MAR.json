@@ -1,0 +1,145 @@
+{
+  "fifa": "MAR",
+  "team": "Morocco",
+  "nomePt": "Marrocos",
+  "espnTeamId": 2869,
+  "atualizadoEm": "2026-06-10T14:43:44.283Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "Africa Cup of Nations",
+    "FIFA World Cup Qualifying - CAF"
+  ],
+  "registro": {
+    "v": 11,
+    "e": 4,
+    "d": 0,
+    "gp": 31,
+    "gc": 4
+  },
+  "porJogo": {
+    "chutes": 13.9,
+    "chutesNoGol": 4.8,
+    "escanteios": 5.7,
+    "faltas": 13.4,
+    "impedimentos": 1.6,
+    "amarelos": 1.3,
+    "vermelhos": 0,
+    "posse": 55.2,
+    "defesasGoleiro": 1.4,
+    "desarmes": 16.2,
+    "golsPro": 2.1,
+    "golsContra": 0.3
+  },
+  "golsPorJanela": {
+    "0-15": 4,
+    "16-30": 3,
+    "31-45": 2,
+    "46-60": 4,
+    "61-75": 4,
+    "76-90": 5
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 0,
+    "31-45": 0,
+    "46-60": 1,
+    "61-75": 2,
+    "76-90": 2
+  },
+  "golsPorTempo": {
+    "1T": 9,
+    "2T": 13
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 1,
+    "31-45": 3,
+    "46-60": 2,
+    "61-75": 3,
+    "76-90": 9
+  },
+  "artilheiros": [
+    {
+      "nome": "Brahim Díaz",
+      "gols": 6,
+      "penaltis": 1
+    },
+    {
+      "nome": "Ismael Saibari",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ayoub El Kaabi",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Soufiane Rahimi",
+      "gols": 2,
+      "penaltis": 2
+    },
+    {
+      "nome": "Bilal El Khannouss",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Neil El Aynaoui",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Azzedine Ounahi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Youssef En-Nesyri",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Achraf Hakimi",
+      "assistencias": 5
+    },
+    {
+      "nome": "Noussair Mazraoui",
+      "assistencias": 3
+    },
+    {
+      "nome": "Abde Ezzalzouli",
+      "assistencias": 2
+    },
+    {
+      "nome": "Azzedine Ounahi",
+      "assistencias": 2
+    },
+    {
+      "nome": "Bilal El Khannouss",
+      "assistencias": 1
+    },
+    {
+      "nome": "Ayoub El Kaabi",
+      "assistencias": 1
+    },
+    {
+      "nome": "Nayef Aguerd",
+      "assistencias": 1
+    },
+    {
+      "nome": "Anass Salah-Eddine",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 14
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

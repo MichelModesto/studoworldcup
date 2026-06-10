@@ -1,0 +1,168 @@
+{
+  "fifa": "NOR",
+  "team": "Norway",
+  "espnTeamId": 464,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:36.450Z",
+  "jogadores": [
+    {
+      "nome": "Ørjan Nyland",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 35
+    },
+    {
+      "nome": "Egil Selvik",
+      "posicao": "Goleiro",
+      "numero": 13,
+      "idade": 28
+    },
+    {
+      "nome": "Sander Tangvik",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 23
+    },
+    {
+      "nome": "Marcus Holmgren Pedersen",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 25
+    },
+    {
+      "nome": "Kristoffer Ajer",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 28
+    },
+    {
+      "nome": "Julian Ryerson",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 28
+    },
+    {
+      "nome": "Fredrik André Bjørkan",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 27
+    },
+    {
+      "nome": "Torbjørn Heggem",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 27
+    },
+    {
+      "nome": "Leo Østigard",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 26
+    },
+    {
+      "nome": "Henrik Falchener",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 23
+    },
+    {
+      "nome": "David Møller Wolfe",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 24
+    },
+    {
+      "nome": "Sondre Langas",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 25
+    },
+    {
+      "nome": "Morten Thorsby",
+      "posicao": "Meio-campista",
+      "numero": 2,
+      "idade": 30
+    },
+    {
+      "nome": "Martin Ødegaard",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Patrick Berg",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 28
+    },
+    {
+      "nome": "Fredrik Aursnes",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 30
+    },
+    {
+      "nome": "Sander Berge",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 28
+    },
+    {
+      "nome": "Jens Petter Hauge",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 26
+    },
+    {
+      "nome": "Kristian Thorstvedt",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Oscar Bobb",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 22
+    },
+    {
+      "nome": "Thelo Aasgaard",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 24
+    },
+    {
+      "nome": "Antonio Nusa",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 21
+    },
+    {
+      "nome": "Alexander Sørloth",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 30
+    },
+    {
+      "nome": "Jørgen Strand Larsen",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 26
+    },
+    {
+      "nome": "Erling Haaland",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 25
+    },
+    {
+      "nome": "Andreas Schjelderup",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 22
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

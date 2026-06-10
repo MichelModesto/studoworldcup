@@ -1,0 +1,168 @@
+{
+  "fifa": "GHA",
+  "team": "Ghana",
+  "espnTeamId": 4469,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:46.383Z",
+  "jogadores": [
+    {
+      "nome": "Lawrence Ati Zigi",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 29
+    },
+    {
+      "nome": "Joseph Anang",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 26
+    },
+    {
+      "nome": "Benjamin Asare",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 33
+    },
+    {
+      "nome": "Baba Rahman",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 31
+    },
+    {
+      "nome": "Derrick Luckassen",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 30
+    },
+    {
+      "nome": "Abdul Mumin",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 28
+    },
+    {
+      "nome": "Jerome Opoku",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Gideon Mensah",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 27
+    },
+    {
+      "nome": "Alidu Seidu",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 26
+    },
+    {
+      "nome": "Marvin Senaya",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 25
+    },
+    {
+      "nome": "Jonas Adjetey",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 22
+    },
+    {
+      "nome": "Kojo Peprah Oppong",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 22
+    },
+    {
+      "nome": "Thomas Partey",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 32
+    },
+    {
+      "nome": "Elisha Owusu",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 28
+    },
+    {
+      "nome": "Kwasi Sibo",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 27
+    },
+    {
+      "nome": "Augustine Boakye",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 25
+    },
+    {
+      "nome": "Caleb Yirenkyi",
+      "posicao": "Meio-campista",
+      "numero": 3,
+      "idade": 20
+    },
+    {
+      "nome": "Jordan Ayew",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 34
+    },
+    {
+      "nome": "Iñaki Williams",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 31
+    },
+    {
+      "nome": "Brandon Thomas-Asante",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Antoine Semenyo",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 26
+    },
+    {
+      "nome": "Kamaldeen Sulemana",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 24
+    },
+    {
+      "nome": "Fatawu Issahaku",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 22
+    },
+    {
+      "nome": "Ernest Nuamah",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 22
+    },
+    {
+      "nome": "Christopher Bonsu Baah",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 21
+    },
+    {
+      "nome": "Prince Adu",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 22
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "COD",
+  "team": "DR Congo",
+  "espnTeamId": 2850,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:41.463Z",
+  "jogadores": [
+    {
+      "nome": "Lionel Mpasi",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 31
+    },
+    {
+      "nome": "Timothy Fayulu",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 26
+    },
+    {
+      "nome": "Matthieu Epolo",
+      "posicao": "Goleiro",
+      "numero": 21,
+      "idade": 21
+    },
+    {
+      "nome": "Arthur Masuaku",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 32
+    },
+    {
+      "nome": "Chancel Mbemba",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 31
+    },
+    {
+      "nome": "Joris Kayembe",
+      "posicao": "Defensor",
+      "numero": 12,
+      "idade": 31
+    },
+    {
+      "nome": "Axel Tuanzebe",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 28
+    },
+    {
+      "nome": "Aaron Wan-Bissaka",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 28
+    },
+    {
+      "nome": "Dylan Batubinsika",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 30
+    },
+    {
+      "nome": "Gédéon Kalulu",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 28
+    },
+    {
+      "nome": "Steve Kapuadi",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 28
+    },
+    {
+      "nome": "Gaël Kakuta",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 34
+    },
+    {
+      "nome": "Aaron Tshibola",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 31
+    },
+    {
+      "nome": "Théo Bongonda",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 30
+    },
+    {
+      "nome": "Charles Pickel",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 29
+    },
+    {
+      "nome": "Samuel Moutoussamy",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 29
+    },
+    {
+      "nome": "Edo Kayembe",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 28
+    },
+    {
+      "nome": "Noah Sadiki",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 21
+    },
+    {
+      "nome": "Ngal'ayel Mukau",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 21
+    },
+    {
+      "nome": "Cédric Bakambu",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 35
+    },
+    {
+      "nome": "Yoane Wissa",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 29
+    },
+    {
+      "nome": "Simon Banza",
+      "posicao": "Atacante",
+      "numero": 23,
+      "idade": 29
+    },
+    {
+      "nome": "Meschack Elia",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 28
+    },
+    {
+      "nome": "Nathanaël Mbuku",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 24
+    },
+    {
+      "nome": "Fiston Mayele",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 31
+    },
+    {
+      "nome": "Brian Cipenga",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 28
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

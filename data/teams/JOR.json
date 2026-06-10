@@ -1,0 +1,134 @@
+{
+  "fifa": "JOR",
+  "team": "Jordan",
+  "nomePt": "Jordânia",
+  "espnTeamId": 2917,
+  "atualizadoEm": "2026-06-10T15:06:00.287Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - AFC"
+  ],
+  "registro": {
+    "v": 3,
+    "e": 5,
+    "d": 7,
+    "gp": 19,
+    "gc": 23
+  },
+  "porJogo": {
+    "chutes": 7.1,
+    "chutesNoGol": 2.3,
+    "escanteios": 2,
+    "faltas": 8.3,
+    "impedimentos": 0.2,
+    "amarelos": 1.1,
+    "vermelhos": 0.17,
+    "posse": 24,
+    "defesasGoleiro": 1.8,
+    "desarmes": 5.8,
+    "golsPro": 1.3,
+    "golsContra": 1.5
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 4,
+    "31-45": 3,
+    "46-60": 5,
+    "61-75": 1,
+    "76-90": 3
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 3,
+    "31-45": 7,
+    "46-60": 1,
+    "61-75": 4,
+    "76-90": 8
+  },
+  "golsPorTempo": {
+    "1T": 9,
+    "2T": 9
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 2,
+    "31-45": 3,
+    "46-60": 1,
+    "61-75": 2,
+    "76-90": 7
+  },
+  "artilheiros": [
+    {
+      "nome": "Ali Olwan",
+      "gols": 4,
+      "penaltis": 1
+    },
+    {
+      "nome": "Mousa Al-Tamari",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Yazan Al-Naimat",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Amer Jamous",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Odeh Fakhoury",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohammad Al-Daoud",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Baha' Faisal",
+      "gols": 1,
+      "penaltis": 1
+    },
+    {
+      "nome": "Ibrahim Sabra",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nizar Al-Rashdan",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Yazan Al-Arab",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Mousa Al-Tamari",
+      "assistencias": 1
+    },
+    {
+      "nome": "Adham Mohammad Salem Al-Quraishi",
+      "assistencias": 1
+    },
+    {
+      "nome": "Yazan Al-Naimat",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 12
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

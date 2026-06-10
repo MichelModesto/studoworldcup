@@ -1,0 +1,126 @@
+{
+  "fifa": "IRQ",
+  "team": "Iraq",
+  "nomePt": "Iraque",
+  "espnTeamId": 4375,
+  "atualizadoEm": "2026-06-10T15:01:42.746Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - AFC"
+  ],
+  "registro": {
+    "v": 6,
+    "e": 5,
+    "d": 4,
+    "gp": 14,
+    "gc": 14
+  },
+  "porJogo": {
+    "chutes": 7.1,
+    "chutesNoGol": 2.5,
+    "escanteios": 4,
+    "faltas": 9.8,
+    "impedimentos": 0.1,
+    "amarelos": 1.5,
+    "vermelhos": 0.2,
+    "posse": 39.4,
+    "defesasGoleiro": 1.9,
+    "desarmes": 1,
+    "golsPro": 0.9,
+    "golsContra": 0.9
+  },
+  "golsPorJanela": {
+    "0-15": 1,
+    "16-30": 1,
+    "31-45": 3,
+    "46-60": 1,
+    "61-75": 1,
+    "76-90": 6
+  },
+  "golsContraPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 2,
+    "46-60": 2,
+    "61-75": 3,
+    "76-90": 4
+  },
+  "golsPorTempo": {
+    "1T": 5,
+    "2T": 8
+  },
+  "amarelosPorJanela": {
+    "0-15": 3,
+    "16-30": 4,
+    "31-45": 2,
+    "46-60": 1,
+    "61-75": 8,
+    "76-90": 6
+  },
+  "artilheiros": [
+    {
+      "nome": "Aymen Hussein",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ibrahim Bayesh",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Merchas Doski",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohanad Ali",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Amir Al-Ammari",
+      "gols": 1,
+      "penaltis": 1
+    },
+    {
+      "nome": "Ali Al-Hamadi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Zidane Iqbal",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Sajjad Jasim",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Akam Hashim",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Youssef Amyn",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Akam Hashim",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

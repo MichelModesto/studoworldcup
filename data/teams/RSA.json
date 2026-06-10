@@ -1,0 +1,159 @@
+{
+  "fifa": "RSA",
+  "team": "South Africa",
+  "nomePt": "África do Sul",
+  "espnTeamId": 467,
+  "atualizadoEm": "2026-06-10T15:13:28.474Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "Africa Cup of Nations",
+    "FIFA World Cup Qualifying - CAF"
+  ],
+  "registro": {
+    "v": 7,
+    "e": 5,
+    "d": 3,
+    "gp": 21,
+    "gc": 11
+  },
+  "porJogo": {
+    "chutes": 13.1,
+    "chutesNoGol": 4.6,
+    "escanteios": 4.7,
+    "faltas": 11.9,
+    "impedimentos": 1.9,
+    "amarelos": 1.6,
+    "vermelhos": 0.07,
+    "posse": 59.5,
+    "defesasGoleiro": 1.3,
+    "desarmes": 13.3,
+    "golsPro": 1.4,
+    "golsContra": 0.7
+  },
+  "golsPorJanela": {
+    "0-15": 3,
+    "16-30": 2,
+    "31-45": 1,
+    "46-60": 3,
+    "61-75": 8,
+    "76-90": 3
+  },
+  "golsContraPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 4,
+    "46-60": 2,
+    "61-75": 0,
+    "76-90": 2
+  },
+  "golsPorTempo": {
+    "1T": 6,
+    "2T": 14
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 3,
+    "31-45": 8,
+    "46-60": 4,
+    "61-75": 3,
+    "76-90": 6
+  },
+  "artilheiros": [
+    {
+      "nome": "Oswin Appollis",
+      "gols": 6,
+      "penaltis": 1
+    },
+    {
+      "nome": "Lyle Foster",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Evidence Makgopa",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohau Nkota",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mbekezeli Mbokazi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Tshepang Moremi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Sphephelo Sithole",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Thalente Mbatha",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Sinoxolo Kwayiba",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ashley Cupido",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Lyle Foster",
+      "assistencias": 3
+    },
+    {
+      "nome": "Mohau Nkota",
+      "assistencias": 3
+    },
+    {
+      "nome": "Aubrey Modiba",
+      "assistencias": 2
+    },
+    {
+      "nome": "Sipho Mbule",
+      "assistencias": 2
+    },
+    {
+      "nome": "Oswin Appollis",
+      "assistencias": 2
+    },
+    {
+      "nome": "Themba Zwane",
+      "assistencias": 1
+    },
+    {
+      "nome": "Khuliso Mudau",
+      "assistencias": 1
+    },
+    {
+      "nome": "Tshepang Moremi",
+      "assistencias": 1
+    },
+    {
+      "nome": "Evidence Makgopa",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

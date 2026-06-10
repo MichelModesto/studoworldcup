@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+/* =========================================================
+   StudoWorldCup — Design System v2 "Futebol Futurista"
+   Dark glassmorphism · auroras neon · inner glow · bento
+   ========================================================= */
+
+:root {
+  /* Base */
+  --background: #05070f;
+  --surface: #0b1020;
+  --surface-2: #111a30;
+  --foreground: #eaf0ff;
+  --muted: #8ea0c6;
+  --border: rgba(140, 160, 205, 0.14);
+
+  /* Acentos neon (identidade vibrante 2026) */
+  --brand: #00f5a0;     /* verde-esmeralda elétrico */
+  --brand-2: #2fb8ff;   /* azul ciano */
+  --accent: #ff2d78;    /* magenta */
+  --violet: #a779ff;    /* violeta */
+  --gold: #ffd24a;      /* dourado/troféu */
+  --danger: #ff5c6c;
+
+  --radius: 18px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-accent: var(--accent);
+  --color-violet: var(--violet);
+  --color-gold: var(--gold);
+  --color-danger: var(--danger);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-display);
+
+  --radius-lg: var(--radius);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* ===== Fundo: aurora animada + grid de campo + ruído ===== */
+.app-bg {
+  position: relative;
+  isolation: isolate;
+}
+.app-bg::before {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  z-index: -2;
+  background:
+    radial-gradient(40% 35% at 12% 8%, rgba(0, 245, 160, 0.16), transparent 60%),
+    radial-gradient(38% 34% at 88% 6%, rgba(47, 184, 255, 0.16), transparent 60%),
+    radial-gradient(45% 40% at 78% 92%, rgba(255, 45, 120, 0.13), transparent 60%),
+    radial-gradient(40% 38% at 18% 88%, rgba(167, 121, 255, 0.12), transparent 60%);
+  filter: blur(20px);
+  animation: aurora 22s ease-in-out infinite alternate;
+}
+.app-bg::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(140, 160, 205, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(140, 160, 205, 0.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(circle at 50% 30%, #000 0%, transparent 80%);
+  -webkit-mask-image: radial-gradient(circle at 50% 30%, #000 0%, transparent 80%);
+}
+
+@keyframes aurora {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  50%  { transform: translate3d(2%, -2%, 0) scale(1.08); }
+  100% { transform: translate3d(-2%, 2%, 0) scale(1.04); }
+}
+
+/* ===== Glass ===== */
+.glass {
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02));
+  border: 1px solid var(--border);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border-radius: var(--radius);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.glass-hover {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.35s ease, box-shadow 0.35s ease;
+}
+.glass-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(0, 245, 160, 0.4);
+  box-shadow:
+    0 18px 50px -16px rgba(0, 245, 160, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Borda gradiente neon (usar em destaque) */
+.neon-border {
+  position: relative;
+}
+.neon-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(120deg, var(--brand), var(--brand-2), var(--violet), var(--accent));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* ===== Texto ===== */
+.text-gradient {
+  background: linear-gradient(110deg, var(--brand), var(--brand-2) 45%, var(--violet) 75%, var(--accent));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-pan 6s linear infinite;
+}
+.text-glow {
+  text-shadow: 0 0 24px rgba(0, 245, 160, 0.35);
+}
+
+@keyframes gradient-pan {
+  to { background-position: 200% center; }
+}
+
+/* ===== Botão ===== */
+.btn-brand {
+  position: relative;
+  background: linear-gradient(120deg, var(--brand), var(--brand-2));
+  color: #03130c;
+  font-weight: 600;
+  box-shadow: 0 8px 28px -10px rgba(0, 245, 160, 0.6);
+  transition: filter 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+.btn-brand:hover {
+  filter: brightness(1.08);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 40px -10px rgba(0, 245, 160, 0.7);
+}
+.btn-brand:active {
+  transform: translateY(0);
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--brand), var(--brand-2));
+  border-radius: 999px;
+  border: 2px solid var(--background);
+}
+::-webkit-scrollbar-track { background: transparent; }
+
+/* ===== Animações utilitárias ===== */
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(6deg); }
+}
+.animate-float { animation: float 6s ease-in-out infinite; }
+
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.animate-spin-slow { animation: spin-slow 18s linear infinite; }
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+.animate-pulse-glow { animation: pulse-glow 4s ease-in-out infinite; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Shimmer para skeletons */
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite;
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

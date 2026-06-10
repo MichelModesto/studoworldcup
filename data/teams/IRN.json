@@ -1,0 +1,126 @@
+{
+  "fifa": "IRN",
+  "team": "Iran",
+  "nomePt": "Irã",
+  "espnTeamId": 469,
+  "atualizadoEm": "2026-06-10T14:54:10.395Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - AFC"
+  ],
+  "registro": {
+    "v": 8,
+    "e": 4,
+    "d": 3,
+    "gp": 28,
+    "gc": 12
+  },
+  "porJogo": {
+    "chutes": 8.1,
+    "chutesNoGol": 3.5,
+    "escanteios": 1.9,
+    "faltas": 6.7,
+    "impedimentos": 0.2,
+    "amarelos": 1.1,
+    "vermelhos": 0.13,
+    "posse": 28.9,
+    "defesasGoleiro": 0.8,
+    "desarmes": 0.7,
+    "golsPro": 1.9,
+    "golsContra": 0.8
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 4,
+    "31-45": 7,
+    "46-60": 7,
+    "61-75": 5,
+    "76-90": 4
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 3,
+    "31-45": 2,
+    "46-60": 4,
+    "61-75": 2,
+    "76-90": 1
+  },
+  "golsPorTempo": {
+    "1T": 13,
+    "2T": 16
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 1,
+    "31-45": 4,
+    "46-60": 6,
+    "61-75": 3,
+    "76-90": 4
+  },
+  "artilheiros": [
+    {
+      "nome": "Mehdi Taremi",
+      "gols": 8,
+      "penaltis": 2
+    },
+    {
+      "nome": "Mohammad Mohebbi",
+      "gols": 5,
+      "penaltis": 0
+    },
+    {
+      "nome": "Sardar Azmoun",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Amirhossein Hosseinzadeh",
+      "gols": 3,
+      "penaltis": 1
+    },
+    {
+      "nome": "Mehdi Ghayedi",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohammad Mohebi",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Arya Yousefi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ramin Rezaeian",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ali Gholizadeh",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Saleh Hardani",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Saman Ghoddos",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "fifa": "ARG",
+  "team": "Argentina",
+  "espnTeamId": 202,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:37.406Z",
+  "jogadores": [
+    {
+      "nome": "Emiliano Martínez",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 33
+    },
+    {
+      "nome": "Gerónimo Rulli",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 34
+    },
+    {
+      "nome": "Juan Musso",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 32
+    },
+    {
+      "nome": "Cristian Romero",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 28
+    },
+    {
+      "nome": "Nicolás Otamendi",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 38
+    },
+    {
+      "nome": "Nicolás Tagliafico",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 33
+    },
+    {
+      "nome": "Nahuel Molina",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 28
+    },
+    {
+      "nome": "Gonzalo Montiel",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Lisandro Martínez",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 28
+    },
+    {
+      "nome": "Facundo Medina",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 27
+    },
+    {
+      "nome": "Leandro Paredes",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 31
+    },
+    {
+      "nome": "Rodrigo De Paul",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 32
+    },
+    {
+      "nome": "Giovani Lo Celso",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 30
+    },
+    {
+      "nome": "Exequiel Palacios",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 27
+    },
+    {
+      "nome": "Alexis Mac Allister",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 27
+    },
+    {
+      "nome": "Thiago Almada",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 25
+    },
+    {
+      "nome": "Enzo Fernández",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 25
+    },
+    {
+      "nome": "Valentín Barco",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 21
+    },
+    {
+      "nome": "Lionel Messi",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 38
+    },
+    {
+      "nome": "Nico González",
+      "posicao": "Atacante",
+      "numero": 15,
+      "idade": 28
+    },
+    {
+      "nome": "Lautaro Martínez",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 28
+    },
+    {
+      "nome": "Julián Álvarez",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 26
+    },
+    {
+      "nome": "José Manuel López",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 25
+    },
+    {
+      "nome": "Giuliano Simeone",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 23
+    },
+    {
+      "nome": "Nico Paz",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "UZB",
+  "team": "Uzbekistan",
+  "espnTeamId": 2570,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:42.425Z",
+  "jogadores": [
+    {
+      "nome": "Botirali Ergashev",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 30
+    },
+    {
+      "nome": "Utkir Yusupov",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 35
+    },
+    {
+      "nome": "Abduvohid Nematov",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 25
+    },
+    {
+      "nome": "Rustam Ashurmatov",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 29
+    },
+    {
+      "nome": "Farrukh Sayfiev",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 35
+    },
+    {
+      "nome": "Umar Eshmurodov",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 33
+    },
+    {
+      "nome": "Khojiakbar Alijonov",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 29
+    },
+    {
+      "nome": "Avazbek Ulmasaliyev",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 26
+    },
+    {
+      "nome": "Sherzod Nasrullaev",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 27
+    },
+    {
+      "nome": "Abdukodir Khusanov",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 22
+    },
+    {
+      "nome": "Jakhongir Urozov",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 22
+    },
+    {
+      "nome": "Behruzjon Karimov",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 18
+    },
+    {
+      "nome": "Jamshid Iskanderov",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 32
+    },
+    {
+      "nome": "Jaloliddin Masharipov",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 32
+    },
+    {
+      "nome": "Odiljon Xamrobekov",
+      "posicao": "Meio-campista",
+      "numero": 9,
+      "idade": 30
+    },
+    {
+      "nome": "Dostonbek Khamdamov",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 29
+    },
+    {
+      "nome": "Otabek Shukurov",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 29
+    },
+    {
+      "nome": "Azizjon Ganiev",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 28
+    },
+    {
+      "nome": "Akmal Mozgovoy",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 27
+    },
+    {
+      "nome": "Oston Urunov",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 25
+    },
+    {
+      "nome": "Abbosbek Fayzullaev",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 22
+    },
+    {
+      "nome": "Abdulla Abdullaev",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 28
+    },
+    {
+      "nome": "Sherzod Esanov",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 23
+    },
+    {
+      "nome": "Igor Sergeev",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 33
+    },
+    {
+      "nome": "Eldor Shomurodov",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 30
+    },
+    {
+      "nome": "Azizbek Amonov",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 28
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

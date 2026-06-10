@@ -1,0 +1,154 @@
+{
+  "fifa": "PAR",
+  "team": "Paraguay",
+  "nomePt": "Paraguai",
+  "espnTeamId": 210,
+  "atualizadoEm": "2026-06-10T14:45:47.319Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - CONMEBOL"
+  ],
+  "registro": {
+    "v": 7,
+    "e": 4,
+    "d": 4,
+    "gp": 21,
+    "gc": 15
+  },
+  "porJogo": {
+    "chutes": 10,
+    "chutesNoGol": 3.6,
+    "escanteios": 3.9,
+    "faltas": 12.1,
+    "impedimentos": 1.5,
+    "amarelos": 1.8,
+    "vermelhos": 0.13,
+    "posse": 34.4,
+    "defesasGoleiro": 2.1,
+    "desarmes": 17.2,
+    "golsPro": 1.4,
+    "golsContra": 1
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 3,
+    "31-45": 2,
+    "46-60": 5,
+    "61-75": 5,
+    "76-90": 4
+  },
+  "golsContraPorJanela": {
+    "0-15": 6,
+    "16-30": 1,
+    "31-45": 1,
+    "46-60": 3,
+    "61-75": 2,
+    "76-90": 2
+  },
+  "golsPorTempo": {
+    "1T": 7,
+    "2T": 14
+  },
+  "amarelosPorJanela": {
+    "0-15": 2,
+    "16-30": 2,
+    "31-45": 5,
+    "46-60": 3,
+    "61-75": 3,
+    "76-90": 12
+  },
+  "artilheiros": [
+    {
+      "nome": "Miguel Almirón",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Matías Galarza",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Julio Enciso",
+      "gols": 3,
+      "penaltis": 1
+    },
+    {
+      "nome": "Diego Gómez",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Antonio Sanabria",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Omar Alderete",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Alejandro Romero Gamarra",
+      "gols": 1,
+      "penaltis": 1
+    },
+    {
+      "nome": "Alexandro Maidana",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gustavo Caballero",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Damián Bobadilla",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Juan Cáceres",
+      "assistencias": 3
+    },
+    {
+      "nome": "Julio Enciso",
+      "assistencias": 3
+    },
+    {
+      "nome": "Miguel Almirón",
+      "assistencias": 2
+    },
+    {
+      "nome": "Diego Gómez",
+      "assistencias": 2
+    },
+    {
+      "nome": "Damián Bobadilla",
+      "assistencias": 1
+    },
+    {
+      "nome": "Antonio Sanabria",
+      "assistencias": 1
+    },
+    {
+      "nome": "Matías Galarza",
+      "assistencias": 1
+    },
+    {
+      "nome": "Gustavo Velázquez",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

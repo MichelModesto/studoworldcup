@@ -1,0 +1,168 @@
+{
+  "fifa": "COL",
+  "team": "Colombia",
+  "espnTeamId": 208,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:43.447Z",
+  "jogadores": [
+    {
+      "nome": "David Ospina",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 37
+    },
+    {
+      "nome": "Álvaro Montero",
+      "posicao": "Goleiro",
+      "numero": 24,
+      "idade": 31
+    },
+    {
+      "nome": "Camilo Vargas",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 37
+    },
+    {
+      "nome": "Daniel Muñoz",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 30
+    },
+    {
+      "nome": "Santiago Arias",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 34
+    },
+    {
+      "nome": "Johan Mojica",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 33
+    },
+    {
+      "nome": "Yerry Mina",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 31
+    },
+    {
+      "nome": "Davinson Sánchez",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 29
+    },
+    {
+      "nome": "Deiver Machado",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 32
+    },
+    {
+      "nome": "Jhon Lucumí",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 27
+    },
+    {
+      "nome": "Willer Ditta",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 28
+    },
+    {
+      "nome": "James Rodríguez",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 34
+    },
+    {
+      "nome": "Juan Portilla",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 27
+    },
+    {
+      "nome": "Juan Fernando Quintero",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 33
+    },
+    {
+      "nome": "Jefferson Lerma",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 31
+    },
+    {
+      "nome": "Jorge Carrascal",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 28
+    },
+    {
+      "nome": "Jhon Arias",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 28
+    },
+    {
+      "nome": "Jáminton Campaz",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 26
+    },
+    {
+      "nome": "Richard Ríos",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 26
+    },
+    {
+      "nome": "Kevin Castaño",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 25
+    },
+    {
+      "nome": "Gustavo Puerta",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 22
+    },
+    {
+      "nome": "Jhon Córdoba",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 33
+    },
+    {
+      "nome": "Luis Díaz",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 29
+    },
+    {
+      "nome": "Luis Suárez",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 28
+    },
+    {
+      "nome": "Andrés Gómez",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 23
+    },
+    {
+      "nome": "Cucho Hernández",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 27
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

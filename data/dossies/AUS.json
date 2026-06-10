@@ -1,0 +1,170 @@
+{
+  "fifa": "AUS",
+  "resumo": "Austrália fez 9V-2E-4D em 15 jogos desde 2023, com 1,7 gol pró e 0,9 sofrido por jogo apesar de apenas 41,6% de posse. A estrela ofensiva é Nestory Irankunda (4 gols), com Jordan Bos logo atrás (3 gols + 1 assistência). Curiosidade: o time converte 49% dos chutes no alvo em gol — eficiência altíssima para um volume de apenas 7,3 finalizações/jogo. Vulnerabilidade: 5 dos 14 gols sofridos (36%) vieram nos minutos 76-90, sinal de queda física ou de concentração no fim. Destaques de 2023+ fora da Copa 2026: Kusini Yengi (2 gols), Riley McGree (1 assistência) e Maximilien Balard (1 gol + 1 assistência).",
+  "fonte": "Agentes especialistas sobre dados reais (ESPN, 15 jogos 2023–2026)",
+  "geradoEm": "2026-06-10",
+  "blocks": [
+    {
+      "agente": "especialista-finalizacao",
+      "titulo": "Finalização",
+      "icone": "target",
+      "metricas": [
+        { "label": "Chutes/jogo", "valor": "7,3", "hint": "Bem abaixo da média de seleções fortes (12–14)" },
+        { "label": "Precisão", "valor": "46,6%", "hint": "3,4 ÷ 7,3" },
+        { "label": "Conversão", "valor": "22,8%", "hint": "25 gols ÷ 109,5 chutes — muito acima da média de Mundiais (~11%)" },
+        { "label": "Posse média", "valor": "41,6%" }
+      ],
+      "leitura": "Perfil de transição clássico: pouco volume e pouca posse, mas quase metade dos chutes vai no alvo e a conversão é altíssima. A Austrália finaliza pouco porém em situações de altíssima qualidade — contra-ataques e bolas paradas — o que dificilmente se sustenta contra defesas de elite.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-chute-ao-gol",
+      "titulo": "Chute ao gol",
+      "icone": "crosshair",
+      "metricas": [
+        { "label": "Chutes no gol/jogo", "valor": "3,4", "hint": "Elite gera 5–6 chutes no alvo/jogo" },
+        { "label": "Conversão no alvo", "valor": "49,0%", "hint": "25 ÷ 51 — quase 1 gol a cada 2 chutes no alvo" },
+        { "label": "Defesas do goleiro/jogo", "valor": "3,0", "hint": "Goleiro adversário trabalha pouco; o de AUS, bastante" }
+      ],
+      "leitura": "Conversão no alvo de 49% é estatisticamente insustentável e indica chutes de curtíssima distância (segunda trave, rebotes de bola parada). O goleiro australiano faz 3 defesas/jogo — o time aceita ser pressionado e aposta na eficiência cirúrgica do outro lado.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-escanteio",
+      "titulo": "Escanteio",
+      "icone": "corner",
+      "metricas": [
+        { "label": "Escanteios/jogo", "valor": "2,7", "hint": "Seleções dominantes produzem 6–8/jogo" }
+      ],
+      "leitura": "Volume muito baixo de escanteios confirma que a Austrália raramente empurra o adversário para trás. Com Souttar e Circati na área, cada escanteio vira evento raro e valioso — esperar jogadas ensaiadas bem treinadas quando acontecerem.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-amarelo",
+      "titulo": "Cartão amarelo",
+      "icone": "card",
+      "metricas": [
+        { "label": "Amarelos/jogo", "valor": "1,0", "hint": "Disciplina acima da média (Mundiais ≈ 2/jogo)" },
+        { "label": "Faltas por amarelo", "valor": "11,1", "hint": "11,1 ÷ 1,0 — comete muita falta antes de ser punida" },
+        { "label": "Janela crítica", "valor": "31–45", "hint": "5 de 15 amarelos (33%)" }
+      ],
+      "leitura": "Time disciplinado: comete 11 faltas até receber um amarelo, sinal de faltas táticas leves e bem distribuídas. A concentração de cartões no fim do 1º tempo sugere desgaste para segurar o bloco baixo antes do intervalo.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-vermelho",
+      "titulo": "Cartão vermelho",
+      "icone": "card-red",
+      "metricas": [
+        { "label": "Vermelhos/jogo", "valor": "0,0", "hint": "0 expulsões em 15 jogos" }
+      ],
+      "leitura": "Nenhuma expulsão na amostra: o estilo reativo de bloco baixo não depende de faltas duras em campo aberto. Risco de inferioridade numérica é praticamente nulo no histórico recente.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-impedimento",
+      "titulo": "Impedimento",
+      "icone": "flag",
+      "metricas": [
+        { "label": "Impedimentos/jogo", "valor": "0,9", "hint": "Média de Mundiais ≈ 2/jogo" }
+      ],
+      "leitura": "Pouquíssimos impedimentos para um time de transição: os atacantes partem de trás da linha defensiva adversária, com espaço pela frente, em vez de jogar no limite da linha. Comportamento coerente com posse de 41,6%.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-desarme",
+      "titulo": "Desarme",
+      "icone": "tackle",
+      "metricas": [
+        { "label": "Desarmes/jogo", "valor": "8,9", "hint": "Baixo para um time sem a bola (referência: 15–18)" }
+      ],
+      "leitura": "Apenas 8,9 desarmes/jogo com 58% do tempo sem a bola indica defesa posicional: a Austrália bloqueia linhas de passe e espera o erro em vez de duelar. Funciona contra times pacientes, mas sofre contra conduções agressivas entre linhas.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-falta",
+      "titulo": "Falta",
+      "icone": "foul",
+      "metricas": [
+        { "label": "Faltas/jogo", "valor": "11,1", "hint": "Na média internacional (10–13)" },
+        { "label": "Faltas por amarelo", "valor": "11,1", "hint": "Faltas leves, longe da área" }
+      ],
+      "leitura": "Volume normal de faltas com punição rara: o time quebra o ritmo adversário no meio-campo sem entrar no cartão. Atenção a faltas frontais cedidas quando o bloco é furado — é onde times de bola parada podem castigar.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tiro-de-meta",
+      "titulo": "Tiro de meta",
+      "icone": "goalkick",
+      "metricas": [
+        { "label": "Tiros de meta/jogo", "valor": "—", "hint": "ESPN não fornece esta estatística" }
+      ],
+      "leitura": "A ESPN não disponibiliza dados de tiro de meta para seleções. Pela posse de 41,6% e perfil direto, é razoável esperar saída longa de Mathew Ryan mirando duelos aéreos, mas isso é inferência, não dado observado.",
+      "confianca": "baixa"
+    },
+    {
+      "agente": "especialista-artilheiro",
+      "titulo": "Artilheiros",
+      "icone": "scorer",
+      "metricas": [
+        { "label": "Nestory Irankunda", "valor": "4 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Jordan Bos", "valor": "3 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Jackson Irvine", "valor": "3 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Mohamed Toure", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Nishan Velupillay", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" }
+      ],
+      "leitura": "Ataque pulverizado: o artilheiro Irankunda responde por só 16% dos 25 gols e dez jogadores diferentes marcaram. Os cinco maiores goleadores estão na Copa; as perdas (Kusini Yengi, 2 gols, e Balard, 1) são periféricas. A falta de um camisa 9 de referência é ao mesmo tempo imprevisibilidade e teto ofensivo limitado.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-assistencia",
+      "titulo": "Assistências",
+      "icone": "assist",
+      "metricas": [
+        { "label": "Connor Metcalfe", "valor": "2 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Riley McGree", "valor": "1 assist.", "hint": "FORA da Copa 2026" },
+        { "label": "Jordan Bos", "valor": "1 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Nishan Velupillay", "valor": "1 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Maximilien Balard", "valor": "1 assist.", "hint": "FORA da Copa 2026" }
+      ],
+      "leitura": "Apenas 7 assistências mapeadas em 25 gols: a maioria dos gols nasce de bola parada, rebote ou jogada individual, não de último passe limpo. Sem um garçom claro, a criação na Copa deve recair sobre Metcalfe e a chegada de Bos pela esquerda — McGree e Balard ficaram fora.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tempo-com-mais-gols",
+      "titulo": "Tempo com mais gols",
+      "icone": "clock",
+      "metricas": [
+        { "label": "Janela mais fértil", "valor": "76–90", "hint": "7 de 25 gols (28%)" },
+        { "label": "2ª janela", "valor": "16–30", "hint": "6 de 25 gols (24%)" },
+        { "label": "Gols sofridos 76–90", "valor": "5 de 14", "hint": "36% dos gols contra no fim" }
+      ],
+      "leitura": "Time de finais de jogo nas duas pontas: marca mais nos últimos 15 minutos (28%), mas também é quando mais sofre (36%). Jogos da Austrália tendem a se decidir após os 75 — banco e gestão física valem pontos.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-tempo",
+      "titulo": "Média de gols por tempo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols no 1º tempo", "valor": "0,67/jogo", "hint": "10 ÷ 15" },
+        { "label": "Gols no 2º tempo", "valor": "1,00/jogo", "hint": "15 ÷ 15" },
+        { "label": "Distribuição", "valor": "40% × 60%", "hint": "1T × 2T" }
+      ],
+      "leitura": "60% da produção vem no 2º tempo: o plano é desgastar o adversário no bloco baixo e atacar espaços quando o jogo abre. Sair atrás cedo contra a Austrália não define nada; sair na frente obriga o adversário a se expor — exatamente o cenário preferido dos Socceroos.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-jogo",
+      "titulo": "Média de gols por jogo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols pró/jogo", "valor": "1,7", "hint": "25 ÷ 15" },
+        { "label": "Gols contra/jogo", "valor": "0,9", "hint": "14 ÷ 15" },
+        { "label": "Saldo/jogo", "valor": "+0,7", "hint": "Perfil de time competitivo, não dominante" }
+      ],
+      "leitura": "Saldo positivo construído sobre solidez defensiva (menos de 1 gol sofrido/jogo), mas o calendário inclui eliminatórias asiáticas e amistosos — contra elite, a margem de 0,7 gol tende a encolher. Jogos de placar curto são o habitat natural deste time.",
+      "confianca": "alta"
+    }
+  ]
+}

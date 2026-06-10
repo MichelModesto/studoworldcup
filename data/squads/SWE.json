@@ -1,0 +1,168 @@
+{
+  "fifa": "SWE",
+  "team": "Sweden",
+  "espnTeamId": 466,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:24.004Z",
+  "jogadores": [
+    {
+      "nome": "Kristoffer Nordfeldt",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 36
+    },
+    {
+      "nome": "Viktor Johansson",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 27
+    },
+    {
+      "nome": "Jacob Widell Zetterström",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 27
+    },
+    {
+      "nome": "Carl Starfelt",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 31
+    },
+    {
+      "nome": "Eric Smith",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 29
+    },
+    {
+      "nome": "Victor Lindelöf",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 31
+    },
+    {
+      "nome": "Gabriel Gudmundsson",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Hjalmar Ekdal",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 27
+    },
+    {
+      "nome": "Daniel Svensson",
+      "posicao": "Defensor",
+      "numero": 8,
+      "idade": 24
+    },
+    {
+      "nome": "Isak Hien",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 27
+    },
+    {
+      "nome": "Gustaf Lagerbielke",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 26
+    },
+    {
+      "nome": "Ken Sema",
+      "posicao": "Meio-campista",
+      "numero": 13,
+      "idade": 32
+    },
+    {
+      "nome": "Mattias Svanberg",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 27
+    },
+    {
+      "nome": "Jesper Karlström",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 30
+    },
+    {
+      "nome": "Yasin Ayari",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 22
+    },
+    {
+      "nome": "Herman Johansson",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 28
+    },
+    {
+      "nome": "Taha Ali",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 27
+    },
+    {
+      "nome": "Besfort Zeneli",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 23
+    },
+    {
+      "nome": "Lucas Bergvall",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 20
+    },
+    {
+      "nome": "Elliot Stroud",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 23
+    },
+    {
+      "nome": "Alexander Isak",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 26
+    },
+    {
+      "nome": "Gustaf Nilsson",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 29
+    },
+    {
+      "nome": "Viktor Gyökeres",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 28
+    },
+    {
+      "nome": "Benjamin Nygren",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 24
+    },
+    {
+      "nome": "Anthony Elanga",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 24
+    },
+    {
+      "nome": "Alexander Bernhardsson",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 27
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

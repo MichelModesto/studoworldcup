@@ -1,0 +1,163 @@
+{
+  "fifa": "SUI",
+  "team": "Switzerland",
+  "nomePt": "Suíça",
+  "espnTeamId": 475,
+  "atualizadoEm": "2026-06-10T14:40:48.370Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 8,
+    "e": 5,
+    "d": 2,
+    "gp": 36,
+    "gc": 15
+  },
+  "porJogo": {
+    "chutes": 11.1,
+    "chutesNoGol": 5,
+    "escanteios": 4.9,
+    "faltas": 10.5,
+    "impedimentos": 1.5,
+    "amarelos": 1.1,
+    "vermelhos": 0,
+    "posse": 58.4,
+    "defesasGoleiro": 1.9,
+    "desarmes": 15.3,
+    "golsPro": 2.4,
+    "golsContra": 1
+  },
+  "golsPorJanela": {
+    "0-15": 5,
+    "16-30": 9,
+    "31-45": 9,
+    "46-60": 2,
+    "61-75": 5,
+    "76-90": 6
+  },
+  "golsContraPorJanela": {
+    "0-15": 0,
+    "16-30": 2,
+    "31-45": 3,
+    "46-60": 3,
+    "61-75": 4,
+    "76-90": 3
+  },
+  "golsPorTempo": {
+    "1T": 23,
+    "2T": 13
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 0,
+    "31-45": 4,
+    "46-60": 2,
+    "61-75": 1,
+    "76-90": 8
+  },
+  "artilheiros": [
+    {
+      "nome": "Breel Embolo",
+      "gols": 9,
+      "penaltis": 2
+    },
+    {
+      "nome": "Dan Ndoye",
+      "gols": 7,
+      "penaltis": 0
+    },
+    {
+      "nome": "Granit Xhaka",
+      "gols": 3,
+      "penaltis": 3
+    },
+    {
+      "nome": "Johan Manzambi",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Joel Almada Monteiro",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Rubén Vargas",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Christian Fassnacht",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nico Elvedi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Manuel Akanji",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Silvan Widmer",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Miro Muheim",
+      "assistencias": 3
+    },
+    {
+      "nome": "Dan Ndoye",
+      "assistencias": 3
+    },
+    {
+      "nome": "Rubén Vargas",
+      "assistencias": 3
+    },
+    {
+      "nome": "Fabian Rieder",
+      "assistencias": 3
+    },
+    {
+      "nome": "Granit Xhaka",
+      "assistencias": 2
+    },
+    {
+      "nome": "Remo Freuler",
+      "assistencias": 2
+    },
+    {
+      "nome": "Ricardo Rodríguez",
+      "assistencias": 2
+    },
+    {
+      "nome": "Michel Aebischer",
+      "assistencias": 1
+    },
+    {
+      "nome": "Silvan Widmer",
+      "assistencias": 1
+    },
+    {
+      "nome": "Djibril Sow",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

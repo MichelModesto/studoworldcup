@@ -1,0 +1,168 @@
+{
+  "fifa": "POR",
+  "team": "Portugal",
+  "espnTeamId": 482,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:40.476Z",
+  "jogadores": [
+    {
+      "nome": "Rui Silva",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 32
+    },
+    {
+      "nome": "José Sá",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 33
+    },
+    {
+      "nome": "Diogo Costa",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 26
+    },
+    {
+      "nome": "João Cancelo",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 32
+    },
+    {
+      "nome": "Nélson Semedo",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 32
+    },
+    {
+      "nome": "Rúben Dias",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 29
+    },
+    {
+      "nome": "Diogo Dalot",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Nuno Mendes",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 23
+    },
+    {
+      "nome": "Gonçalo Inácio",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 24
+    },
+    {
+      "nome": "Tomás Araújo",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 24
+    },
+    {
+      "nome": "Renato Veiga",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 22
+    },
+    {
+      "nome": "Bruno Fernandes",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 31
+    },
+    {
+      "nome": "Samú Costa",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 25
+    },
+    {
+      "nome": "Bernardo Silva",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 31
+    },
+    {
+      "nome": "Rúben Neves",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 29
+    },
+    {
+      "nome": "Vitinha",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 26
+    },
+    {
+      "nome": "Matheus Nunes",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 27
+    },
+    {
+      "nome": "João Neves",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 21
+    },
+    {
+      "nome": "Cristiano Ronaldo",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 41
+    },
+    {
+      "nome": "Gonçalo Guedes",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 29
+    },
+    {
+      "nome": "Pedro Neto",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 26
+    },
+    {
+      "nome": "Rafael Leão",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 27
+    },
+    {
+      "nome": "Francisco Trincão",
+      "posicao": "Atacante",
+      "numero": 16,
+      "idade": 26
+    },
+    {
+      "nome": "João Félix",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 26
+    },
+    {
+      "nome": "Gonçalo Ramos",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 24
+    },
+    {
+      "nome": "Francisco Conceição",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 23
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

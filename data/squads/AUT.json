@@ -1,0 +1,162 @@
+{
+  "fifa": "AUT",
+  "team": "Austria",
+  "espnTeamId": 474,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:39.346Z",
+  "jogadores": [
+    {
+      "nome": "Alexander Schlager",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 30
+    },
+    {
+      "nome": "Patrick Pentz",
+      "posicao": "Goleiro",
+      "numero": 13,
+      "idade": 29
+    },
+    {
+      "nome": "Florian Wiegele",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 25
+    },
+    {
+      "nome": "David Alaba",
+      "posicao": "Defensor",
+      "numero": 8,
+      "idade": 33
+    },
+    {
+      "nome": "Philipp Lienhart",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 29
+    },
+    {
+      "nome": "Marco Friedl",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 28
+    },
+    {
+      "nome": "Stefan Posch",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 29
+    },
+    {
+      "nome": "Phillipp Mwene",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 32
+    },
+    {
+      "nome": "Kevin Danso",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 27
+    },
+    {
+      "nome": "Michael Svoboda",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 27
+    },
+    {
+      "nome": "David Affengruber",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 25
+    },
+    {
+      "nome": "Alexander Prass",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 25
+    },
+    {
+      "nome": "Konrad Laimer",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 29
+    },
+    {
+      "nome": "Marcel Sabitzer",
+      "posicao": "Meio-campista",
+      "numero": 9,
+      "idade": 32
+    },
+    {
+      "nome": "Alessandro Schöpf",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 32
+    },
+    {
+      "nome": "Florian Grillitsch",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 30
+    },
+    {
+      "nome": "Romano Schmid",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 26
+    },
+    {
+      "nome": "Xaver Schlager",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 28
+    },
+    {
+      "nome": "Carney Chukwuemeka",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 22
+    },
+    {
+      "nome": "Patrick Wimmer",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 25
+    },
+    {
+      "nome": "Nicolas Seiwald",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 25
+    },
+    {
+      "nome": "Paul Wanner",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 20
+    },
+    {
+      "nome": "Marko Arnautovic",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 37
+    },
+    {
+      "nome": "Michael Gregoritsch",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 32
+    },
+    {
+      "nome": "Sasa Kalajdzic",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 28
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

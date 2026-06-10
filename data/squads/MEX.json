@@ -1,0 +1,168 @@
+{
+  "fifa": "MEX",
+  "team": "Mexico",
+  "espnTeamId": 203,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:04.949Z",
+  "jogadores": [
+    {
+      "nome": "Guillermo Ochoa",
+      "posicao": "Goleiro",
+      "numero": 13,
+      "idade": 40
+    },
+    {
+      "nome": "Carlos Acevedo",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 30
+    },
+    {
+      "nome": "Raúl Rangel",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 26
+    },
+    {
+      "nome": "Jesús Gallardo",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 31
+    },
+    {
+      "nome": "Jorge Sánchez",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 28
+    },
+    {
+      "nome": "César Montes",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 29
+    },
+    {
+      "nome": "Johan Vásquez",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Israel Reyes",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Mateo Chávez",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 22
+    },
+    {
+      "nome": "Luis Chávez",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 30
+    },
+    {
+      "nome": "Orbelín Pineda",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 30
+    },
+    {
+      "nome": "Edson Álvarez",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 28
+    },
+    {
+      "nome": "Luis Romo",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 31
+    },
+    {
+      "nome": "César Huerta",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 25
+    },
+    {
+      "nome": "Erik Lira",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 26
+    },
+    {
+      "nome": "Álvaro Fidalgo",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 29
+    },
+    {
+      "nome": "Brian Gutiérrez",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 22
+    },
+    {
+      "nome": "Obed Vargas",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 20
+    },
+    {
+      "nome": "Gilberto Mora",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 17
+    },
+    {
+      "nome": "Raúl Jiménez",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 35
+    },
+    {
+      "nome": "Guillermo Martínez",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 31
+    },
+    {
+      "nome": "Roberto Alvarado",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 27
+    },
+    {
+      "nome": "Alexis Vega",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 28
+    },
+    {
+      "nome": "Julián Quiñones",
+      "posicao": "Atacante",
+      "numero": 16,
+      "idade": 29
+    },
+    {
+      "nome": "Santiago Gimenez",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 25
+    },
+    {
+      "nome": "Armando González",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 23
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

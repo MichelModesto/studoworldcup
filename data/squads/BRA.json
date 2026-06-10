@@ -1,0 +1,168 @@
+{
+  "fifa": "BRA",
+  "team": "Brazil",
+  "espnTeamId": 205,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:12.603Z",
+  "jogadores": [
+    {
+      "nome": "Ederson",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 32
+    },
+    {
+      "nome": "Alisson Becker",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 33
+    },
+    {
+      "nome": "Weverton",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 38
+    },
+    {
+      "nome": "Alex Sandro",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 35
+    },
+    {
+      "nome": "Léo Pereira",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 30
+    },
+    {
+      "nome": "Marquinhos",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 32
+    },
+    {
+      "nome": "Danilo",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 34
+    },
+    {
+      "nome": "Douglas Santos",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 32
+    },
+    {
+      "nome": "Gabriel Magalhães",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 28
+    },
+    {
+      "nome": "Bremer",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 29
+    },
+    {
+      "nome": "Roger Ibañez",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 27
+    },
+    {
+      "nome": "Casemiro",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 34
+    },
+    {
+      "nome": "Fabinho",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 32
+    },
+    {
+      "nome": "Bruno Guimarães",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 28
+    },
+    {
+      "nome": "Lucas Paquetá",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 28
+    },
+    {
+      "nome": "Éderson",
+      "posicao": "Meio-campista",
+      "numero": 2,
+      "idade": 26
+    },
+    {
+      "nome": "Danilo Santos",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 25
+    },
+    {
+      "nome": "Neymar",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 34
+    },
+    {
+      "nome": "Raphinha",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 29
+    },
+    {
+      "nome": "Vinícius Júnior",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 25
+    },
+    {
+      "nome": "Matheus Cunha",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 27
+    },
+    {
+      "nome": "Gabriel Martinelli",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 24
+    },
+    {
+      "nome": "Igor Thiago",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 24
+    },
+    {
+      "nome": "Luiz Henrique",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 25
+    },
+    {
+      "nome": "Endrick",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 19
+    },
+    {
+      "nome": "Rayan",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 19
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

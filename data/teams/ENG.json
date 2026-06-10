@@ -1,0 +1,163 @@
+{
+  "fifa": "ENG",
+  "team": "England",
+  "nomePt": "Inglaterra",
+  "espnTeamId": 448,
+  "atualizadoEm": "2026-06-10T15:11:01.793Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 12,
+    "e": 1,
+    "d": 2,
+    "gp": 36,
+    "gc": 5
+  },
+  "porJogo": {
+    "chutes": 17.5,
+    "chutesNoGol": 6.5,
+    "escanteios": 7.6,
+    "faltas": 9.3,
+    "impedimentos": 1.4,
+    "amarelos": 1.2,
+    "vermelhos": 0,
+    "posse": 69.6,
+    "defesasGoleiro": 1.5,
+    "desarmes": 12.1,
+    "golsPro": 2.4,
+    "golsContra": 0.3
+  },
+  "golsPorJanela": {
+    "0-15": 4,
+    "16-30": 4,
+    "31-45": 6,
+    "46-60": 5,
+    "61-75": 4,
+    "76-90": 10
+  },
+  "golsContraPorJanela": {
+    "0-15": 0,
+    "16-30": 2,
+    "31-45": 1,
+    "46-60": 1,
+    "61-75": 1,
+    "76-90": 3
+  },
+  "golsPorTempo": {
+    "1T": 14,
+    "2T": 19
+  },
+  "amarelosPorJanela": {
+    "0-15": 2,
+    "16-30": 2,
+    "31-45": 8,
+    "46-60": 0,
+    "61-75": 1,
+    "76-90": 5
+  },
+  "artilheiros": [
+    {
+      "nome": "Harry Kane",
+      "gols": 11,
+      "penaltis": 2
+    },
+    {
+      "nome": "Eberechi Eze",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Bukayo Saka",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Anthony Gordon",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ollie Watkins",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ben White",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Morgan Rogers",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Noni Madueke",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ezri Konsa",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Marc Guéhi",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Marc Guéhi",
+      "assistencias": 4
+    },
+    {
+      "nome": "Declan Rice",
+      "assistencias": 4
+    },
+    {
+      "nome": "Jude Bellingham",
+      "assistencias": 3
+    },
+    {
+      "nome": "Phil Foden",
+      "assistencias": 2
+    },
+    {
+      "nome": "Noni Madueke",
+      "assistencias": 2
+    },
+    {
+      "nome": "Djed Spence",
+      "assistencias": 1
+    },
+    {
+      "nome": "Marcus Rashford",
+      "assistencias": 1
+    },
+    {
+      "nome": "John Stones",
+      "assistencias": 1
+    },
+    {
+      "nome": "Bukayo Saka",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jarrod Bowen",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

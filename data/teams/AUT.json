@@ -1,0 +1,163 @@
+{
+  "fifa": "AUT",
+  "team": "Austria",
+  "nomePt": "Áustria",
+  "espnTeamId": 474,
+  "atualizadoEm": "2026-06-10T15:05:25.111Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 10,
+    "e": 3,
+    "d": 2,
+    "gp": 33,
+    "gc": 9
+  },
+  "porJogo": {
+    "chutes": 14.2,
+    "chutesNoGol": 5.8,
+    "escanteios": 4,
+    "faltas": 12.9,
+    "impedimentos": 2.2,
+    "amarelos": 1.3,
+    "vermelhos": 0.2,
+    "posse": 63.6,
+    "defesasGoleiro": 1.4,
+    "desarmes": 17.7,
+    "golsPro": 2.2,
+    "golsContra": 0.6
+  },
+  "golsPorJanela": {
+    "0-15": 7,
+    "16-30": 6,
+    "31-45": 4,
+    "46-60": 8,
+    "61-75": 2,
+    "76-90": 6
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 0,
+    "31-45": 0,
+    "46-60": 2,
+    "61-75": 1,
+    "76-90": 5
+  },
+  "golsPorTempo": {
+    "1T": 17,
+    "2T": 16
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 1,
+    "31-45": 2,
+    "46-60": 3,
+    "61-75": 5,
+    "76-90": 9
+  },
+  "artilheiros": [
+    {
+      "nome": "Marko Arnautovic",
+      "gols": 8,
+      "penaltis": 1
+    },
+    {
+      "nome": "Michael Gregoritsch",
+      "gols": 7,
+      "penaltis": 0
+    },
+    {
+      "nome": "Marcel Sabitzer",
+      "gols": 6,
+      "penaltis": 2
+    },
+    {
+      "nome": "Stefan Posch",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Romano Schmid",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Konrad Laimer",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Christoph Baumgartner",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Carney Chukwuemeka",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nicolas Seiwald",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nikolaus Wurmbrand",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Marcel Sabitzer",
+      "assistencias": 5
+    },
+    {
+      "nome": "Stefan Posch",
+      "assistencias": 4
+    },
+    {
+      "nome": "Kevin Danso",
+      "assistencias": 2
+    },
+    {
+      "nome": "Romano Schmid",
+      "assistencias": 2
+    },
+    {
+      "nome": "Marko Arnautovic",
+      "assistencias": 2
+    },
+    {
+      "nome": "Xaver Schlager",
+      "assistencias": 1
+    },
+    {
+      "nome": "Michael Gregoritsch",
+      "assistencias": 1
+    },
+    {
+      "nome": "David Alaba",
+      "assistencias": 1
+    },
+    {
+      "nome": "Alexander Prass",
+      "assistencias": 1
+    },
+    {
+      "nome": "Nicolas Seiwald",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

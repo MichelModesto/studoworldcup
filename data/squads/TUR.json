@@ -1,0 +1,168 @@
+{
+  "fifa": "TUR",
+  "team": "Turkey",
+  "espnTeamId": 465,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:18.668Z",
+  "jogadores": [
+    {
+      "nome": "Mert Günok",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 37
+    },
+    {
+      "nome": "Ugurcan Çakir",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 30
+    },
+    {
+      "nome": "Altay Bayindir",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 28
+    },
+    {
+      "nome": "Kaan Ayhan",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 31
+    },
+    {
+      "nome": "Abdülkerim Bardakçi",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 31
+    },
+    {
+      "nome": "Çaglar Söyüncü",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 30
+    },
+    {
+      "nome": "Ferdi Kadioglu",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 26
+    },
+    {
+      "nome": "Mert Müldür",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Ozan Kabak",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Merih Demiral",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 28
+    },
+    {
+      "nome": "Zeki Çelik",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 29
+    },
+    {
+      "nome": "Eren Elmali",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 25
+    },
+    {
+      "nome": "Samet Akaydin",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 32
+    },
+    {
+      "nome": "Hakan Çalhanoglu",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 32
+    },
+    {
+      "nome": "Irfan Can Kahveci",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 30
+    },
+    {
+      "nome": "Salih Özcan",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 28
+    },
+    {
+      "nome": "Orkun Kökçü",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 25
+    },
+    {
+      "nome": "Ismail Yüksek",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 27
+    },
+    {
+      "nome": "Arda Güler",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 21
+    },
+    {
+      "nome": "Can Uzun",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 20
+    },
+    {
+      "nome": "Yunus Akgün",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 25
+    },
+    {
+      "nome": "Kerem Aktürkoglu",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 27
+    },
+    {
+      "nome": "Baris Alper Yilmaz",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 26
+    },
+    {
+      "nome": "Oguz Aydin",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 25
+    },
+    {
+      "nome": "Deniz Gül",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 21
+    },
+    {
+      "nome": "Kenan Yildiz",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

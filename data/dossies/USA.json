@@ -1,0 +1,170 @@
+{
+  "fifa": "USA",
+  "resumo": "Estados Unidos somaram 8V-2E-5D em 15 jogos desde 2023, com 1,7 gol pró e preocupantes 1,5 sofrido por jogo, mesmo com 54,6% de posse. A estrela da amostra é Diego Luna (4 gols) — e ele ficou FORA da Copa 2026, assim como Patrick Agyemang (2 gols); a referência convocada é Folarin Balogun (4 gols). Curiosidade: o time praticamente não marca no fim — só 1 dos 26 gols saiu nos minutos 76-90, contra 16 gols no 1º tempo. Vulnerabilidade: defesa vazada em série (23 gols em 15 jogos), com gols sofridos de forma constante entre os minutos 16 e 60.",
+  "fonte": "Agentes especialistas sobre dados reais (ESPN, 15 jogos 2023–2026)",
+  "geradoEm": "2026-06-10",
+  "blocks": [
+    {
+      "agente": "especialista-finalizacao",
+      "titulo": "Finalização",
+      "icone": "target",
+      "metricas": [
+        { "label": "Chutes/jogo", "valor": "12,8", "hint": "Dentro da faixa de seleções fortes (12–14)" },
+        { "label": "Precisão", "valor": "39,8%", "hint": "5,1 ÷ 12,8" },
+        { "label": "Conversão", "valor": "13,5%", "hint": "26 gols ÷ 192 chutes — acima da média de Mundiais (~11%)" },
+        { "label": "Posse média", "valor": "54,6%" }
+      ],
+      "leitura": "Volume e posse de time protagonista, com conversão saudável. O problema americano não é gerar chute — é que o ataque produz contra adversários da Concacaf e amistosos; contra defesas de elite, a precisão de 40% precisa se manter para o time continuar perigoso.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-chute-ao-gol",
+      "titulo": "Chute ao gol",
+      "icone": "crosshair",
+      "metricas": [
+        { "label": "Chutes no gol/jogo", "valor": "5,1", "hint": "Próximo do padrão de elite (5–6)" },
+        { "label": "Conversão no alvo", "valor": "34,0%", "hint": "26 ÷ 76,5 — cerca de 1 gol a cada 3 chutes no alvo" },
+        { "label": "Defesas do goleiro/jogo", "valor": "2,8", "hint": "Goleiro pouco exigido em volume, mas vazado" }
+      ],
+      "leitura": "Boa geração de chutes no alvo com conversão sólida. O dado alarmante está do outro lado: o goleiro faz só 2,8 defesas/jogo e ainda assim o time sofre 1,5 gol — os chutes que chegam ao gol americano entram numa taxa altíssima, sintoma de chances claras concedidas.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-escanteio",
+      "titulo": "Escanteio",
+      "icone": "corner",
+      "metricas": [
+        { "label": "Escanteios/jogo", "valor": "5,0", "hint": "Médio — dominantes produzem 6–8/jogo" }
+      ],
+      "leitura": "Cinco escanteios/jogo condizem com posse majoritária, mas sem domínio sufocante. Com Richards e Miles Robinson na área, a bola parada ofensiva é arma real — Richards já tem 2 gols na amostra.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-amarelo",
+      "titulo": "Cartão amarelo",
+      "icone": "card",
+      "metricas": [
+        { "label": "Amarelos/jogo", "valor": "1,6", "hint": "Levemente abaixo da média de Mundiais (≈2)" },
+        { "label": "Faltas por amarelo", "valor": "7,4", "hint": "11,9 ÷ 1,6" },
+        { "label": "Janela crítica", "valor": "76–90", "hint": "7 de 24 amarelos (29%)" }
+      ],
+      "leitura": "Disciplina mediana que piora no fim: quase um terço dos amarelos sai nos últimos 15 minutos, justamente quando o time para de marcar gols. Padrão de equipe que perde o controle do jogo na reta final e recorre à falta.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-vermelho",
+      "titulo": "Cartão vermelho",
+      "icone": "card-red",
+      "metricas": [
+        { "label": "Vermelhos/jogo", "valor": "0,0", "hint": "0 expulsões em 15 jogos" }
+      ],
+      "leitura": "Nenhuma expulsão na amostra. Mesmo com o acúmulo de amarelos no fim dos jogos, o time não cruza a linha da exclusão — risco baixo de inferioridade numérica.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-impedimento",
+      "titulo": "Impedimento",
+      "icone": "flag",
+      "metricas": [
+        { "label": "Impedimentos/jogo", "valor": "1,9", "hint": "Na média de Mundiais (≈2)" }
+      ],
+      "leitura": "Quase 2 impedimentos/jogo refletem ataques verticais nas costas da linha — perfil de Balogun e Pepi. Número aceitável como custo do jogo direto em profundidade, mas indica timing de movimentação a lapidar.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-desarme",
+      "titulo": "Desarme",
+      "icone": "tackle",
+      "metricas": [
+        { "label": "Desarmes/jogo", "valor": "15,5", "hint": "Alto para um time com 54,6% de posse" }
+      ],
+      "leitura": "Desarmar muito tendo a bola na maior parte do tempo revela pressão pós-perda agressiva, marca registrada com Tyler Adams em campo. O paradoxo: intensidade alta no desarme e ainda 1,5 gol sofrido/jogo — quando a primeira pressão é batida, a última linha fica exposta.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-falta",
+      "titulo": "Falta",
+      "icone": "foul",
+      "metricas": [
+        { "label": "Faltas/jogo", "valor": "11,9", "hint": "Na média internacional (10–13)" },
+        { "label": "Faltas por amarelo", "valor": "7,4", "hint": "Faltas mais duras que a média" }
+      ],
+      "leitura": "Volume normal de faltas, mas com taxa de punição relativamente alta — coerente com um time que falta para interromper transições após perder a bola no campo de ataque. Faltas laterais concedidas no fim de jogo são o ponto de atenção.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tiro-de-meta",
+      "titulo": "Tiro de meta",
+      "icone": "goalkick",
+      "metricas": [
+        { "label": "Tiros de meta/jogo", "valor": "—", "hint": "ESPN não fornece esta estatística" }
+      ],
+      "leitura": "A ESPN não disponibiliza dados de tiro de meta para seleções. Com 54,6% de posse, espera-se saída curta construída desde Matt Freese, mas isso é inferência de estilo, não dado observado.",
+      "confianca": "baixa"
+    },
+    {
+      "agente": "especialista-artilheiro",
+      "titulo": "Artilheiros",
+      "icone": "scorer",
+      "metricas": [
+        { "label": "Folarin Balogun", "valor": "4 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Diego Luna", "valor": "4 gols", "hint": "FORA da Copa 2026" },
+        { "label": "Patrick Agyemang", "valor": "2 gols", "hint": "FORA da Copa 2026" },
+        { "label": "Alex Freeman", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Haji Wright", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" }
+      ],
+      "leitura": "Ataque sem dono: Balogun e Luna lideram com 15,4% dos 26 gols cada — e Luna, além de Agyemang, ficou fora da Copa, levando 6 gols da amostra junto. A aposta é que Pulisic e Weah (apagados nos números 2023+) recuperem na Copa o protagonismo que as estatísticas recentes não mostram.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-assistencia",
+      "titulo": "Assistências",
+      "icone": "assist",
+      "metricas": [
+        { "label": "Sebastian Berhalter", "valor": "3 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Max Arfsten", "valor": "3 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Malik Tillman", "valor": "3 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Christian Pulisic", "valor": "2 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Ricardo Pepi", "valor": "2 assist.", "hint": "Convocado p/ Copa 2026" }
+      ],
+      "leitura": "Criação distribuída e toda preservada: os cinco principais garçons estão na Copa. Berhalter, Arfsten e Tillman empatados no topo mostram que o último passe vem de camadas diferentes (meio, ala e meia-atacante) — difícil de anular com marcação individual.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tempo-com-mais-gols",
+      "titulo": "Tempo com mais gols",
+      "icone": "clock",
+      "metricas": [
+        { "label": "Janela mais fértil", "valor": "61–75", "hint": "7 de 26 gols (27%)" },
+        { "label": "Deserto ofensivo", "valor": "76–90", "hint": "Apenas 1 de 26 gols (3,8%)" },
+        { "label": "Gols sofridos 16–60", "valor": "15 de 23", "hint": "65% dos gols contra em 3 janelas seguidas" }
+      ],
+      "leitura": "O pico ofensivo vem logo após a hora de jogo (61-75), provavelmente com as substituições — e depois o time apaga: 1 gol nos últimos 15 minutos em 15 jogos. Defensivamente sofre de forma constante do minuto 16 ao 60. Quem segurar os EUA até os 75 tem pouco a temer depois.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-tempo",
+      "titulo": "Média de gols por tempo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols no 1º tempo", "valor": "1,07/jogo", "hint": "16 ÷ 15" },
+        { "label": "Gols no 2º tempo", "valor": "0,67/jogo", "hint": "10 ÷ 15" },
+        { "label": "Distribuição", "valor": "62% × 38%", "hint": "1T × 2T" }
+      ],
+      "leitura": "Time de primeiro tempo: 62% dos gols antes do intervalo, padrão raro entre seleções. A pressão inicial é o momento de máximo perigo americano; se o adversário sobreviver a ela, o jogo tende a equilibrar e até virar contra os EUA na reta final.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-jogo",
+      "titulo": "Média de gols por jogo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols pró/jogo", "valor": "1,7", "hint": "26 ÷ 15" },
+        { "label": "Gols contra/jogo", "valor": "1,5", "hint": "23 ÷ 15" },
+        { "label": "Saldo/jogo", "valor": "+0,2", "hint": "Margem mínima para um cabeça de chave anfitrião" }
+      ],
+      "leitura": "Saldo de apenas +0,2 por jogo é a estatística mais incômoda para um anfitrião: o ataque produz, mas a defesa devolve quase tudo. Jogos dos EUA têm média de 3,2 gols — perfil de partidas abertas, ótimas para over de gols e perigosas em mata-mata.",
+      "confianca": "alta"
+    }
+  ]
+}

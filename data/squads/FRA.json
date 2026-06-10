@@ -1,0 +1,168 @@
+{
+  "fifa": "FRA",
+  "team": "France",
+  "espnTeamId": 478,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:33.547Z",
+  "jogadores": [
+    {
+      "nome": "Brice Samba",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 32
+    },
+    {
+      "nome": "Mike Maignan",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 30
+    },
+    {
+      "nome": "Robin Risser",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 21
+    },
+    {
+      "nome": "Lucas Digne",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 32
+    },
+    {
+      "nome": "Lucas Hernández",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 30
+    },
+    {
+      "nome": "Dayot Upamecano",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 27
+    },
+    {
+      "nome": "Jules Koundé",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Theo Hernández",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 28
+    },
+    {
+      "nome": "Ibrahima Konaté",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 27
+    },
+    {
+      "nome": "Maxence Lacroix",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 26
+    },
+    {
+      "nome": "William Saliba",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 25
+    },
+    {
+      "nome": "Malo Gusto",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 23
+    },
+    {
+      "nome": "N'Golo Kanté",
+      "posicao": "Meio-campista",
+      "numero": 13,
+      "idade": 35
+    },
+    {
+      "nome": "Adrien Rabiot",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 31
+    },
+    {
+      "nome": "Aurélien Tchouaméni",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 26
+    },
+    {
+      "nome": "Manu Koné",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 25
+    },
+    {
+      "nome": "Michael Olise",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 24
+    },
+    {
+      "nome": "Rayan Cherki",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 22
+    },
+    {
+      "nome": "Maghnes Akliouche",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 24
+    },
+    {
+      "nome": "Warren Zaïre-Emery",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 20
+    },
+    {
+      "nome": "Marcus Thuram",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 28
+    },
+    {
+      "nome": "Ousmane Dembélé",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 29
+    },
+    {
+      "nome": "Kylian Mbappé",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Jean-Philippe Mateta",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 28
+    },
+    {
+      "nome": "Bradley Barcola",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 23
+    },
+    {
+      "nome": "Désiré Doué",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

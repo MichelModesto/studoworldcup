@@ -1,0 +1,144 @@
+{
+  "fifa": "COD",
+  "team": "DR Congo",
+  "nomePt": "RD Congo",
+  "espnTeamId": 2850,
+  "atualizadoEm": "2026-06-10T15:08:02.460Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - Playoff Tournament",
+    "Africa Cup of Nations",
+    "FIFA World Cup Qualifying - CAF"
+  ],
+  "registro": {
+    "v": 9,
+    "e": 3,
+    "d": 3,
+    "gp": 21,
+    "gc": 9
+  },
+  "porJogo": {
+    "chutes": 7.3,
+    "chutesNoGol": 2.2,
+    "escanteios": 2.6,
+    "faltas": 8.6,
+    "impedimentos": 0.7,
+    "amarelos": 0.8,
+    "vermelhos": 0,
+    "posse": 30.4,
+    "defesasGoleiro": 1.2,
+    "desarmes": 7.2,
+    "golsPro": 1.4,
+    "golsContra": 0.6
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 4,
+    "31-45": 6,
+    "46-60": 2,
+    "61-75": 2,
+    "76-90": 3
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 0,
+    "31-45": 1,
+    "46-60": 2,
+    "61-75": 2,
+    "76-90": 3
+  },
+  "golsPorTempo": {
+    "1T": 12,
+    "2T": 7
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 2,
+    "31-45": 3,
+    "46-60": 0,
+    "61-75": 2,
+    "76-90": 4
+  },
+  "artilheiros": [
+    {
+      "nome": "Cédric Bakambu",
+      "gols": 5,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nathanaël Mbuku",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gaël Kakuta",
+      "gols": 2,
+      "penaltis": 1
+    },
+    {
+      "nome": "Théo Bongonda",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Yoane Wissa",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Joris Kayembe",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Axel Tuanzebe",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Arthur Masuaku",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Rocky Bushiri",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Meschack Elia",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Brian Cipenga",
+      "assistencias": 1
+    },
+    {
+      "nome": "Gaël Kakuta",
+      "assistencias": 1
+    },
+    {
+      "nome": "Arthur Masuaku",
+      "assistencias": 1
+    },
+    {
+      "nome": "Noah Sadiki",
+      "assistencias": 1
+    },
+    {
+      "nome": "Cédric Bakambu",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 14
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

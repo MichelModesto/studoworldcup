@@ -1,0 +1,155 @@
+{
+  "fifa": "PAN",
+  "team": "Panama",
+  "nomePt": "Panamá",
+  "espnTeamId": 2659,
+  "atualizadoEm": "2026-06-10T15:11:42.338Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - Concacaf",
+    "Concacaf Gold Cup"
+  ],
+  "registro": {
+    "v": 6,
+    "e": 7,
+    "d": 2,
+    "gp": 25,
+    "gc": 19
+  },
+  "porJogo": {
+    "chutes": 10.1,
+    "chutesNoGol": 4.1,
+    "escanteios": 3.6,
+    "faltas": 10.6,
+    "impedimentos": 1.3,
+    "amarelos": 1.6,
+    "vermelhos": 0,
+    "posse": 43.2,
+    "defesasGoleiro": 2.1,
+    "desarmes": 10.2,
+    "golsPro": 1.7,
+    "golsContra": 1.3
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 5,
+    "31-45": 7,
+    "46-60": 3,
+    "61-75": 1,
+    "76-90": 8
+  },
+  "golsContraPorJanela": {
+    "0-15": 2,
+    "16-30": 3,
+    "31-45": 3,
+    "46-60": 4,
+    "61-75": 5,
+    "76-90": 2
+  },
+  "golsPorTempo": {
+    "1T": 14,
+    "2T": 12
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 6,
+    "46-60": 2,
+    "61-75": 3,
+    "76-90": 10
+  },
+  "artilheiros": [
+    {
+      "nome": "Ismael Díaz",
+      "gols": 5,
+      "penaltis": 2
+    },
+    {
+      "nome": "Cecilio Waterman",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jiovany Ramos",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Tomás Rodríguez",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "José Kadir",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Carlos Harvey",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "José Fajardo",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Victor Griffith",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "José Córdoba",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Édgar Yoel Bárcenas",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "José Luis Rodríguez",
+      "assistencias": 1
+    },
+    {
+      "nome": "Cecilio Waterman",
+      "assistencias": 1
+    },
+    {
+      "nome": "Andrés Andrade",
+      "assistencias": 1
+    },
+    {
+      "nome": "Azarias Londoño",
+      "assistencias": 1
+    },
+    {
+      "nome": "Amir Murillo",
+      "assistencias": 1
+    },
+    {
+      "nome": "Éric Davis",
+      "assistencias": 1
+    },
+    {
+      "nome": "Cristian Martínez",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jorge Gutiérrez",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

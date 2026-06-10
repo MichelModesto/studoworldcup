@@ -1,0 +1,168 @@
+{
+  "fifa": "GER",
+  "team": "Germany",
+  "espnTeamId": 481,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:19.576Z",
+  "jogadores": [
+    {
+      "nome": "Manuel Neuer",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 40
+    },
+    {
+      "nome": "Oliver Baumann",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 36
+    },
+    {
+      "nome": "Alexander Nübel",
+      "posicao": "Goleiro",
+      "numero": 21,
+      "idade": 29
+    },
+    {
+      "nome": "Nathaniel Brown",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 22
+    },
+    {
+      "nome": "Antonio Rüdiger",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 33
+    },
+    {
+      "nome": "Jonathan Tah",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 30
+    },
+    {
+      "nome": "Waldemar Anton",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 29
+    },
+    {
+      "nome": "David Raum",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 28
+    },
+    {
+      "nome": "Nico Schlotterbeck",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Malick Thiaw",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 24
+    },
+    {
+      "nome": "Pascal Gross",
+      "posicao": "Meio-campista",
+      "numero": 13,
+      "idade": 34
+    },
+    {
+      "nome": "Leon Goretzka",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 31
+    },
+    {
+      "nome": "Joshua Kimmich",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 31
+    },
+    {
+      "nome": "Nadiem Amiri",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 29
+    },
+    {
+      "nome": "Felix Nmecha",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 25
+    },
+    {
+      "nome": "Angelo Stiller",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 25
+    },
+    {
+      "nome": "Florian Wirtz",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 23
+    },
+    {
+      "nome": "Jamal Musiala",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 23
+    },
+    {
+      "nome": "Aleksandar Pavlovic",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 22
+    },
+    {
+      "nome": "Assan Ouédraogo",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 20
+    },
+    {
+      "nome": "Leroy Sané",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 30
+    },
+    {
+      "nome": "Kai Havertz",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 26
+    },
+    {
+      "nome": "Deniz Undav",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 29
+    },
+    {
+      "nome": "Maximilian Beier",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 23
+    },
+    {
+      "nome": "Jamie Leweling",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 25
+    },
+    {
+      "nome": "Nick Woltemade",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

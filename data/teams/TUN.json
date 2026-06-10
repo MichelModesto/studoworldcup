@@ -1,0 +1,163 @@
+{
+  "fifa": "TUN",
+  "team": "Tunisia",
+  "nomePt": "Tunísia",
+  "espnTeamId": 659,
+  "atualizadoEm": "2026-06-10T14:52:08.643Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "Africa Cup of Nations",
+    "FIFA World Cup Qualifying - CAF"
+  ],
+  "registro": {
+    "v": 7,
+    "e": 5,
+    "d": 3,
+    "gp": 25,
+    "gc": 17
+  },
+  "porJogo": {
+    "chutes": 9.7,
+    "chutesNoGol": 3.2,
+    "escanteios": 4.1,
+    "faltas": 14.9,
+    "impedimentos": 1.9,
+    "amarelos": 1.6,
+    "vermelhos": 0.07,
+    "posse": 46,
+    "defesasGoleiro": 2.6,
+    "desarmes": 13.6,
+    "golsPro": 1.7,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 2,
+    "31-45": 8,
+    "46-60": 2,
+    "61-75": 6,
+    "76-90": 6
+  },
+  "golsContraPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 2,
+    "46-60": 6,
+    "61-75": 3,
+    "76-90": 4
+  },
+  "golsPorTempo": {
+    "1T": 12,
+    "2T": 14
+  },
+  "amarelosPorJanela": {
+    "0-15": 4,
+    "16-30": 2,
+    "31-45": 2,
+    "46-60": 8,
+    "61-75": 2,
+    "76-90": 6
+  },
+  "artilheiros": [
+    {
+      "nome": "Ali Abdi",
+      "gols": 4,
+      "penaltis": 2
+    },
+    {
+      "nome": "Elias Achouri",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Firas Chaouat",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Montassar Talbi",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohamed Ali Ben Romdhane",
+      "gols": 3,
+      "penaltis": 1
+    },
+    {
+      "nome": "Ismaël Gharbi",
+      "gols": 2,
+      "penaltis": 1
+    },
+    {
+      "nome": "Elias Saad",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Sebastian Tounekti",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ellyes Skhiri",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Hazem Mastouri",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Hannibal Mejbri",
+      "assistencias": 3
+    },
+    {
+      "nome": "Ali Abdi",
+      "assistencias": 3
+    },
+    {
+      "nome": "Naïm Sliti",
+      "assistencias": 3
+    },
+    {
+      "nome": "Elias Saad",
+      "assistencias": 2
+    },
+    {
+      "nome": "Ismaël Gharbi",
+      "assistencias": 1
+    },
+    {
+      "nome": "Amor Layouni",
+      "assistencias": 1
+    },
+    {
+      "nome": "Yassine Meriah",
+      "assistencias": 1
+    },
+    {
+      "nome": "Yan Valery",
+      "assistencias": 1
+    },
+    {
+      "nome": "Hazem Mastouri",
+      "assistencias": 1
+    },
+    {
+      "nome": "Firas Chaouat",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 14
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

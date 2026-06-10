@@ -1,0 +1,163 @@
+{
+  "fifa": "SCO",
+  "team": "Scotland",
+  "nomePt": "Escócia",
+  "espnTeamId": 580,
+  "atualizadoEm": "2026-06-10T14:42:16.972Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 9,
+    "e": 1,
+    "d": 5,
+    "gp": 29,
+    "gc": 17
+  },
+  "porJogo": {
+    "chutes": 13.1,
+    "chutesNoGol": 5.3,
+    "escanteios": 5.2,
+    "faltas": 12.1,
+    "impedimentos": 0.9,
+    "amarelos": 1.5,
+    "vermelhos": 0,
+    "posse": 51.2,
+    "defesasGoleiro": 2.5,
+    "desarmes": 12.2,
+    "golsPro": 1.9,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 5,
+    "16-30": 4,
+    "31-45": 5,
+    "46-60": 2,
+    "61-75": 4,
+    "76-90": 9
+  },
+  "golsContraPorJanela": {
+    "0-15": 3,
+    "16-30": 2,
+    "31-45": 1,
+    "46-60": 5,
+    "61-75": 3,
+    "76-90": 3
+  },
+  "golsPorTempo": {
+    "1T": 14,
+    "2T": 15
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 2,
+    "31-45": 3,
+    "46-60": 4,
+    "61-75": 6,
+    "76-90": 7
+  },
+  "artilheiros": [
+    {
+      "nome": "Ché Adams",
+      "gols": 7,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lawrence Shankland",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Scott McTominay",
+      "gols": 4,
+      "penaltis": 1
+    },
+    {
+      "nome": "Ryan Christie",
+      "gols": 3,
+      "penaltis": 1
+    },
+    {
+      "nome": "Findlay Curtis",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Kieran Tierney",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Kenny McLean",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ben Gannon-Doak",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lewis Ferguson",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lyndon Dykes",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Andy Robertson",
+      "assistencias": 3
+    },
+    {
+      "nome": "Ben Gannon-Doak",
+      "assistencias": 3
+    },
+    {
+      "nome": "Lawrence Shankland",
+      "assistencias": 1
+    },
+    {
+      "nome": "Kenny McLean",
+      "assistencias": 1
+    },
+    {
+      "nome": "Ryan Christie",
+      "assistencias": 1
+    },
+    {
+      "nome": "Lyndon Dykes",
+      "assistencias": 1
+    },
+    {
+      "nome": "Lewis Ferguson",
+      "assistencias": 1
+    },
+    {
+      "nome": "John McGinn",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jack Hendry",
+      "assistencias": 1
+    },
+    {
+      "nome": "Scott McTominay",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

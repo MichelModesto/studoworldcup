@@ -1,0 +1,170 @@
+{
+  "fifa": "TUR",
+  "resumo": "Turquia tem o melhor registro do lote: 11V-1E-3D em 15 jogos desde 2023, com 2,3 gols pró e 1,3 sofrido por jogo e 55,2% de posse. A estrela é Arda Güler, líder em participações (3 gols + 5 assistências), com Kerem Aktürkoglu como artilheiro (5 gols) — e todos os destaques de 2023+ foram convocados para a Copa 2026. Curiosidade: é o time mais indisciplinado da análise no fim de jogo — 14 dos 32 amarelos (44%) saem nos minutos 76-90, e a cada 4,7 faltas vem um cartão. Vulnerabilidade: começa os jogos aberto, com 5 dos 19 gols sofridos antes dos 15 minutos, e praticamente para de produzir após os 75 (2 gols na janela).",
+  "fonte": "Agentes especialistas sobre dados reais (ESPN, 15 jogos 2023–2026)",
+  "geradoEm": "2026-06-10",
+  "blocks": [
+    {
+      "agente": "especialista-finalizacao",
+      "titulo": "Finalização",
+      "icone": "target",
+      "metricas": [
+        { "label": "Chutes/jogo", "valor": "13,8", "hint": "Dentro do padrão de elite (12–14)" },
+        { "label": "Precisão", "valor": "34,1%", "hint": "4,7 ÷ 13,8" },
+        { "label": "Conversão", "valor": "16,4%", "hint": "34 gols ÷ 207 chutes — bem acima da média de Mundiais (~11%)" },
+        { "label": "Posse média", "valor": "55,2%" }
+      ],
+      "leitura": "Volume de elite, posse majoritária e conversão de 16,4%: a Turquia combina quantidade e qualidade de finalização como nenhuma das outras três seleções analisadas. A precisão de 34% é o único elo mediano — muitos chutes de média distância no repertório de Güler e Çalhanoglu.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-chute-ao-gol",
+      "titulo": "Chute ao gol",
+      "icone": "crosshair",
+      "metricas": [
+        { "label": "Chutes no gol/jogo", "valor": "4,7", "hint": "Próximo do padrão de elite (5–6)" },
+        { "label": "Conversão no alvo", "valor": "48,2%", "hint": "34 ÷ 70,5 — quase metade dos chutes no alvo vira gol" },
+        { "label": "Defesas do goleiro/jogo", "valor": "2,5", "hint": "Defesa relativamente protegida em volume" }
+      ],
+      "leitura": "Conversão no alvo perto de 48% indica chutes colocados fora do alcance do goleiro — assinatura dos canhotos Yildiz e Güler em diagonal. Número difícil de sustentar contra goleiros de elite, mas mesmo regredindo à média o ataque turco seguiria acima de 1,5 gol/jogo.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-escanteio",
+      "titulo": "Escanteio",
+      "icone": "corner",
+      "metricas": [
+        { "label": "Escanteios/jogo", "valor": "6,7", "hint": "Faixa de seleções dominantes (6–8)" }
+      ],
+      "leitura": "Maior produção de escanteios do grupo analisado, fruto de amplitude constante com Aydin e Yilmaz forçando a linha de fundo. Com Demiral (2 gols na amostra) e Söyüncü na área, e Çalhanoglu na cobrança, é fonte recorrente de perigo real.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-amarelo",
+      "titulo": "Cartão amarelo",
+      "icone": "card",
+      "metricas": [
+        { "label": "Amarelos/jogo", "valor": "2,1", "hint": "Acima da média de Mundiais (≈2)" },
+        { "label": "Faltas por amarelo", "valor": "4,7", "hint": "9,9 ÷ 2,1 — punição altíssima por falta" },
+        { "label": "Janela crítica", "valor": "76–90", "hint": "14 de 32 amarelos (44%)" }
+      ],
+      "leitura": "Um cartão a cada 4,7 faltas é índice de faltas duras ou reclamação — o pior do grupo analisado. A explosão de amarelos nos últimos 15 minutos revela um time emocional ao administrar resultado; em mata-mata, acúmulo de cartões pode custar titulares.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-vermelho",
+      "titulo": "Cartão vermelho",
+      "icone": "card-red",
+      "metricas": [
+        { "label": "Vermelhos/jogo", "valor": "0,07", "hint": "1 expulsão em 15 jogos" }
+      ],
+      "leitura": "Uma expulsão na amostra mantém o risco moderado, mas o padrão de indisciplina crescente no fim dos jogos (44% dos amarelos após os 75) é terreno fértil para segundo amarelo. Gestão emocional na reta final é ponto de treino, não de talento.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-impedimento",
+      "titulo": "Impedimento",
+      "icone": "flag",
+      "metricas": [
+        { "label": "Impedimentos/jogo", "valor": "1,9", "hint": "Na média de Mundiais (≈2)" }
+      ],
+      "leitura": "Impedimentos na média, equilibrando posse paciente com ataques de profundidade de Aktürkoglu e Yilmaz nas costas da linha. Custo normal de um ataque que alterna construção curta e bola esticada.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-desarme",
+      "titulo": "Desarme",
+      "icone": "tackle",
+      "metricas": [
+        { "label": "Desarmes/jogo", "valor": "15,4", "hint": "Alto para um time com 55,2% de posse" }
+      ],
+      "leitura": "Desarmar 15 vezes por jogo tendo a maioria da posse significa reação imediata à perda — pressão alta com Yüksek e Özcan caçando a bola. A agressividade explica tanto a recuperação rápida quanto o volume de faltas e cartões.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-falta",
+      "titulo": "Falta",
+      "icone": "foul",
+      "metricas": [
+        { "label": "Faltas/jogo", "valor": "9,9", "hint": "Abaixo da faixa internacional (10–13)" },
+        { "label": "Faltas por amarelo", "valor": "4,7", "hint": "Poucas faltas, porém graves" }
+      ],
+      "leitura": "Paradoxo turco: comete menos faltas que todos os rivais analisados, mas é punido com mais frequência por falta cometida. Quando faltam, é em situação grave — transição defensiva exposta ou intensidade mal calibrada. A boa notícia: cede pouca bola parada em volume.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tiro-de-meta",
+      "titulo": "Tiro de meta",
+      "icone": "goalkick",
+      "metricas": [
+        { "label": "Tiros de meta/jogo", "valor": "—", "hint": "ESPN não fornece esta estatística" }
+      ],
+      "leitura": "A ESPN não disponibiliza dados de tiro de meta para seleções. Com 55,2% de posse, espera-se saída curta construída desde Çakir ou Bayindir, mas é inferência de estilo, não dado observado.",
+      "confianca": "baixa"
+    },
+    {
+      "agente": "especialista-artilheiro",
+      "titulo": "Artilheiros",
+      "icone": "scorer",
+      "metricas": [
+        { "label": "Kerem Aktürkoglu", "valor": "5 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Kenan Yildiz", "valor": "4 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Arda Güler", "valor": "3 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Baris Alper Yilmaz", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Yunus Akgün", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" }
+      ],
+      "leitura": "O artilheiro Aktürkoglu faz só 14,7% dos 34 gols: dez jogadores marcaram 2+ vezes e todos os destaques estão na Copa — nenhuma perda na convocação. É o ataque mais profundo e menos dependente do grupo analisado; anular um nome não resolve o problema do adversário.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-assistencia",
+      "titulo": "Assistências",
+      "icone": "assist",
+      "metricas": [
+        { "label": "Arda Güler", "valor": "5 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Oguz Aydin", "valor": "5 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Hakan Çalhanoglu", "valor": "4 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Orkun Kökçü", "valor": "3 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Eren Elmali", "valor": "1 assist.", "hint": "Convocado p/ Copa 2026" }
+      ],
+      "leitura": "Güler soma 8 participações em gols (3 + 5), cerca de 24% da produção — é o coração criativo, mas com Aydin, Çalhanoglu e Kökçü distribuindo 12 assistências entre si, a criação não morre se ele for anulado. Todos os garçons estão na Copa.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tempo-com-mais-gols",
+      "titulo": "Tempo com mais gols",
+      "icone": "clock",
+      "metricas": [
+        { "label": "Janela mais fértil", "valor": "46–60", "hint": "9 de 32 gols mapeados (28%)" },
+        { "label": "Deserto ofensivo", "valor": "76–90", "hint": "Apenas 2 gols (6%)" },
+        { "label": "Gols sofridos 0–15 e 61–75", "valor": "5 + 5", "hint": "53% dos 19 gols contra nessas duas janelas" }
+      ],
+      "leitura": "A saída do vestiário é o momento turco: 9 gols logo após o intervalo, sinal de ajustes táticos eficazes. Mas o time começa partidas vulnerável (5 gols sofridos até os 15) e seca no fim — quem chegar vivo aos 75 enfrenta uma Turquia nervosa, amarelada e sem gol.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-tempo",
+      "titulo": "Média de gols por tempo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols no 1º tempo", "valor": "1,13/jogo", "hint": "17 ÷ 15" },
+        { "label": "Gols no 2º tempo", "valor": "1,00/jogo", "hint": "15 ÷ 15" },
+        { "label": "Distribuição", "valor": "53% × 47%", "hint": "1T × 2T — produção equilibrada" }
+      ],
+      "leitura": "Produção quase idêntica nos dois tempos, acima de 1 gol por tempo de jogo — consistência de ataque de elite que não depende de um momento específico da partida. O detalhe fino: dentro do 2º tempo, quase tudo se concentra entre 46 e 60.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-jogo",
+      "titulo": "Média de gols por jogo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols pró/jogo", "valor": "2,3", "hint": "34 ÷ 15 — melhor ataque do grupo analisado" },
+        { "label": "Gols contra/jogo", "valor": "1,3", "hint": "19 ÷ 15" },
+        { "label": "Saldo/jogo", "valor": "+1,0", "hint": "11V-1E-3D — 73% de aproveitamento de vitórias" }
+      ],
+      "leitura": "Saldo de +1,0 por jogo com 11 vitórias em 15 partidas contra calendário UEFA é credencial de azarão perigoso de verdade. A ressalva: 1,3 gol sofrido/jogo significa que a Turquia ganha no ataque, não na solidez — contra finalizadores de elite o jogo de ida e volta pode cobrar caro.",
+      "confianca": "alta"
+    }
+  ]
+}

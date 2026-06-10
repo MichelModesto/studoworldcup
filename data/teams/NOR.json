@@ -1,0 +1,163 @@
+{
+  "fifa": "NOR",
+  "team": "Norway",
+  "nomePt": "Noruega",
+  "espnTeamId": 464,
+  "atualizadoEm": "2026-06-10T15:02:25.295Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 11,
+    "e": 3,
+    "d": 1,
+    "gp": 49,
+    "gc": 10
+  },
+  "porJogo": {
+    "chutes": 17.1,
+    "chutesNoGol": 6,
+    "escanteios": 5.9,
+    "faltas": 9,
+    "impedimentos": 1.1,
+    "amarelos": 0.8,
+    "vermelhos": 0,
+    "posse": 56.6,
+    "defesasGoleiro": 2.2,
+    "desarmes": 13,
+    "golsPro": 3.3,
+    "golsContra": 0.7
+  },
+  "golsPorJanela": {
+    "0-15": 5,
+    "16-30": 6,
+    "31-45": 11,
+    "46-60": 5,
+    "61-75": 12,
+    "76-90": 8
+  },
+  "golsContraPorJanela": {
+    "0-15": 2,
+    "16-30": 2,
+    "31-45": 2,
+    "46-60": 2,
+    "61-75": 1,
+    "76-90": 3
+  },
+  "golsPorTempo": {
+    "1T": 22,
+    "2T": 25
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 0,
+    "31-45": 3,
+    "46-60": 2,
+    "61-75": 2,
+    "76-90": 5
+  },
+  "artilheiros": [
+    {
+      "nome": "Erling Haaland",
+      "gols": 20,
+      "penaltis": 1
+    },
+    {
+      "nome": "Alexander Sørloth",
+      "gols": 6,
+      "penaltis": 0
+    },
+    {
+      "nome": "Antonio Nusa",
+      "gols": 5,
+      "penaltis": 0
+    },
+    {
+      "nome": "Thelo Aasgaard",
+      "gols": 4,
+      "penaltis": 1
+    },
+    {
+      "nome": "Jørgen Strand Larsen",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Martin Ødegaard",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Andreas Schjelderup",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Felix Horn Myhre",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "David Møller Wolfe",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Kristoffer Ajer",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Martin Ødegaard",
+      "assistencias": 7
+    },
+    {
+      "nome": "Julian Ryerson",
+      "assistencias": 6
+    },
+    {
+      "nome": "Sander Berge",
+      "assistencias": 4
+    },
+    {
+      "nome": "Antonio Nusa",
+      "assistencias": 4
+    },
+    {
+      "nome": "David Møller Wolfe",
+      "assistencias": 3
+    },
+    {
+      "nome": "Morten Thorsby",
+      "assistencias": 3
+    },
+    {
+      "nome": "Oscar Bobb",
+      "assistencias": 2
+    },
+    {
+      "nome": "Alexander Sørloth",
+      "assistencias": 2
+    },
+    {
+      "nome": "Andreas Schjelderup",
+      "assistencias": 2
+    },
+    {
+      "nome": "Erling Haaland",
+      "assistencias": 2
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "USA",
+  "team": "USA",
+  "espnTeamId": 660,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:16.319Z",
+  "jogadores": [
+    {
+      "nome": "Matt Freese",
+      "posicao": "Goleiro",
+      "numero": 24,
+      "idade": 27
+    },
+    {
+      "nome": "Chris Brady",
+      "posicao": "Goleiro",
+      "numero": 25,
+      "idade": 22
+    },
+    {
+      "nome": "Matt Turner",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 31
+    },
+    {
+      "nome": "Mark McKenzie",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 27
+    },
+    {
+      "nome": "Tim Ream",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 38
+    },
+    {
+      "nome": "Antonee Robinson",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 28
+    },
+    {
+      "nome": "Auston Trusty",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 27
+    },
+    {
+      "nome": "Alex Freeman",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 21
+    },
+    {
+      "nome": "Miles Robinson",
+      "posicao": "Defensor",
+      "numero": 12,
+      "idade": 29
+    },
+    {
+      "nome": "Sergiño Dest",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 25
+    },
+    {
+      "nome": "Joe Scally",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 23
+    },
+    {
+      "nome": "Chris Richards",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 26
+    },
+    {
+      "nome": "Cristian Roldan",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 31
+    },
+    {
+      "nome": "Tyler Adams",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 27
+    },
+    {
+      "nome": "Christian Pulisic",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Weston McKennie",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 27
+    },
+    {
+      "nome": "Brenden Aaronson",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 25
+    },
+    {
+      "nome": "Giovanni Reyna",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 23
+    },
+    {
+      "nome": "Sebastian Berhalter",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 25
+    },
+    {
+      "nome": "Malik Tillman",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 24
+    },
+    {
+      "nome": "Max Arfsten",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 25
+    },
+    {
+      "nome": "Alejandro Zendejas",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 28
+    },
+    {
+      "nome": "Haji Wright",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 28
+    },
+    {
+      "nome": "Timothy Weah",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 26
+    },
+    {
+      "nome": "Folarin Balogun",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 24
+    },
+    {
+      "nome": "Ricardo Pepi",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 23
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

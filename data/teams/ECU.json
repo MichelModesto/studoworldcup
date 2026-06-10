@@ -1,0 +1,133 @@
+{
+  "fifa": "ECU",
+  "team": "Ecuador",
+  "nomePt": "Equador",
+  "espnTeamId": 209,
+  "atualizadoEm": "2026-06-10T14:49:20.760Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - CONMEBOL"
+  ],
+  "registro": {
+    "v": 6,
+    "e": 9,
+    "d": 0,
+    "gp": 15,
+    "gc": 6
+  },
+  "porJogo": {
+    "chutes": 10.5,
+    "chutesNoGol": 3.6,
+    "escanteios": 3.7,
+    "faltas": 13.4,
+    "impedimentos": 1.7,
+    "amarelos": 1.6,
+    "vermelhos": 0.2,
+    "posse": 53.6,
+    "defesasGoleiro": 2.6,
+    "desarmes": 15.1,
+    "golsPro": 1,
+    "golsContra": 0.4
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 4,
+    "31-45": 3,
+    "46-60": 4,
+    "61-75": 1,
+    "76-90": 2
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 0,
+    "31-45": 0,
+    "46-60": 0,
+    "61-75": 1,
+    "76-90": 3
+  },
+  "golsPorTempo": {
+    "1T": 9,
+    "2T": 7
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 6,
+    "31-45": 4,
+    "46-60": 4,
+    "61-75": 4,
+    "76-90": 8
+  },
+  "artilheiros": [
+    {
+      "nome": "Enner Valencia",
+      "gols": 6,
+      "penaltis": 2
+    },
+    {
+      "nome": "Nilson Angulo",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jordy Caicedo",
+      "gols": 1,
+      "penaltis": 1
+    },
+    {
+      "nome": "Pervis Estupiñán",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jackson Porozo",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Anthony Valencia",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "John Yeboah",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Leonardo Campana",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jordy Alcívar",
+      "gols": 1,
+      "penaltis": 1
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "John Yeboah",
+      "assistencias": 3
+    },
+    {
+      "nome": "Gonzalo Plata",
+      "assistencias": 3
+    },
+    {
+      "nome": "Pedro Vite",
+      "assistencias": 1
+    },
+    {
+      "nome": "Alan Franco",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

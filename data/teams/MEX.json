@@ -1,0 +1,162 @@
+{
+  "fifa": "MEX",
+  "team": "Mexico",
+  "nomePt": "México",
+  "espnTeamId": 203,
+  "atualizadoEm": "2026-06-10T14:35:34.232Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "Concacaf Gold Cup"
+  ],
+  "registro": {
+    "v": 7,
+    "e": 6,
+    "d": 2,
+    "gp": 21,
+    "gc": 12
+  },
+  "porJogo": {
+    "chutes": 12.1,
+    "chutesNoGol": 4.4,
+    "escanteios": 4.7,
+    "faltas": 12.9,
+    "impedimentos": 1.9,
+    "amarelos": 1.9,
+    "vermelhos": 0.07,
+    "posse": 56.6,
+    "defesasGoleiro": 2,
+    "desarmes": 15.7,
+    "golsPro": 1.4,
+    "golsContra": 0.8
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 6,
+    "31-45": 1,
+    "46-60": 4,
+    "61-75": 1,
+    "76-90": 4
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 3,
+    "31-45": 1,
+    "46-60": 4,
+    "61-75": 4,
+    "76-90": 2
+  },
+  "golsPorTempo": {
+    "1T": 9,
+    "2T": 9
+  },
+  "amarelosPorJanela": {
+    "0-15": 2,
+    "16-30": 1,
+    "31-45": 8,
+    "46-60": 4,
+    "61-75": 7,
+    "76-90": 7
+  },
+  "artilheiros": [
+    {
+      "nome": "Raúl Jiménez",
+      "gols": 4,
+      "penaltis": 1
+    },
+    {
+      "nome": "Johan Vásquez",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Brian Gutiérrez",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Germán Berterame",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Luis Chávez",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Guillermo Martínez",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jorge Sánchez",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Richard Ledezma",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Armando González",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jesús Gallardo",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Brian Gutiérrez",
+      "assistencias": 1
+    },
+    {
+      "nome": "Alexis Vega",
+      "assistencias": 1
+    },
+    {
+      "nome": "Luis Romo",
+      "assistencias": 1
+    },
+    {
+      "nome": "Armando González",
+      "assistencias": 1
+    },
+    {
+      "nome": "Alexis Gutierrez",
+      "assistencias": 1
+    },
+    {
+      "nome": "Everardo López",
+      "assistencias": 1
+    },
+    {
+      "nome": "Érick Sánchez",
+      "assistencias": 1
+    },
+    {
+      "nome": "Rodrigo Huescas",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jorge Sánchez",
+      "assistencias": 1
+    },
+    {
+      "nome": "Marcel Ruiz",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

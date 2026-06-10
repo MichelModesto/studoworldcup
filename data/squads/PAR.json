@@ -1,0 +1,167 @@
+{
+  "fifa": "PAR",
+  "team": "Paraguay",
+  "espnTeamId": 210,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:17.220Z",
+  "jogadores": [
+    {
+      "nome": "Gatito Fernández",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 38
+    },
+    {
+      "nome": "Gastón Olveira",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 33
+    },
+    {
+      "nome": "Orlando Gil",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 25
+    },
+    {
+      "nome": "Juan Cáceres",
+      "posicao": "Defensor",
+      "numero": 13
+    },
+    {
+      "nome": "Gustavo Gómez",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 33
+    },
+    {
+      "nome": "Gustavo Velázquez",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 35
+    },
+    {
+      "nome": "Júnior Alonso",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 33
+    },
+    {
+      "nome": "Fabián Balbuena",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 34
+    },
+    {
+      "nome": "Omar Alderete",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 29
+    },
+    {
+      "nome": "José Canale",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 29
+    },
+    {
+      "nome": "Alexandro Maidana",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 20
+    },
+    {
+      "nome": "Julio Enciso",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 22
+    },
+    {
+      "nome": "Alejandro Romero Gamarra",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 31
+    },
+    {
+      "nome": "Diego Gómez",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 23
+    },
+    {
+      "nome": "Andrés Cubas",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 30
+    },
+    {
+      "nome": "Braian Ojeda",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 25
+    },
+    {
+      "nome": "Mauricio",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 24
+    },
+    {
+      "nome": "Matías Galarza",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 24
+    },
+    {
+      "nome": "Damián Bobadilla",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 24
+    },
+    {
+      "nome": "Miguel Almirón",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 32
+    },
+    {
+      "nome": "Gustavo Caballero",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 24
+    },
+    {
+      "nome": "Antonio Sanabria",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 30
+    },
+    {
+      "nome": "Gabriel Ávalos",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 35
+    },
+    {
+      "nome": "Alex Arce",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 30
+    },
+    {
+      "nome": "Isidro Pitta",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 26
+    },
+    {
+      "nome": "Ramón Sosa",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 26
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

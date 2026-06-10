@@ -1,0 +1,162 @@
+{
+  "fifa": "COL",
+  "team": "Colombia",
+  "nomePt": "Colômbia",
+  "espnTeamId": 208,
+  "atualizadoEm": "2026-06-10T15:06:32.633Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - CONMEBOL"
+  ],
+  "registro": {
+    "v": 7,
+    "e": 4,
+    "d": 4,
+    "gp": 29,
+    "gc": 16
+  },
+  "porJogo": {
+    "chutes": 13.5,
+    "chutesNoGol": 5.3,
+    "escanteios": 4.3,
+    "faltas": 13.5,
+    "impedimentos": 2.1,
+    "amarelos": 1.2,
+    "vermelhos": 0,
+    "posse": 58.5,
+    "defesasGoleiro": 2.1,
+    "desarmes": 13.8,
+    "golsPro": 1.9,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 5,
+    "16-30": 4,
+    "31-45": 4,
+    "46-60": 4,
+    "61-75": 3,
+    "76-90": 9
+  },
+  "golsContraPorJanela": {
+    "0-15": 5,
+    "16-30": 1,
+    "31-45": 4,
+    "46-60": 1,
+    "61-75": 1,
+    "76-90": 4
+  },
+  "golsPorTempo": {
+    "1T": 13,
+    "2T": 16
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 0,
+    "31-45": 3,
+    "46-60": 3,
+    "61-75": 4,
+    "76-90": 8
+  },
+  "artilheiros": [
+    {
+      "nome": "Luis Díaz",
+      "gols": 6,
+      "penaltis": 0
+    },
+    {
+      "nome": "Luis Suárez",
+      "gols": 5,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jhon Arias",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "James Rodríguez",
+      "gols": 2,
+      "penaltis": 1
+    },
+    {
+      "nome": "Jefferson Lerma",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Johan Carbonero",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jhon Córdoba",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Davinson Sánchez",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jáminton Campaz",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gustavo Puerta",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "James Rodríguez",
+      "assistencias": 7
+    },
+    {
+      "nome": "Luis Díaz",
+      "assistencias": 4
+    },
+    {
+      "nome": "Santiago Arias",
+      "assistencias": 3
+    },
+    {
+      "nome": "Juan Fernando Quintero",
+      "assistencias": 3
+    },
+    {
+      "nome": "Jorge Carrascal",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jefferson Lerma",
+      "assistencias": 1
+    },
+    {
+      "nome": "Rafael Borré",
+      "assistencias": 1
+    },
+    {
+      "nome": "Davinson Sánchez",
+      "assistencias": 1
+    },
+    {
+      "nome": "Yerry Mina",
+      "assistencias": 1
+    },
+    {
+      "nome": "Richard Ríos",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

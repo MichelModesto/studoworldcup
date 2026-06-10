@@ -1,0 +1,168 @@
+{
+  "fifa": "IRN",
+  "team": "Iran",
+  "espnTeamId": 469,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:27.777Z",
+  "jogadores": [
+    {
+      "nome": "Hossein Hosseini",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 33
+    },
+    {
+      "nome": "Alireza Beiranvand",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 33
+    },
+    {
+      "nome": "Payam Niazmand",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 31
+    },
+    {
+      "nome": "Shoja Khalilzadeh",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 37
+    },
+    {
+      "nome": "Ehsan Hajsafi",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 36
+    },
+    {
+      "nome": "Ramin Rezaeian",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 36
+    },
+    {
+      "nome": "Milad Mohammadi",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 32
+    },
+    {
+      "nome": "Hossein Kanani",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 32
+    },
+    {
+      "nome": "Ali Nemati",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 30
+    },
+    {
+      "nome": "Saleh Hardani",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 27
+    },
+    {
+      "nome": "Arya Yousefi",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 24
+    },
+    {
+      "nome": "Danial Iri",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 22
+    },
+    {
+      "nome": "Alireza Jahanbakhsh",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 32
+    },
+    {
+      "nome": "Saeid Ezatolahi",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Mehdi Torabi",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 31
+    },
+    {
+      "nome": "Saman Ghoddos",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 32
+    },
+    {
+      "nome": "Roozbeh Cheshmi",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 32
+    },
+    {
+      "nome": "Mohammad Mohebbi",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 27
+    },
+    {
+      "nome": "Mohammad Ghorbani",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 24
+    },
+    {
+      "nome": "Amirmohammad Razzaghinia",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 20
+    },
+    {
+      "nome": "Mehdi Taremi",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 33
+    },
+    {
+      "nome": "Ali Alipour",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 30
+    },
+    {
+      "nome": "Mehdi Ghayedi",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Amirhossein Hosseinzadeh",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 25
+    },
+    {
+      "nome": "Dennis Dargahi",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 29
+    },
+    {
+      "nome": "Shahriyar Moghanloo",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 31
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

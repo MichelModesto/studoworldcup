@@ -1,0 +1,131 @@
+{
+  "fifa": "GHA",
+  "team": "Ghana",
+  "nomePt": "Gana",
+  "espnTeamId": 4469,
+  "atualizadoEm": "2026-06-10T15:10:15.244Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - CAF",
+    "Africa Cup of Nations Qualifying"
+  ],
+  "registro": {
+    "v": 6,
+    "e": 2,
+    "d": 7,
+    "gp": 25,
+    "gc": 18
+  },
+  "porJogo": {
+    "chutes": 4.1,
+    "chutesNoGol": 1.8,
+    "escanteios": 1.2,
+    "faltas": 4.2,
+    "impedimentos": 0.8,
+    "amarelos": 1.4,
+    "vermelhos": 0,
+    "posse": 49.1,
+    "defesasGoleiro": 1.3,
+    "desarmes": 5.3,
+    "golsPro": 1.7,
+    "golsContra": 1.2
+  },
+  "golsPorJanela": {
+    "0-15": 4,
+    "16-30": 3,
+    "31-45": 3,
+    "46-60": 6,
+    "61-75": 7,
+    "76-90": 2
+  },
+  "golsContraPorJanela": {
+    "0-15": 3,
+    "16-30": 2,
+    "31-45": 1,
+    "46-60": 5,
+    "61-75": 1,
+    "76-90": 6
+  },
+  "golsPorTempo": {
+    "1T": 10,
+    "2T": 15
+  },
+  "amarelosPorJanela": {
+    "0-15": 3,
+    "16-30": 6,
+    "31-45": 2,
+    "46-60": 2,
+    "61-75": 6,
+    "76-90": 4
+  },
+  "artilheiros": [
+    {
+      "nome": "Jordan Ayew",
+      "gols": 5,
+      "penaltis": 1
+    },
+    {
+      "nome": "Thomas Partey",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohammed Kudus",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohammed Salisu",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Alexander Djiku",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Caleb Yirenkyi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Fatawu Issahaku",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Kamaldeen Sulemana",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Razak Simpson",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohammed Fuseini",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Derrick Köhn",
+      "assistencias": 1
+    },
+    {
+      "nome": "Sulemana",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

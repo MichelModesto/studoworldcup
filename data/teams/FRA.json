@@ -1,0 +1,163 @@
+{
+  "fifa": "FRA",
+  "team": "France",
+  "nomePt": "França",
+  "espnTeamId": 478,
+  "atualizadoEm": "2026-06-10T14:58:03.153Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 11,
+    "e": 1,
+    "d": 3,
+    "gp": 36,
+    "gc": 17
+  },
+  "porJogo": {
+    "chutes": 18.9,
+    "chutesNoGol": 6.7,
+    "escanteios": 6.7,
+    "faltas": 10.7,
+    "impedimentos": 1.4,
+    "amarelos": 1.6,
+    "vermelhos": 0.13,
+    "posse": 61.4,
+    "defesasGoleiro": 1.7,
+    "desarmes": 15.3,
+    "golsPro": 2.4,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 3,
+    "31-45": 7,
+    "46-60": 5,
+    "61-75": 7,
+    "76-90": 9
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 4,
+    "31-45": 5,
+    "46-60": 3,
+    "61-75": 3,
+    "76-90": 4
+  },
+  "golsPorTempo": {
+    "1T": 12,
+    "2T": 21
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 1,
+    "31-45": 4,
+    "46-60": 4,
+    "61-75": 6,
+    "76-90": 8
+  },
+  "artilheiros": [
+    {
+      "nome": "Kylian Mbappé",
+      "gols": 8,
+      "penaltis": 3
+    },
+    {
+      "nome": "Michael Olise",
+      "gols": 7,
+      "penaltis": 0
+    },
+    {
+      "nome": "Adrien Rabiot",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Rayan Cherki",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Désiré Doué",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Hugo Ekitike",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jean-Philippe Mateta",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Marcus Thuram",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Maghnes Akliouche",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Christopher Nkunku",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Kylian Mbappé",
+      "assistencias": 5
+    },
+    {
+      "nome": "Malo Gusto",
+      "assistencias": 3
+    },
+    {
+      "nome": "Lucas Digne",
+      "assistencias": 3
+    },
+    {
+      "nome": "Maghnes Akliouche",
+      "assistencias": 2
+    },
+    {
+      "nome": "Michael Olise",
+      "assistencias": 2
+    },
+    {
+      "nome": "Aurélien Tchouaméni",
+      "assistencias": 2
+    },
+    {
+      "nome": "Ibrahima Konaté",
+      "assistencias": 1
+    },
+    {
+      "nome": "Marcus Thuram",
+      "assistencias": 1
+    },
+    {
+      "nome": "Ousmane Dembélé",
+      "assistencias": 1
+    },
+    {
+      "nome": "N'Golo Kanté",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

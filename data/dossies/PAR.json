@@ -1,0 +1,170 @@
+{
+  "fifa": "PAR",
+  "resumo": "Paraguai registrou 7V-4E-4D em 15 jogos desde 2023, com 1,4 gol pró e 1,0 sofrido por jogo e impressionantes 34,4% de posse — o time mais reativo do grupo analisado. A estrela é Julio Enciso, líder em participações (3 gols + 3 assistências), e todos os principais goleadores e garçons de 2023+ foram convocados para a Copa 2026. Curiosidade: são 17,2 desarmes por jogo, motor de um modelo todo construído sem a bola. Vulnerabilidade dupla: 40% dos gols sofridos (6 de 15) saem nos primeiros 15 minutos, e 12 dos 27 amarelos (44%) chegam nos minutos 76-90, com 2 expulsões na amostra.",
+  "fonte": "Agentes especialistas sobre dados reais (ESPN, 15 jogos 2023–2026)",
+  "geradoEm": "2026-06-10",
+  "blocks": [
+    {
+      "agente": "especialista-finalizacao",
+      "titulo": "Finalização",
+      "icone": "target",
+      "metricas": [
+        { "label": "Chutes/jogo", "valor": "10,0", "hint": "Abaixo da faixa de elite (12–14)" },
+        { "label": "Precisão", "valor": "36,0%", "hint": "3,6 ÷ 10,0" },
+        { "label": "Conversão", "valor": "14,0%", "hint": "21 gols ÷ 150 chutes — acima da média de Mundiais (~11%)" },
+        { "label": "Posse média", "valor": "34,4%" }
+      ],
+      "leitura": "Gerar 10 chutes/jogo com apenas um terço da posse é eficiência rara: cada posse recuperada vira ataque rápido com chute. O Paraguai não precisa da bola para finalizar — precisa que o adversário a tenha e a perca em zona perigosa.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-chute-ao-gol",
+      "titulo": "Chute ao gol",
+      "icone": "crosshair",
+      "metricas": [
+        { "label": "Chutes no gol/jogo", "valor": "3,6", "hint": "Elite gera 5–6 chutes no alvo/jogo" },
+        { "label": "Conversão no alvo", "valor": "38,9%", "hint": "21 ÷ 54" },
+        { "label": "Defesas do goleiro/jogo", "valor": "2,1", "hint": "Goleiro paraguaio pouco exigido — bloco filtra antes" }
+      ],
+      "leitura": "Só 2,1 defesas/jogo do goleiro próprio é o número que melhor define o Paraguai: o bloco baixo bloqueia e empurra os chutes para fora do alvo antes que virem trabalho. No ataque, conversão no alvo perto de 39% indica chances limpas geradas em transição.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-escanteio",
+      "titulo": "Escanteio",
+      "icone": "corner",
+      "metricas": [
+        { "label": "Escanteios/jogo", "valor": "3,9", "hint": "Baixo — coerente com posse de 34,4%" }
+      ],
+      "leitura": "Poucos escanteios a favor, mas com Gustavo Gómez, Alderete (2 gols na amostra) e Balbuena na área, cada um é uma chance real de gol. A bola parada é proporcionalmente uma das maiores armas ofensivas paraguaias.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-amarelo",
+      "titulo": "Cartão amarelo",
+      "icone": "card",
+      "metricas": [
+        { "label": "Amarelos/jogo", "valor": "1,8", "hint": "Próximo da média de Mundiais (≈2)" },
+        { "label": "Faltas por amarelo", "valor": "6,7", "hint": "12,1 ÷ 1,8 — faltas duras" },
+        { "label": "Janela crítica", "valor": "76–90", "hint": "12 de 27 amarelos (44%)" }
+      ],
+      "leitura": "Quase metade dos amarelos sai nos últimos 15 minutos: é o preço de defender resultado no desgaste, com faltas cada vez mais duras conforme as pernas pesam. Em mata-mata, suspensões por acúmulo são risco concreto para a espinha defensiva.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-cartao-vermelho",
+      "titulo": "Cartão vermelho",
+      "icone": "card-red",
+      "metricas": [
+        { "label": "Vermelhos/jogo", "valor": "0,13", "hint": "2 expulsões em 15 jogos — acima do tolerável" }
+      ],
+      "leitura": "Duas expulsões na amostra confirmam que o estilo físico paraguaio flerta com o limite. Uma expulsão num bloco que já cede 65,6% de posse transforma defesa organizada em sufoco — é a forma mais provável de o plano de jogo ruir.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-impedimento",
+      "titulo": "Impedimento",
+      "icone": "flag",
+      "metricas": [
+        { "label": "Impedimentos/jogo", "valor": "1,5", "hint": "Levemente abaixo da média de Mundiais (≈2)" }
+      ],
+      "leitura": "Impedimentos moderados para um time de transição longa: os atacantes atacam profundidade com frequência, mas partem de posições recuadas, o que reduz o risco de linha. Custo aceitável do modelo direto.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-desarme",
+      "titulo": "Desarme",
+      "icone": "tackle",
+      "metricas": [
+        { "label": "Desarmes/jogo", "valor": "17,2", "hint": "O maior volume entre as seleções analisadas" }
+      ],
+      "leitura": "17,2 desarmes/jogo é a assinatura tática do Paraguai: defende duelando, não apenas posicionado, com Cubas como trator no meio. Times que dependem de condução individual entre linhas vão encontrar contato constante e jogo quebrado.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-falta",
+      "titulo": "Falta",
+      "icone": "foul",
+      "metricas": [
+        { "label": "Faltas/jogo", "valor": "12,1", "hint": "Teto da faixa internacional (10–13)" },
+        { "label": "Faltas por amarelo", "valor": "6,7", "hint": "Punição frequente — intensidade no limite" }
+      ],
+      "leitura": "Volume alto de faltas com punição frequente: o Paraguai usa a falta como ferramenta de controle de transição. Contra cobradores de elite, conceder 12 faltas/jogo perto da área é roleta-russa de bola parada defensiva.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tiro-de-meta",
+      "titulo": "Tiro de meta",
+      "icone": "goalkick",
+      "metricas": [
+        { "label": "Tiros de meta/jogo", "valor": "—", "hint": "ESPN não fornece esta estatística" }
+      ],
+      "leitura": "A ESPN não disponibiliza dados de tiro de meta para seleções. Com 34,4% de posse e jogo direto, espera-se saída longa buscando Sanabria e os pivôs, mas é inferência de estilo, não dado observado.",
+      "confianca": "baixa"
+    },
+    {
+      "agente": "especialista-artilheiro",
+      "titulo": "Artilheiros",
+      "icone": "scorer",
+      "metricas": [
+        { "label": "Miguel Almirón", "valor": "3 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Matías Galarza", "valor": "3 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Julio Enciso", "valor": "3 gols", "hint": "Convocado p/ Copa 2026 (1 de pênalti)" },
+        { "label": "Diego Gómez", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Antonio Sanabria", "valor": "2 gols", "hint": "Convocado p/ Copa 2026" }
+      ],
+      "leitura": "Nenhum artilheiro passa de 14% dos 21 gols — dependência individual mínima e todos os goleadores relevantes de 2023+ estão na Copa. O lado ruim: não há um matador de 1,4 gol/jogo garantido; o gol paraguaio é coletivo e circunstancial, dependente do contexto de transição.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-assistencia",
+      "titulo": "Assistências",
+      "icone": "assist",
+      "metricas": [
+        { "label": "Juan Cáceres", "valor": "3 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Julio Enciso", "valor": "3 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Miguel Almirón", "valor": "2 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Diego Gómez", "valor": "2 assist.", "hint": "Convocado p/ Copa 2026" },
+        { "label": "Damián Bobadilla", "valor": "1 assist.", "hint": "Convocado p/ Copa 2026" }
+      ],
+      "leitura": "Enciso é o eixo criativo: somando gols e assistências, participa de 6 dos 21 gols (29%) — a maior dependência individual do time, e ele está na Copa. O lateral Cáceres como líder de assistências revela que a profundidade pelo lado direito é a rota de criação preferencial.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-tempo-com-mais-gols",
+      "titulo": "Tempo com mais gols",
+      "icone": "clock",
+      "metricas": [
+        { "label": "Janelas mais férteis", "valor": "46–60 e 61–75", "hint": "5 gols cada (48% do total somadas)" },
+        { "label": "Gols sofridos 0–15", "valor": "6 de 15", "hint": "40% dos gols contra na abertura do jogo" },
+        { "label": "Amarelos 76–90", "valor": "12 de 27", "hint": "44% dos cartões no fim" }
+      ],
+      "leitura": "O Paraguai entra mal: 40% dos gols sofridos saem antes dos 15 minutos, antes de o bloco se ajustar. Depois do intervalo o time vira outro — 10 dos 21 gols entre 46 e 75. Pressionar a saída paraguaia nos primeiros minutos é o melhor momento para furá-lo.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-tempo",
+      "titulo": "Média de gols por tempo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols no 1º tempo", "valor": "0,47/jogo", "hint": "7 ÷ 15" },
+        { "label": "Gols no 2º tempo", "valor": "0,93/jogo", "hint": "14 ÷ 15" },
+        { "label": "Distribuição", "valor": "33% × 67%", "hint": "1T × 2T — dois terços dos gols após o intervalo" }
+      ],
+      "leitura": "Dois terços da produção vêm no 2º tempo: o plano é sobreviver, ler o jogo no intervalo e castigar o adversário cansado. Estar empatando com o Paraguai aos 45 minutos não é segurança nenhuma — é exatamente o roteiro que o time deseja.",
+      "confianca": "alta"
+    },
+    {
+      "agente": "especialista-media-gol-por-jogo",
+      "titulo": "Média de gols por jogo",
+      "icone": "chart",
+      "metricas": [
+        { "label": "Gols pró/jogo", "valor": "1,4", "hint": "21 ÷ 15" },
+        { "label": "Gols contra/jogo", "valor": "1,0", "hint": "15 ÷ 15" },
+        { "label": "Saldo/jogo", "valor": "+0,4", "hint": "4 empates em 15 jogos — perfil de placar curto" }
+      ],
+      "leitura": "Média combinada de 2,4 gols/jogo e 4 empates na amostra desenham o clássico time de 1 a 0 e 1 a 1, forjado nas eliminatórias da CONMEBOL — a amostra mais dura entre as quatro seleções analisadas. Em formato de grupos, é o adversário perfeito para travar favoritos.",
+      "confianca": "alta"
+    }
+  ]
+}

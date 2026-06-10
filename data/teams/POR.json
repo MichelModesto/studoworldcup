@@ -1,0 +1,163 @@
+{
+  "fifa": "POR",
+  "team": "Portugal",
+  "nomePt": "Portugal",
+  "espnTeamId": 482,
+  "atualizadoEm": "2026-06-10T15:07:20.540Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 9,
+    "e": 4,
+    "d": 2,
+    "gp": 39,
+    "gc": 16
+  },
+  "porJogo": {
+    "chutes": 18,
+    "chutesNoGol": 6.5,
+    "escanteios": 6.4,
+    "faltas": 9.1,
+    "impedimentos": 2.7,
+    "amarelos": 1.7,
+    "vermelhos": 0.13,
+    "posse": 62.6,
+    "defesasGoleiro": 2.9,
+    "desarmes": 13.6,
+    "golsPro": 2.6,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 5,
+    "31-45": 7,
+    "46-60": 6,
+    "61-75": 8,
+    "76-90": 10
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 4,
+    "31-45": 3,
+    "46-60": 2,
+    "61-75": 1,
+    "76-90": 6
+  },
+  "golsPorTempo": {
+    "1T": 14,
+    "2T": 24
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 4,
+    "31-45": 4,
+    "46-60": 5,
+    "61-75": 2,
+    "76-90": 10
+  },
+  "artilheiros": [
+    {
+      "nome": "Cristiano Ronaldo",
+      "gols": 10,
+      "penaltis": 2
+    },
+    {
+      "nome": "Bruno Fernandes",
+      "gols": 5,
+      "penaltis": 2
+    },
+    {
+      "nome": "João Félix",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Francisco Trincão",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "João Neves",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gonçalo Ramos",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Francisco Conceição",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "João Cancelo",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gonçalo Guedes",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Renato Veiga",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Nuno Mendes",
+      "assistencias": 4
+    },
+    {
+      "nome": "Vitinha",
+      "assistencias": 3
+    },
+    {
+      "nome": "Bruno Fernandes",
+      "assistencias": 2
+    },
+    {
+      "nome": "Nélson Semedo",
+      "assistencias": 2
+    },
+    {
+      "nome": "João Cancelo",
+      "assistencias": 2
+    },
+    {
+      "nome": "Pedro Neto",
+      "assistencias": 2
+    },
+    {
+      "nome": "Rúben Neves",
+      "assistencias": 1
+    },
+    {
+      "nome": "Francisco Conceição",
+      "assistencias": 1
+    },
+    {
+      "nome": "Gonçalo Ramos",
+      "assistencias": 1
+    },
+    {
+      "nome": "João Félix",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

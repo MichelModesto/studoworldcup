@@ -1,0 +1,168 @@
+{
+  "fifa": "JOR",
+  "team": "Jordan",
+  "espnTeamId": 2917,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:39.896Z",
+  "jogadores": [
+    {
+      "nome": "Yazeed Abulaila",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 33
+    },
+    {
+      "nome": "Abdallah Al-Fakhouri",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 26
+    },
+    {
+      "nome": "Nour Bani Ateyah",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 33
+    },
+    {
+      "nome": "Ehsan Haddad",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 32
+    },
+    {
+      "nome": "Yazan Al-Arab",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 30
+    },
+    {
+      "nome": "Mohammad Abualnadi",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 25
+    },
+    {
+      "nome": "Saleem Obaid",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 34
+    },
+    {
+      "nome": "Abdallah Nasib",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 32
+    },
+    {
+      "nome": "Mohannad Abu Taha",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 23
+    },
+    {
+      "nome": "Mohammad Abu Hasheesh",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 31
+    },
+    {
+      "nome": "Husam Abu Dahab",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 26
+    },
+    {
+      "nome": "Saed Al-Rosan",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 29
+    },
+    {
+      "nome": "Mohammad Abughoush",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 20
+    },
+    {
+      "nome": "Anas Badawi",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 28
+    },
+    {
+      "nome": "Rajaei Ayed",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 32
+    },
+    {
+      "nome": "Noor Al-Rawabdeh",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 29
+    },
+    {
+      "nome": "Ibrahim Sadeh",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Mohammad Al-Daoud",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 34
+    },
+    {
+      "nome": "Nizar Al-Rashdan",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 27
+    },
+    {
+      "nome": "Amer Jamous",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 23
+    },
+    {
+      "nome": "Mahmoud Al-Mardi",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 32
+    },
+    {
+      "nome": "Mousa Al-Tamari",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 29
+    },
+    {
+      "nome": "Mohammed Abu Zraiq",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 28
+    },
+    {
+      "nome": "Ali Olwan",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 26
+    },
+    {
+      "nome": "Odeh Fakhoury",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 20
+    },
+    {
+      "nome": "Ali Azaizeh",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 22
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

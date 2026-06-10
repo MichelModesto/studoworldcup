@@ -1,0 +1,168 @@
+{
+  "fifa": "EGY",
+  "team": "Egypt",
+  "espnTeamId": 2620,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:26.881Z",
+  "jogadores": [
+    {
+      "nome": "Mohamed El Shenawy",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 37
+    },
+    {
+      "nome": "Mahdy Soliman",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 39
+    },
+    {
+      "nome": "Mostafa Shoubir",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 26
+    },
+    {
+      "nome": "Mohamed Alaa",
+      "posicao": "Goleiro",
+      "numero": 26,
+      "idade": 27
+    },
+    {
+      "nome": "Mohamed Hany",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 30
+    },
+    {
+      "nome": "Ramy Rabia",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 33
+    },
+    {
+      "nome": "Karim Hafez",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 30
+    },
+    {
+      "nome": "Mohamed Abdelmoneim",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 27
+    },
+    {
+      "nome": "Ahmed Fatouh",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 28
+    },
+    {
+      "nome": "Yasser Ibrahim",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 33
+    },
+    {
+      "nome": "Hossam Abdelmaguid",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 25
+    },
+    {
+      "nome": "Tarek Alaa",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 24
+    },
+    {
+      "nome": "Hamdy Fathy",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 31
+    },
+    {
+      "nome": "Nabil Donga",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 30
+    },
+    {
+      "nome": "Emam Ashour",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 28
+    },
+    {
+      "nome": "Mahmoud Saber",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 24
+    },
+    {
+      "nome": "Mohanad Lashin",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 30
+    },
+    {
+      "nome": "Marawan Attia",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 27
+    },
+    {
+      "nome": "Mostafa Zico",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 29
+    },
+    {
+      "nome": "Trézéguet",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 31
+    },
+    {
+      "nome": "Mohamed Salah",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 33
+    },
+    {
+      "nome": "Zizo",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 30
+    },
+    {
+      "nome": "Haissem Hassan",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 24
+    },
+    {
+      "nome": "Ibrahim Adel",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 25
+    },
+    {
+      "nome": "Omar Marmoush",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 27
+    },
+    {
+      "nome": "Hamza Abdelkarim",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 18
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

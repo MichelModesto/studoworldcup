@@ -1,0 +1,168 @@
+{
+  "fifa": "CZE",
+  "team": "Czech Republic",
+  "espnTeamId": 450,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:07.829Z",
+  "jogadores": [
+    {
+      "nome": "Jindrich Stanek",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 30
+    },
+    {
+      "nome": "Matej Kovár",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 26
+    },
+    {
+      "nome": "Lukás Hornícek",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 23
+    },
+    {
+      "nome": "Ladislav Krejcí",
+      "posicao": "Defensor",
+      "numero": 7,
+      "idade": 27
+    },
+    {
+      "nome": "Vladimír Coufal",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 33
+    },
+    {
+      "nome": "Jaroslav Zelený",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 33
+    },
+    {
+      "nome": "Tomás Holes",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 33
+    },
+    {
+      "nome": "David Zima",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 25
+    },
+    {
+      "nome": "Robin Hranác",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 26
+    },
+    {
+      "nome": "David Jurásek",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 25
+    },
+    {
+      "nome": "Stepán Chaloupek",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 23
+    },
+    {
+      "nome": "Vladimír Darida",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 35
+    },
+    {
+      "nome": "Tomás Soucek",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 31
+    },
+    {
+      "nome": "Michal Sadílek",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Lukás Provod",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 29
+    },
+    {
+      "nome": "Lukás Cerv",
+      "posicao": "Meio-campista",
+      "numero": 12,
+      "idade": 25
+    },
+    {
+      "nome": "Pavel Sulc",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 25
+    },
+    {
+      "nome": "Denis Visinský",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 23
+    },
+    {
+      "nome": "David Doudera",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 28
+    },
+    {
+      "nome": "Alexandr Sojka",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 23
+    },
+    {
+      "nome": "Hugo Sochurek",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 18
+    },
+    {
+      "nome": "Patrik Schick",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 30
+    },
+    {
+      "nome": "Tomás Chorý",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 31
+    },
+    {
+      "nome": "Adam Hlozek",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 23
+    },
+    {
+      "nome": "Jan Kuchta",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 29
+    },
+    {
+      "nome": "Mojmír Chytil",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 27
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

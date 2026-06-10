@@ -1,0 +1,168 @@
+{
+  "fifa": "TUN",
+  "team": "Tunisia",
+  "espnTeamId": 659,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:24.945Z",
+  "jogadores": [
+    {
+      "nome": "Sabri Ben Hessen",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 29
+    },
+    {
+      "nome": "Aymen Dahmen",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 29
+    },
+    {
+      "nome": "Mouhib Chamakh",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 24
+    },
+    {
+      "nome": "Dylan Bronn",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 30
+    },
+    {
+      "nome": "Yan Valery",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 27
+    },
+    {
+      "nome": "Montassar Talbi",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 28
+    },
+    {
+      "nome": "Ali Abdi",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 32
+    },
+    {
+      "nome": "Mohamed Amine Ben Hamida",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 30
+    },
+    {
+      "nome": "Omar Rekik",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 24
+    },
+    {
+      "nome": "Moutaz Neffati",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 21
+    },
+    {
+      "nome": "Adem Arous",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 21
+    },
+    {
+      "nome": "Raed Chikhaoui",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 22
+    },
+    {
+      "nome": "Rani Khedira",
+      "posicao": "Meio-campista",
+      "numero": 13,
+      "idade": 32
+    },
+    {
+      "nome": "Ellyes Skhiri",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 31
+    },
+    {
+      "nome": "Mortadha Ben Ouanes",
+      "posicao": "Meio-campista",
+      "numero": 12,
+      "idade": 31
+    },
+    {
+      "nome": "Mohamed Hadj Mahmoud",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Hannibal Mejbri",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 23
+    },
+    {
+      "nome": "Anis Slimane",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 25
+    },
+    {
+      "nome": "Elias Achouri",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 27
+    },
+    {
+      "nome": "Firas Chaouat",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 30
+    },
+    {
+      "nome": "Sebastian Tounekti",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 23
+    },
+    {
+      "nome": "Ismaël Gharbi",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 22
+    },
+    {
+      "nome": "Elias Saad",
+      "posicao": "Atacante",
+      "numero": 8,
+      "idade": 26
+    },
+    {
+      "nome": "Hazem Mastouri",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 28
+    },
+    {
+      "nome": "Khalil Ayari",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 21
+    },
+    {
+      "nome": "Rayan Elloumi",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 18
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

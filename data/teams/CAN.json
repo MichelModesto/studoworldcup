@@ -1,0 +1,150 @@
+{
+  "fifa": "CAN",
+  "team": "Canada",
+  "nomePt": "Canadá",
+  "espnTeamId": 206,
+  "atualizadoEm": "2026-06-10T14:39:20.122Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "Concacaf Gold Cup"
+  ],
+  "registro": {
+    "v": 7,
+    "e": 7,
+    "d": 1,
+    "gp": 22,
+    "gc": 6
+  },
+  "porJogo": {
+    "chutes": 12,
+    "chutesNoGol": 4.3,
+    "escanteios": 6.7,
+    "faltas": 13.1,
+    "impedimentos": 1.9,
+    "amarelos": 2.1,
+    "vermelhos": 0.27,
+    "posse": 50.8,
+    "defesasGoleiro": 1.5,
+    "desarmes": 19.5,
+    "golsPro": 1.5,
+    "golsContra": 0.4
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 4,
+    "31-45": 2,
+    "46-60": 4,
+    "61-75": 5,
+    "76-90": 4
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 2,
+    "31-45": 0,
+    "46-60": 1,
+    "61-75": 2,
+    "76-90": 1
+  },
+  "golsPorTempo": {
+    "1T": 8,
+    "2T": 13
+  },
+  "amarelosPorJanela": {
+    "0-15": 2,
+    "16-30": 3,
+    "31-45": 8,
+    "46-60": 7,
+    "61-75": 3,
+    "76-90": 9
+  },
+  "artilheiros": [
+    {
+      "nome": "Jonathan David",
+      "gols": 5,
+      "penaltis": 3
+    },
+    {
+      "nome": "Tajon Buchanan",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Promise David",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Niko Sigur",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nathan Saliba",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jonathan Osorio",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jayden Nelson",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jacen Russell-Rowe",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ismaël Koné",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Derek Cornelius",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Tani Oluwaseyi",
+      "assistencias": 4
+    },
+    {
+      "nome": "Niko Sigur",
+      "assistencias": 2
+    },
+    {
+      "nome": "Ali Ahmed",
+      "assistencias": 2
+    },
+    {
+      "nome": "Malik Henry",
+      "assistencias": 1
+    },
+    {
+      "nome": "Mathieu Choinière",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jonathan David",
+      "assistencias": 1
+    },
+    {
+      "nome": "Richie Laryea",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

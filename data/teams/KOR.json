@@ -1,0 +1,150 @@
+{
+  "fifa": "KOR",
+  "team": "South Korea",
+  "nomePt": "Coreia do Sul",
+  "espnTeamId": 451,
+  "atualizadoEm": "2026-06-10T15:14:03.710Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - AFC"
+  ],
+  "registro": {
+    "v": 8,
+    "e": 4,
+    "d": 3,
+    "gp": 24,
+    "gc": 15
+  },
+  "porJogo": {
+    "chutes": 11.9,
+    "chutesNoGol": 4.5,
+    "escanteios": 6.5,
+    "faltas": 12,
+    "impedimentos": 0.7,
+    "amarelos": 1.2,
+    "vermelhos": 0,
+    "posse": 60.4,
+    "defesasGoleiro": 1.9,
+    "desarmes": 9.6,
+    "golsPro": 1.6,
+    "golsContra": 1
+  },
+  "golsPorJanela": {
+    "0-15": 2,
+    "16-30": 3,
+    "31-45": 4,
+    "46-60": 4,
+    "61-75": 8,
+    "76-90": 3
+  },
+  "golsContraPorJanela": {
+    "0-15": 2,
+    "16-30": 2,
+    "31-45": 3,
+    "46-60": 3,
+    "61-75": 1,
+    "76-90": 4
+  },
+  "golsPorTempo": {
+    "1T": 9,
+    "2T": 15
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 4,
+    "31-45": 4,
+    "46-60": 2,
+    "61-75": 2,
+    "76-90": 6
+  },
+  "artilheiros": [
+    {
+      "nome": "Son Heung-Min",
+      "gols": 6,
+      "penaltis": 1
+    },
+    {
+      "nome": "Oh Hyeon-Gyu",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Cho Gue-Sung",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lee Dong-Gyeong",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Hwang Hee-Chan",
+      "gols": 2,
+      "penaltis": 1
+    },
+    {
+      "nome": "Lee Jae-Sung",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lee Tae-Seok",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Eom Ji-Sung",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lee Kang-In",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Kim Jin-Gyu",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Lee Kang-In",
+      "assistencias": 3
+    },
+    {
+      "nome": "Kim Moon-Hwan",
+      "assistencias": 1
+    },
+    {
+      "nome": "Lee Dong-Gyeong",
+      "assistencias": 1
+    },
+    {
+      "nome": "Seol Young-Woo",
+      "assistencias": 1
+    },
+    {
+      "nome": "Oh Hyeon-Gyu",
+      "assistencias": 1
+    },
+    {
+      "nome": "Lee Jae-Sung",
+      "assistencias": 1
+    },
+    {
+      "nome": "Son Heung-Min",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

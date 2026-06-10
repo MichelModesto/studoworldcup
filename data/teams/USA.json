@@ -1,0 +1,162 @@
+{
+  "fifa": "USA",
+  "team": "USA",
+  "nomePt": "Estados Unidos",
+  "espnTeamId": 660,
+  "atualizadoEm": "2026-06-10T14:45:06.315Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "Concacaf Gold Cup"
+  ],
+  "registro": {
+    "v": 8,
+    "e": 2,
+    "d": 5,
+    "gp": 26,
+    "gc": 23
+  },
+  "porJogo": {
+    "chutes": 12.8,
+    "chutesNoGol": 5.1,
+    "escanteios": 5,
+    "faltas": 11.9,
+    "impedimentos": 1.9,
+    "amarelos": 1.6,
+    "vermelhos": 0,
+    "posse": 54.6,
+    "defesasGoleiro": 2.8,
+    "desarmes": 15.5,
+    "golsPro": 1.7,
+    "golsContra": 1.5
+  },
+  "golsPorJanela": {
+    "0-15": 6,
+    "16-30": 4,
+    "31-45": 6,
+    "46-60": 2,
+    "61-75": 7,
+    "76-90": 1
+  },
+  "golsContraPorJanela": {
+    "0-15": 3,
+    "16-30": 5,
+    "31-45": 5,
+    "46-60": 5,
+    "61-75": 2,
+    "76-90": 3
+  },
+  "golsPorTempo": {
+    "1T": 16,
+    "2T": 10
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 4,
+    "31-45": 5,
+    "46-60": 3,
+    "61-75": 4,
+    "76-90": 7
+  },
+  "artilheiros": [
+    {
+      "nome": "Folarin Balogun",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Diego Luna",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Patrick Agyemang",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Alex Freeman",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Haji Wright",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Chris Richards",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Antonee Robinson",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Sergiño Dest",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Christian Pulisic",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Weston McKennie",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Sebastian Berhalter",
+      "assistencias": 3
+    },
+    {
+      "nome": "Max Arfsten",
+      "assistencias": 3
+    },
+    {
+      "nome": "Malik Tillman",
+      "assistencias": 3
+    },
+    {
+      "nome": "Christian Pulisic",
+      "assistencias": 2
+    },
+    {
+      "nome": "Ricardo Pepi",
+      "assistencias": 2
+    },
+    {
+      "nome": "Cristian Roldan",
+      "assistencias": 2
+    },
+    {
+      "nome": "Antonee Robinson",
+      "assistencias": 1
+    },
+    {
+      "nome": "Sergiño Dest",
+      "assistencias": 1
+    },
+    {
+      "nome": "Auston Trusty",
+      "assistencias": 1
+    },
+    {
+      "nome": "Giovanni Reyna",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

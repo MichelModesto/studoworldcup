@@ -1,0 +1,168 @@
+{
+  "fifa": "BEL",
+  "team": "Belgium",
+  "espnTeamId": 459,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:25.843Z",
+  "jogadores": [
+    {
+      "nome": "Thibaut Courtois",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 34
+    },
+    {
+      "nome": "Senne Lammens",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 23
+    },
+    {
+      "nome": "Mike Penders",
+      "posicao": "Goleiro",
+      "numero": 13,
+      "idade": 20
+    },
+    {
+      "nome": "Thomas Meunier",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 34
+    },
+    {
+      "nome": "Brandon Mechele",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 33
+    },
+    {
+      "nome": "Timothy Castagne",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 30
+    },
+    {
+      "nome": "Maxim De Cuyper",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 25
+    },
+    {
+      "nome": "Arthur Theate",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 26
+    },
+    {
+      "nome": "Koni De Winter",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 23
+    },
+    {
+      "nome": "Zeno Debast",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 22
+    },
+    {
+      "nome": "Nathan Ngoy",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 23
+    },
+    {
+      "nome": "Joaquin Seys",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 21
+    },
+    {
+      "nome": "Kevin De Bruyne",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 34
+    },
+    {
+      "nome": "Axel Witsel",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 37
+    },
+    {
+      "nome": "Youri Tielemans",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 29
+    },
+    {
+      "nome": "Hans Vanaken",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 33
+    },
+    {
+      "nome": "Nicolas Raskin",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 25
+    },
+    {
+      "nome": "Amadou Onana",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 24
+    },
+    {
+      "nome": "Romelu Lukaku",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 33
+    },
+    {
+      "nome": "Leandro Trossard",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 31
+    },
+    {
+      "nome": "Dodi Lukébakio",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 28
+    },
+    {
+      "nome": "Alexis Saelemaekers",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 26
+    },
+    {
+      "nome": "Jérémy Doku",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 24
+    },
+    {
+      "nome": "Charles De Ketelaere",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 25
+    },
+    {
+      "nome": "Diego Moreira",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 21
+    },
+    {
+      "nome": "Matias Fernandez-Pardo",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

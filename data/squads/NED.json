@@ -1,0 +1,167 @@
+{
+  "fifa": "NED",
+  "team": "Netherlands",
+  "espnTeamId": 449,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:22.524Z",
+  "jogadores": [
+    {
+      "nome": "Mark Flekken",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 32
+    },
+    {
+      "nome": "Bart Verbruggen",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 23
+    },
+    {
+      "nome": "Robin Roefs",
+      "posicao": "Goleiro",
+      "numero": 13,
+      "idade": 23
+    },
+    {
+      "nome": "Virgil van Dijk",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 34
+    },
+    {
+      "nome": "Nathan Aké",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 31
+    },
+    {
+      "nome": "Denzel Dumfries",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 30
+    },
+    {
+      "nome": "Lutsharel Geertruida",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 25
+    },
+    {
+      "nome": "Jan Paul van Hecke",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 26
+    },
+    {
+      "nome": "Micky van de Ven",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 25
+    },
+    {
+      "nome": "Jorrel Hato",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 20
+    },
+    {
+      "nome": "Marten de Roon",
+      "posicao": "Meio-campista",
+      "numero": 3,
+      "idade": 35
+    },
+    {
+      "nome": "Frenkie de Jong",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 29
+    },
+    {
+      "nome": "Guus Til",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 28
+    },
+    {
+      "nome": "Teun Koopmeiners",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 28
+    },
+    {
+      "nome": "Tijjani Reijnders",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 27
+    },
+    {
+      "nome": "Ryan Gravenberch",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 24
+    },
+    {
+      "nome": "Mats Wieffer",
+      "posicao": "Meio-campista",
+      "numero": 12,
+      "idade": 26
+    },
+    {
+      "nome": "Quinten Timber",
+      "posicao": "Meio-campista",
+      "idade": 24
+    },
+    {
+      "nome": "Memphis Depay",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 32
+    },
+    {
+      "nome": "Wout Weghorst",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 33
+    },
+    {
+      "nome": "Justin Kluivert",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 27
+    },
+    {
+      "nome": "Cody Gakpo",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 27
+    },
+    {
+      "nome": "Noa Lang",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 26
+    },
+    {
+      "nome": "Donyell Malen",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Brian Brobbey",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 24
+    },
+    {
+      "nome": "Crysencio Summerville",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

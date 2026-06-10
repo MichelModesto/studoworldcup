@@ -1,0 +1,168 @@
+{
+  "fifa": "MAR",
+  "team": "Morocco",
+  "espnTeamId": 2869,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:13.171Z",
+  "jogadores": [
+    {
+      "nome": "Yassine Bounou",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 35
+    },
+    {
+      "nome": "Ahmed Reda Tagnaouti",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 30
+    },
+    {
+      "nome": "Munir El Kajoui",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 37
+    },
+    {
+      "nome": "Issa Diop",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 29
+    },
+    {
+      "nome": "Noussair Mazraoui",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 28
+    },
+    {
+      "nome": "Achraf Hakimi",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 27
+    },
+    {
+      "nome": "Nayef Aguerd",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 30
+    },
+    {
+      "nome": "Anass Salah-Eddine",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 24
+    },
+    {
+      "nome": "Chadi Riad",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 22
+    },
+    {
+      "nome": "Zakaria El Ouahdi",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 24
+    },
+    {
+      "nome": "Redouane Halhal",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 23
+    },
+    {
+      "nome": "Youssef Belammari",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 27
+    },
+    {
+      "nome": "Sofyan Amrabat",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Brahim Díaz",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 26
+    },
+    {
+      "nome": "Azzedine Ounahi",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 26
+    },
+    {
+      "nome": "Ismael Saibari",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 25
+    },
+    {
+      "nome": "Neil El Aynaoui",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 24
+    },
+    {
+      "nome": "Bilal El Khannouss",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 22
+    },
+    {
+      "nome": "Ayyoub Bouaddi",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 18
+    },
+    {
+      "nome": "Samir El Mourabet",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 20
+    },
+    {
+      "nome": "Ayoub El Kaabi",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 32
+    },
+    {
+      "nome": "Soufiane Rahimi",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 30
+    },
+    {
+      "nome": "Abde Ezzalzouli",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 24
+    },
+    {
+      "nome": "Chemsdine Talbi",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 21
+    },
+    {
+      "nome": "Gessime Yassine",
+      "posicao": "Atacante",
+      "numero": 16,
+      "idade": 20
+    },
+    {
+      "nome": "Ayoube Amaimouni",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "fifa": "SWE",
+  "team": "Sweden",
+  "nomePt": "Suécia",
+  "espnTeamId": 466,
+  "atualizadoEm": "2026-06-10T14:51:29.797Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 6,
+    "e": 3,
+    "d": 6,
+    "gp": 30,
+    "gc": 25
+  },
+  "porJogo": {
+    "chutes": 12.5,
+    "chutesNoGol": 4.8,
+    "escanteios": 5.3,
+    "faltas": 13.3,
+    "impedimentos": 1.9,
+    "amarelos": 1.7,
+    "vermelhos": 0,
+    "posse": 52.9,
+    "defesasGoleiro": 3.4,
+    "desarmes": 13.1,
+    "golsPro": 2,
+    "golsContra": 1.7
+  },
+  "golsPorJanela": {
+    "0-15": 4,
+    "16-30": 3,
+    "31-45": 5,
+    "46-60": 8,
+    "61-75": 6,
+    "76-90": 4
+  },
+  "golsContraPorJanela": {
+    "0-15": 3,
+    "16-30": 3,
+    "31-45": 4,
+    "46-60": 3,
+    "61-75": 5,
+    "76-90": 7
+  },
+  "golsPorTempo": {
+    "1T": 12,
+    "2T": 18
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 2,
+    "31-45": 4,
+    "46-60": 4,
+    "61-75": 5,
+    "76-90": 10
+  },
+  "artilheiros": [
+    {
+      "nome": "Viktor Gyökeres",
+      "gols": 9,
+      "penaltis": 1
+    },
+    {
+      "nome": "Ken Sema",
+      "gols": 4,
+      "penaltis": 1
+    },
+    {
+      "nome": "Anthony Elanga",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Benjamin Nygren",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Alexander Isak",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Yasin Ayari",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Dejan Kulusevski",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gustaf Nilsson",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gustaf Lagerbielke",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gustav Lundgren",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Yasin Ayari",
+      "assistencias": 2
+    },
+    {
+      "nome": "Benjamin Nygren",
+      "assistencias": 2
+    },
+    {
+      "nome": "Sebastian Nanasi",
+      "assistencias": 2
+    },
+    {
+      "nome": "Taha Ali",
+      "assistencias": 1
+    },
+    {
+      "nome": "Mattias Svanberg",
+      "assistencias": 1
+    },
+    {
+      "nome": "Kristoffer Nordfeldt",
+      "assistencias": 1
+    },
+    {
+      "nome": "Gustaf Lagerbielke",
+      "assistencias": 1
+    },
+    {
+      "nome": "Viktor Gyökeres",
+      "assistencias": 1
+    },
+    {
+      "nome": "Jordan Larsson",
+      "assistencias": 1
+    },
+    {
+      "nome": "Alexander Bernhardsson",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

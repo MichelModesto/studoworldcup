@@ -1,0 +1,168 @@
+{
+  "fifa": "RSA",
+  "team": "South Africa",
+  "espnTeamId": 467,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:05.897Z",
+  "jogadores": [
+    {
+      "nome": "Ricardo Goss",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 32
+    },
+    {
+      "nome": "Ronwen Williams",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 34
+    },
+    {
+      "nome": "Sipho Chaine",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 29
+    },
+    {
+      "nome": "Aubrey Modiba",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 30
+    },
+    {
+      "nome": "Nkosinathi Sibisi",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 30
+    },
+    {
+      "nome": "Khuliso Mudau",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 31
+    },
+    {
+      "nome": "Bradley Cross",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 25
+    },
+    {
+      "nome": "Olwethu Makhanya",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 22
+    },
+    {
+      "nome": "Ime Okon",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 22
+    },
+    {
+      "nome": "Thabang Matuludi",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 27
+    },
+    {
+      "nome": "Samukele Kabini",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 22
+    },
+    {
+      "nome": "Khulumani Ndamane",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 22
+    },
+    {
+      "nome": "Mbekezeli Mbokazi",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 20
+    },
+    {
+      "nome": "Themba Zwane",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 36
+    },
+    {
+      "nome": "Sphephelo Sithole",
+      "posicao": "Meio-campista",
+      "numero": 13,
+      "idade": 27
+    },
+    {
+      "nome": "Teboho Mokoena",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Thalente Mbatha",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 26
+    },
+    {
+      "nome": "Jayden Adams",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 25
+    },
+    {
+      "nome": "Kamogelo Sebelebele",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 23
+    },
+    {
+      "nome": "Lyle Foster",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 25
+    },
+    {
+      "nome": "Oswin Appollis",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 24
+    },
+    {
+      "nome": "Iqraam Rayners",
+      "posicao": "Atacante",
+      "numero": 15,
+      "idade": 30
+    },
+    {
+      "nome": "Evidence Makgopa",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 26
+    },
+    {
+      "nome": "Tshepang Moremi",
+      "posicao": "Atacante",
+      "numero": 8,
+      "idade": 25
+    },
+    {
+      "nome": "Thapelo Maseko",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 22
+    },
+    {
+      "nome": "Relebohile Mofokeng",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

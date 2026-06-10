@@ -1,0 +1,163 @@
+{
+  "fifa": "GER",
+  "team": "Germany",
+  "nomePt": "Alemanha",
+  "espnTeamId": 481,
+  "atualizadoEm": "2026-06-10T14:47:24.931Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 10,
+    "e": 2,
+    "d": 3,
+    "gp": 35,
+    "gc": 17
+  },
+  "porJogo": {
+    "chutes": 17,
+    "chutesNoGol": 6.3,
+    "escanteios": 6.5,
+    "faltas": 12.1,
+    "impedimentos": 1.5,
+    "amarelos": 1.7,
+    "vermelhos": 0,
+    "posse": 64.7,
+    "defesasGoleiro": 2.3,
+    "desarmes": 14.3,
+    "golsPro": 2.3,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 3,
+    "16-30": 5,
+    "31-45": 8,
+    "46-60": 8,
+    "61-75": 6,
+    "76-90": 5
+  },
+  "golsContraPorJanela": {
+    "0-15": 1,
+    "16-30": 1,
+    "31-45": 5,
+    "46-60": 2,
+    "61-75": 4,
+    "76-90": 4
+  },
+  "golsPorTempo": {
+    "1T": 16,
+    "2T": 19
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 2,
+    "46-60": 3,
+    "61-75": 8,
+    "76-90": 9
+  },
+  "artilheiros": [
+    {
+      "nome": "Florian Wirtz",
+      "gols": 5,
+      "penaltis": 0
+    },
+    {
+      "nome": "Serge Gnabry",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nick Woltemade",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Leroy Sané",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Deniz Undav",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Joshua Kimmich",
+      "gols": 3,
+      "penaltis": 2
+    },
+    {
+      "nome": "Kai Havertz",
+      "gols": 2,
+      "penaltis": 1
+    },
+    {
+      "nome": "Jamal Musiala",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Tim Kleindienst",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Jonathan Tah",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Joshua Kimmich",
+      "assistencias": 8
+    },
+    {
+      "nome": "Florian Wirtz",
+      "assistencias": 4
+    },
+    {
+      "nome": "Leroy Sané",
+      "assistencias": 3
+    },
+    {
+      "nome": "Serge Gnabry",
+      "assistencias": 2
+    },
+    {
+      "nome": "David Raum",
+      "assistencias": 2
+    },
+    {
+      "nome": "Kai Havertz",
+      "assistencias": 1
+    },
+    {
+      "nome": "Deniz Undav",
+      "assistencias": 1
+    },
+    {
+      "nome": "Lennart Karl",
+      "assistencias": 1
+    },
+    {
+      "nome": "Aleksandar Pavlovic",
+      "assistencias": 1
+    },
+    {
+      "nome": "Pascal Gross",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "CIV",
+  "team": "Ivory Coast",
+  "espnTeamId": 4789,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:21.406Z",
+  "jogadores": [
+    {
+      "nome": "Alban Lafont",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 27
+    },
+    {
+      "nome": "Yahia Fofana",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 25
+    },
+    {
+      "nome": "Mohamed Koné",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 24
+    },
+    {
+      "nome": "Evan Ndicka",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 26
+    },
+    {
+      "nome": "Christopher Operi",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 29
+    },
+    {
+      "nome": "Ghislain Konan",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 30
+    },
+    {
+      "nome": "Odilon Kossounou",
+      "posicao": "Defensor",
+      "numero": 7,
+      "idade": 25
+    },
+    {
+      "nome": "Wilfried Singo",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 25
+    },
+    {
+      "nome": "Emmanuel Agbadou",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 28
+    },
+    {
+      "nome": "Ousmane Diomande",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 22
+    },
+    {
+      "nome": "Guela Doué",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 23
+    },
+    {
+      "nome": "Seko Fofana",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 31
+    },
+    {
+      "nome": "Jean Michaël Seri",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 34
+    },
+    {
+      "nome": "Franck Kessié",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 29
+    },
+    {
+      "nome": "Ibrahim Sangaré",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 28
+    },
+    {
+      "nome": "Parfait Guiagon",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 25
+    },
+    {
+      "nome": "Christ Inao Oulaï",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 20
+    },
+    {
+      "nome": "Nicolas Pépé",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 31
+    },
+    {
+      "nome": "Evann Guessand",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 24
+    },
+    {
+      "nome": "Amad Diallo",
+      "posicao": "Atacante",
+      "numero": 15,
+      "idade": 23
+    },
+    {
+      "nome": "Ange-Yoan Bonny",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 22
+    },
+    {
+      "nome": "Elye Wahi",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 23
+    },
+    {
+      "nome": "Simon Adingra",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 24
+    },
+    {
+      "nome": "Oumar Diakité",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 22
+    },
+    {
+      "nome": "Bazoumana Touré",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 20
+    },
+    {
+      "nome": "Yan Diomande",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 19
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

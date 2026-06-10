@@ -1,0 +1,162 @@
+{
+  "fifa": "ARG",
+  "team": "Argentina",
+  "nomePt": "Argentina",
+  "espnTeamId": 202,
+  "atualizadoEm": "2026-06-10T15:04:26.198Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - CONMEBOL"
+  ],
+  "registro": {
+    "v": 12,
+    "e": 1,
+    "d": 2,
+    "gp": 33,
+    "gc": 6
+  },
+  "porJogo": {
+    "chutes": 12.8,
+    "chutesNoGol": 5.3,
+    "escanteios": 4.4,
+    "faltas": 11.9,
+    "impedimentos": 2.2,
+    "amarelos": 1.5,
+    "vermelhos": 0.2,
+    "posse": 66.3,
+    "defesasGoleiro": 1.5,
+    "desarmes": 14.5,
+    "golsPro": 2.2,
+    "golsContra": 0.4
+  },
+  "golsPorJanela": {
+    "0-15": 6,
+    "16-30": 3,
+    "31-45": 8,
+    "46-60": 3,
+    "61-75": 3,
+    "76-90": 8
+  },
+  "golsContraPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 1,
+    "46-60": 1,
+    "61-75": 2,
+    "76-90": 1
+  },
+  "golsPorTempo": {
+    "1T": 17,
+    "2T": 14
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 0,
+    "31-45": 5,
+    "46-60": 2,
+    "61-75": 9,
+    "76-90": 6
+  },
+  "artilheiros": [
+    {
+      "nome": "Lautaro Martínez",
+      "gols": 7,
+      "penaltis": 1
+    },
+    {
+      "nome": "Lionel Messi",
+      "gols": 5,
+      "penaltis": 1
+    },
+    {
+      "nome": "Thiago Almada",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Julián Álvarez",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Alexis Mac Allister",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Valentín Barco",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Giuliano Simeone",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Enzo Fernández",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nicolás Otamendi",
+      "gols": 1,
+      "penaltis": 1
+    },
+    {
+      "nome": "Nico Paz",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Nico González",
+      "assistencias": 4
+    },
+    {
+      "nome": "Lionel Messi",
+      "assistencias": 4
+    },
+    {
+      "nome": "Lautaro Martínez",
+      "assistencias": 3
+    },
+    {
+      "nome": "Thiago Almada",
+      "assistencias": 3
+    },
+    {
+      "nome": "Julián Álvarez",
+      "assistencias": 2
+    },
+    {
+      "nome": "Enzo Fernández",
+      "assistencias": 2
+    },
+    {
+      "nome": "Rodrigo De Paul",
+      "assistencias": 1
+    },
+    {
+      "nome": "Alexis Mac Allister",
+      "assistencias": 1
+    },
+    {
+      "nome": "Nahuel Molina",
+      "assistencias": 1
+    },
+    {
+      "nome": "José Manuel López",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

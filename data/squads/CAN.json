@@ -1,0 +1,168 @@
+{
+  "fifa": "CAN",
+  "team": "Canada",
+  "espnTeamId": 206,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:08.765Z",
+  "jogadores": [
+    {
+      "nome": "Maxime Crépeau",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 32
+    },
+    {
+      "nome": "Dayne St. Clair",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 29
+    },
+    {
+      "nome": "Owen Goodman",
+      "posicao": "Goleiro",
+      "numero": 18,
+      "idade": 22
+    },
+    {
+      "nome": "Richie Laryea",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 31
+    },
+    {
+      "nome": "Alphonso Davies",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 25
+    },
+    {
+      "nome": "Joel Waterman",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 30
+    },
+    {
+      "nome": "Derek Cornelius",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 28
+    },
+    {
+      "nome": "Alfie Jones",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 28
+    },
+    {
+      "nome": "Alistair Johnston",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 27
+    },
+    {
+      "nome": "Moïse Bombito",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Luc de Fougerolles",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 20
+    },
+    {
+      "nome": "Jonathan Osorio",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 33
+    },
+    {
+      "nome": "Stephen Eustáquio",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 29
+    },
+    {
+      "nome": "Mathieu Choinière",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 27
+    },
+    {
+      "nome": "Nathan Saliba",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 22
+    },
+    {
+      "nome": "Ismaël Koné",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 23
+    },
+    {
+      "nome": "Ali Ahmed",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 25
+    },
+    {
+      "nome": "Niko Sigur",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 22
+    },
+    {
+      "nome": "Cyle Larin",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 31
+    },
+    {
+      "nome": "Liam Millar",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 26
+    },
+    {
+      "nome": "Jonathan David",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 26
+    },
+    {
+      "nome": "Jayden Nelson",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 23
+    },
+    {
+      "nome": "Tajon Buchanan",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 27
+    },
+    {
+      "nome": "Jacob Shaffelburg",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 26
+    },
+    {
+      "nome": "Tani Oluwaseyi",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 26
+    },
+    {
+      "nome": "Promise David",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

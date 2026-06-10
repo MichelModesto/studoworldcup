@@ -1,0 +1,168 @@
+{
+  "fifa": "SEN",
+  "team": "Senegal",
+  "espnTeamId": 654,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:34.556Z",
+  "jogadores": [
+    {
+      "nome": "Mory Diaw",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 32
+    },
+    {
+      "nome": "Édouard Mendy",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 34
+    },
+    {
+      "nome": "Yehvann Diouf",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 26
+    },
+    {
+      "nome": "Kalidou Koulibaly",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 34
+    },
+    {
+      "nome": "Moussa Niakhaté",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 30
+    },
+    {
+      "nome": "Abdoulaye Seck",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 34
+    },
+    {
+      "nome": "Ismail Jakobs",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 26
+    },
+    {
+      "nome": "Antoine Mendy",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 22
+    },
+    {
+      "nome": "Mamadou Sarr",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 20
+    },
+    {
+      "nome": "El Hadji Malick Diouf",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 21
+    },
+    {
+      "nome": "Lamine Camara",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 22
+    },
+    {
+      "nome": "Idrissa Gueye",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 36
+    },
+    {
+      "nome": "Krépin Diatta",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 27
+    },
+    {
+      "nome": "Pape Gueye",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 27
+    },
+    {
+      "nome": "Pathé Ciss",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 32
+    },
+    {
+      "nome": "Pape Matar Sarr",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 23
+    },
+    {
+      "nome": "Habib Diarra",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 22
+    },
+    {
+      "nome": "Bara Sapoko Ndiaye",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 18
+    },
+    {
+      "nome": "Sadio Mané",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 34
+    },
+    {
+      "nome": "Ismaïla Sarr",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 28
+    },
+    {
+      "nome": "Cherif Ndiaye",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 30
+    },
+    {
+      "nome": "Iliman Ndiaye",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 26
+    },
+    {
+      "nome": "Nicolas Jackson",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 24
+    },
+    {
+      "nome": "Bamba Dieng",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 26
+    },
+    {
+      "nome": "Assane Diao",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 20
+    },
+    {
+      "nome": "Ibrahim Mbaye",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 18
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

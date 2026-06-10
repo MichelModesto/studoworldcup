@@ -1,0 +1,168 @@
+{
+  "fifa": "SCO",
+  "team": "Scotland",
+  "espnTeamId": 580,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:15.301Z",
+  "jogadores": [
+    {
+      "nome": "Liam Kelly",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 30
+    },
+    {
+      "nome": "Craig Gordon",
+      "posicao": "Goleiro",
+      "numero": 21,
+      "idade": 43
+    },
+    {
+      "nome": "Angus Gunn",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 30
+    },
+    {
+      "nome": "Andy Robertson",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 32
+    },
+    {
+      "nome": "Grant Hanley",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 34
+    },
+    {
+      "nome": "John Souttar",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 29
+    },
+    {
+      "nome": "Scott McKenna",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 29
+    },
+    {
+      "nome": "Jack Hendry",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 31
+    },
+    {
+      "nome": "Kieran Tierney",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Anthony Ralston",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 27
+    },
+    {
+      "nome": "Dominic Hyam",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 30
+    },
+    {
+      "nome": "Nathan Patterson",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 24
+    },
+    {
+      "nome": "Aaron Hickey",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 24
+    },
+    {
+      "nome": "Ryan Christie",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 31
+    },
+    {
+      "nome": "Kenny McLean",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 34
+    },
+    {
+      "nome": "John McGinn",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 31
+    },
+    {
+      "nome": "Lewis Ferguson",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 26
+    },
+    {
+      "nome": "Scott McTominay",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Tyler Fletcher",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 19
+    },
+    {
+      "nome": "Lawrence Shankland",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 30
+    },
+    {
+      "nome": "Lyndon Dykes",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 30
+    },
+    {
+      "nome": "Ché Adams",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 29
+    },
+    {
+      "nome": "George Hirst",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Ross Stewart",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 29
+    },
+    {
+      "nome": "Ben Gannon-Doak",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 20
+    },
+    {
+      "nome": "Findlay Curtis",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 19
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

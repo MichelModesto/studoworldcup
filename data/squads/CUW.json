@@ -1,0 +1,168 @@
+{
+  "fifa": "CUW",
+  "team": "Curaçao",
+  "espnTeamId": 11678,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:20.489Z",
+  "jogadores": [
+    {
+      "nome": "Eloy Room",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 37
+    },
+    {
+      "nome": "Trevor Doornbusch",
+      "posicao": "Goleiro",
+      "numero": 26,
+      "idade": 26
+    },
+    {
+      "nome": "Tyrick Bodak",
+      "posicao": "Goleiro",
+      "numero": 25,
+      "idade": 24
+    },
+    {
+      "nome": "Joshua Brenet",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 32
+    },
+    {
+      "nome": "Riechedly Bazoer",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 29
+    },
+    {
+      "nome": "Sherel Floranus",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Armando Obispo",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Juriën Gaari",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 32
+    },
+    {
+      "nome": "Roshon van Eijma",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 28
+    },
+    {
+      "nome": "Shurandy Sambo",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 24
+    },
+    {
+      "nome": "Livano Comenencia",
+      "posicao": "Defensor",
+      "numero": 8,
+      "idade": 22
+    },
+    {
+      "nome": "Deveron Fonville",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 23
+    },
+    {
+      "nome": "Leandro Bacuna",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 34
+    },
+    {
+      "nome": "Juninho Bacuna",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 28
+    },
+    {
+      "nome": "Kevin Felida",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 26
+    },
+    {
+      "nome": "Godfried Roemeratoe",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 26
+    },
+    {
+      "nome": "Tahith Chong",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 26
+    },
+    {
+      "nome": "Ar'jany Martha",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 22
+    },
+    {
+      "nome": "Tyrese Noslin",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 23
+    },
+    {
+      "nome": "Jürgen Locadia",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 32
+    },
+    {
+      "nome": "Brandley Kuwas",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 33
+    },
+    {
+      "nome": "Gervane Kastaneer",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 30
+    },
+    {
+      "nome": "Kenji Gorré",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 31
+    },
+    {
+      "nome": "Sontje Hansen",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 24
+    },
+    {
+      "nome": "Jearl Margaritha",
+      "posicao": "Atacante",
+      "numero": 16,
+      "idade": 26
+    },
+    {
+      "nome": "Jeremy Antonisse",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "JPN",
+  "team": "Japan",
+  "espnTeamId": 627,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:23.103Z",
+  "jogadores": [
+    {
+      "nome": "Keisuke Osako",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 26
+    },
+    {
+      "nome": "Zion Suzuki",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 23
+    },
+    {
+      "nome": "Tomoki Hayakawa",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 27
+    },
+    {
+      "nome": "Hiroki Ito",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 27
+    },
+    {
+      "nome": "Yuto Nagatomo",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 39
+    },
+    {
+      "nome": "Shogo Taniguchi",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 34
+    },
+    {
+      "nome": "Takehiro Tomiyasu",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 27
+    },
+    {
+      "nome": "Kou Itakura",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Ayumu Seko",
+      "posicao": "Defensor",
+      "numero": 20,
+      "idade": 26
+    },
+    {
+      "nome": "Yukinari Sugawara",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 25
+    },
+    {
+      "nome": "Tsuyoshi Watanabe",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 29
+    },
+    {
+      "nome": "Junnosuke Suzuki",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 22
+    },
+    {
+      "nome": "Wataru Endo",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 33
+    },
+    {
+      "nome": "Daichi Kamada",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 29
+    },
+    {
+      "nome": "Ritsu Doan",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Ao Tanaka",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 27
+    },
+    {
+      "nome": "Yuito Suzuki",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 24
+    },
+    {
+      "nome": "Kaishu Sano",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 25
+    },
+    {
+      "nome": "Junya Ito",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 33
+    },
+    {
+      "nome": "Koki Ogawa",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 28
+    },
+    {
+      "nome": "Takefusa Kubo",
+      "posicao": "Atacante",
+      "numero": 8,
+      "idade": 25
+    },
+    {
+      "nome": "Keito Nakamura",
+      "posicao": "Atacante",
+      "numero": 13,
+      "idade": 25
+    },
+    {
+      "nome": "Ayase Ueda",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Daizen Maeda",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 28
+    },
+    {
+      "nome": "Keisuke Goto",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 21
+    },
+    {
+      "nome": "Kento Shiogai",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 21
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

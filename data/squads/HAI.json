@@ -1,0 +1,168 @@
+{
+  "fifa": "HAI",
+  "team": "Haiti",
+  "espnTeamId": 2654,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:14.118Z",
+  "jogadores": [
+    {
+      "nome": "Johny Placide",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 38
+    },
+    {
+      "nome": "Josué Duverger",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 26
+    },
+    {
+      "nome": "Alexandre Pierre",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 25
+    },
+    {
+      "nome": "Ricardo Adé",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 36
+    },
+    {
+      "nome": "Carlens Arcus",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 29
+    },
+    {
+      "nome": "Markhus Lacroix",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 32
+    },
+    {
+      "nome": "Jean-Kévin Duverne",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 28
+    },
+    {
+      "nome": "Hannes Delcroix",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Martin Expérience",
+      "posicao": "Defensor",
+      "numero": 8,
+      "idade": 27
+    },
+    {
+      "nome": "Wilguens Paugain",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 24
+    },
+    {
+      "nome": "Keeto Thermoncy",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 20
+    },
+    {
+      "nome": "Jean-Ricner Bellegarde",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Leverton Pierre",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 28
+    },
+    {
+      "nome": "Carl Sainté",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 23
+    },
+    {
+      "nome": "Danley Jean Jacques",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 26
+    },
+    {
+      "nome": "Dominique Simon",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 25
+    },
+    {
+      "nome": "Woodensky Pierre",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 21
+    },
+    {
+      "nome": "Duckens Nazon",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 32
+    },
+    {
+      "nome": "Derrick Etienne Jr.",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 29
+    },
+    {
+      "nome": "Frantzdy Pierrot",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 31
+    },
+    {
+      "nome": "Wilson Isidor",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 25
+    },
+    {
+      "nome": "Yassin Fortuné",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 27
+    },
+    {
+      "nome": "Louicius Deedson",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 25
+    },
+    {
+      "nome": "Lenny Joseph",
+      "posicao": "Atacante",
+      "numero": 16,
+      "idade": 25
+    },
+    {
+      "nome": "Josué Casimir",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 24
+    },
+    {
+      "nome": "Ruben Providence",
+      "posicao": "Atacante",
+      "numero": 15,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

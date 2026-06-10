@@ -1,0 +1,163 @@
+{
+  "fifa": "NED",
+  "team": "Netherlands",
+  "nomePt": "Holanda",
+  "espnTeamId": 449,
+  "atualizadoEm": "2026-06-10T14:50:10.028Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 8,
+    "e": 6,
+    "d": 1,
+    "gp": 38,
+    "gc": 14
+  },
+  "porJogo": {
+    "chutes": 15,
+    "chutesNoGol": 5.5,
+    "escanteios": 5.3,
+    "faltas": 10.5,
+    "impedimentos": 1.8,
+    "amarelos": 0.7,
+    "vermelhos": 0.2,
+    "posse": 58.4,
+    "defesasGoleiro": 2.1,
+    "desarmes": 11.1,
+    "golsPro": 2.5,
+    "golsContra": 0.9
+  },
+  "golsPorJanela": {
+    "0-15": 5,
+    "16-30": 8,
+    "31-45": 4,
+    "46-60": 8,
+    "61-75": 4,
+    "76-90": 8
+  },
+  "golsContraPorJanela": {
+    "0-15": 3,
+    "16-30": 2,
+    "31-45": 3,
+    "46-60": 0,
+    "61-75": 2,
+    "76-90": 5
+  },
+  "golsPorTempo": {
+    "1T": 17,
+    "2T": 20
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 1,
+    "31-45": 1,
+    "46-60": 1,
+    "61-75": 5,
+    "76-90": 2
+  },
+  "artilheiros": [
+    {
+      "nome": "Memphis Depay",
+      "gols": 9,
+      "penaltis": 3
+    },
+    {
+      "nome": "Cody Gakpo",
+      "gols": 7,
+      "penaltis": 5
+    },
+    {
+      "nome": "Tijjani Reijnders",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Donyell Malen",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Virgil van Dijk",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Xavi Simons",
+      "gols": 3,
+      "penaltis": 1
+    },
+    {
+      "nome": "Denzel Dumfries",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Quinten Timber",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Noa Lang",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Micky van de Ven",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Denzel Dumfries",
+      "assistencias": 4
+    },
+    {
+      "nome": "Cody Gakpo",
+      "assistencias": 4
+    },
+    {
+      "nome": "Memphis Depay",
+      "assistencias": 4
+    },
+    {
+      "nome": "Frenkie de Jong",
+      "assistencias": 3
+    },
+    {
+      "nome": "Xavi Simons",
+      "assistencias": 2
+    },
+    {
+      "nome": "Teun Koopmeiners",
+      "assistencias": 1
+    },
+    {
+      "nome": "Tijjani Reijnders",
+      "assistencias": 1
+    },
+    {
+      "nome": "Micky van de Ven",
+      "assistencias": 1
+    },
+    {
+      "nome": "Donyell Malen",
+      "assistencias": 1
+    },
+    {
+      "nome": "Justin Kluivert",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

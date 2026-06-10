@@ -1,0 +1,168 @@
+{
+  "fifa": "NZL",
+  "team": "New Zealand",
+  "espnTeamId": 2666,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:28.330Z",
+  "jogadores": [
+    {
+      "nome": "Max Crocombe",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 32
+    },
+    {
+      "nome": "Michael Woud",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 27
+    },
+    {
+      "nome": "Alex Paulsen",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 23
+    },
+    {
+      "nome": "Michael Boxall",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 37
+    },
+    {
+      "nome": "Tommy Smith",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 36
+    },
+    {
+      "nome": "Tim Payne",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 32
+    },
+    {
+      "nome": "Francis de Vries",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 31
+    },
+    {
+      "nome": "Liberato Cacace",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 25
+    },
+    {
+      "nome": "Callan Elliot",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 26
+    },
+    {
+      "nome": "Nando Pijnaker",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 27
+    },
+    {
+      "nome": "Finn Surman",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 22
+    },
+    {
+      "nome": "Tyler Bindon",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 21
+    },
+    {
+      "nome": "Ryan Thomas",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 31
+    },
+    {
+      "nome": "Alex Rufer",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 29
+    },
+    {
+      "nome": "Callum McCowatt",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 27
+    },
+    {
+      "nome": "Sarpreet Singh",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 27
+    },
+    {
+      "nome": "Joe Bell",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 27
+    },
+    {
+      "nome": "Marko Stamenic",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 24
+    },
+    {
+      "nome": "Matthew Garbett",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 24
+    },
+    {
+      "nome": "Lachlan Bayliss",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 23
+    },
+    {
+      "nome": "Chris Wood",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 34
+    },
+    {
+      "nome": "Kosta Barbarouses",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 36
+    },
+    {
+      "nome": "Elijah Just",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 26
+    },
+    {
+      "nome": "Ben Waine",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 24
+    },
+    {
+      "nome": "Jesse Randall",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 23
+    },
+    {
+      "nome": "Ben Old",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 23
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "AUS",
+  "team": "Australia",
+  "espnTeamId": 628,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:18.117Z",
+  "jogadores": [
+    {
+      "nome": "Mathew Ryan",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 34
+    },
+    {
+      "nome": "Paul Izzo",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 31
+    },
+    {
+      "nome": "Patrick Beach",
+      "posicao": "Goleiro",
+      "numero": 18,
+      "idade": 22
+    },
+    {
+      "nome": "Milos Degenek",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 32
+    },
+    {
+      "nome": "Jason Geria",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 33
+    },
+    {
+      "nome": "Aziz Behich",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 35
+    },
+    {
+      "nome": "Cameron Burgess",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 30
+    },
+    {
+      "nome": "Harry Souttar",
+      "posicao": "Defensor",
+      "numero": 19,
+      "idade": 27
+    },
+    {
+      "nome": "Jacob Italiano",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 24
+    },
+    {
+      "nome": "Kai Trewin",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 25
+    },
+    {
+      "nome": "Jordan Bos",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 23
+    },
+    {
+      "nome": "Alessandro Circati",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 22
+    },
+    {
+      "nome": "Lucas Herrington",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 18
+    },
+    {
+      "nome": "Jackson Irvine",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 33
+    },
+    {
+      "nome": "Awer Mabil",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 30
+    },
+    {
+      "nome": "Ajdin Hrustic",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 29
+    },
+    {
+      "nome": "Aiden O'Neill",
+      "posicao": "Meio-campista",
+      "numero": 13,
+      "idade": 27
+    },
+    {
+      "nome": "Connor Metcalfe",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 26
+    },
+    {
+      "nome": "Cameron Devlin",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 28
+    },
+    {
+      "nome": "Cristian Volpato",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 22
+    },
+    {
+      "nome": "Paul Okon-Engstler",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 21
+    },
+    {
+      "nome": "Mathew Leckie",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 35
+    },
+    {
+      "nome": "Mohamed Toure",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 22
+    },
+    {
+      "nome": "Tete Yengi",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 25
+    },
+    {
+      "nome": "Nishan Velupillay",
+      "posicao": "Atacante",
+      "numero": 23,
+      "idade": 25
+    },
+    {
+      "nome": "Nestory Irankunda",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 20
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

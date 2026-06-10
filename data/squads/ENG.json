@@ -1,0 +1,168 @@
+{
+  "fifa": "ENG",
+  "team": "England",
+  "espnTeamId": 448,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:44.464Z",
+  "jogadores": [
+    {
+      "nome": "Jordan Pickford",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 32
+    },
+    {
+      "nome": "Dean Henderson",
+      "posicao": "Goleiro",
+      "numero": 13,
+      "idade": 29
+    },
+    {
+      "nome": "James Trafford",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 23
+    },
+    {
+      "nome": "John Stones",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 32
+    },
+    {
+      "nome": "Reece James",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 26
+    },
+    {
+      "nome": "Dan Burn",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 34
+    },
+    {
+      "nome": "Ezri Konsa",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 28
+    },
+    {
+      "nome": "Marc Guéhi",
+      "posicao": "Defensor",
+      "numero": 6,
+      "idade": 25
+    },
+    {
+      "nome": "Djed Spence",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 25
+    },
+    {
+      "nome": "Jarell Quansah",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 23
+    },
+    {
+      "nome": "Tino Livramento",
+      "posicao": "Defensor",
+      "numero": 12,
+      "idade": 23
+    },
+    {
+      "nome": "Nico O'Reilly",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 21
+    },
+    {
+      "nome": "Jordan Henderson",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 35
+    },
+    {
+      "nome": "Declan Rice",
+      "posicao": "Meio-campista",
+      "numero": 4,
+      "idade": 27
+    },
+    {
+      "nome": "Elliot Anderson",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 23
+    },
+    {
+      "nome": "Eberechi Eze",
+      "posicao": "Meio-campista",
+      "numero": 21,
+      "idade": 27
+    },
+    {
+      "nome": "Morgan Rogers",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 23
+    },
+    {
+      "nome": "Jude Bellingham",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 22
+    },
+    {
+      "nome": "Kobbie Mainoo",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 21
+    },
+    {
+      "nome": "Harry Kane",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 32
+    },
+    {
+      "nome": "Ivan Toney",
+      "posicao": "Atacante",
+      "numero": 22,
+      "idade": 30
+    },
+    {
+      "nome": "Ollie Watkins",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 30
+    },
+    {
+      "nome": "Marcus Rashford",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 28
+    },
+    {
+      "nome": "Anthony Gordon",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 25
+    },
+    {
+      "nome": "Bukayo Saka",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 24
+    },
+    {
+      "nome": "Noni Madueke",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

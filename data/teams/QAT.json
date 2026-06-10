@@ -1,0 +1,138 @@
+{
+  "fifa": "QAT",
+  "team": "Qatar",
+  "nomePt": "Catar",
+  "espnTeamId": 4398,
+  "atualizadoEm": "2026-06-10T14:40:01.720Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - AFC"
+  ],
+  "registro": {
+    "v": 4,
+    "e": 3,
+    "d": 8,
+    "gp": 17,
+    "gc": 29
+  },
+  "porJogo": {
+    "chutes": 7.9,
+    "chutesNoGol": 2.8,
+    "escanteios": 3.4,
+    "faltas": 10.7,
+    "impedimentos": 1.1,
+    "amarelos": 1.4,
+    "vermelhos": 0.2,
+    "posse": 54.9,
+    "defesasGoleiro": 2.7,
+    "desarmes": 5.7,
+    "golsPro": 1.1,
+    "golsContra": 1.9
+  },
+  "golsPorJanela": {
+    "0-15": 1,
+    "16-30": 5,
+    "31-45": 2,
+    "46-60": 3,
+    "61-75": 3,
+    "76-90": 3
+  },
+  "golsContraPorJanela": {
+    "0-15": 3,
+    "16-30": 2,
+    "31-45": 8,
+    "46-60": 2,
+    "61-75": 7,
+    "76-90": 7
+  },
+  "golsPorTempo": {
+    "1T": 8,
+    "2T": 9
+  },
+  "amarelosPorJanela": {
+    "0-15": 0,
+    "16-30": 2,
+    "31-45": 7,
+    "46-60": 1,
+    "61-75": 6,
+    "76-90": 5
+  },
+  "artilheiros": [
+    {
+      "nome": "Almoez Ali",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Pedro Miguel",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Akram Afif",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ahmed Alaaeldin",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lucas Mendes",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohamed Khaled Ahmed Gamal Al Deen Gouda",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Boualem Khoukhi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Mohammed Muntari",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ahmed Al-Ganehi",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ahmed Husham Ali Alrawi",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Jassem Gaber",
+      "assistencias": 1
+    },
+    {
+      "nome": "Mohamed Manai",
+      "assistencias": 1
+    },
+    {
+      "nome": "Homam Ahmed",
+      "assistencias": 1
+    },
+    {
+      "nome": "Abdulaziz Hatem",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

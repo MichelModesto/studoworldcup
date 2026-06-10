@@ -1,0 +1,168 @@
+{
+  "fifa": "PAN",
+  "team": "Panama",
+  "espnTeamId": 2659,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:46.974Z",
+  "jogadores": [
+    {
+      "nome": "Luis Mejía",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 35
+    },
+    {
+      "nome": "Orlando Mosquera",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 31
+    },
+    {
+      "nome": "César Samudio",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 32
+    },
+    {
+      "nome": "Roderick Miller",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 34
+    },
+    {
+      "nome": "Éric Davis",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 35
+    },
+    {
+      "nome": "Andrés Andrade",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 27
+    },
+    {
+      "nome": "Fidel Escobar",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 31
+    },
+    {
+      "nome": "Amir Murillo",
+      "posicao": "Defensor",
+      "numero": 23,
+      "idade": 30
+    },
+    {
+      "nome": "César Blackman",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 28
+    },
+    {
+      "nome": "Jorge Gutiérrez",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 27
+    },
+    {
+      "nome": "José Córdoba",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 25
+    },
+    {
+      "nome": "Jiovany Ramos",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 29
+    },
+    {
+      "nome": "Edgardo Fariña",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 24
+    },
+    {
+      "nome": "Aníbal Godoy",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 36
+    },
+    {
+      "nome": "Cristian Martínez",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Édgar Yoel Bárcenas",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 32
+    },
+    {
+      "nome": "Adalberto Carrasquilla",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 27
+    },
+    {
+      "nome": "José Luis Rodríguez",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 27
+    },
+    {
+      "nome": "Carlos Harvey",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 26
+    },
+    {
+      "nome": "Alberto Quintero",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 38
+    },
+    {
+      "nome": "Cecilio Waterman",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 35
+    },
+    {
+      "nome": "Ismael Díaz",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 29
+    },
+    {
+      "nome": "José Fajardo",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 32
+    },
+    {
+      "nome": "Tomás Rodríguez",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 27
+    },
+    {
+      "nome": "César Yanis",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 30
+    },
+    {
+      "nome": "Azarias Londoño",
+      "posicao": "Atacante",
+      "numero": 24,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

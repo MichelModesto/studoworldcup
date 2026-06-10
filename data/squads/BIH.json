@@ -1,0 +1,168 @@
+{
+  "fifa": "BIH",
+  "team": "Bosnia & Herzegovina",
+  "espnTeamId": 452,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:09.751Z",
+  "jogadores": [
+    {
+      "nome": "Nikola Vasilj",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 30
+    },
+    {
+      "nome": "Martin Zlomislic",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 27
+    },
+    {
+      "nome": "Mladen Jurkas",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 18
+    },
+    {
+      "nome": "Sead Kolasinac",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 32
+    },
+    {
+      "nome": "Nikola Katic",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 29
+    },
+    {
+      "nome": "Dennis Hadzikadunic",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 27
+    },
+    {
+      "nome": "Nihad Mujakic",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 28
+    },
+    {
+      "nome": "Stjepan Radeljic",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 28
+    },
+    {
+      "nome": "Amar Dedic",
+      "posicao": "Defensor",
+      "numero": 7,
+      "idade": 23
+    },
+    {
+      "nome": "Tarik Muharemovic",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 23
+    },
+    {
+      "nome": "Nidal Celik",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 19
+    },
+    {
+      "nome": "Ivan Sunjic",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 29
+    },
+    {
+      "nome": "Amir Hadziahmetovic",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 29
+    },
+    {
+      "nome": "Dzenis Burnic",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 28
+    },
+    {
+      "nome": "Armin Gigovic",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 24
+    },
+    {
+      "nome": "Ivan Basic",
+      "posicao": "Meio-campista",
+      "numero": 13,
+      "idade": 24
+    },
+    {
+      "nome": "Amar Memic",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 25
+    },
+    {
+      "nome": "Benjamin Tahirovic",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 23
+    },
+    {
+      "nome": "Ermin Mahmic",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 21
+    },
+    {
+      "nome": "Edin Dzeko",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 40
+    },
+    {
+      "nome": "Haris Tabakovic",
+      "posicao": "Atacante",
+      "numero": 23,
+      "idade": 31
+    },
+    {
+      "nome": "Ermedin Demirovic",
+      "posicao": "Atacante",
+      "numero": 10,
+      "idade": 28
+    },
+    {
+      "nome": "Jovo Lukic",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 27
+    },
+    {
+      "nome": "Samed Bazdar",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 22
+    },
+    {
+      "nome": "Esmir Bajraktarevic",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 21
+    },
+    {
+      "nome": "Kerim Alajbegovic",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 18
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

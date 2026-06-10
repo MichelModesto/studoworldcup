@@ -1,0 +1,168 @@
+{
+  "fifa": "CPV",
+  "team": "Cape Verde",
+  "espnTeamId": 2597,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:30.417Z",
+  "jogadores": [
+    {
+      "nome": "Vozinha",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 40
+    },
+    {
+      "nome": "Márcio Rosa",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 29
+    },
+    {
+      "nome": "CJ dos Santos",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 25
+    },
+    {
+      "nome": "Stopira",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 38
+    },
+    {
+      "nome": "Steven Moreira",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 31
+    },
+    {
+      "nome": "Diney Borges",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 31
+    },
+    {
+      "nome": "Pico Lopes",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 33
+    },
+    {
+      "nome": "Logan Costa",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 25
+    },
+    {
+      "nome": "Sidny Lopes Cabral",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 23
+    },
+    {
+      "nome": "Wagner Pina",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 23
+    },
+    {
+      "nome": "Kelvin Pires",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 26
+    },
+    {
+      "nome": "Yannick Semedo",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 30
+    },
+    {
+      "nome": "Laros Duarte",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 29
+    },
+    {
+      "nome": "Jamiro Monteiro",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 32
+    },
+    {
+      "nome": "Deroy Duarte",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 26
+    },
+    {
+      "nome": "Telmo Arcanjo",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 24
+    },
+    {
+      "nome": "João Paulo",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 28
+    },
+    {
+      "nome": "Kevin Pina",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Ryan Mendes",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 36
+    },
+    {
+      "nome": "Garry Rodrigues",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 35
+    },
+    {
+      "nome": "Nuno da Costa",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 35
+    },
+    {
+      "nome": "Jovane Cabral",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 27
+    },
+    {
+      "nome": "Willy Semedo",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 32
+    },
+    {
+      "nome": "Gilson Benchimol",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 24
+    },
+    {
+      "nome": "Dailon Livramento",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 25
+    },
+    {
+      "nome": "Hélio Varela",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "fifa": "BRA",
+  "team": "Brazil",
+  "nomePt": "Brasil",
+  "espnTeamId": 205,
+  "atualizadoEm": "2026-06-10T14:41:30.934Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - CONMEBOL"
+  ],
+  "registro": {
+    "v": 8,
+    "e": 3,
+    "d": 4,
+    "gp": 30,
+    "gc": 17
+  },
+  "porJogo": {
+    "chutes": 13,
+    "chutesNoGol": 4.9,
+    "escanteios": 4,
+    "faltas": 11.7,
+    "impedimentos": 0.8,
+    "amarelos": 1.7,
+    "vermelhos": 0,
+    "posse": 51.7,
+    "defesasGoleiro": 2.3,
+    "desarmes": 15.9,
+    "golsPro": 2,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 5,
+    "16-30": 3,
+    "31-45": 9,
+    "46-60": 5,
+    "61-75": 3,
+    "76-90": 7
+  },
+  "golsContraPorJanela": {
+    "0-15": 3,
+    "16-30": 1,
+    "31-45": 4,
+    "46-60": 2,
+    "61-75": 4,
+    "76-90": 2
+  },
+  "golsPorTempo": {
+    "1T": 17,
+    "2T": 15
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 5,
+    "31-45": 6,
+    "46-60": 0,
+    "61-75": 4,
+    "76-90": 10
+  },
+  "artilheiros": [
+    {
+      "nome": "Estêvão",
+      "gols": 5,
+      "penaltis": 1
+    },
+    {
+      "nome": "Vinícius Júnior",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Casemiro",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Bruno Guimarães",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lucas Paquetá",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Igor Thiago",
+      "gols": 2,
+      "penaltis": 2
+    },
+    {
+      "nome": "Danilo Santos",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Gabriel Martinelli",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Rodrygo",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Endrick",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Vinícius Júnior",
+      "assistencias": 4
+    },
+    {
+      "nome": "Raphinha",
+      "assistencias": 2
+    },
+    {
+      "nome": "Casemiro",
+      "assistencias": 2
+    },
+    {
+      "nome": "Lucas Paquetá",
+      "assistencias": 2
+    },
+    {
+      "nome": "Luiz Henrique",
+      "assistencias": 2
+    },
+    {
+      "nome": "Bruno Guimarães",
+      "assistencias": 2
+    },
+    {
+      "nome": "Matheus Cunha",
+      "assistencias": 2
+    },
+    {
+      "nome": "Igor Thiago",
+      "assistencias": 1
+    },
+    {
+      "nome": "Douglas Santos",
+      "assistencias": 1
+    },
+    {
+      "nome": "Endrick",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

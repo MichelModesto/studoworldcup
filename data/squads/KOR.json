@@ -1,0 +1,168 @@
+{
+  "fifa": "KOR",
+  "team": "South Korea",
+  "espnTeamId": 451,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:06.802Z",
+  "jogadores": [
+    {
+      "nome": "Kim Seung-Gyu",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 35
+    },
+    {
+      "nome": "Jo Hyeon-Woo",
+      "posicao": "Goleiro",
+      "numero": 21,
+      "idade": 34
+    },
+    {
+      "nome": "Song Bum-Keun",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 28
+    },
+    {
+      "nome": "Kim Min-Jae",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Kim Moon-Hwan",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 30
+    },
+    {
+      "nome": "Kim Tae-Hyeon",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 25
+    },
+    {
+      "nome": "Lee Tae-Seok",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 23
+    },
+    {
+      "nome": "Lee Han-Beom",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 23
+    },
+    {
+      "nome": "Seol Young-Woo",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 27
+    },
+    {
+      "nome": "Lee Gi-Hyuk",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 25
+    },
+    {
+      "nome": "Cho Wi-Je",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 24
+    },
+    {
+      "nome": "Kim Jin-Gyu",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 29
+    },
+    {
+      "nome": "Lee Jae-Sung",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 33
+    },
+    {
+      "nome": "Paik Seung-Ho",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 29
+    },
+    {
+      "nome": "Lee Dong-Gyeong",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 28
+    },
+    {
+      "nome": "Lee Kang-In",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 25
+    },
+    {
+      "nome": "Hwang In-Beom",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Jens Castrop",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 22
+    },
+    {
+      "nome": "Park Jin-Seop",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 30
+    },
+    {
+      "nome": "Bae Jun-Ho",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 22
+    },
+    {
+      "nome": "Son Heung-Min",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 33
+    },
+    {
+      "nome": "Hwang Hee-Chan",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 30
+    },
+    {
+      "nome": "Eom Ji-Sung",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 24
+    },
+    {
+      "nome": "Oh Hyeon-Gyu",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 25
+    },
+    {
+      "nome": "Cho Gue-Sung",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 28
+    },
+    {
+      "nome": "Yang Hyun-Jun",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 24
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

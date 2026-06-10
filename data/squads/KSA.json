@@ -1,0 +1,168 @@
+{
+  "fifa": "KSA",
+  "team": "Saudi Arabia",
+  "espnTeamId": 655,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:31.424Z",
+  "jogadores": [
+    {
+      "nome": "Ahmed Al-Kassar",
+      "posicao": "Goleiro",
+      "numero": 22,
+      "idade": 35
+    },
+    {
+      "nome": "Mohammed Al-Owais",
+      "posicao": "Goleiro",
+      "numero": 21,
+      "idade": 34
+    },
+    {
+      "nome": "Nawaf Al-Aqidi",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 26
+    },
+    {
+      "nome": "Hassan Kadish",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 33
+    },
+    {
+      "nome": "Hassan Al-Tambakti",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Abdulelah Al-Amri",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Saud Abdulhamid",
+      "posicao": "Defensor",
+      "numero": 12,
+      "idade": 26
+    },
+    {
+      "nome": "Ali Lajami",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 30
+    },
+    {
+      "nome": "Moteb Al-Harbi",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 26
+    },
+    {
+      "nome": "Nawaf Boushal",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 26
+    },
+    {
+      "nome": "Ali Majrashi",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 26
+    },
+    {
+      "nome": "Jehad Thakri",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 24
+    },
+    {
+      "nome": "Salem Al-Dawsari",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 34
+    },
+    {
+      "nome": "Mohamed Kanno",
+      "posicao": "Meio-campista",
+      "numero": 23,
+      "idade": 31
+    },
+    {
+      "nome": "Nasser Al-Dawsari",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 27
+    },
+    {
+      "nome": "Abdullah Al-Khaibari",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 29
+    },
+    {
+      "nome": "Aiman Yahya",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 25
+    },
+    {
+      "nome": "Ziyad Al-Johani",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 24
+    },
+    {
+      "nome": "Musab Al-Juwayr",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 22
+    },
+    {
+      "nome": "Ala Al-Hajji",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 30
+    },
+    {
+      "nome": "Mohammed Abu Al-Shamat",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 23
+    },
+    {
+      "nome": "Saleh Al-Shehri",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 32
+    },
+    {
+      "nome": "Feras Al-Brikan",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 26
+    },
+    {
+      "nome": "Sultan Mandash",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 31
+    },
+    {
+      "nome": "Khalid Al-Ghannam",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 25
+    },
+    {
+      "nome": "Abdullah Al-Hamdan",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 26
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

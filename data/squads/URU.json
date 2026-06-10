@@ -1,0 +1,168 @@
+{
+  "fifa": "URU",
+  "team": "Uruguay",
+  "espnTeamId": 212,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:32.474Z",
+  "jogadores": [
+    {
+      "nome": "Fernando Muslera",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 39
+    },
+    {
+      "nome": "Sergio Rochet",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 33
+    },
+    {
+      "nome": "Santiago Mele",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 28
+    },
+    {
+      "nome": "Guillermo Varela",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 33
+    },
+    {
+      "nome": "José María Giménez",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 31
+    },
+    {
+      "nome": "Mathías Olivera",
+      "posicao": "Defensor",
+      "numero": 16,
+      "idade": 28
+    },
+    {
+      "nome": "Santiago Bueno",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 27
+    },
+    {
+      "nome": "Joaquín Piquerez",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 27
+    },
+    {
+      "nome": "Matías Viña",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 28
+    },
+    {
+      "nome": "Ronald Araújo",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 27
+    },
+    {
+      "nome": "Sebastián Cáceres",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 26
+    },
+    {
+      "nome": "Emiliano Martínez",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 26
+    },
+    {
+      "nome": "Giorgian de Arrascaeta",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 32
+    },
+    {
+      "nome": "Rodrigo Bentancur",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 28
+    },
+    {
+      "nome": "Federico Valverde",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 27
+    },
+    {
+      "nome": "Manuel Ugarte",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 25
+    },
+    {
+      "nome": "Nicolás de la Cruz",
+      "posicao": "Meio-campista",
+      "numero": 7,
+      "idade": 29
+    },
+    {
+      "nome": "Maxi Araújo",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 26
+    },
+    {
+      "nome": "Rodrigo Zalazar",
+      "posicao": "Meio-campista",
+      "numero": 26,
+      "idade": 26
+    },
+    {
+      "nome": "Juan Manuel Sanabria",
+      "posicao": "Meio-campista",
+      "numero": 25,
+      "idade": 26
+    },
+    {
+      "nome": "Facundo Pellistri",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 24
+    },
+    {
+      "nome": "Brian Rodríguez",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 26
+    },
+    {
+      "nome": "Rodrigo Aguirre",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 31
+    },
+    {
+      "nome": "Agustín Canobbio",
+      "posicao": "Atacante",
+      "numero": 14,
+      "idade": 27
+    },
+    {
+      "nome": "Darwin Núñez",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 26
+    },
+    {
+      "nome": "Federico Viñas",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 27
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "ALG",
+  "team": "Algeria",
+  "espnTeamId": 624,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:38.441Z",
+  "jogadores": [
+    {
+      "nome": "Luca Zidane",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 28
+    },
+    {
+      "nome": "Oussama Benbot",
+      "posicao": "Goleiro",
+      "numero": 16,
+      "idade": 31
+    },
+    {
+      "nome": "Melvin Mastil",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 26
+    },
+    {
+      "nome": "Aïssa Mandi",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 34
+    },
+    {
+      "nome": "Ramy Bensebaini",
+      "posicao": "Defensor",
+      "numero": 21,
+      "idade": 31
+    },
+    {
+      "nome": "Rayan Aït-Nouri",
+      "posicao": "Defensor",
+      "numero": 15,
+      "idade": 25
+    },
+    {
+      "nome": "Mohamed Amine Tougai",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 26
+    },
+    {
+      "nome": "Zineddine Belaïd",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 27
+    },
+    {
+      "nome": "Samir Chergui",
+      "posicao": "Defensor",
+      "numero": 26,
+      "idade": 27
+    },
+    {
+      "nome": "Jaouen Hadjam",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 23
+    },
+    {
+      "nome": "Rafik Belghali",
+      "posicao": "Defensor",
+      "numero": 17,
+      "idade": 24
+    },
+    {
+      "nome": "Achraf Abada",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 26
+    },
+    {
+      "nome": "Nabil Bentaleb",
+      "posicao": "Meio-campista",
+      "numero": 19,
+      "idade": 31
+    },
+    {
+      "nome": "Houssem Aouar",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 27
+    },
+    {
+      "nome": "Hicham Boudaoui",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 26
+    },
+    {
+      "nome": "Ramiz Zerrouki",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 28
+    },
+    {
+      "nome": "Farès Chaïbi",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 23
+    },
+    {
+      "nome": "Yassine Titraoui",
+      "posicao": "Meio-campista",
+      "numero": 24,
+      "idade": 22
+    },
+    {
+      "nome": "Ibrahim Maza",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 20
+    },
+    {
+      "nome": "Riyad Mahrez",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 35
+    },
+    {
+      "nome": "Amine Gouiri",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 26
+    },
+    {
+      "nome": "Mohamed Amoura",
+      "posicao": "Atacante",
+      "numero": 18,
+      "idade": 26
+    },
+    {
+      "nome": "Adil Boulbina",
+      "posicao": "Atacante",
+      "numero": 20,
+      "idade": 23
+    },
+    {
+      "nome": "Anis Hadj Moussa",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 24
+    },
+    {
+      "nome": "Nadhir Benbouali",
+      "posicao": "Atacante",
+      "numero": 12,
+      "idade": 26
+    },
+    {
+      "nome": "Farès Ghedjemis",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 23
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

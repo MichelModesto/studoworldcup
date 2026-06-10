@@ -1,0 +1,168 @@
+{
+  "fifa": "SUI",
+  "team": "Switzerland",
+  "espnTeamId": 475,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:11.597Z",
+  "jogadores": [
+    {
+      "nome": "Yvon Mvogo",
+      "posicao": "Goleiro",
+      "numero": 12,
+      "idade": 32
+    },
+    {
+      "nome": "Gregor Kobel",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 28
+    },
+    {
+      "nome": "Marvin Keller",
+      "posicao": "Goleiro",
+      "numero": 21,
+      "idade": 23
+    },
+    {
+      "nome": "Ricardo Rodríguez",
+      "posicao": "Defensor",
+      "numero": 13,
+      "idade": 33
+    },
+    {
+      "nome": "Silvan Widmer",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 33
+    },
+    {
+      "nome": "Nico Elvedi",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 29
+    },
+    {
+      "nome": "Manuel Akanji",
+      "posicao": "Defensor",
+      "numero": 5,
+      "idade": 30
+    },
+    {
+      "nome": "Eray Cömert",
+      "posicao": "Defensor",
+      "numero": 18,
+      "idade": 28
+    },
+    {
+      "nome": "Miro Muheim",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 28
+    },
+    {
+      "nome": "Aurèle Amenda",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 22
+    },
+    {
+      "nome": "Luca Jaquez",
+      "posicao": "Defensor",
+      "numero": 25,
+      "idade": 23
+    },
+    {
+      "nome": "Granit Xhaka",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 33
+    },
+    {
+      "nome": "Remo Freuler",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 34
+    },
+    {
+      "nome": "Djibril Sow",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 29
+    },
+    {
+      "nome": "Denis Zakaria",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Christian Fassnacht",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 32
+    },
+    {
+      "nome": "Michel Aebischer",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 29
+    },
+    {
+      "nome": "Rubén Vargas",
+      "posicao": "Meio-campista",
+      "numero": 17,
+      "idade": 27
+    },
+    {
+      "nome": "Ardon Jashari",
+      "posicao": "Meio-campista",
+      "numero": 14,
+      "idade": 23
+    },
+    {
+      "nome": "Fabian Rieder",
+      "posicao": "Meio-campista",
+      "numero": 22,
+      "idade": 24
+    },
+    {
+      "nome": "Johan Manzambi",
+      "posicao": "Meio-campista",
+      "numero": 9,
+      "idade": 20
+    },
+    {
+      "nome": "Breel Embolo",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 29
+    },
+    {
+      "nome": "Cedric Itten",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 29
+    },
+    {
+      "nome": "Noah Okafor",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 26
+    },
+    {
+      "nome": "Dan Ndoye",
+      "posicao": "Atacante",
+      "numero": 11,
+      "idade": 25
+    },
+    {
+      "nome": "Zeki Amdouni",
+      "posicao": "Atacante",
+      "numero": 23,
+      "idade": 25
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}

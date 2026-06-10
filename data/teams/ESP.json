@@ -1,0 +1,163 @@
+{
+  "fifa": "ESP",
+  "team": "Spain",
+  "nomePt": "Espanha",
+  "espnTeamId": 164,
+  "atualizadoEm": "2026-06-10T14:56:41.377Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "FIFA World Cup Qualifying - UEFA",
+    "UEFA Nations League"
+  ],
+  "registro": {
+    "v": 9,
+    "e": 6,
+    "d": 0,
+    "gp": 43,
+    "gc": 17
+  },
+  "porJogo": {
+    "chutes": 18.9,
+    "chutesNoGol": 7.8,
+    "escanteios": 6.2,
+    "faltas": 11,
+    "impedimentos": 2.4,
+    "amarelos": 1.2,
+    "vermelhos": 0,
+    "posse": 64.1,
+    "defesasGoleiro": 2.1,
+    "desarmes": 14.5,
+    "golsPro": 2.9,
+    "golsContra": 1.1
+  },
+  "golsPorJanela": {
+    "0-15": 7,
+    "16-30": 9,
+    "31-45": 8,
+    "46-60": 5,
+    "61-75": 8,
+    "76-90": 5
+  },
+  "golsContraPorJanela": {
+    "0-15": 0,
+    "16-30": 3,
+    "31-45": 1,
+    "46-60": 5,
+    "61-75": 3,
+    "76-90": 6
+  },
+  "golsPorTempo": {
+    "1T": 24,
+    "2T": 18
+  },
+  "amarelosPorJanela": {
+    "0-15": 1,
+    "16-30": 0,
+    "31-45": 5,
+    "46-60": 2,
+    "61-75": 4,
+    "76-90": 6
+  },
+  "artilheiros": [
+    {
+      "nome": "Mikel Oyarzabal",
+      "gols": 12,
+      "penaltis": 3
+    },
+    {
+      "nome": "Mikel Merino",
+      "gols": 8,
+      "penaltis": 0
+    },
+    {
+      "nome": "Pedri",
+      "gols": 4,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ferran Torres",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lamine Yamal",
+      "gols": 3,
+      "penaltis": 1
+    },
+    {
+      "nome": "Martín Zubimendi",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Yéremy Pino",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Nico Williams",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Víctor Muñoz",
+      "gols": 1,
+      "penaltis": 0
+    },
+    {
+      "nome": "Dani Olmo",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Mikel Oyarzabal",
+      "assistencias": 6
+    },
+    {
+      "nome": "Ferran Torres",
+      "assistencias": 3
+    },
+    {
+      "nome": "Lamine Yamal",
+      "assistencias": 3
+    },
+    {
+      "nome": "Pau Cubarsí",
+      "assistencias": 2
+    },
+    {
+      "nome": "Robin Le Normand",
+      "assistencias": 2
+    },
+    {
+      "nome": "Nico Williams",
+      "assistencias": 2
+    },
+    {
+      "nome": "Pedri",
+      "assistencias": 2
+    },
+    {
+      "nome": "Dani Olmo",
+      "assistencias": 1
+    },
+    {
+      "nome": "Fermín López",
+      "assistencias": 1
+    },
+    {
+      "nome": "Marc Cucurella",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

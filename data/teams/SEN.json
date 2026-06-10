@@ -1,0 +1,163 @@
+{
+  "fifa": "SEN",
+  "team": "Senegal",
+  "nomePt": "Senegal",
+  "espnTeamId": 654,
+  "atualizadoEm": "2026-06-10T15:03:05.896Z",
+  "desde": "2023-01-01",
+  "jogos": 15,
+  "competicoes": [
+    "International Friendly",
+    "Africa Cup of Nations",
+    "FIFA World Cup Qualifying - CAF"
+  ],
+  "registro": {
+    "v": 10,
+    "e": 2,
+    "d": 3,
+    "gp": 36,
+    "gc": 11
+  },
+  "porJogo": {
+    "chutes": 11.7,
+    "chutesNoGol": 5.7,
+    "escanteios": 5.1,
+    "faltas": 13.1,
+    "impedimentos": 1.5,
+    "amarelos": 1.7,
+    "vermelhos": 0.13,
+    "posse": 52.1,
+    "defesasGoleiro": 1.9,
+    "desarmes": 12.3,
+    "golsPro": 2.4,
+    "golsContra": 0.7
+  },
+  "golsPorJanela": {
+    "0-15": 3,
+    "16-30": 4,
+    "31-45": 9,
+    "46-60": 9,
+    "61-75": 4,
+    "76-90": 8
+  },
+  "golsContraPorJanela": {
+    "0-15": 2,
+    "16-30": 2,
+    "31-45": 1,
+    "46-60": 1,
+    "61-75": 2,
+    "76-90": 0
+  },
+  "golsPorTempo": {
+    "1T": 16,
+    "2T": 21
+  },
+  "amarelosPorJanela": {
+    "0-15": 3,
+    "16-30": 4,
+    "31-45": 3,
+    "46-60": 4,
+    "61-75": 3,
+    "76-90": 11
+  },
+  "artilheiros": [
+    {
+      "nome": "Sadio Mané",
+      "gols": 10,
+      "penaltis": 1
+    },
+    {
+      "nome": "Nicolas Jackson",
+      "gols": 6,
+      "penaltis": 1
+    },
+    {
+      "nome": "Cherif Ndiaye",
+      "gols": 4,
+      "penaltis": 2
+    },
+    {
+      "nome": "Ibrahim Mbaye",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Ismaïla Sarr",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Pape Gueye",
+      "gols": 3,
+      "penaltis": 0
+    },
+    {
+      "nome": "Abdoulaye Seck",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Iliman Ndiaye",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Habib Diallo",
+      "gols": 2,
+      "penaltis": 0
+    },
+    {
+      "nome": "Lamine Camara",
+      "gols": 1,
+      "penaltis": 0
+    }
+  ],
+  "assistentes": [
+    {
+      "nome": "Ibrahim Mbaye",
+      "assistencias": 3
+    },
+    {
+      "nome": "Sadio Mané",
+      "assistencias": 3
+    },
+    {
+      "nome": "Nicolas Jackson",
+      "assistencias": 3
+    },
+    {
+      "nome": "Ismaïla Sarr",
+      "assistencias": 2
+    },
+    {
+      "nome": "Cheick Sabaly",
+      "assistencias": 2
+    },
+    {
+      "nome": "Iliman Ndiaye",
+      "assistencias": 2
+    },
+    {
+      "nome": "Habib Diarra",
+      "assistencias": 1
+    },
+    {
+      "nome": "Idrissa Gueye",
+      "assistencias": 1
+    },
+    {
+      "nome": "Krépin Diatta",
+      "assistencias": 1
+    },
+    {
+      "nome": "Ismail Jakobs",
+      "assistencias": 1
+    }
+  ],
+  "cobertura": {
+    "jogosComStatsDetalhadas": 15
+  },
+  "fontes": [
+    "ESPN"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fifa": "ESP",
+  "team": "Spain",
+  "espnTeamId": 164,
+  "copa": 2026,
+  "atualizadoEm": "2026-06-10T15:09:29.245Z",
+  "jogadores": [
+    {
+      "nome": "David Raya",
+      "posicao": "Goleiro",
+      "numero": 1,
+      "idade": 30
+    },
+    {
+      "nome": "Unai Simón",
+      "posicao": "Goleiro",
+      "numero": 23,
+      "idade": 28
+    },
+    {
+      "nome": "Joan García",
+      "posicao": "Goleiro",
+      "numero": 13,
+      "idade": 25
+    },
+    {
+      "nome": "Eric García",
+      "posicao": "Defensor",
+      "numero": 4,
+      "idade": 25
+    },
+    {
+      "nome": "Aymeric Laporte",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 32
+    },
+    {
+      "nome": "Alejandro Grimaldo",
+      "posicao": "Defensor",
+      "numero": 3,
+      "idade": 30
+    },
+    {
+      "nome": "Marc Cucurella",
+      "posicao": "Defensor",
+      "numero": 24,
+      "idade": 27
+    },
+    {
+      "nome": "Pedro Porro",
+      "posicao": "Defensor",
+      "numero": 12,
+      "idade": 26
+    },
+    {
+      "nome": "Marc Pubill",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 22
+    },
+    {
+      "nome": "Pau Cubarsí",
+      "posicao": "Defensor",
+      "numero": 22,
+      "idade": 19
+    },
+    {
+      "nome": "Marcos Llorente",
+      "posicao": "Meio-campista",
+      "numero": 5,
+      "idade": 31
+    },
+    {
+      "nome": "Mikel Merino",
+      "posicao": "Meio-campista",
+      "numero": 6,
+      "idade": 29
+    },
+    {
+      "nome": "Fabián Ruiz",
+      "posicao": "Meio-campista",
+      "numero": 8,
+      "idade": 30
+    },
+    {
+      "nome": "Dani Olmo",
+      "posicao": "Meio-campista",
+      "numero": 10,
+      "idade": 28
+    },
+    {
+      "nome": "Rodri",
+      "posicao": "Meio-campista",
+      "numero": 16,
+      "idade": 29
+    },
+    {
+      "nome": "Pedri",
+      "posicao": "Meio-campista",
+      "numero": 20,
+      "idade": 23
+    },
+    {
+      "nome": "Martín Zubimendi",
+      "posicao": "Meio-campista",
+      "numero": 18,
+      "idade": 27
+    },
+    {
+      "nome": "Yéremy Pino",
+      "posicao": "Meio-campista",
+      "numero": 11,
+      "idade": 23
+    },
+    {
+      "nome": "Álex Baena",
+      "posicao": "Meio-campista",
+      "numero": 15,
+      "idade": 24
+    },
+    {
+      "nome": "Gavi",
+      "posicao": "Meio-campista",
+      "numero": 9,
+      "idade": 21
+    },
+    {
+      "nome": "Borja Iglesias",
+      "posicao": "Atacante",
+      "numero": 26,
+      "idade": 33
+    },
+    {
+      "nome": "Mikel Oyarzabal",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 29
+    },
+    {
+      "nome": "Ferran Torres",
+      "posicao": "Atacante",
+      "numero": 7,
+      "idade": 26
+    },
+    {
+      "nome": "Nico Williams",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 23
+    },
+    {
+      "nome": "Lamine Yamal",
+      "posicao": "Atacante",
+      "numero": 19,
+      "idade": 18
+    },
+    {
+      "nome": "Víctor Muñoz",
+      "posicao": "Atacante",
+      "numero": 25,
+      "idade": 22
+    }
+  ],
+  "fontes": [
+    "ESPN"
+  ]
+}
