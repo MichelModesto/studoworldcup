@@ -2,6 +2,8 @@
 
 Plataforma de **estatísticas e análises da Copa do Mundo FIFA 2026** (México · Canadá · Estados Unidos).
 
+🔗 **Demo ao vivo:** https://studoworldcup.vercel.app — login `admin@studoworldcup.com` / senha `copa2026`
+
 Site com área pública (landing) e um **painel protegido por login** com várias telas: visão geral, seleções, jogos, grupos, artilheiros, estatísticas e sedes.
 
 ## ✨ Stack
