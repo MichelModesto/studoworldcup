@@ -15,6 +15,7 @@ import {
   ptTeam,
 } from "./translate";
 import { getSquad, buildSquadMatcher, type SquadMatcher } from "./squads";
+import { getResultadosESPN, type ResultadoESPN } from "./resultados";
 
 /**
  * Fonte de dados: openfootball/worldcup.json (domínio público, sem chave).
@@ -118,19 +119,47 @@ function buildTeamLookup(teams: Team[]) {
 }
 
 export async function getMatches(): Promise<Match[]> {
-  const [data, teams, stadiums] = await Promise.all([
+  const [data, teams, stadiums, resultados] = await Promise.all([
     fetchJSON<{ matches: RawMatch[] }>("worldcup.json"),
     getTeams(),
     getStadiums(),
+    getResultadosESPN(),
   ]);
   if (!data?.matches) return [];
 
   const byName = buildTeamLookup(teams);
+  const byFifa = new Map(teams.map((t) => [t.fifa, t]));
   const stadiumByCity = new Map<string, Stadium>();
   for (const s of stadiums) stadiumByCity.set(cityKey(s.cidadeBruta), s);
 
   const flagOf = (name: string) => byName.get(name)?.flag ?? "🏳️";
   const ptOf = (name: string) => byName.get(name)?.nomePt ?? name;
+
+  // Índice dos resultados ESPN por par mandante-visitante.
+  const resultadoPorPar = new Map<string, ResultadoESPN[]>();
+  for (const r of resultados) {
+    const k = `${r.homeFifa}-${r.awayFifa}`;
+    resultadoPorPar.set(k, [...(resultadoPorPar.get(k) ?? []), r]);
+  }
+  /** Resultado ESPN do confronto na mesma janela de 36h (cobre fuso/virada de dia). */
+  const acharResultado = (
+    fifa1: string | undefined,
+    fifa2: string | undefined,
+    kickoffISO: string | undefined,
+    dataISO: string,
+  ): { r: ResultadoESPN; invertido: boolean } | null => {
+    if (!fifa1 || !fifa2) return null;
+    const ref = Date.parse(kickoffISO ?? `${dataISO}T12:00:00Z`);
+    for (const [k, invertido] of [
+      [`${fifa1}-${fifa2}`, false],
+      [`${fifa2}-${fifa1}`, true],
+    ] as const) {
+      for (const r of resultadoPorPar.get(k) ?? []) {
+        if (Math.abs(Date.parse(r.dataISO) - ref) <= 36 * 3600 * 1000) return { r, invertido };
+      }
+    }
+    return null;
+  };
 
   return data.matches.map((m, i) => {
     const ft = m.score?.ft;
@@ -138,7 +167,7 @@ export async function getMatches(): Promise<Match[]> {
     const cidadeRaw = m.ground ?? "";
     const stadium = stadiumByCity.get(cityKey(cidadeRaw));
 
-    const gols: Goal[] = [
+    let gols: Goal[] = [
       ...(m.goals1 ?? []).map((g) => mapGoal(g, ptOf(m.team1))),
       ...(m.goals2 ?? []).map((g) => mapGoal(g, ptOf(m.team2))),
     ].sort((a, b) => a.minuto - b.minuto);
@@ -146,6 +175,32 @@ export async function getMatches(): Promise<Match[]> {
     const hora = (m.time ?? "").trim();
     const horaCurta = hora.slice(0, 5) || "00:00";
     const kickoffISO = toKickoffISO(m.date, hora);
+    const fifaMandante = byName.get(m.team1)?.fifa;
+    const fifaVisitante = byName.get(m.team2)?.fifa;
+
+    let placarMandante = temPlacar ? ft![0] : undefined;
+    let placarVisitante = temPlacar ? ft![1] : undefined;
+    let status: Match["status"] = temPlacar ? "encerrado" : "agendado";
+
+    // openfootball ainda sem placar? Sobrepõe o resultado da ESPN (60s de cache).
+    if (!temPlacar) {
+      const hit = acharResultado(fifaMandante, fifaVisitante, kickoffISO, m.date);
+      if (hit) {
+        const { r, invertido } = hit;
+        placarMandante = invertido ? r.awayGols : r.homeGols;
+        placarVisitante = invertido ? r.homeGols : r.awayGols;
+        status = r.estado === "post" ? "encerrado" : "ao-vivo";
+        if (r.gols.length) {
+          gols = r.gols.map((g) => ({
+            jogador: g.jogador,
+            minuto: g.minuto,
+            penalti: g.penalti,
+            golContra: g.golContra,
+            selecao: byFifa.get(g.fifa)?.nomePt ?? g.fifa,
+          }));
+        }
+      }
+    }
 
     return {
       id: i + 1,
@@ -160,13 +215,13 @@ export async function getMatches(): Promise<Match[]> {
       flagMandante: flagOf(m.team1),
       visitante: ptOf(m.team2),
       flagVisitante: flagOf(m.team2),
-      fifaMandante: byName.get(m.team1)?.fifa,
-      fifaVisitante: byName.get(m.team2)?.fifa,
+      fifaMandante,
+      fifaVisitante,
       estadio: stadium?.estadio ?? cidadePt(cidadeRaw),
       cidade: stadium?.cidade ?? cidadePt(cidadeRaw),
-      placarMandante: temPlacar ? ft![0] : undefined,
-      placarVisitante: temPlacar ? ft![1] : undefined,
-      status: temPlacar ? "encerrado" : "agendado",
+      placarMandante,
+      placarVisitante,
+      status,
       gols,
     } satisfies Match;
   });
