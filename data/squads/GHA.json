@@ -9,49 +9,57 @@
       "nome": "Lawrence Ati Zigi",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/77eobd1630005309.jpg"
     },
     {
       "nome": "Joseph Anang",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rcnx421633027119.jpg"
     },
     {
       "nome": "Benjamin Asare",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5eptil1780570245.jpg"
     },
     {
       "nome": "Baba Rahman",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pi7x8k1532777705.jpg"
     },
     {
       "nome": "Derrick Luckassen",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mmxlf31734099764.jpg"
     },
     {
       "nome": "Abdul Mumin",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/b4bk1g1679052538.jpg"
     },
     {
       "nome": "Jerome Opoku",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rf1ms41631978685.jpg"
     },
     {
       "nome": "Gideon Mensah",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bglc5l1668454974.jpg"
     },
     {
       "nome": "Alidu Seidu",
@@ -69,73 +77,85 @@
       "nome": "Jonas Adjetey",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/e0bcbl1746073793.jpg"
     },
     {
       "nome": "Kojo Peprah Oppong",
       "posicao": "Defensor",
       "numero": 21,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/d5xcxz1765836176.jpg"
     },
     {
       "nome": "Thomas Partey",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lnsxw11705917605.jpg"
     },
     {
       "nome": "Elisha Owusu",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j7heas1668455801.jpg"
     },
     {
       "nome": "Kwasi Sibo",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ka8o9v1762611977.jpg"
     },
     {
       "nome": "Augustine Boakye",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ig77t01780607013.jpg"
     },
     {
       "nome": "Caleb Yirenkyi",
       "posicao": "Meio-campista",
       "numero": 3,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dzkf7l1743774047.jpg"
     },
     {
       "nome": "Jordan Ayew",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bx0rp01509542430.jpg"
     },
     {
       "nome": "Iñaki Williams",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bjgctf1503241984.jpg"
     },
     {
       "nome": "Brandon Thomas-Asante",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2l2iae1677849806.jpg"
     },
     {
       "nome": "Antoine Semenyo",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mbv2q31767953143.jpg"
     },
     {
       "nome": "Kamaldeen Sulemana",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w9stoi1630490492.jpg"
     },
     {
       "nome": "Fatawu Issahaku",
@@ -147,22 +167,26 @@
       "nome": "Ernest Nuamah",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cxbkxe1702207597.jpg"
     },
     {
       "nome": "Christopher Bonsu Baah",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wcypva1717947463.jpg"
     },
     {
       "nome": "Prince Adu",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ktehrg1780606510.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

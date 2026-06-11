@@ -15,13 +15,15 @@
       "nome": "Alireza Beiranvand",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gvk4nj1668778656.jpg"
     },
     {
       "nome": "Payam Niazmand",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8kb6kt1668779221.jpg"
     },
     {
       "nome": "Shoja Khalilzadeh",
@@ -33,19 +35,22 @@
       "nome": "Ehsan Hajsafi",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cva0ig1668781789.jpg"
     },
     {
       "nome": "Ramin Rezaeian",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/a1m7o01668786760.jpg"
     },
     {
       "nome": "Milad Mohammadi",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uw0wfw1668785895.jpg"
     },
     {
       "nome": "Hossein Kanani",
@@ -57,13 +62,15 @@
       "nome": "Ali Nemati",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/8n51la1780354943.jpg"
     },
     {
       "nome": "Saleh Hardani",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/us8l2u1780354160.jpg"
     },
     {
       "nome": "Arya Yousefi",
@@ -81,31 +88,36 @@
       "nome": "Alireza Jahanbakhsh",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ztf5851670094463.jpg"
     },
     {
       "nome": "Saeid Ezatolahi",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5zfy161668779854.jpg"
     },
     {
       "nome": "Mehdi Torabi",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hwmkr81668787170.jpg"
     },
     {
       "nome": "Saman Ghoddos",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3pcno21610655335.jpg"
     },
     {
       "nome": "Roozbeh Cheshmi",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2pefc71668781176.jpg"
     },
     {
       "nome": "Mohammad Mohebbi",
@@ -117,37 +129,43 @@
       "nome": "Mohammad Ghorbani",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/wbkd9l1780354076.jpg"
     },
     {
       "nome": "Amirmohammad Razzaghinia",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/mxnwr31780355617.jpg"
     },
     {
       "nome": "Mehdi Taremi",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/p2za081596279630.jpg"
     },
     {
       "nome": "Ali Alipour",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6k9mv21780353720.jpg"
     },
     {
       "nome": "Mehdi Ghayedi",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/56twmo1780353849.jpg"
     },
     {
       "nome": "Amirhossein Hosseinzadeh",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/wmchb81780354246.jpg"
     },
     {
       "nome": "Dennis Dargahi",
@@ -163,6 +181,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

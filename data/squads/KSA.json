@@ -9,19 +9,22 @@
       "nome": "Ahmed Al-Kassar",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/x7cv6y1780295804.jpg"
     },
     {
       "nome": "Mohammed Al-Owais",
       "posicao": "Goleiro",
       "numero": 21,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2n6fh21668851385.jpg"
     },
     {
       "nome": "Nawaf Al-Aqidi",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w9jtr61668792328.jpg"
     },
     {
       "nome": "Hassan Kadish",
@@ -33,73 +36,85 @@
       "nome": "Hassan Al-Tambakti",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/b43vri1668849859.jpg"
     },
     {
       "nome": "Abdulelah Al-Amri",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rpr0x81668714479.jpg"
     },
     {
       "nome": "Saud Abdulhamid",
       "posicao": "Defensor",
       "numero": 12,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/opcqpo1668712724.jpg"
     },
     {
       "nome": "Ali Lajami",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/urw5hh1750763944.jpg"
     },
     {
       "nome": "Moteb Al-Harbi",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mpz0nw1750762200.jpg"
     },
     {
       "nome": "Nawaf Boushal",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/y9ljam1779438944.jpg"
     },
     {
       "nome": "Ali Majrashi",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/k6j1fx1771664224.jpg"
     },
     {
       "nome": "Jehad Thakri",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/86sfhr1779438298.jpg"
     },
     {
       "nome": "Salem Al-Dawsari",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xqwrzf1668794930.jpg"
     },
     {
       "nome": "Mohamed Kanno",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jergmq1668799922.jpg"
     },
     {
       "nome": "Nasser Al-Dawsari",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/40dzog1668793675.jpg"
     },
     {
       "nome": "Abdullah Al-Khaibari",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dkh7zb1676217866.jpg"
     },
     {
       "nome": "Aiman Yahya",
@@ -111,13 +126,15 @@
       "nome": "Ziyad Al-Johani",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/gx58zi1777238330.jpg"
     },
     {
       "nome": "Musab Al-Juwayr",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ypk4yz1750751799.jpg"
     },
     {
       "nome": "Ala Al-Hajji",
@@ -129,13 +146,15 @@
       "nome": "Mohammed Abu Al-Shamat",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/zfzd0b1780296832.jpg"
     },
     {
       "nome": "Saleh Al-Shehri",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8scycx1668850397.jpg"
     },
     {
       "nome": "Feras Al-Brikan",
@@ -159,10 +178,12 @@
       "nome": "Abdullah Al-Hamdan",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qngvi21676223148.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

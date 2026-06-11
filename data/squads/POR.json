@@ -9,7 +9,8 @@
       "nome": "Rui Silva",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2elqkh1723792779.jpg"
     },
     {
       "nome": "José Sá",
@@ -21,7 +22,8 @@
       "nome": "Diogo Costa",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oosfmz1617009926.jpg"
     },
     {
       "nome": "João Cancelo",
@@ -39,130 +41,152 @@
       "nome": "Rúben Dias",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9kws2w1684833492.jpg"
     },
     {
       "nome": "Diogo Dalot",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0rv14y1706525697.jpg"
     },
     {
       "nome": "Nuno Mendes",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ocycug1770217690.jpg"
     },
     {
       "nome": "Gonçalo Inácio",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/htv6wy1636109063.jpg"
     },
     {
       "nome": "Tomás Araújo",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/er26ze1741768576.jpg"
     },
     {
       "nome": "Renato Veiga",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1u0amz1678362097.jpg"
     },
     {
       "nome": "Bruno Fernandes",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1kfayc1700821747.jpg"
     },
     {
       "nome": "Samú Costa",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0o08zy1724409418.jpg"
     },
     {
       "nome": "Bernardo Silva",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/n6lcbp1557863742.jpg"
     },
     {
       "nome": "Rúben Neves",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ac8teq1750760630.jpg"
     },
     {
       "nome": "Vitinha",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/a0b12b1770218109.jpg"
     },
     {
       "nome": "Matheus Nunes",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fm3isa1703327534.jpg"
     },
     {
       "nome": "João Neves",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/463f8a1770217760.jpg"
     },
     {
       "nome": "Cristiano Ronaldo",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 41
+      "idade": 41,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bkre241600892282.jpg"
     },
     {
       "nome": "Gonçalo Guedes",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/492i5g1535493262.jpg"
     },
     {
       "nome": "Pedro Neto",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/g1325q1771427940.jpg"
     },
     {
       "nome": "Rafael Leão",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m1sh9x1549742563.jpg"
     },
     {
       "nome": "Francisco Trincão",
       "posicao": "Atacante",
       "numero": 16,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4icmr01597831379.jpg"
     },
     {
       "nome": "João Félix",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/b253cy1724311014.jpg"
     },
     {
       "nome": "Gonçalo Ramos",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ki0ein1770217883.jpg"
     },
     {
       "nome": "Francisco Conceição",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4z17u11617881496.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

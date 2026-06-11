@@ -9,25 +9,29 @@
       "nome": "Jordan Pickford",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m66e5n1771945410.jpg"
     },
     {
       "nome": "Dean Henderson",
       "posicao": "Goleiro",
       "numero": 13,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0bcnqd1772140599.jpg"
     },
     {
       "nome": "James Trafford",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4a78dn1626203719.jpg"
     },
     {
       "nome": "John Stones",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/iub2p21763068622.jpg"
     },
     {
       "nome": "Reece James",
@@ -39,130 +43,152 @@
       "nome": "Dan Burn",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cklwjy1770796429.jpg"
     },
     {
       "nome": "Ezri Konsa",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uc1jmw1770201046.jpg"
     },
     {
       "nome": "Marc Guéhi",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wqgmpl1609183670.jpg"
     },
     {
       "nome": "Djed Spence",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/l08fu91609615013.jpg"
     },
     {
       "nome": "Jarell Quansah",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7jbg9y1697712464.jpg"
     },
     {
       "nome": "Tino Livramento",
       "posicao": "Defensor",
       "numero": 12,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gs2z9r1629228185.jpg"
     },
     {
       "nome": "Nico O'Reilly",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/q6n9cm1722762128.jpg"
     },
     {
       "nome": "Jordan Henderson",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4betej1705696564.jpg"
     },
     {
       "nome": "Declan Rice",
       "posicao": "Meio-campista",
       "numero": 4,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ty3z7g1705918131.jpg"
     },
     {
       "nome": "Elliot Anderson",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/q2t9431780012141.jpg"
     },
     {
       "nome": "Eberechi Eze",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/9kldty1780012419.jpg"
     },
     {
       "nome": "Morgan Rogers",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cvq4kw1770201491.jpg"
     },
     {
       "nome": "Jude Bellingham",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rfg8xd1771263826.jpg"
     },
     {
       "nome": "Kobbie Mainoo",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/h66a4l1696149845.jpg"
     },
     {
       "nome": "Harry Kane",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0w9up71770542636.jpg"
     },
     {
       "nome": "Ivan Toney",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1enhi91777238548.jpg"
     },
     {
       "nome": "Ollie Watkins",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9l400s1752069048.jpg"
     },
     {
       "nome": "Marcus Rashford",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rb4hx61669799682.jpg"
     },
     {
       "nome": "Anthony Gordon",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yleib91770796577.jpg"
     },
     {
       "nome": "Bukayo Saka",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/axl31b1769332282.jpg"
     },
     {
       "nome": "Noni Madueke",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ndpkvb1769331026.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

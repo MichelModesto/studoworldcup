@@ -9,160 +9,187 @@
       "nome": "Mert Günok",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jo77k51622650655.jpg"
     },
     {
       "nome": "Ugurcan Çakir",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xhnw6o1672996321.jpg"
     },
     {
       "nome": "Altay Bayindir",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8meai71770993191.jpg"
     },
     {
       "nome": "Kaan Ayhan",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hr7gab1578086111.jpg"
     },
     {
       "nome": "Abdülkerim Bardakçi",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5g8b851701348438.jpg"
     },
     {
       "nome": "Çaglar Söyüncü",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/s69pr81576619378.jpg"
     },
     {
       "nome": "Ferdi Kadioglu",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qn0nr21772017123.jpg"
     },
     {
       "nome": "Mert Müldür",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5o5qpu1610882908.jpg"
     },
     {
       "nome": "Ozan Kabak",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1tla181578151924.jpg"
     },
     {
       "nome": "Merih Demiral",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/sbg4yx1586359593.jpg"
     },
     {
       "nome": "Zeki Çelik",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mqqhyw1737351973.jpg"
     },
     {
       "nome": "Eren Elmali",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xaqc171769177203.jpg"
     },
     {
       "nome": "Samet Akaydin",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ckss5a1718735410.jpg"
     },
     {
       "nome": "Hakan Çalhanoglu",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ays7ot1737352882.jpg"
     },
     {
       "nome": "Irfan Can Kahveci",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/idqm1b1724854433.jpg"
     },
     {
       "nome": "Salih Özcan",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/c7h0uk1609169225.jpg"
     },
     {
       "nome": "Orkun Kökçü",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2eet401737352595.jpg"
     },
     {
       "nome": "Ismail Yüksek",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4evqg11724846137.jpg"
     },
     {
       "nome": "Arda Güler",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0saeov1771265107.jpg"
     },
     {
       "nome": "Can Uzun",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2wmlq91741808436.jpg"
     },
     {
       "nome": "Yunus Akgün",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bp6lxi1693170072.jpg"
     },
     {
       "nome": "Kerem Aktürkoglu",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3xbd8h1717532026.jpg"
     },
     {
       "nome": "Baris Alper Yilmaz",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/98i65y1717532616.jpg"
     },
     {
       "nome": "Oguz Aydin",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5mghrk1724854780.jpg"
     },
     {
       "nome": "Deniz Gül",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/31c9dg1718138743.jpg"
     },
     {
       "nome": "Kenan Yildiz",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xnp5uz1698226958.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

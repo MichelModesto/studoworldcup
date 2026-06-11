@@ -9,73 +9,85 @@
       "nome": "Yazeed Abulaila",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/4pgm4h1780553204.jpg"
     },
     {
       "nome": "Abdallah Al-Fakhouri",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ib6anq1780553985.jpg"
     },
     {
       "nome": "Nour Bani Ateyah",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rb8p751780555449.jpg"
     },
     {
       "nome": "Ehsan Haddad",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/vlw6yv1780556187.jpg"
     },
     {
       "nome": "Yazan Al-Arab",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/bb5b5w1780553345.jpg"
     },
     {
       "nome": "Mohammad Abualnadi",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/e3mt431780553062.jpg"
     },
     {
       "nome": "Saleem Obaid",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/plgcqv1780556750.jpg"
     },
     {
       "nome": "Abdallah Nasib",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/gldwcj1780554587.jpg"
     },
     {
       "nome": "Mohannad Abu Taha",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/y0aer21780554739.jpg"
     },
     {
       "nome": "Mohammad Abu Hasheesh",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/0r3hjt1780556423.jpg"
     },
     {
       "nome": "Husam Abu Dahab",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/2vt9dz1780556093.jpg"
     },
     {
       "nome": "Saed Al-Rosan",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/sbhn8m1780555046.jpg"
     },
     {
       "nome": "Mohammad Abughoush",
@@ -87,25 +99,29 @@
       "nome": "Anas Badawi",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/580iyl1780555972.jpg"
     },
     {
       "nome": "Rajaei Ayed",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6h9ifg1780555780.jpg"
     },
     {
       "nome": "Noor Al-Rawabdeh",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/lysmh31780554397.jpg"
     },
     {
       "nome": "Ibrahim Sadeh",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/eew2fn1780557015.jpg"
     },
     {
       "nome": "Mohammad Al-Daoud",
@@ -117,19 +133,22 @@
       "nome": "Nizar Al-Rashdan",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/hunv1g1780554244.jpg"
     },
     {
       "nome": "Amer Jamous",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/jwpn051780556645.jpg"
     },
     {
       "nome": "Mahmoud Al-Mardi",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/q63jwd1780554152.jpg"
     },
     {
       "nome": "Mousa Al-Tamari",
@@ -147,22 +166,26 @@
       "nome": "Ali Olwan",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/54nhbz1780556897.jpg"
     },
     {
       "nome": "Odeh Fakhoury",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rdoxrv1780554077.jpg"
     },
     {
       "nome": "Ali Azaizeh",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/oa0fsn1780555858.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

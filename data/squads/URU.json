@@ -9,67 +9,78 @@
       "nome": "Fernando Muslera",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 39
+      "idade": 39,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ymi2401611385822.jpg"
     },
     {
       "nome": "Sergio Rochet",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1k7zvv1718081124.jpg"
     },
     {
       "nome": "Santiago Mele",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dgr33p1718081529.jpg"
     },
     {
       "nome": "Guillermo Varela",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/64tm5q1718084552.jpg"
     },
     {
       "nome": "José María Giménez",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fphr8u1718082723.jpg"
     },
     {
       "nome": "Mathías Olivera",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/od71fp1771248714.jpg"
     },
     {
       "nome": "Santiago Bueno",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m522lk1772032048.jpg"
     },
     {
       "nome": "Joaquín Piquerez",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j26ysq1749722117.jpg"
     },
     {
       "nome": "Matías Viña",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zamed01718082967.jpg"
     },
     {
       "nome": "Ronald Araújo",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/z4bmo21771260643.jpg"
     },
     {
       "nome": "Sebastián Cáceres",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i0d9zo1718085441.jpg"
     },
     {
       "nome": "Emiliano Martínez",
@@ -81,88 +92,103 @@
       "nome": "Giorgian de Arrascaeta",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cn205s1718089023.jpg"
     },
     {
       "nome": "Rodrigo Bentancur",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/c03fov1770823842.jpg"
     },
     {
       "nome": "Federico Valverde",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/38ndp21771266409.jpg"
     },
     {
       "nome": "Manuel Ugarte",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pehyss1770994303.jpg"
     },
     {
       "nome": "Nicolás de la Cruz",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1q3scm1718089192.jpg"
     },
     {
       "nome": "Maxi Araújo",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/u9riu01718235633.jpg"
     },
     {
       "nome": "Rodrigo Zalazar",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uq1f2j1724523859.jpg"
     },
     {
       "nome": "Juan Manuel Sanabria",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mbkn0d1775332829.jpg"
     },
     {
       "nome": "Facundo Pellistri",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/396tgj1718234828.jpg"
     },
     {
       "nome": "Brian Rodríguez",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9e5qgk1718234380.jpg"
     },
     {
       "nome": "Rodrigo Aguirre",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/97tq1b1716821908.jpg"
     },
     {
       "nome": "Agustín Canobbio",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rz2mg31767539718.jpg"
     },
     {
       "nome": "Darwin Núñez",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6b6yhd1718090345.jpg"
     },
     {
       "nome": "Federico Viñas",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/q4sqjo1762199487.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

@@ -9,19 +9,22 @@
       "nome": "Fahad Talib",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/so1yp41780463439.jpg"
     },
     {
       "nome": "Jalal Hassan",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/lytc9p1780442828.jpg"
     },
     {
       "nome": "Ahmed Basil",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rc1x111780440705.jpg"
     },
     {
       "nome": "Frans Putros",
@@ -33,13 +36,15 @@
       "nome": "Rebin Sulaka",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/kuvak91780463116.jpg"
     },
     {
       "nome": "Hussein Ali",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7takw11701263808.jpg"
     },
     {
       "nome": "Munaf Younus",
@@ -51,7 +56,8 @@
       "nome": "Merchas Doski",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/o2awsq1780441403.jpg"
     },
     {
       "nome": "Ahmed Maknazi",
@@ -75,43 +81,50 @@
       "nome": "Zaid Tahseen",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/3m6pe31780463304.jpg"
     },
     {
       "nome": "Ibrahim Bayesh",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/uun9la1780440853.jpg"
     },
     {
       "nome": "Kevin Yakob",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/utmajp1701812435.jpg"
     },
     {
       "nome": "Aimar Sher",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tuyc4f1631797563.jpg"
     },
     {
       "nome": "Amir Al-Ammari",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/l4yhxn1718051391.jpg"
     },
     {
       "nome": "Zidane Iqbal",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zbtnwy1697485915.jpg"
     },
     {
       "nome": "Marko Farji",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/7cnypv1780441522.jpg"
     },
     {
       "nome": "Zaid Ismael",
@@ -123,13 +136,15 @@
       "nome": "Aymen Hussein",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ikbaqs1780442913.jpg"
     },
     {
       "nome": "Mohanad Ali",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ptoxm31780440519.jpg"
     },
     {
       "nome": "Ali Yousif",
@@ -141,7 +156,8 @@
       "nome": "Ali Jasim",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1z782i1780446475.jpg"
     },
     {
       "nome": "Ahmed Qasim",
@@ -153,16 +169,19 @@
       "nome": "Youssef Amyn",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/prr9521780440625.jpg"
     },
     {
       "nome": "Ali Al-Hamadi",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kwj85e1667753198.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

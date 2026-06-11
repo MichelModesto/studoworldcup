@@ -9,55 +9,64 @@
       "nome": "Guillermo Ochoa",
       "posicao": "Goleiro",
       "numero": 13,
-      "idade": 40
+      "idade": 40,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/trvxyx1471685245.jpg"
     },
     {
       "nome": "Carlos Acevedo",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/o8exr11780286363.jpg"
     },
     {
       "nome": "Raúl Rangel",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ezjjv81718255201.jpg"
     },
     {
       "nome": "Jesús Gallardo",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9ytdlu1633943700.jpg"
     },
     {
       "nome": "Jorge Sánchez",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bxdc111718256512.jpg"
     },
     {
       "nome": "César Montes",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bwhixl1718256093.jpg"
     },
     {
       "nome": "Johan Vásquez",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/a4jnkm1718257169.jpg"
     },
     {
       "nome": "Israel Reyes",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tgo7f11718257649.jpg"
     },
     {
       "nome": "Mateo Chávez",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bo0wlq1759781128.jpg"
     },
     {
       "nome": "Luis Chávez",
@@ -75,94 +84,110 @@
       "nome": "Edson Álvarez",
       "posicao": "Meio-campista",
       "numero": 4,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lv32uc1718259475.jpg"
     },
     {
       "nome": "Luis Romo",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/itb8ss1630152227.jpg"
     },
     {
       "nome": "César Huerta",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/v808ql1740161876.jpg"
     },
     {
       "nome": "Erik Lira",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/xl8onj1780286619.jpg"
     },
     {
       "nome": "Álvaro Fidalgo",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bgwqzf1750327819.jpg"
     },
     {
       "nome": "Brian Gutiérrez",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xvievy1641399205.jpg"
     },
     {
       "nome": "Obed Vargas",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kel0jw1651848091.jpg"
     },
     {
       "nome": "Gilberto Mora",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 17
+      "idade": 17,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/8gifiz1780287108.jpg"
     },
     {
       "nome": "Raúl Jiménez",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hfzefq1772025775.jpg"
     },
     {
       "nome": "Guillermo Martínez",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5fsmaq1716820014.jpg"
     },
     {
       "nome": "Roberto Alvarado",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/87rtz01630164375.jpg"
     },
     {
       "nome": "Alexis Vega",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bhp6641630155739.jpg"
     },
     {
       "nome": "Julián Quiñones",
       "posicao": "Atacante",
       "numero": 16,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/deil6s1719501074.jpg"
     },
     {
       "nome": "Santiago Gimenez",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xs0tpx1679242761.jpg"
     },
     {
       "nome": "Armando González",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ff6mdb1780286472.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

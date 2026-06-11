@@ -9,13 +9,15 @@
       "nome": "Yassine Bounou",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/myoks21692350396.jpg"
     },
     {
       "nome": "Ahmed Reda Tagnaouti",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/53q7l11668957974.jpg"
     },
     {
       "nome": "Munir El Kajoui",
@@ -27,85 +29,99 @@
       "nome": "Issa Diop",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/z1xits1779839831.jpg"
     },
     {
       "nome": "Noussair Mazraoui",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/8ca96s1779839356.jpg"
     },
     {
       "nome": "Achraf Hakimi",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lwhwh71770216476.jpg"
     },
     {
       "nome": "Nayef Aguerd",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ajcdez1779838792.jpg"
     },
     {
       "nome": "Anass Salah-Eddine",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oaepf31696926868.jpg"
     },
     {
       "nome": "Chadi Riad",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/r0xljm1779840041.jpg"
     },
     {
       "nome": "Zakaria El Ouahdi",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qyvpxx1710577410.jpg"
     },
     {
       "nome": "Redouane Halhal",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jxdwvn1767358699.jpg"
     },
     {
       "nome": "Youssef Belammari",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/o4su8g1779838043.jpg"
     },
     {
       "nome": "Sofyan Amrabat",
       "posicao": "Meio-campista",
       "numero": 4,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/h3p1o91779839033.jpg"
     },
     {
       "nome": "Brahim Díaz",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/z1u3sj1779839715.jpg"
     },
     {
       "nome": "Azzedine Ounahi",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/sbzf7x1668956130.jpg"
     },
     {
       "nome": "Ismael Saibari",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tk93qg1702564078.jpg"
     },
     {
       "nome": "Neil El Aynaoui",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/vqzy1l1779839245.jpg"
     },
     {
       "nome": "Bilal El Khannouss",
@@ -117,52 +133,61 @@
       "nome": "Ayyoub Bouaddi",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qwebar1779839598.jpg"
     },
     {
       "nome": "Samir El Mourabet",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i024vf1766053587.jpg"
     },
     {
       "nome": "Ayoub El Kaabi",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/psf4u71639671597.jpg"
     },
     {
       "nome": "Soufiane Rahimi",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rjn7m31779838633.jpg"
     },
     {
       "nome": "Abde Ezzalzouli",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oyg3ag1723792598.jpg"
     },
     {
       "nome": "Chemsdine Talbi",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/o1wmv01772030103.jpg"
     },
     {
       "nome": "Gessime Yassine",
       "posicao": "Atacante",
       "numero": 16,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6oercx1779838502.jpg"
     },
     {
       "nome": "Ayoube Amaimouni",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/k1zhdn1779838936.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

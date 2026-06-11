@@ -9,109 +9,127 @@
       "nome": "Max Crocombe",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/fhenxj1778730751.jpg"
     },
     {
       "nome": "Michael Woud",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/iugmn31778735592.jpg"
     },
     {
       "nome": "Alex Paulsen",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/9l26de1778732191.jpg"
     },
     {
       "nome": "Michael Boxall",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qv4lka1778730526.jpg"
     },
     {
       "nome": "Tommy Smith",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/zems7f1778734570.jpg"
     },
     {
       "nome": "Tim Payne",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/03ge3a1778733387.jpg"
     },
     {
       "nome": "Francis de Vries",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/x9owpm1730090361.jpg"
     },
     {
       "nome": "Liberato Cacace",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qqsbjw1778730638.jpg"
     },
     {
       "nome": "Callan Elliot",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/400kj61778731124.jpg"
     },
     {
       "nome": "Nando Pijnaker",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/egsbq41778732314.jpg"
     },
     {
       "nome": "Finn Surman",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5wyywz1778734769.jpg"
     },
     {
       "nome": "Tyler Bindon",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/thaqsi1778730349.jpg"
     },
     {
       "nome": "Ryan Thomas",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/0omjbr1778734869.jpg"
     },
     {
       "nome": "Alex Rufer",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rpbtce1778733816.jpg"
     },
     {
       "nome": "Callum McCowatt",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/nwqmt51702554287.jpg"
     },
     {
       "nome": "Sarpreet Singh",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/0jgkav1778734205.jpg"
     },
     {
       "nome": "Joe Bell",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i95q3d1654114663.jpg"
     },
     {
       "nome": "Marko Stamenic",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/m2mhtx1778734686.jpg"
     },
     {
       "nome": "Matthew Garbett",
@@ -129,40 +147,47 @@
       "nome": "Chris Wood",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nr18xd1778735778.jpg"
     },
     {
       "nome": "Kosta Barbarouses",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/kuflmc1778729940.jpg"
     },
     {
       "nome": "Elijah Just",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ppikbx1778731424.jpg"
     },
     {
       "nome": "Ben Waine",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/uhiydo1778735455.jpg"
     },
     {
       "nome": "Jesse Randall",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/tkqmms1778733518.jpg"
     },
     {
       "nome": "Ben Old",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5hsb761778732035.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

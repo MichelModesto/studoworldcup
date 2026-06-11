@@ -9,13 +9,15 @@
       "nome": "Gatito Fernández",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 38
+      "idade": 38,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/q7y9t31749546966.jpg"
     },
     {
       "nome": "Gastón Olveira",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/v2l5m91780335179.jpg"
     },
     {
       "nome": "Orlando Gil",
@@ -26,79 +28,92 @@
     {
       "nome": "Juan Cáceres",
       "posicao": "Defensor",
-      "numero": 13
+      "numero": 13,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i75q401754402141.jpg"
     },
     {
       "nome": "Gustavo Gómez",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/x37vm21725068007.jpg"
     },
     {
       "nome": "Gustavo Velázquez",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7hkw3p1716825424.jpg"
     },
     {
       "nome": "Júnior Alonso",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j86qux1629469673.jpg"
     },
     {
       "nome": "Fabián Balbuena",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/88hadi1557408983.jpg"
     },
     {
       "nome": "Omar Alderete",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ieybgs1606749169.jpg"
     },
     {
       "nome": "José Canale",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/872ips1764933239.jpg"
     },
     {
       "nome": "Alexandro Maidana",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/bggh3h1780334854.jpg"
     },
     {
       "nome": "Julio Enciso",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ftjgw81661021582.jpg"
     },
     {
       "nome": "Alejandro Romero Gamarra",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/axss4a1778631463.jpg"
     },
     {
       "nome": "Diego Gómez",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mpmz961772016796.jpg"
     },
     {
       "nome": "Andrés Cubas",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/61d21t1725068470.jpg"
     },
     {
       "nome": "Braian Ojeda",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/t3gn661661633873.jpg"
     },
     {
       "nome": "Mauricio",
@@ -110,58 +125,68 @@
       "nome": "Matías Galarza",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xp2rov1717947604.jpg"
     },
     {
       "nome": "Damián Bobadilla",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fhquot1767799708.jpg"
     },
     {
       "nome": "Miguel Almirón",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pfmcgv1665915778.jpg"
     },
     {
       "nome": "Gustavo Caballero",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dmymf31767781182.jpg"
     },
     {
       "nome": "Antonio Sanabria",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gtfkf11503229618.jpg"
     },
     {
       "nome": "Gabriel Ávalos",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/c6olwm1715699177.jpg"
     },
     {
       "nome": "Alex Arce",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jzznyw1723918235.jpg"
     },
     {
       "nome": "Isidro Pitta",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oeybjo1766833752.jpg"
     },
     {
       "nome": "Ramón Sosa",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i47sag1767691355.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

@@ -21,85 +21,99 @@
       "nome": "Angus Gunn",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4r0sby1772393040.jpg"
     },
     {
       "nome": "Andy Robertson",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mvmpbc1710165540.jpg"
     },
     {
       "nome": "Grant Hanley",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/h7pan41507892657.jpg"
     },
     {
       "nome": "John Souttar",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fvuw6o1549469414.jpg"
     },
     {
       "nome": "Scott McKenna",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/a77jaz1724170595.jpg"
     },
     {
       "nome": "Jack Hendry",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/sa7efp1616962164.jpg"
     },
     {
       "nome": "Kieran Tierney",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vvm2h61678274134.jpg"
     },
     {
       "nome": "Anthony Ralston",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/r54d3a1513028072.jpg"
     },
     {
       "nome": "Dominic Hyam",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j6v73p1538731553.jpg"
     },
     {
       "nome": "Nathan Patterson",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/l47lr01624096374.jpg"
     },
     {
       "nome": "Aaron Hickey",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vwmcre1601070032.jpg"
     },
     {
       "nome": "Ryan Christie",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fnbc441771750891.jpg"
     },
     {
       "nome": "Kenny McLean",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/t30s831550092277.jpg"
     },
     {
       "nome": "John McGinn",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/msafxs1770201393.jpg"
     },
     {
       "nome": "Lewis Ferguson",
@@ -111,58 +125,68 @@
       "nome": "Scott McTominay",
       "posicao": "Meio-campista",
       "numero": 4,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vjfgf21771246923.jpg"
     },
     {
       "nome": "Tyler Fletcher",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 19
+      "idade": 19,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6rukys1780246473.jpg"
     },
     {
       "nome": "Lawrence Shankland",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bb98v51512945992.jpg"
     },
     {
       "nome": "Lyndon Dykes",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vmlh3y1607891503.jpg"
     },
     {
       "nome": "Ché Adams",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/n8t9kv1506025169.jpg"
     },
     {
       "nome": "George Hirst",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/c3xtrk1610026045.jpg"
     },
     {
       "nome": "Ross Stewart",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/g09ton1549730926.jpg"
     },
     {
       "nome": "Ben Gannon-Doak",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5vkrus1771751268.jpg"
     },
     {
       "nome": "Findlay Curtis",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 19
+      "idade": 19,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9lkaxj1761063240.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

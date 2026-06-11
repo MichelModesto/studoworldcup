@@ -9,49 +9,57 @@
       "nome": "Gonzalo Valle",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/i23x041780290545.jpg"
     },
     {
       "nome": "Hernán Galíndez",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 39
+      "idade": 39,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/a3j9uz1717175074.jpg"
     },
     {
       "nome": "Moisés Ramírez",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/o5h2k91717175779.jpg"
     },
     {
       "nome": "Pervis Estupiñán",
       "posicao": "Defensor",
       "numero": 7,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vuzi4g1604867431.jpg"
     },
     {
       "nome": "Félix Torres",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/p2cvim1717177138.jpg"
     },
     {
       "nome": "Ángelo Preciado",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fldkbi1717181838.jpg"
     },
     {
       "nome": "Jackson Porozo",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yl2g2b1717180011.jpg"
     },
     {
       "nome": "Willian Pacho",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y7kx1d1770217817.jpg"
     },
     {
       "nome": "Piero Hincapié",
@@ -69,67 +77,78 @@
       "nome": "Joel Ordóñez",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ei6m671717177985.jpg"
     },
     {
       "nome": "Alan Franco",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wfp0jf1647028667.jpg"
     },
     {
       "nome": "Jordy Alcívar",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bkjnza1641305759.jpg"
     },
     {
       "nome": "Moisés Caicedo",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/b32gfw1771426837.jpg"
     },
     {
       "nome": "Pedro Vite",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jp890g1652281216.jpg"
     },
     {
       "nome": "Denil Castillo",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gcjwdu1742899394.jpg"
     },
     {
       "nome": "Kendry Páez",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 19
+      "idade": 19,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w31hz81735536482.jpg"
     },
     {
       "nome": "Enner Valencia",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dakcfv1767607482.jpg"
     },
     {
       "nome": "Jordy Caicedo",
       "posicao": "Atacante",
       "numero": 16,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/q9h6271657546854.jpg"
     },
     {
       "nome": "John Yeboah",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xv21mj1735536238.jpg"
     },
     {
       "nome": "Gonzalo Plata",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0ile871668542657.jpg"
     },
     {
       "nome": "Kevin Rodríguez",
@@ -141,28 +160,33 @@
       "nome": "Anthony Valencia",
       "posicao": "Atacante",
       "numero": 8,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9o97hw1767979562.jpg"
     },
     {
       "nome": "Nilson Angulo",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/txm8bi1687618707.jpg"
     },
     {
       "nome": "Alan Minda",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w387l51767801780.jpg"
     },
     {
       "nome": "Jeremy Arévalo",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/4xbsrf1780290675.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

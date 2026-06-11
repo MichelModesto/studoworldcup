@@ -9,55 +9,64 @@
       "nome": "Kim Seung-Gyu",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/fxe84i1778971604.jpg"
     },
     {
       "nome": "Jo Hyeon-Woo",
       "posicao": "Goleiro",
       "numero": 21,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/unbf8w1751085788.jpg"
     },
     {
       "nome": "Song Bum-Keun",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/zi3nwe1778974469.jpg"
     },
     {
       "nome": "Kim Min-Jae",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/flx3cd1778971805.jpg"
     },
     {
       "nome": "Kim Moon-Hwan",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/8a8x381778972090.jpg"
     },
     {
       "nome": "Kim Tae-Hyeon",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/67ov861778972188.jpg"
     },
     {
       "nome": "Lee Tae-Seok",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5htf671778973218.jpg"
     },
     {
       "nome": "Lee Han-Beom",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/7xq5l01778973330.jpg"
     },
     {
       "nome": "Seol Young-Woo",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cy4mju1778973897.jpg"
     },
     {
       "nome": "Lee Gi-Hyuk",
@@ -75,43 +84,50 @@
       "nome": "Kim Jin-Gyu",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/xrn3va1778972321.jpg"
     },
     {
       "nome": "Lee Jae-Sung",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/c3so0c1778972640.jpg"
     },
     {
       "nome": "Paik Seung-Ho",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/dyrqxb1778973604.jpg"
     },
     {
       "nome": "Lee Dong-Gyeong",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ezngq51778972832.jpg"
     },
     {
       "nome": "Lee Kang-In",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/n0hew31778972474.jpg"
     },
     {
       "nome": "Hwang In-Beom",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/7pvfob1778971521.jpg"
     },
     {
       "nome": "Jens Castrop",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/bcnyom1778970409.jpg"
     },
     {
       "nome": "Park Jin-Seop",
@@ -123,46 +139,54 @@
       "nome": "Bae Jun-Ho",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/k9nwjc1778970284.jpg"
     },
     {
       "nome": "Son Heung-Min",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/r5abfl1778974278.jpg"
     },
     {
       "nome": "Hwang Hee-Chan",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cgr5971778971405.jpg"
     },
     {
       "nome": "Eom Ji-Sung",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/xh03u31778971093.jpg"
     },
     {
       "nome": "Oh Hyeon-Gyu",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5bzf6y1778973507.jpg"
     },
     {
       "nome": "Cho Gue-Sung",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/keelj71778970626.jpg"
     },
     {
       "nome": "Yang Hyun-Jun",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/mlrn6y1778974742.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

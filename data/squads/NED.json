@@ -9,132 +9,154 @@
       "nome": "Mark Flekken",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/98he2o1578087724.jpg"
     },
     {
       "nome": "Bart Verbruggen",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2ldxic1772017667.jpg"
     },
     {
       "nome": "Robin Roefs",
       "posicao": "Goleiro",
       "numero": 13,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tjmdem1701020974.jpg"
     },
     {
       "nome": "Virgil van Dijk",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9fe0tn1720452118.jpg"
     },
     {
       "nome": "Nathan Aké",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bclq8j1708244468.jpg"
     },
     {
       "nome": "Denzel Dumfries",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7uz0v61544971521.jpg"
     },
     {
       "nome": "Lutsharel Geertruida",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8g5b7f1772029392.jpg"
     },
     {
       "nome": "Jan Paul van Hecke",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3bddx31772016988.jpg"
     },
     {
       "nome": "Micky van de Ven",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lr2qck1770895095.jpg"
     },
     {
       "nome": "Jorrel Hato",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bj183a1771427587.jpg"
     },
     {
       "nome": "Marten de Roon",
       "posicao": "Meio-campista",
       "numero": 3,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yxxtvt1471617211.jpg"
     },
     {
       "nome": "Frenkie de Jong",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fgse2c1771254363.jpg"
     },
     {
       "nome": "Guus Til",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9c2xgh1647861049.jpg"
     },
     {
       "nome": "Teun Koopmeiners",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9rlzkj1622152930.jpg"
     },
     {
       "nome": "Tijjani Reijnders",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kiacxt1679158182.jpg"
     },
     {
       "nome": "Ryan Gravenberch",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/s2jcp81603836997.jpg"
     },
     {
       "nome": "Mats Wieffer",
       "posicao": "Meio-campista",
       "numero": 12,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/la1fkq1772016353.jpg"
     },
     {
       "nome": "Quinten Timber",
       "posicao": "Meio-campista",
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/knniw71679243113.jpg"
     },
     {
       "nome": "Memphis Depay",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/b8ce921706956738.jpg"
     },
     {
       "nome": "Wout Weghorst",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/l0lr521578226693.jpg"
     },
     {
       "nome": "Justin Kluivert",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fqp7du1771751606.jpg"
     },
     {
       "nome": "Cody Gakpo",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m9g2ki1669145821.jpg"
     },
     {
       "nome": "Noa Lang",
@@ -146,22 +168,26 @@
       "nome": "Donyell Malen",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y6zoqt1770201257.jpg"
     },
     {
       "nome": "Brian Brobbey",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7odze71772029250.jpg"
     },
     {
       "nome": "Crysencio Summerville",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wqapie1772133945.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

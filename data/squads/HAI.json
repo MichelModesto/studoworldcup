@@ -9,127 +9,148 @@
       "nome": "Johny Placide",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 38
+      "idade": 38,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rthmvv1511792821.jpg"
     },
     {
       "nome": "Josué Duverger",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/v5vs991779119779.jpg"
     },
     {
       "nome": "Alexandre Pierre",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/eg2ar61779132536.jpg"
     },
     {
       "nome": "Ricardo Adé",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/e2pvg41724686010.jpg"
     },
     {
       "nome": "Carlens Arcus",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tm8vet1701459658.jpg"
     },
     {
       "nome": "Markhus Lacroix",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/23aioz1779119028.jpg"
     },
     {
       "nome": "Jean-Kévin Duverne",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/riv0pr1607794428.jpg"
     },
     {
       "nome": "Hannes Delcroix",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/n5wvwz1772368779.jpg"
     },
     {
       "nome": "Martin Expérience",
       "posicao": "Defensor",
       "numero": 8,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6bwz171779119675.jpg"
     },
     {
       "nome": "Wilguens Paugain",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/sfd4he1767012159.jpg"
     },
     {
       "nome": "Keeto Thermoncy",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5m3xlb1779135166.jpg"
     },
     {
       "nome": "Jean-Ricner Bellegarde",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4raydv1772032154.jpg"
     },
     {
       "nome": "Leverton Pierre",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/3obry91779132157.jpg"
     },
     {
       "nome": "Carl Sainté",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1beyyx1779134469.jpg"
     },
     {
       "nome": "Danley Jean Jacques",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/d32z011705661987.jpg"
     },
     {
       "nome": "Dominique Simon",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nto4xb1779134850.jpg"
     },
     {
       "nome": "Woodensky Pierre",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/jj7x4q1779133019.jpg"
     },
     {
       "nome": "Duckens Nazon",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/pbk3oj1779131435.jpg"
     },
     {
       "nome": "Derrick Etienne Jr.",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yv4k1k1548617647.jpg"
     },
     {
       "nome": "Frantzdy Pierrot",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/36p4t91779133633.jpg"
     },
     {
       "nome": "Wilson Isidor",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/e2aojz1772029671.jpg"
     },
     {
       "nome": "Yassin Fortuné",
@@ -147,22 +168,26 @@
       "nome": "Lenny Joseph",
       "posicao": "Atacante",
       "numero": 16,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yuqxqy1631968323.jpg"
     },
     {
       "nome": "Josué Casimir",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/49klkm1702292605.jpg"
     },
     {
       "nome": "Ruben Providence",
       "posicao": "Atacante",
       "numero": 15,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/p8q3py1726603880.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

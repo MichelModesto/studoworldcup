@@ -9,160 +9,187 @@
       "nome": "Ricardo Goss",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/2sfrwg1779924201.jpg"
     },
     {
       "nome": "Ronwen Williams",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5i9esk1751086301.jpg"
     },
     {
       "nome": "Sipho Chaine",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nvdnbq1779923782.jpg"
     },
     {
       "nome": "Aubrey Modiba",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/zpqg0m1779925132.jpg"
     },
     {
       "nome": "Nkosinathi Sibisi",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rvftvr1777992083.jpg"
     },
     {
       "nome": "Khuliso Mudau",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i0cq7o1706105807.jpg"
     },
     {
       "nome": "Bradley Cross",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6919gv1779923987.jpg"
     },
     {
       "nome": "Olwethu Makhanya",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ccencp1746346522.jpg"
     },
     {
       "nome": "Ime Okon",
       "posicao": "Defensor",
       "numero": 21,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/aknyvy1773072609.jpg"
     },
     {
       "nome": "Thabang Matuludi",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/2g26od1779924587.jpg"
     },
     {
       "nome": "Samukele Kabini",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/jdidqk1779924300.jpg"
     },
     {
       "nome": "Khulumani Ndamane",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/hj9cei1779925653.jpg"
     },
     {
       "nome": "Mbekezeli Mbokazi",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/sdofll1779925019.jpg"
     },
     {
       "nome": "Themba Zwane",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j9i4hk1706095566.jpg"
     },
     {
       "nome": "Sphephelo Sithole",
       "posicao": "Meio-campista",
       "numero": 13,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/bmss7o1779926063.jpg"
     },
     {
       "nome": "Teboho Mokoena",
       "posicao": "Meio-campista",
       "numero": 4,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4124n61751085355.jpg"
     },
     {
       "nome": "Thalente Mbatha",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/joruvz1779924860.jpg"
     },
     {
       "nome": "Jayden Adams",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/pylaem1779923506.jpg"
     },
     {
       "nome": "Kamogelo Sebelebele",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/amqz851779925929.jpg"
     },
     {
       "nome": "Lyle Foster",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/94h2xd1779926211.jpg"
     },
     {
       "nome": "Oswin Appollis",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1zdl9n1779923586.jpg"
     },
     {
       "nome": "Iqraam Rayners",
       "posicao": "Atacante",
       "numero": 15,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oh0gcn1750670299.jpg"
     },
     {
       "nome": "Evidence Makgopa",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lmp3081705589519.jpg"
     },
     {
       "nome": "Tshepang Moremi",
       "posicao": "Atacante",
       "numero": 8,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cqkay71779925538.jpg"
     },
     {
       "nome": "Thapelo Maseko",
       "posicao": "Atacante",
       "numero": 12,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/jv6rgo1779924493.jpg"
     },
     {
       "nome": "Relebohile Mofokeng",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/scaist1779925369.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

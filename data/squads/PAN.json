@@ -9,103 +9,120 @@
       "nome": "Luis Mejía",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/7fl5ov1779819387.jpg"
     },
     {
       "nome": "Orlando Mosquera",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/s1hpbf1719945429.jpg"
     },
     {
       "nome": "César Samudio",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/u3e5ei1779820862.jpg"
     },
     {
       "nome": "Roderick Miller",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/vd5dig1779819479.jpg"
     },
     {
       "nome": "Éric Davis",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yxfk291691153567.jpg"
     },
     {
       "nome": "Andrés Andrade",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pgbqmf1769545609.jpg"
     },
     {
       "nome": "Fidel Escobar",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ypuqv81779818753.jpg"
     },
     {
       "nome": "Amir Murillo",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zcfxlr1687618394.jpg"
     },
     {
       "nome": "César Blackman",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/x40xsw1716211711.jpg"
     },
     {
       "nome": "Jorge Gutiérrez",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nx5va61779819051.jpg"
     },
     {
       "nome": "José Córdoba",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uk6yfg1726080105.jpg"
     },
     {
       "nome": "Jiovany Ramos",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/vwqhgf1779820511.jpg"
     },
     {
       "nome": "Edgardo Fariña",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/61omh41779818902.jpg"
     },
     {
       "nome": "Aníbal Godoy",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1x1mcn1547981706.jpg"
     },
     {
       "nome": "Cristian Martínez",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wakar51720711902.jpg"
     },
     {
       "nome": "Édgar Yoel Bárcenas",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/mjau7o1779818629.jpg"
     },
     {
       "nome": "Adalberto Carrasquilla",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/b0fjrf1719945711.jpg"
     },
     {
       "nome": "José Luis Rodríguez",
@@ -117,31 +134,36 @@
       "nome": "Carlos Harvey",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bkdwyt1652354862.jpg"
     },
     {
       "nome": "Alberto Quintero",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 38
+      "idade": 38,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qo5c2i1779819604.jpg"
     },
     {
       "nome": "Cecilio Waterman",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/wne85o1779821020.jpg"
     },
     {
       "nome": "Ismael Díaz",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lubrmd1719946201.jpg"
     },
     {
       "nome": "José Fajardo",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/h1f27n1691153916.jpg"
     },
     {
       "nome": "Tomás Rodríguez",
@@ -159,10 +181,12 @@
       "nome": "Azarias Londoño",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/lbclvs1779819176.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

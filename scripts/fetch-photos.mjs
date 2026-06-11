@@ -39,6 +39,19 @@ const NACIONALIDADE = {
   USA: "United States",
 };
 
+// Grafia alternativa para busca quando a ESPN simplifica caracteres que a
+// TheSportsDB preserva (ex.: "ı" turco — a busca deles não normaliza).
+const GRAFIA = {
+  "TUR:Ugurcan Çakir": "Uğurcan Çakır",
+  "TUR:Altay Bayindir": "Altay Bayındır",
+  "TUR:Abdülkerim Bardakçi": "Abdülkerim Bardakçı",
+  "TUR:Ferdi Kadioglu": "Ferdi Kadıoğlu",
+  "TUR:Eren Elmali": "Eren Elmalı",
+  "TUR:Baris Alper Yilmaz": "Barış Alper Yılmaz",
+  "TUR:Oguz Aydin": "Oğuz Aydın",
+  "TUR:Kenan Yildiz": "Kenan Yıldız",
+};
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const norm = (s) =>
@@ -124,9 +137,12 @@ function escolher(jogador, candidatos, nacionalidade) {
   return candidatos.length === 1 ? melhor : null;
 }
 
-/** Variações de busca: nome completo e, se houver 3+ tokens, primeiro+último. */
-function variantes(nome) {
-  const v = [nome];
+/** Variações de busca: grafia alternativa, nome completo e, se houver 3+ tokens, primeiro+último. */
+function variantes(nome, fifa) {
+  const v = [];
+  const grafia = GRAFIA[`${fifa}:${nome}`];
+  if (grafia) v.push(grafia);
+  v.push(nome);
   const tokens = nome.split(/\s+/).filter(Boolean);
   if (tokens.length >= 3) v.push(`${tokens[0]} ${tokens[tokens.length - 1]}`);
   return v;
@@ -159,7 +175,7 @@ async function main() {
       if (hit === undefined) {
         hit = null;
         let falhou = false;
-        for (const termo of variantes(j.nome)) {
+        for (const termo of variantes(j.nome, squad.fifa)) {
           const candidatos = await buscar(termo);
           if (candidatos === null) {
             falhou = true; // API indisponível: não cachear como "sem foto"

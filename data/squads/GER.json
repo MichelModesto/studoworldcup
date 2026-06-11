@@ -9,160 +9,187 @@
       "nome": "Manuel Neuer",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 40
+      "idade": 40,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/2wx5jc1779384216.jpg"
     },
     {
       "nome": "Oliver Baumann",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/avlk0j1779382561.jpg"
     },
     {
       "nome": "Alexander Nübel",
       "posicao": "Goleiro",
       "numero": 21,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1l6pkj1779384544.jpg"
     },
     {
       "nome": "Nathaniel Brown",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/gc4moq1779382831.jpg"
     },
     {
       "nome": "Antonio Rüdiger",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qtv86p1779385132.jpg"
     },
     {
       "nome": "Jonathan Tah",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/0fjxro1779386059.jpg"
     },
     {
       "nome": "Waldemar Anton",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cdelb81779382388.jpg"
     },
     {
       "nome": "David Raum",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/vsjvz21779385059.jpg"
     },
     {
       "nome": "Nico Schlotterbeck",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/syw8dg1779385730.jpg"
     },
     {
       "nome": "Malick Thiaw",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/udmegk1779386282.jpg"
     },
     {
       "nome": "Pascal Gross",
       "posicao": "Meio-campista",
       "numero": 13,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/y996zi1779383066.jpg"
     },
     {
       "nome": "Leon Goretzka",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/30nvkh1779382907.jpg"
     },
     {
       "nome": "Joshua Kimmich",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/7r22gx1779383592.jpg"
     },
     {
       "nome": "Nadiem Amiri",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/re8vzo1779382310.jpg"
     },
     {
       "nome": "Felix Nmecha",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/i6l5rw1779384367.jpg"
     },
     {
       "nome": "Angelo Stiller",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/z0jroa1779385962.jpg"
     },
     {
       "nome": "Florian Wirtz",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/k2mwrs1779386689.jpg"
     },
     {
       "nome": "Jamal Musiala",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/y998n31779384099.jpg"
     },
     {
       "nome": "Aleksandar Pavlovic",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/swl0ha1779384937.jpg"
     },
     {
       "nome": "Assan Ouédraogo",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/06f98j1741636209.jpg"
     },
     {
       "nome": "Leroy Sané",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/kymheu1779385557.jpg"
     },
     {
       "nome": "Kai Havertz",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5c3h061780160105.jpg"
     },
     {
       "nome": "Deniz Undav",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rbzyf01779386404.jpg"
     },
     {
       "nome": "Maximilian Beier",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/7bkiu41779382698.jpg"
     },
     {
       "nome": "Jamie Leweling",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/9fylbd1779383668.jpg"
     },
     {
       "nome": "Nick Woltemade",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ni1l1b1779386915.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

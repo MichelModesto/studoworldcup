@@ -9,13 +9,15 @@
       "nome": "Mohamed El Shenawy",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rlo4d41705485138.jpg"
     },
     {
       "nome": "Mahdy Soliman",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 39
+      "idade": 39,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/o6a0jn1779981441.jpg"
     },
     {
       "nome": "Mostafa Shoubir",
@@ -27,25 +29,29 @@
       "nome": "Mohamed Alaa",
       "posicao": "Goleiro",
       "numero": 26,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cgjz3c1779981780.jpg"
     },
     {
       "nome": "Mohamed Hany",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5q3emh1643147003.jpg"
     },
     {
       "nome": "Ramy Rabia",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jrp8xj1750752659.jpg"
     },
     {
       "nome": "Karim Hafez",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ejh9mm1780118649.jpg"
     },
     {
       "nome": "Mohamed Abdelmoneim",
@@ -57,31 +63,36 @@
       "nome": "Ahmed Fatouh",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/jsvc0e1780117158.jpg"
     },
     {
       "nome": "Yasser Ibrahim",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qq9z4x1779983709.jpg"
     },
     {
       "nome": "Hossam Abdelmaguid",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/f0bk5p1779983983.jpg"
     },
     {
       "nome": "Tarek Alaa",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/62fxjn1779982387.jpg"
     },
     {
       "nome": "Hamdy Fathy",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/e4m03l1705485729.jpg"
     },
     {
       "nome": "Nabil Donga",
@@ -93,13 +104,15 @@
       "nome": "Emam Ashour",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/hkatps1780116171.jpg"
     },
     {
       "nome": "Mahmoud Saber",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nhqow31780118931.jpg"
     },
     {
       "nome": "Mohanad Lashin",
@@ -123,7 +136,8 @@
       "nome": "Trézéguet",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lt5tc11563981420.jpg"
     },
     {
       "nome": "Mohamed Salah",
@@ -141,28 +155,33 @@
       "nome": "Haissem Hassan",
       "posicao": "Atacante",
       "numero": 12,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/s4ajn11762616728.jpg"
     },
     {
       "nome": "Ibrahim Adel",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/az4cjn1780058446.jpg"
     },
     {
       "nome": "Omar Marmoush",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w1jx521658324336.jpg"
     },
     {
       "nome": "Hamza Abdelkarim",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/r6u76h1780115958.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

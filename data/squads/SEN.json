@@ -9,79 +9,92 @@
       "nome": "Mory Diaw",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fzowpd1629969971.jpg"
     },
     {
       "nome": "Édouard Mendy",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tzf98k1771663803.jpg"
     },
     {
       "nome": "Yehvann Diouf",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pl2wxd1608640902.jpg"
     },
     {
       "nome": "Kalidou Koulibaly",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fplctn1669799779.jpg"
     },
     {
       "nome": "Moussa Niakhaté",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/myny341578227368.jpg"
     },
     {
       "nome": "Abdoulaye Seck",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/wv4vbo1780546287.jpg"
     },
     {
       "nome": "Ismail Jakobs",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hdt64h1609169603.jpg"
     },
     {
       "nome": "Antoine Mendy",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yq49qq1681393139.jpg"
     },
     {
       "nome": "Mamadou Sarr",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5cqufd1770721142.jpg"
     },
     {
       "nome": "El Hadji Malick Diouf",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/nuctm81755776005.jpg"
     },
     {
       "nome": "Lamine Camara",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vlxxzg1705489304.jpg"
     },
     {
       "nome": "Idrissa Gueye",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 36
+      "idade": 36,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/707lot1771944827.jpg"
     },
     {
       "nome": "Krépin Diatta",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/eh4g3m1612019966.jpg"
     },
     {
       "nome": "Pape Gueye",
@@ -99,70 +112,82 @@
       "nome": "Pape Matar Sarr",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ovc2pm1770894572.jpg"
     },
     {
       "nome": "Habib Diarra",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bh5fr01772029318.jpg"
     },
     {
       "nome": "Bara Sapoko Ndiaye",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/7418ts1780546182.jpg"
     },
     {
       "nome": "Sadio Mané",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6w592f1704365738.jpg"
     },
     {
       "nome": "Ismaïla Sarr",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/d6a8by1772141525.jpg"
     },
     {
       "nome": "Cherif Ndiaye",
       "posicao": "Atacante",
       "numero": 12,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/fiviwx1780546087.jpg"
     },
     {
       "nome": "Iliman Ndiaye",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mewy8h1628334209.jpg"
     },
     {
       "nome": "Nicolas Jackson",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5bv5ob1770543405.jpg"
     },
     {
       "nome": "Bamba Dieng",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/01uwh61631624839.jpg"
     },
     {
       "nome": "Assane Diao",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vhi0m61701176025.jpg"
     },
     {
       "nome": "Ibrahim Mbaye",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ex2mk11770217409.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

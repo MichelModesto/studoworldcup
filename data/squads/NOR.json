@@ -9,160 +9,187 @@
       "nome": "Ørjan Nyland",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/21h7hi1706259019.jpg"
     },
     {
       "nome": "Egil Selvik",
       "posicao": "Goleiro",
       "numero": 13,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/k9bzoa1739973004.jpg"
     },
     {
       "nome": "Sander Tangvik",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/3rat671779406783.jpg"
     },
     {
       "nome": "Marcus Holmgren Pedersen",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/slee8j1622647830.jpg"
     },
     {
       "nome": "Kristoffer Ajer",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/xlcjmg1779407168.jpg"
     },
     {
       "nome": "Julian Ryerson",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/c3ru7l1680185000.jpg"
     },
     {
       "nome": "Fredrik André Bjørkan",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/03tpm61779407988.jpg"
     },
     {
       "nome": "Torbjørn Heggem",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3zsl9f1717613261.jpg"
     },
     {
       "nome": "Leo Østigard",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qklf4l1609594775.jpg"
     },
     {
       "nome": "Henrik Falchener",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/k2jxgl1779406505.jpg"
     },
     {
       "nome": "David Møller Wolfe",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gf2mmd1772031901.jpg"
     },
     {
       "nome": "Sondre Langas",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/r1c9d31760182401.jpg"
     },
     {
       "nome": "Morten Thorsby",
       "posicao": "Meio-campista",
       "numero": 2,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9qr03n1610561687.jpg"
     },
     {
       "nome": "Martin Ødegaard",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ttlff21727415365.jpg"
     },
     {
       "nome": "Patrick Berg",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/runv421779407586.jpg"
     },
     {
       "nome": "Fredrik Aursnes",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1xzeaw1779407454.jpg"
     },
     {
       "nome": "Sander Berge",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/awnp9b1779407774.jpg"
     },
     {
       "nome": "Jens Petter Hauge",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pvg93m1602960359.jpg"
     },
     {
       "nome": "Kristian Thorstvedt",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lc8edn1623869248.jpg"
     },
     {
       "nome": "Oscar Bobb",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/d0ai4y1779408227.jpg"
     },
     {
       "nome": "Thelo Aasgaard",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qzy7tk1779406956.jpg"
     },
     {
       "nome": "Antonio Nusa",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/orowpm1731102557.jpg"
     },
     {
       "nome": "Alexander Sørloth",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/slx8ts1724311500.jpg"
     },
     {
       "nome": "Jørgen Strand Larsen",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/iklw8s1772140820.jpg"
     },
     {
       "nome": "Erling Haaland",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bb1agj1727415216.jpg"
     },
     {
       "nome": "Andreas Schjelderup",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j5t0vz1702209151.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

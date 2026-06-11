@@ -9,160 +9,187 @@
       "nome": "Yvon Mvogo",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gsr1wu1578228188.jpg"
     },
     {
       "nome": "Gregor Kobel",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dl2yx01605709279.jpg"
     },
     {
       "nome": "Marvin Keller",
       "posicao": "Goleiro",
       "numero": 21,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3jd0w41739363229.jpg"
     },
     {
       "nome": "Ricardo Rodríguez",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/if4gry1723793576.jpg"
     },
     {
       "nome": "Silvan Widmer",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/s1cgd31622989425.jpg"
     },
     {
       "nome": "Nico Elvedi",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8i2u4g1578119113.jpg"
     },
     {
       "nome": "Manuel Akanji",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rkw8nb1703327216.jpg"
     },
     {
       "nome": "Eray Cömert",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2y3kec1622890244.jpg"
     },
     {
       "nome": "Miro Muheim",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/nsseq71763383737.jpg"
     },
     {
       "nome": "Aurèle Amenda",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oi0evs1700325218.jpg"
     },
     {
       "nome": "Luca Jaquez",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rd7y2n1741621884.jpg"
     },
     {
       "nome": "Granit Xhaka",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xhgqbw1678275167.jpg"
     },
     {
       "nome": "Remo Freuler",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6q5sb81546034033.jpg"
     },
     {
       "nome": "Djibril Sow",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7djism1706258427.jpg"
     },
     {
       "nome": "Denis Zakaria",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cedtu81578119453.jpg"
     },
     {
       "nome": "Christian Fassnacht",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y8dedf1623020544.jpg"
     },
     {
       "nome": "Michel Aebischer",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ux8q991629963878.jpg"
     },
     {
       "nome": "Rubén Vargas",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j1ztej1578079778.jpg"
     },
     {
       "nome": "Ardon Jashari",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hj7nqf1668522659.jpg"
     },
     {
       "nome": "Fabian Rieder",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xcrzvk1629964112.jpg"
     },
     {
       "nome": "Johan Manzambi",
       "posicao": "Meio-campista",
       "numero": 9,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7meluk1763231191.jpg"
     },
     {
       "nome": "Breel Embolo",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oy06lq1578119132.jpg"
     },
     {
       "nome": "Cedric Itten",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5sdeis1515966789.jpg"
     },
     {
       "nome": "Noah Okafor",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hxrdr71610921126.jpg"
     },
     {
       "nome": "Dan Ndoye",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8ix5r81772393489.jpg"
     },
     {
       "nome": "Zeki Amdouni",
       "posicao": "Atacante",
       "numero": 23,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/unnpsf1630004876.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

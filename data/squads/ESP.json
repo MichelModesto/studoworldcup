@@ -9,31 +9,36 @@
       "nome": "David Raya",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/877ews1779732793.jpg"
     },
     {
       "nome": "Unai Simón",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7mte7u1603316714.jpg"
     },
     {
       "nome": "Joan García",
       "posicao": "Goleiro",
       "numero": 13,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/uee5ya1779730733.jpg"
     },
     {
       "nome": "Eric García",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/mc6fd21779730502.jpg"
     },
     {
       "nome": "Aymeric Laporte",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/zldp8b1779732163.jpg"
     },
     {
       "nome": "Alejandro Grimaldo",
@@ -45,7 +50,8 @@
       "nome": "Marc Cucurella",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/3q2bqo1779729798.jpg"
     },
     {
       "nome": "Pedro Porro",
@@ -63,31 +69,36 @@
       "nome": "Pau Cubarsí",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 19
+      "idade": 19,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/j3tpg81779729592.jpg"
     },
     {
       "nome": "Marcos Llorente",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nssdrm1779732330.jpg"
     },
     {
       "nome": "Mikel Merino",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/m01iqo1779732489.jpg"
     },
     {
       "nome": "Fabián Ruiz",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/53hbfh1770216586.jpg"
     },
     {
       "nome": "Dani Olmo",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lo29ok1771254713.jpg"
     },
     {
       "nome": "Rodri",
@@ -105,19 +116,22 @@
       "nome": "Martín Zubimendi",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fztcvl1769331626.jpg"
     },
     {
       "nome": "Yéremy Pino",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5smsdr1622109964.jpg"
     },
     {
       "nome": "Álex Baena",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/op2ghc1779729448.jpg"
     },
     {
       "nome": "Gavi",
@@ -129,31 +143,36 @@
       "nome": "Borja Iglesias",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/urztkj1779731559.jpg"
     },
     {
       "nome": "Mikel Oyarzabal",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6032ku1574504970.jpg"
     },
     {
       "nome": "Ferran Torres",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wuh4nr1771253715.jpg"
     },
     {
       "nome": "Nico Williams",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ubc6yn1629190504.jpg"
     },
     {
       "nome": "Lamine Yamal",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ukerpq1692551634.jpg"
     },
     {
       "nome": "Víctor Muñoz",
@@ -163,6 +182,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }
