@@ -1,6 +1,7 @@
 import {
   BarChart3,
   CalendarDays,
+  Dices,
   LayoutDashboard,
   type LucideIcon,
   MapPin,
@@ -17,6 +18,7 @@ export type NavItem = {
 
 export const NAV_ITEMS: NavItem[] = [
   { href: "/painel", label: "Visão geral", icon: LayoutDashboard },
+  { href: "/painel/bolao", label: "Bolão", icon: Dices },
   { href: "/painel/selecoes", label: "Seleções", icon: Users },
   { href: "/painel/jogos", label: "Jogos", icon: CalendarDays },
   { href: "/painel/grupos", label: "Grupos", icon: Trophy },
