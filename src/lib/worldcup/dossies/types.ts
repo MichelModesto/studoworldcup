@@ -8,6 +8,8 @@ export type Metric = {
   hint?: string;
   /** Situação na Copa 2026 quando o label é um jogador. */
   tag?: "convocado" | "fora";
+  /** Foto do jogador (quando o label é um convocado com foto conhecida). */
+  foto?: string;
 };
 
 export type AgentBlock = {

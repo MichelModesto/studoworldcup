@@ -9,154 +9,180 @@
       "nome": "Emiliano Martínez",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7drp311770201331.jpg"
     },
     {
       "nome": "Gerónimo Rulli",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/jwu7kq1780011047.jpg"
     },
     {
       "nome": "Juan Musso",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3c9w9x1623582500.jpg"
     },
     {
       "nome": "Cristian Romero",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/16rd0s1780011158.jpg"
     },
     {
       "nome": "Nicolás Otamendi",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 38
+      "idade": 38,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/c735ni1780010283.jpg"
     },
     {
       "nome": "Nicolás Tagliafico",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/do0e5w1780011317.jpg"
     },
     {
       "nome": "Nahuel Molina",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uhc6mv1719036284.jpg"
     },
     {
       "nome": "Gonzalo Montiel",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0f1okp1724793509.jpg"
     },
     {
       "nome": "Lisandro Martínez",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/62xrby1770994011.jpg"
     },
     {
       "nome": "Facundo Medina",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/2sd8u81780011419.jpg"
     },
     {
       "nome": "Leandro Paredes",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/32tyaf1780010678.jpg"
     },
     {
       "nome": "Rodrigo De Paul",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1dd1xh1770024012.jpg"
     },
     {
       "nome": "Giovani Lo Celso",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8rn3871719033011.jpg"
     },
     {
       "nome": "Exequiel Palacios",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/yteipb1780010763.jpg"
     },
     {
       "nome": "Alexis Mac Allister",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9n5dnd1751999911.jpg"
     },
     {
       "nome": "Thiago Almada",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nxn1kn1780009680.jpg"
     },
     {
       "nome": "Enzo Fernández",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/59cm7k1771427301.jpg"
     },
     {
       "nome": "Valentín Barco",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/tu2bsa1780009387.jpg"
     },
     {
       "nome": "Lionel Messi",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 38
+      "idade": 38,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kpfsvp1725295651.jpg"
     },
     {
       "nome": "Nico González",
       "posicao": "Atacante",
       "numero": 15,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w7p49i1719033947.jpg"
     },
     {
       "nome": "Lautaro Martínez",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y9j7e11719034723.jpg"
     },
     {
       "nome": "Julián Álvarez",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rm3tj11741979331.jpg"
     },
     {
       "nome": "José Manuel López",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/iqhcwm1780009588.jpg"
     },
     {
       "nome": "Giuliano Simeone",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/c24ms91780010953.jpg"
     },
     {
       "nome": "Nico Paz",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ol1v8l1780010884.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

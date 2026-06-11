@@ -9,13 +9,15 @@
       "nome": "Vozinha",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 40
+      "idade": 40,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/311rus1705486950.jpg"
     },
     {
       "nome": "Márcio Rosa",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1mmw3t1779196932.jpg"
     },
     {
       "nome": "CJ dos Santos",
@@ -27,79 +29,92 @@
       "nome": "Stopira",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 38
+      "idade": 38,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/r87n161779198301.jpg"
     },
     {
       "nome": "Steven Moreira",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m7dkfl1691077984.jpg"
     },
     {
       "nome": "Diney Borges",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ecb1221779202258.jpg"
     },
     {
       "nome": "Pico Lopes",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/gv2id91779127993.jpg"
     },
     {
       "nome": "Logan Costa",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1ceymi1779127485.jpg"
     },
     {
       "nome": "Sidny Lopes Cabral",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/iazr871779127008.jpg"
     },
     {
       "nome": "Wagner Pina",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6rni0z1779195841.jpg"
     },
     {
       "nome": "Kelvin Pires",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/vw7qh71779195926.jpg"
     },
     {
       "nome": "Yannick Semedo",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/frac291779197531.jpg"
     },
     {
       "nome": "Laros Duarte",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j0e80u1723140331.jpg"
     },
     {
       "nome": "Jamiro Monteiro",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/nr9slg1652709187.jpg"
     },
     {
       "nome": "Deroy Duarte",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kboxxu1700768246.jpg"
     },
     {
       "nome": "Telmo Arcanjo",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/xmlj981779126504.jpg"
     },
     {
       "nome": "João Paulo",
@@ -111,7 +126,8 @@
       "nome": "Kevin Pina",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5qdlty1705487789.jpg"
     },
     {
       "nome": "Ryan Mendes",
@@ -123,46 +139,54 @@
       "nome": "Garry Rodrigues",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ts35fw1669547014.jpg"
     },
     {
       "nome": "Nuno da Costa",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/0vfkuu1779127159.jpg"
     },
     {
       "nome": "Jovane Cabral",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/5y820d1779126865.jpg"
     },
     {
       "nome": "Willy Semedo",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/bk61bz1779197059.jpg"
     },
     {
       "nome": "Gilson Benchimol",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/01u99d1779126637.jpg"
     },
     {
       "nome": "Dailon Livramento",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mwu5tv1741897409.jpg"
     },
     {
       "nome": "Hélio Varela",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/phf9f11767870978.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

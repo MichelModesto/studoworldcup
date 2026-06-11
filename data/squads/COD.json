@@ -9,133 +9,155 @@
       "nome": "Lionel Mpasi",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6nvand1705586482.jpg"
     },
     {
       "nome": "Timothy Fayulu",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/f45gey1779188506.jpg"
     },
     {
       "nome": "Matthieu Epolo",
       "posicao": "Goleiro",
       "numero": 21,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/29qx961767125156.jpg"
     },
     {
       "nome": "Arthur Masuaku",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0csnzf1509107029.jpg"
     },
     {
       "nome": "Chancel Mbemba",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tzqzvt1509807886.jpg"
     },
     {
       "nome": "Joris Kayembe",
       "posicao": "Defensor",
       "numero": 12,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lkogd31717948211.jpg"
     },
     {
       "nome": "Axel Tuanzebe",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2bnmdq1772370161.jpg"
     },
     {
       "nome": "Aaron Wan-Bissaka",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rqm6nx1772134170.jpg"
     },
     {
       "nome": "Dylan Batubinsika",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/shey261717144416.jpg"
     },
     {
       "nome": "Gédéon Kalulu",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7u8xej1674738120.jpg"
     },
     {
       "nome": "Steve Kapuadi",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bbvrs31702991927.jpg"
     },
     {
       "nome": "Gaël Kakuta",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zh2w921608329730.jpg"
     },
     {
       "nome": "Aaron Tshibola",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/h1fmju1549203998.jpg"
     },
     {
       "nome": "Théo Bongonda",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m1btlv1678629225.jpg"
     },
     {
       "nome": "Charles Pickel",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9b57361678887178.jpg"
     },
     {
       "nome": "Samuel Moutoussamy",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hbmfwp1615563528.jpg"
     },
     {
       "nome": "Edo Kayembe",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ko3tr81641852558.jpg"
     },
     {
       "nome": "Noah Sadiki",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/z3i26p1772029986.jpg"
     },
     {
       "nome": "Ngal'ayel Mukau",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qf88cd1766059906.jpg"
     },
     {
       "nome": "Cédric Bakambu",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1qnfa11669549945.jpg"
     },
     {
       "nome": "Yoane Wissa",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9a1jrq1608387385.jpg"
     },
     {
       "nome": "Simon Banza",
       "posicao": "Atacante",
       "numero": 23,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zum95y1608329426.jpg"
     },
     {
       "nome": "Meschack Elia",
@@ -147,22 +169,26 @@
       "nome": "Nathanaël Mbuku",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2b461f1608647194.jpg"
     },
     {
       "nome": "Fiston Mayele",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/biqtic1713894196.jpg"
     },
     {
       "nome": "Brian Cipenga",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/fwohqi1779187989.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

@@ -81,4 +81,6 @@ export type Scorer = {
   flag: string;
   gols: number;
   penaltis: number;
+  /** Foto do jogador (TheSportsDB), quando encontrado no elenco convocado. */
+  foto?: string;
 };

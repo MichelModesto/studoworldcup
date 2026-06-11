@@ -9,67 +9,78 @@
       "nome": "Luca Zidane",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8j590l1630065433.jpg"
     },
     {
       "nome": "Oussama Benbot",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/lfutof1780251618.jpg"
     },
     {
       "nome": "Melvin Mastil",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1o3nby1780252053.jpg"
     },
     {
       "nome": "Aïssa Mandi",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/daf6z21503235226.jpg"
     },
     {
       "nome": "Ramy Bensebaini",
       "posicao": "Defensor",
       "numero": 21,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mq8sma1578119085.jpg"
     },
     {
       "nome": "Rayan Aït-Nouri",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/itf0a21780252666.jpg"
     },
     {
       "nome": "Mohamed Amine Tougai",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xq5g7w1750491565.jpg"
     },
     {
       "nome": "Zineddine Belaïd",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/s6v5km1780251448.jpg"
     },
     {
       "nome": "Samir Chergui",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5bvipu1727975448.jpg"
     },
     {
       "nome": "Jaouen Hadjam",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/us0ui21678357609.jpg"
     },
     {
       "nome": "Rafik Belghali",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vfqhwg1759162273.jpg"
     },
     {
       "nome": "Achraf Abada",
@@ -81,31 +92,36 @@
       "nome": "Nabil Bentaleb",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kluyu41578151803.jpg"
     },
     {
       "nome": "Houssem Aouar",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ebmvo91780252792.jpg"
     },
     {
       "nome": "Hicham Boudaoui",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vgryvf1609022848.jpg"
     },
     {
       "nome": "Ramiz Zerrouki",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qmtnzt1780252440.jpg"
     },
     {
       "nome": "Farès Chaïbi",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/if8k4w1678360127.jpg"
     },
     {
       "nome": "Yassine Titraoui",
@@ -117,52 +133,61 @@
       "nome": "Ibrahim Maza",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7z9c2k1756315185.jpg"
     },
     {
       "nome": "Riyad Mahrez",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ntcubf1780252347.jpg"
     },
     {
       "nome": "Amine Gouiri",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xl6as41534013643.jpg"
     },
     {
       "nome": "Mohamed Amoura",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/h7s5iz1717950981.jpg"
     },
     {
       "nome": "Adil Boulbina",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/hz3nql1780251870.jpg"
     },
     {
       "nome": "Anis Hadj Moussa",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/quqgoo1732695306.jpg"
     },
     {
       "nome": "Nadhir Benbouali",
       "posicao": "Atacante",
       "numero": 12,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/jw2uvd1780251732.jpg"
     },
     {
       "nome": "Farès Ghedjemis",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/r1ozup1780251969.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

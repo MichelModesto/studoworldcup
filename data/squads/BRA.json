@@ -9,151 +9,176 @@
       "nome": "Ederson",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lqvotq1741317988.jpg"
     },
     {
       "nome": "Alisson Becker",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yi6dt21746034945.jpg"
     },
     {
       "nome": "Weverton",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 38
+      "idade": 38,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2ho4w21610982827.jpg"
     },
     {
       "nome": "Alex Sandro",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kyc4rv1515955255.jpg"
     },
     {
       "nome": "Léo Pereira",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j55j1v1750454550.jpg"
     },
     {
       "nome": "Marquinhos",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/sejelk1770217582.jpg"
     },
     {
       "nome": "Danilo",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9qsyun1598691910.jpg"
     },
     {
       "nome": "Douglas Santos",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/30q7he1560026789.jpg"
     },
     {
       "nome": "Gabriel Magalhães",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/livh431779262874.jpg"
     },
     {
       "nome": "Bremer",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/icn9je1716707438.jpg"
     },
     {
       "nome": "Roger Ibañez",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/94n8i41580203524.jpg"
     },
     {
       "nome": "Casemiro",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0g0bxh1706525357.jpg"
     },
     {
       "nome": "Fabinho",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fx3s561534001514.jpg"
     },
     {
       "nome": "Bruno Guimarães",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/emzl1v1749155913.jpg"
     },
     {
       "nome": "Lucas Paquetá",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3mg83e1716706150.jpg"
     },
     {
       "nome": "Éderson",
       "posicao": "Meio-campista",
       "numero": 2,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lqvotq1741317988.jpg"
     },
     {
       "nome": "Danilo Santos",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kdtjxq1706117928.jpg"
     },
     {
       "nome": "Neymar",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/j60pdx1741319053.jpg"
     },
     {
       "nome": "Raphinha",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/14kuzy1771260047.jpg"
     },
     {
       "nome": "Vinícius Júnior",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lxf1he1771264845.jpg"
     },
     {
       "nome": "Matheus Cunha",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1nt1i61770993321.jpg"
     },
     {
       "nome": "Gabriel Martinelli",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jf2gcn1716705057.jpg"
     },
     {
       "nome": "Igor Thiago",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dvar5j1771939878.jpg"
     },
     {
       "nome": "Luiz Henrique",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kqp6jb1673688710.jpg"
     },
     {
       "nome": "Endrick",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 19
+      "idade": 19,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7tn5xc1724608312.jpg"
     },
     {
       "nome": "Rayan",
@@ -163,6 +188,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

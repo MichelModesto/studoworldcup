@@ -9,154 +9,180 @@
       "nome": "Alexander Schlager",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/l3miqv1622123635.jpg"
     },
     {
       "nome": "Patrick Pentz",
       "posicao": "Goleiro",
       "numero": 13,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5tw4w71610221442.jpg"
     },
     {
       "nome": "Florian Wiegele",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/je6xgn1779184970.jpg"
     },
     {
       "nome": "David Alaba",
       "posicao": "Defensor",
       "numero": 8,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/sdcmqe1702815753.jpg"
     },
     {
       "nome": "Philipp Lienhart",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mqy4ri1622122767.jpg"
     },
     {
       "nome": "Marco Friedl",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i1dlve1622121306.jpg"
     },
     {
       "nome": "Stefan Posch",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y1g9mq1622122875.jpg"
     },
     {
       "nome": "Phillipp Mwene",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/r89zw21578227346.jpg"
     },
     {
       "nome": "Kevin Danso",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/nef5l21770824051.jpg"
     },
     {
       "nome": "Michael Svoboda",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/idenc71633104631.jpg"
     },
     {
       "nome": "David Affengruber",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/npsrj41724145158.jpg"
     },
     {
       "nome": "Alexander Prass",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9tz1gi1653940225.jpg"
     },
     {
       "nome": "Konrad Laimer",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vm9ui01770541591.jpg"
     },
     {
       "nome": "Marcel Sabitzer",
       "posicao": "Meio-campista",
       "numero": 9,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ox9wte1717423416.jpg"
     },
     {
       "nome": "Alessandro Schöpf",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xmja4e1578167356.jpg"
     },
     {
       "nome": "Florian Grillitsch",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qu7fyc1622121368.jpg"
     },
     {
       "nome": "Romano Schmid",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2uxmwf1609170446.jpg"
     },
     {
       "nome": "Xaver Schlager",
       "posicao": "Meio-campista",
       "numero": 4,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oh2xk71622123333.jpg"
     },
     {
       "nome": "Carney Chukwuemeka",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6ymbm51636630303.jpg"
     },
     {
       "nome": "Patrick Wimmer",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1klupn1658324092.jpg"
     },
     {
       "nome": "Nicolas Seiwald",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2a3flk1634811127.jpg"
     },
     {
       "nome": "Paul Wanner",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/v0ycev1659990820.jpg"
     },
     {
       "nome": "Marko Arnautovic",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uqczgv1622121230.jpg"
     },
     {
       "nome": "Michael Gregoritsch",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yjkyhp1585495858.jpg"
     },
     {
       "nome": "Sasa Kalajdzic",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y4zkcg1609169729.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "ingest": "node --env-file=.env.local scripts/ingest.mjs",
-    "ingest:espn": "node scripts/ingest-espn.mjs"
+    "ingest:espn": "node scripts/ingest-espn.mjs",
+    "fetch:squads": "node scripts/fetch-squads.mjs",
+    "fetch:photos": "node scripts/fetch-photos.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.40.0",

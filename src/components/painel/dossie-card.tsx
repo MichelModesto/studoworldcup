@@ -1,5 +1,6 @@
 import type { AgentBlock } from "@/lib/worldcup/dossies/types";
 import { DossieIcon } from "./dossie-icon";
+import { PlayerAvatar } from "./player-avatar";
 
 const confBadge: Record<string, string> = {
   baixa: "bg-surface-2 text-muted",
@@ -32,6 +33,7 @@ export function DossieCard({
         {block.metricas.map((m, i) => (
           <div key={i} className="flex items-baseline justify-between gap-3 border-b border-border/40 pb-2 last:border-0">
             <dt className="flex min-w-0 items-center gap-1.5 text-sm text-muted" title={m.hint}>
+              {m.tag && <PlayerAvatar nome={m.label} foto={m.foto} size={22} />}
               <span className="truncate">{m.label}</span>
               {m.tag === "convocado" && (
                 <span

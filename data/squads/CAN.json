@@ -9,97 +9,113 @@
       "nome": "Maxime Crépeau",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kiouar1621866062.jpg"
     },
     {
       "nome": "Dayne St. Clair",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qs5jq31548433419.jpg"
     },
     {
       "nome": "Owen Goodman",
       "posicao": "Goleiro",
       "numero": 18,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bogka91728218794.jpg"
     },
     {
       "nome": "Richie Laryea",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/owdl2g1621328018.jpg"
     },
     {
       "nome": "Alphonso Davies",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0p7ekk1660764614.jpg"
     },
     {
       "nome": "Joel Waterman",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i1mmh61602618073.jpg"
     },
     {
       "nome": "Derek Cornelius",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ixglfi1668714509.jpg"
     },
     {
       "nome": "Alfie Jones",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mmihis1628708983.jpg"
     },
     {
       "nome": "Alistair Johnston",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ujidh41663868125.jpg"
     },
     {
       "nome": "Moïse Bombito",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/paxtnr1688047047.jpg"
     },
     {
       "nome": "Luc de Fougerolles",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/s2uypp1699734125.jpg"
     },
     {
       "nome": "Jonathan Osorio",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/exyn7k1621866558.jpg"
     },
     {
       "nome": "Stephen Eustáquio",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1ifbip1523975738.jpg"
     },
     {
       "nome": "Mathieu Choinière",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9kwudv1641303835.jpg"
     },
     {
       "nome": "Nathan Saliba",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i7oke71677880371.jpg"
     },
     {
       "nome": "Ismaël Koné",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/69e0i71646234880.jpg"
     },
     {
       "nome": "Ali Ahmed",
@@ -111,58 +127,68 @@
       "nome": "Niko Sigur",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/hxkkoz1780106563.jpg"
     },
     {
       "nome": "Cyle Larin",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/k17bjv1725044892.jpg"
     },
     {
       "nome": "Liam Millar",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/en97p71631734082.jpg"
     },
     {
       "nome": "Jonathan David",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hnv78h1742289489.jpg"
     },
     {
       "nome": "Jayden Nelson",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zif38u1621862821.jpg"
     },
     {
       "nome": "Tajon Buchanan",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yssum41668624128.jpg"
     },
     {
       "nome": "Jacob Shaffelburg",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cyuw4q1621799281.jpg"
     },
     {
       "nome": "Tani Oluwaseyi",
       "posicao": "Atacante",
       "numero": 12,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7c56b61662394382.jpg"
     },
     {
       "nome": "Promise David",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yzzpeb1733608784.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

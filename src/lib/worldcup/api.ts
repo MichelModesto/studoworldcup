@@ -14,6 +14,7 @@ import {
   paisFromCc,
   ptTeam,
 } from "./translate";
+import { getSquad, buildSquadMatcher, type SquadMatcher } from "./squads";
 
 /**
  * Fonte de dados: openfootball/worldcup.json (domínio público, sem chave).
@@ -284,9 +285,20 @@ export async function getScorers(limit = 20): Promise<Scorer[]> {
       acc.set(chave, cur);
     }
   }
-  return [...acc.values()]
+  const top = [...acc.values()]
     .sort((a, b) => b.gols - a.gols || a.jogador.localeCompare(b.jogador))
     .slice(0, limit);
+
+  // Anexa a foto de cada artilheiro a partir do elenco convocado.
+  const fifaByPt = new Map(teams.map((t) => [t.nomePt, t.fifa]));
+  const matchers = new Map<string, SquadMatcher | null>();
+  for (const s of top) {
+    const fifa = fifaByPt.get(s.selecao);
+    if (!fifa) continue;
+    if (!matchers.has(fifa)) matchers.set(fifa, buildSquadMatcher(await getSquad(fifa)));
+    s.foto = matchers.get(fifa)?.(s.jogador)?.foto;
+  }
+  return top;
 }
 
 export type Summary = {

@@ -4,7 +4,8 @@ import { ArrowLeft, CalendarClock, Flame, MapPin, Scale, TrendingUp } from "luci
 import { Card } from "@/components/ui/card";
 import { getMatches, getTeams } from "@/lib/worldcup";
 import { getTeamStats, type TeamStats } from "@/lib/worldcup/team-stats";
-import { getSquad, buildConvocadoChecker } from "@/lib/worldcup/squads";
+import { getSquad, buildSquadMatcher } from "@/lib/worldcup/squads";
+import { PlayerAvatar } from "@/components/painel/player-avatar";
 import { getDossier } from "@/lib/worldcup/dossies";
 import type { Team } from "@/lib/worldcup/types";
 
@@ -110,8 +111,8 @@ export default async function ConfrontoPage({
       (m.fifaMandante === fifaB && m.fifaVisitante === fifaA),
   );
 
-  const convA = buildConvocadoChecker(sqA);
-  const convB = buildConvocadoChecker(sqB);
+  const matchA = buildSquadMatcher(sqA);
+  const matchB = buildSquadMatcher(sqB);
 
   // ---- radar do apostador ----
   const golsEsperados =
@@ -286,14 +287,16 @@ export default async function ConfrontoPage({
                 <p className="text-xs uppercase tracking-wide text-muted">Artilheiros prováveis</p>
                 <div className="mt-3 grid grid-cols-2 gap-3 text-sm">
                   {[
-                    { t: teamA, s: sA, conv: convA },
-                    { t: teamB, s: sB, conv: convB },
-                  ].map(({ t, s, conv }) => (
+                    { t: teamA, s: sA, match: matchA },
+                    { t: teamB, s: sB, match: matchB },
+                  ].map(({ t, s, match }) => (
                     <ul key={t.fifa} className="space-y-1.5">
                       {s.artilheiros.slice(0, 3).map((a) => {
-                        const dentro = conv ? conv(a.nome) : true;
+                        const jogador = match?.(a.nome) ?? null;
+                        const dentro = match ? jogador !== null : true;
                         return (
                           <li key={a.nome} className={`flex items-center gap-1.5 ${dentro ? "" : "opacity-50"}`}>
+                            <PlayerAvatar nome={a.nome} foto={jogador?.foto} size={22} />
                             <span className="truncate">{a.nome}</span>
                             <span className="ml-auto shrink-0 font-semibold tabular-nums text-brand">{a.gols}</span>
                             {!dentro && <span className="shrink-0 text-[10px] text-muted line-through">fora</span>}

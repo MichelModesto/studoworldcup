@@ -9,139 +9,162 @@
       "nome": "Eloy Room",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vy4b431544969946.jpg"
     },
     {
       "nome": "Trevor Doornbusch",
       "posicao": "Goleiro",
       "numero": 26,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/plg4nw1779193509.jpg"
     },
     {
       "nome": "Tyrick Bodak",
       "posicao": "Goleiro",
       "numero": 25,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/afjubh1760793261.jpg"
     },
     {
       "nome": "Joshua Brenet",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/175wim1700398518.jpg"
     },
     {
       "nome": "Riechedly Bazoer",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/emal8x1557865240.jpg"
     },
     {
       "nome": "Sherel Floranus",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/63buxc1700248870.jpg"
     },
     {
       "nome": "Armando Obispo",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/n5p6md1679496829.jpg"
     },
     {
       "nome": "Juriën Gaari",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6hts7h1701120658.jpg"
     },
     {
       "nome": "Roshon van Eijma",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tpxfxb1723489613.jpg"
     },
     {
       "nome": "Shurandy Sambo",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7l23d01696917526.jpg"
     },
     {
       "nome": "Livano Comenencia",
       "posicao": "Defensor",
       "numero": 8,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/gvoe401779193383.jpg"
     },
     {
       "nome": "Deveron Fonville",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hd9f261760717035.jpg"
     },
     {
       "nome": "Leandro Bacuna",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/hlurfv1779490510.jpg"
     },
     {
       "nome": "Juninho Bacuna",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qhhgky1779491447.jpg"
     },
     {
       "nome": "Kevin Felida",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rjgevz1701120574.jpg"
     },
     {
       "nome": "Godfried Roemeratoe",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/invk6l1701192884.jpg"
     },
     {
       "nome": "Tahith Chong",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1aygqk1585668693.jpg"
     },
     {
       "nome": "Ar'jany Martha",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9rkwa51700835641.jpg"
     },
     {
       "nome": "Tyrese Noslin",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/enymza1758110045.jpg"
     },
     {
       "nome": "Jürgen Locadia",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/kwtqqh1779193934.jpg"
     },
     {
       "nome": "Brandley Kuwas",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/oxa15d1759782798.jpg"
     },
     {
       "nome": "Gervane Kastaneer",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uvilvt1750627686.jpg"
     },
     {
       "nome": "Kenji Gorré",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/95iyv21779193623.jpg"
     },
     {
       "nome": "Sontje Hansen",
@@ -159,10 +182,12 @@
       "nome": "Jeremy Antonisse",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/9gntnl1779489919.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

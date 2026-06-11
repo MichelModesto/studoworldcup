@@ -9,160 +9,187 @@
       "nome": "Thibaut Courtois",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/54zonn1779039115.jpg"
     },
     {
       "nome": "Senne Lammens",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ikdzhg1779039951.jpg"
     },
     {
       "nome": "Mike Penders",
       "posicao": "Goleiro",
       "numero": 13,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1n31ja1766053786.jpg"
     },
     {
       "nome": "Thomas Meunier",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/uljulm1779040994.jpg"
     },
     {
       "nome": "Brandon Mechele",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/19nyhp1779040433.jpg"
     },
     {
       "nome": "Timothy Castagne",
       "posicao": "Defensor",
       "numero": 21,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/4buln31779038875.jpg"
     },
     {
       "nome": "Maxim De Cuyper",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ivxzr51779039297.jpg"
     },
     {
       "nome": "Arthur Theate",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i3ftd91630160061.jpg"
     },
     {
       "nome": "Koni De Winter",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5h062e1667323389.jpg"
     },
     {
       "nome": "Zeno Debast",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cuklms1779039426.jpg"
     },
     {
       "nome": "Nathan Ngoy",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6i0gri1766058722.jpg"
     },
     {
       "nome": "Joaquin Seys",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yvkfdj1767633269.jpg"
     },
     {
       "nome": "Kevin De Bruyne",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/627wh81779038446.jpg"
     },
     {
       "nome": "Axel Witsel",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gex6yt1706956962.jpg"
     },
     {
       "nome": "Youri Tielemans",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zymhtt1770201587.jpg"
     },
     {
       "nome": "Hans Vanaken",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uyh1ye1622189611.jpg"
     },
     {
       "nome": "Nicolas Raskin",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lh0au21636768721.jpg"
     },
     {
       "nome": "Amadou Onana",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bijuo91634817657.jpg"
     },
     {
       "nome": "Romelu Lukaku",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/8lrt211779040247.jpg"
     },
     {
       "nome": "Leandro Trossard",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2ledb81705918706.jpg"
     },
     {
       "nome": "Dodi Lukébakio",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/vd8d3j1779040343.jpg"
     },
     {
       "nome": "Alexis Saelemaekers",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zvqwjg1598645973.jpg"
     },
     {
       "nome": "Jérémy Doku",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w37jy41703326117.jpg"
     },
     {
       "nome": "Charles De Ketelaere",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/q597y21779039802.jpg"
     },
     {
       "nome": "Diego Moreira",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m307di1693424208.jpg"
     },
     {
       "nome": "Matias Fernandez-Pardo",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6fak4n1779039585.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

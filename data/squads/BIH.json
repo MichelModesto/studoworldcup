@@ -9,160 +9,187 @@
       "nome": "Nikola Vasilj",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cu1aj51778541706.jpg"
     },
     {
       "nome": "Martin Zlomislic",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/uhsd4r1778541627.jpg"
     },
     {
       "nome": "Mladen Jurkas",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/71dk2k1780465673.jpg"
     },
     {
       "nome": "Sead Kolasinac",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kzf4g21510852753.jpg"
     },
     {
       "nome": "Nikola Katic",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1b7s0n1778542342.jpg"
     },
     {
       "nome": "Dennis Hadzikadunic",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/l4ia391778544547.jpg"
     },
     {
       "nome": "Nihad Mujakic",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/khqfz21778541096.jpg"
     },
     {
       "nome": "Stjepan Radeljic",
       "posicao": "Defensor",
       "numero": 21,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/rydyw41778541203.jpg"
     },
     {
       "nome": "Amar Dedic",
       "posicao": "Defensor",
       "numero": 7,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/y4f55i1778543039.jpg"
     },
     {
       "nome": "Tarik Muharemovic",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2s76nh1764103543.jpg"
     },
     {
       "nome": "Nidal Celik",
       "posicao": "Defensor",
       "numero": 24,
-      "idade": 19
+      "idade": 19,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/locvu41778539938.jpg"
     },
     {
       "nome": "Ivan Sunjic",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/wj54cp1778542121.jpg"
     },
     {
       "nome": "Amir Hadziahmetovic",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/q1cm1n1756817163.jpg"
     },
     {
       "nome": "Dzenis Burnic",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ertan61778542638.jpg"
     },
     {
       "nome": "Armin Gigovic",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/1azb771778543473.jpg"
     },
     {
       "nome": "Ivan Basic",
       "posicao": "Meio-campista",
       "numero": 13,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/6bxzh41778544071.jpg"
     },
     {
       "nome": "Amar Memic",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/3emqu01778540725.jpg"
     },
     {
       "nome": "Benjamin Tahirovic",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pny4wf1679566380.jpg"
     },
     {
       "nome": "Ermin Mahmic",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/nitc4m1778540641.jpg"
     },
     {
       "nome": "Edin Dzeko",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 40
+      "idade": 40,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/sml4xg1710662840.jpg"
     },
     {
       "nome": "Haris Tabakovic",
       "posicao": "Atacante",
       "numero": 23,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/2shpb51778541916.jpg"
     },
     {
       "nome": "Ermedin Demirovic",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ahykd01778543129.jpg"
     },
     {
       "nome": "Jovo Lukic",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/datl971778540547.jpg"
     },
     {
       "nome": "Samed Bazdar",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/mh04pv1778539701.jpg"
     },
     {
       "nome": "Esmir Bajraktarevic",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/tt22l31778539825.jpg"
     },
     {
       "nome": "Kerim Alajbegovic",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/2dtxv61778542471.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

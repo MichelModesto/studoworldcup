@@ -9,7 +9,8 @@ import { getTeams } from "@/lib/worldcup";
 import { getTeamStats } from "@/lib/worldcup/team-stats";
 import { buildDossier } from "@/lib/worldcup/dossie";
 import { getDossier } from "@/lib/worldcup/dossies";
-import { getSquad, buildConvocadoChecker, tagConvocados } from "@/lib/worldcup/squads";
+import { getSquad, buildSquadMatcher, tagConvocados } from "@/lib/worldcup/squads";
+import { PlayerAvatar } from "@/components/painel/player-avatar";
 import type { AgentBlock } from "@/lib/worldcup/dossies/types";
 
 const CATEGORIAS: { nome: string; accent: string; agentes: string[] }[] = [
@@ -69,10 +70,10 @@ export default async function SelecaoDetalhePage({
   ]);
   // Prioriza o dossiê gerado pelos agentes; senão, deriva dos dados reais.
   // Em ambos os casos, marca quem está (ou não) na convocação da Copa 2026.
-  const convocado = buildConvocadoChecker(squad);
+  const matcher = buildSquadMatcher(squad);
   const blocks = tagConvocados(
     dossie?.blocks ?? (stats ? buildDossier(stats) : []),
-    convocado,
+    matcher,
   );
   const temConteudo = blocks.length > 0;
   const byAgent = new Map<string, AgentBlock>(blocks.map((b) => [b.agente, b]));
@@ -131,8 +132,9 @@ export default async function SelecaoDetalhePage({
                   </h3>
                   <ul className="space-y-1.5 text-sm">
                     {grupo.map((j) => (
-                      <li key={`${j.numero}-${j.nome}`} className="flex items-baseline gap-2">
-                        <span className="w-6 shrink-0 text-right font-mono text-xs text-muted">
+                      <li key={`${j.numero}-${j.nome}`} className="flex items-center gap-2">
+                        <PlayerAvatar nome={j.nome} foto={j.foto} size={30} />
+                        <span className="w-5 shrink-0 text-right font-mono text-xs text-muted">
                           {j.numero ?? "–"}
                         </span>
                         <span className="truncate">{j.nome}</span>

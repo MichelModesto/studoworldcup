@@ -9,61 +9,71 @@
       "nome": "David Ospina",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/doy8uo1779755172.jpg"
     },
     {
       "nome": "Álvaro Montero",
       "posicao": "Goleiro",
       "numero": 24,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/mrffk31779766609.jpg"
     },
     {
       "nome": "Camilo Vargas",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ob1axt1723963780.jpg"
     },
     {
       "nome": "Daniel Muñoz",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/bb6uua1779766697.jpg"
     },
     {
       "nome": "Santiago Arias",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/eqzorn1779751673.jpg"
     },
     {
       "nome": "Johan Mojica",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hgpitb1724400403.jpg"
     },
     {
       "nome": "Yerry Mina",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pl3hfq1725067442.jpg"
     },
     {
       "nome": "Davinson Sánchez",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ukweyz1703592911.jpg"
     },
     {
       "nome": "Deiver Machado",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ygplav1779755083.jpg"
     },
     {
       "nome": "Jhon Lucumí",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/r7hnhc1723963266.jpg"
     },
     {
       "nome": "Willer Ditta",
@@ -81,67 +91,78 @@
       "nome": "Juan Portilla",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/uo7dbs1779767007.jpg"
     },
     {
       "nome": "Juan Fernando Quintero",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/pv429v1779768728.jpg"
     },
     {
       "nome": "Jefferson Lerma",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/9cq4jt1779754842.jpg"
     },
     {
       "nome": "Jorge Carrascal",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/f7p4te1723963648.jpg"
     },
     {
       "nome": "Jhon Arias",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/l1od9g1779753001.jpg"
     },
     {
       "nome": "Jáminton Campaz",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2upcby1765295846.jpg"
     },
     {
       "nome": "Richard Ríos",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3sivzv1725066629.jpg"
     },
     {
       "nome": "Kevin Castaño",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/re6wit1723963135.jpg"
     },
     {
       "nome": "Gustavo Puerta",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i8ab5x1724962808.jpg"
     },
     {
       "nome": "Jhon Córdoba",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/v6ymwt1779753424.jpg"
     },
     {
       "nome": "Luis Díaz",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/qkw97r1779753703.jpg"
     },
     {
       "nome": "Luis Suárez",
@@ -159,10 +180,12 @@
       "nome": "Cucho Hernández",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4d5uuv1730093350.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

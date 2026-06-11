@@ -2,6 +2,7 @@ import { Target } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
+import { PlayerAvatar } from "@/components/painel/player-avatar";
 import { getScorers } from "@/lib/worldcup";
 
 export default async function ArtilheirosPage() {
@@ -40,7 +41,12 @@ export default async function ArtilheirosPage() {
                         {i + 1}
                       </span>
                     </td>
-                    <td className="py-3 font-medium">{a.jogador}</td>
+                    <td className="py-3 font-medium">
+                      <span className="flex items-center gap-2.5">
+                        <PlayerAvatar nome={a.jogador} foto={a.foto} size={30} />
+                        {a.jogador}
+                      </span>
+                    </td>
                     <td className="py-3">
                       <span className="flex items-center gap-2 text-muted">
                         <span className="text-lg">{a.flag}</span>

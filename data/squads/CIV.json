@@ -9,160 +9,187 @@
       "nome": "Alban Lafont",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6gq2a11546379817.jpg"
     },
     {
       "nome": "Yahia Fofana",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/20kugp1680871103.jpg"
     },
     {
       "nome": "Mohamed Koné",
       "posicao": "Goleiro",
       "numero": 16,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jcwy671767729807.jpg"
     },
     {
       "nome": "Evan Ndicka",
       "posicao": "Defensor",
       "numero": 21,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kh9c4i1578087133.jpg"
     },
     {
       "nome": "Christopher Operi",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/goo0tr1702293376.jpg"
     },
     {
       "nome": "Ghislain Konan",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gtjiz91640623227.jpg"
     },
     {
       "nome": "Odilon Kossounou",
       "posicao": "Defensor",
       "numero": 7,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qx8rn71623838893.jpg"
     },
     {
       "nome": "Wilfried Singo",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/emwwrg1769177944.jpg"
     },
     {
       "nome": "Emmanuel Agbadou",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1qojn71674743693.jpg"
     },
     {
       "nome": "Ousmane Diomande",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qjifoy1705330133.jpg"
     },
     {
       "nome": "Guela Doué",
       "posicao": "Defensor",
       "numero": 17,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vbphme1705663101.jpg"
     },
     {
       "nome": "Seko Fofana",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jby1d51546354375.jpg"
     },
     {
       "nome": "Jean Michaël Seri",
       "posicao": "Meio-campista",
       "numero": 4,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/w2snmk1629231742.jpg"
     },
     {
       "nome": "Franck Kessié",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jjgcgk1771663908.jpg"
     },
     {
       "nome": "Ibrahim Sangaré",
       "posicao": "Meio-campista",
       "numero": 18,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i5th491601324310.jpg"
     },
     {
       "nome": "Parfait Guiagon",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/r4paxx1767727388.jpg"
     },
     {
       "nome": "Christ Inao Oulaï",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/cfj1k91779129722.jpg"
     },
     {
       "nome": "Nicolas Pépé",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7ewjmz1724779988.jpg"
     },
     {
       "nome": "Evann Guessand",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2jox8i1770200799.jpg"
     },
     {
       "nome": "Amad Diallo",
       "posicao": "Atacante",
       "numero": 15,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/f8maua1706525745.jpg"
     },
     {
       "nome": "Ange-Yoan Bonny",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zf08mq1718898087.jpg"
     },
     {
       "nome": "Elye Wahi",
       "posicao": "Atacante",
       "numero": 12,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mqn7ty1609261791.jpg"
     },
     {
       "nome": "Simon Adingra",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ps0isw1752176102.jpg"
     },
     {
       "nome": "Oumar Diakité",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ws5egt1735338560.jpg"
     },
     {
       "nome": "Bazoumana Touré",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/a97azq1718138928.jpg"
     },
     {
       "nome": "Yan Diomande",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 19
+      "idade": 19,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/n4mmv61755965776.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

@@ -15,103 +15,120 @@
       "nome": "Paul Izzo",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zdrss11684935732.jpg"
     },
     {
       "nome": "Patrick Beach",
       "posicao": "Goleiro",
       "numero": 18,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zcfuu71748713195.jpg"
     },
     {
       "nome": "Milos Degenek",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6ghv6t1542016861.jpg"
     },
     {
       "nome": "Jason Geria",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vqpbm01685822929.jpg"
     },
     {
       "nome": "Aziz Behich",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tp5uj31544959626.jpg"
     },
     {
       "nome": "Cameron Burgess",
       "posicao": "Defensor",
       "numero": 21,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xxnwwr1535728771.jpg"
     },
     {
       "nome": "Harry Souttar",
       "posicao": "Defensor",
       "numero": 19,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ul791u1577711207.jpg"
     },
     {
       "nome": "Jacob Italiano",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gok5jr1769351181.jpg"
     },
     {
       "nome": "Kai Trewin",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3fcp581653059513.jpg"
     },
     {
       "nome": "Jordan Bos",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/flnb721684841024.jpg"
     },
     {
       "nome": "Alessandro Circati",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/by7cs71714294096.jpg"
     },
     {
       "nome": "Lucas Herrington",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 18
+      "idade": 18,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gs1dxg1765802394.jpg"
     },
     {
       "nome": "Jackson Irvine",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 33
+      "idade": 33,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cevso51506504164.jpg"
     },
     {
       "nome": "Awer Mabil",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wc71af1547048260.jpg"
     },
     {
       "nome": "Ajdin Hrustic",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hhy18k1659457529.jpg"
     },
     {
       "nome": "Aiden O'Neill",
       "posicao": "Meio-campista",
       "numero": 13,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fq0xrz1758400170.jpg"
     },
     {
       "nome": "Connor Metcalfe",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/zivr1k1653338269.jpg"
     },
     {
       "nome": "Cameron Devlin",
@@ -123,46 +140,54 @@
       "nome": "Cristian Volpato",
       "posicao": "Meio-campista",
       "numero": 20,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/783og31765728961.jpg"
     },
     {
       "nome": "Paul Okon-Engstler",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9fs2jf1765623745.jpg"
     },
     {
       "nome": "Mathew Leckie",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 35
+      "idade": 35,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/qkeht01668524916.jpg"
     },
     {
       "nome": "Mohamed Toure",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/eqpum51652989842.jpg"
     },
     {
       "nome": "Tete Yengi",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/62mo2v1734888498.jpg"
     },
     {
       "nome": "Nishan Velupillay",
       "posicao": "Atacante",
       "numero": 23,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hrdqll1715976458.jpg"
     },
     {
       "nome": "Nestory Irankunda",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 20
+      "idade": 20,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/eycnzm1715714747.jpg"
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }
