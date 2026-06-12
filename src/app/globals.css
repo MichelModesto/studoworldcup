@@ -217,6 +217,36 @@ h1, h2, h3, .font-display {
   animation: marquee 30s linear infinite;
 }
 
+/* Flip de placar (vira como painel de aeroporto) */
+@keyframes flip-placar {
+  0% { transform: rotateX(0deg); }
+  45% { transform: rotateX(90deg); opacity: 0.4; }
+  55% { transform: rotateX(-90deg); opacity: 0.4; }
+  100% { transform: rotateX(0deg); opacity: 1; }
+}
+.animate-flip-placar {
+  animation: flip-placar 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+/* Confete âmbar (salvou palpite!) */
+@keyframes confete {
+  0% { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(105vh) rotate(720deg); opacity: 0; }
+}
+.animate-confete {
+  animation: confete linear forwards;
+}
+
+/* Pontos do letreiro acendendo (loading) */
+@keyframes acender {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 1; }
+}
+.dot-acende {
+  animation: acender 1.2s ease-in-out infinite;
+}
+
 /* Shimmer para skeletons */
 .shimmer {
   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);

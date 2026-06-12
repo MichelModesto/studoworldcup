@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { LiveMatch } from "@/lib/worldcup/live";
+import { DigitoPlacar, TagAoVivo } from "./placar-fx";
 
 const FUSO = "America/Sao_Paulo";
 
@@ -26,12 +27,7 @@ function horarioBR(iso: string) {
 
 function Badge({ jogo }: { jogo: LiveMatch }) {
   if (jogo.estado === "in")
-    return (
-      <span className="flex items-center gap-1.5 rounded-full bg-red-500/15 px-2.5 py-0.5 text-[11px] font-semibold text-red-400">
-        <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-red-400" />
-        AO VIVO {jogo.relogio && `· ${jogo.relogio}`}
-      </span>
-    );
+    return <TagAoVivo texto={`AO VIVO${jogo.relogio ? ` · ${jogo.relogio}` : ""}`} />;
   if (jogo.estado === "post")
     return (
       <span className="rounded-full bg-surface-2 px-2.5 py-0.5 text-[11px] font-medium text-muted">
@@ -85,9 +81,10 @@ export function LiveScores({ initial }: { initial: LiveMatch[] }) {
                   <span className="text-lg leading-none">{s.flag}</span>
                   <span className="truncate font-medium">{s.nome}</span>
                   {comPlacar && (
-                    <span className="ml-auto font-display text-base font-bold tabular-nums">
-                      {s.gols}
-                    </span>
+                    <DigitoPlacar
+                      valor={s.gols}
+                      className="ml-auto font-mono text-base font-bold"
+                    />
                   )}
                 </div>
               ))}

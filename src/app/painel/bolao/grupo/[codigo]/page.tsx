@@ -18,6 +18,7 @@ import {
 } from "@/lib/bolao";
 import { RankingChart } from "@/components/charts/ranking-chart";
 import { getMatches, getTeams } from "@/lib/worldcup";
+import { TagAoVivo } from "@/components/painel/placar-fx";
 import { CompartilharConvite, CopiarCodigo } from "./copiar-codigo";
 
 const MEDALHA = ["text-gold", "text-foreground/70", "text-amber-700"];
@@ -197,11 +198,7 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                     {m.placarMandante ?? "–"} × {m.placarVisitante ?? "–"}
                   </span>
                   {m.visitante} <span>{m.flagVisitante}</span>
-                  {m.status === "ao-vivo" && (
-                    <span className="rounded-full bg-danger/15 px-2 py-px text-[10px] font-medium text-danger">
-                      ao vivo
-                    </span>
-                  )}
+                  {m.status === "ao-vivo" && <TagAoVivo texto="ao vivo" />}
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {(porJogo.get(m.id) ?? []).map((p) => {

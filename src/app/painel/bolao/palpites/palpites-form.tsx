@@ -1,8 +1,9 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useEffect, useState } from "react";
 import { useFormStatus } from "react-dom";
 import { AlertCircle, CheckCircle2, Loader2, Save } from "lucide-react";
+import { Confete } from "@/components/painel/placar-fx";
 import { salvarPalpitesAction, type BolaoState } from "../actions";
 
 export type JogoAberto = {
@@ -45,9 +46,16 @@ function BotaoSalvar() {
 
 export function PalpitesForm({ jogos }: { jogos: JogoAberto[] }) {
   const [state, action] = useActionState<BolaoState, FormData>(salvarPalpitesAction, {});
+  const [confete, setConfete] = useState(0);
+  useEffect(() => {
+    if (!state.ok || state.error) return;
+    const t = setTimeout(() => setConfete((n) => n + 1), 0);
+    return () => clearTimeout(t);
+  }, [state]);
 
   return (
     <form action={action}>
+      <Confete disparo={confete} />
       <div className="sticky top-0 z-10 -mx-1 mb-4 flex flex-wrap items-center gap-3 rounded-2xl bg-background/85 px-1 py-3 backdrop-blur">
         <BotaoSalvar />
         {state.ok && (

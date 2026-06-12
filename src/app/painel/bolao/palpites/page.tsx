@@ -16,6 +16,7 @@ import { getMatches, getTeams } from "@/lib/worldcup";
 import { listConvocados } from "@/lib/worldcup/squads";
 import type { Match } from "@/lib/worldcup/types";
 import { BonusForm } from "./bonus-form";
+import { TagAoVivo } from "@/components/painel/placar-fx";
 import { PalpitesForm, type JogoAberto } from "./palpites-form";
 
 const FUSO = "America/Sao_Paulo";
@@ -193,11 +194,7 @@ export default async function PalpitesPage() {
                       {badge.txt}
                     </span>
                   )}
-                  {m.status === "ao-vivo" && (
-                    <span className="shrink-0 rounded-full bg-danger/15 px-2.5 py-0.5 text-xs font-medium text-danger">
-                      ao vivo
-                    </span>
-                  )}
+                  {m.status === "ao-vivo" && <TagAoVivo texto="ao vivo" />}
                 </div>
               );
             })}
