@@ -12,6 +12,8 @@ import {
   getSummary,
 } from "@/lib/worldcup";
 
+export const metadata = { title: "Estatísticas" };
+
 const PAIS_COR: Record<string, string> = {
   "Estados Unidos": "#4e8ec9",
   Canadá: "#e5484d",

@@ -3,6 +3,8 @@ import { PageHeader } from "@/components/ui/page-header";
 import { StatCard } from "@/components/ui/stat-card";
 import { getStadiums } from "@/lib/worldcup";
 
+export const metadata = { title: "Sedes" };
+
 const paisCor: Record<string, string> = {
   "Estados Unidos": "bg-brand-2/15 text-brand-2",
   Canadá: "bg-accent/15 text-accent",

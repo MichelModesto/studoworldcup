@@ -19,6 +19,8 @@ import { BonusForm } from "./bonus-form";
 import { TagAoVivo } from "@/components/painel/placar-fx";
 import { PalpitesForm, type JogoAberto } from "./palpites-form";
 
+export const metadata = { title: "Meus palpites" };
+
 const FUSO = "America/Sao_Paulo";
 
 function rotuloData(m: Match): string {

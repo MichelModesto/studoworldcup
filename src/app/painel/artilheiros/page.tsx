@@ -5,6 +5,8 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { PlayerAvatar } from "@/components/painel/player-avatar";
 import { getScorers } from "@/lib/worldcup";
 
+export const metadata = { title: "Artilheiros" };
+
 export default async function ArtilheirosPage() {
   const scorers = await getScorers(30);
   const max = Math.max(1, ...scorers.map((a) => a.gols));

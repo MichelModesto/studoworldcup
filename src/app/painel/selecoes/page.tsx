@@ -2,6 +2,8 @@ import { PageHeader } from "@/components/ui/page-header";
 import { getTeams } from "@/lib/worldcup";
 import { SelecoesGrid } from "./selecoes-grid";
 
+export const metadata = { title: "Seleções" };
+
 export default async function SelecoesPage() {
   const teams = await getTeams();
   const ordenadas = [...teams].sort(

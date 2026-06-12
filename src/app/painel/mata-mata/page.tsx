@@ -3,6 +3,8 @@ import { PageHeader } from "@/components/ui/page-header";
 import { getMatches } from "@/lib/worldcup";
 import type { Match } from "@/lib/worldcup/types";
 
+export const metadata = { title: "Mata-mata" };
+
 const FUSO = "America/Sao_Paulo";
 const FASES = [
   "16-avos de final",

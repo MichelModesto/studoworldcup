@@ -4,6 +4,8 @@ import { PageHeader } from "@/components/ui/page-header";
 import { AutoRefresh } from "@/components/painel/auto-refresh";
 import { getStandings } from "@/lib/worldcup";
 
+export const metadata = { title: "Grupos" };
+
 export default async function GruposPage() {
   const standings = await getStandings();
   const grupos = Object.keys(standings).sort();

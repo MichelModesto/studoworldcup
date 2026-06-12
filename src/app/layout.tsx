@@ -20,10 +20,13 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "StudoWorldCup · Copa do Mundo 2026",
+  title: {
+    default: "StudoWorldCup · Copa 2026 + Bolão",
+    template: "%s · StudoWorldCup",
+  },
   description:
-    "Plataforma de estatísticas e análises da Copa do Mundo FIFA 2026 — México, Canadá e Estados Unidos.",
-  keywords: ["Copa do Mundo 2026", "estatísticas", "futebol", "FIFA", "World Cup"],
+    "Placar ao vivo, estatísticas de verdade e bolão com os amigos — a Copa do Mundo 2026 num lugar só.",
+  keywords: ["Copa do Mundo 2026", "bolão", "palpites", "estatísticas", "futebol", "FIFA"],
 };
 
 export default function RootLayout({

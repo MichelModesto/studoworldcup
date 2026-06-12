@@ -4,6 +4,8 @@ import { PageHeader } from "@/components/ui/page-header";
 import { getGroups, getMatches } from "@/lib/worldcup";
 import { SimuladorGrupos, type JogoSim } from "./simulador";
 
+export const metadata = { title: "Simulador e se...?" };
+
 export default async function SimuladorPage() {
   const [groups, matches] = await Promise.all([getGroups(), getMatches()]);
 

@@ -11,6 +11,8 @@ import { AtivarLembretes } from "@/components/painel/lembretes";
 import { CriarGrupoForm, EntrarGrupoForm } from "./forms";
 import { PalpiteRapido } from "./palpite-rapido";
 
+export const metadata = { title: "Bolão" };
+
 const FUSO = "America/Sao_Paulo";
 
 export default async function BolaoPage() {

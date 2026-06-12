@@ -5,6 +5,8 @@ import { LiveScores } from "@/components/painel/live-scores";
 import { getMatches, type Match } from "@/lib/worldcup";
 import { getLiveScoreboard } from "@/lib/worldcup/live";
 
+export const metadata = { title: "Jogos" };
+
 const FUSO = "America/Sao_Paulo";
 
 /** Data-calendário (aaaa-mm-dd) em Brasília, para agrupar coerente com o horário exibido. */
