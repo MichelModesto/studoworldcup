@@ -111,8 +111,14 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                     )}
                   </td>
                   <td className="py-3 font-medium">
-                    <span className="inline-flex items-center gap-1.5">
-                      {l.nome}
+                    <Link
+                      href={`/painel/bolao/grupo/${grupo.codigo}/membro/${l.usuarioId}`}
+                      className="group/membro inline-flex items-center gap-1.5"
+                      title={`Ver os palpites de ${l.nome} (jogos já iniciados)`}
+                    >
+                      <span className="transition group-hover/membro:text-brand group-hover/membro:underline">
+                        {l.nome}
+                      </span>
                       {(conquistas.get(l.usuarioId) ?? []).map((c) => (
                         <span key={c.emoji} title={c.titulo} className="cursor-help text-sm">
                           {c.emoji}
@@ -128,7 +134,7 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                           você
                         </span>
                       )}
-                    </span>
+                    </Link>
                   </td>
                   <td className="py-3 text-center tabular-nums">{l.exatos}</td>
                   <td className="py-3 text-center tabular-nums">{l.resultados}</td>
@@ -148,7 +154,8 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
         </div>
         <p className="mt-4 text-xs text-muted/70">
           Desempate: mais placares exatos. Pontos contam só de jogos encerrados. Bônus: campeã +10
-          e artilheiro +5 no fim da Copa.
+          e artilheiro +5 no fim da Copa. 👀 Clique num participante para ver todos os palpites
+          dele nos jogos já iniciados.
         </p>
       </Card>
 
