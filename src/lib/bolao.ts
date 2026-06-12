@@ -156,24 +156,6 @@ export async function getGrupoPorCodigo(codigo: string): Promise<Grupo | null> {
     : null;
 }
 
-/** Define/remove o PIX de entrada do bolão. Só o dono do grupo pode. */
-export async function salvarPix(
-  uid: number,
-  grupoId: number,
-  pix: string,
-): Promise<string | null> {
-  const limpo = pix.trim();
-  if (limpo && (!limpo.startsWith("000201") || !/BR\.GOV\.BCB\.PIX/i.test(limpo) || limpo.length > 512)) {
-    return "Código PIX inválido — cole o 'copia e cola' inteiro gerado pelo seu banco.";
-  }
-  const rows = (await sql()`
-    SELECT dono_id FROM grupos WHERE id = ${grupoId}
-  `) as { dono_id: number }[];
-  if (rows[0]?.dono_id !== uid) return "Só o dono do grupo pode configurar o PIX.";
-  await sql()`UPDATE grupos SET pix = ${limpo || null} WHERE id = ${grupoId}`;
-  return null;
-}
-
 /** Extrai valor (tag 54) e nome do recebedor (tag 59) de um PIX copia-e-cola (EMV). */
 export function lerPix(pix: string): { valor: string | null; nome: string | null } {
   let valor: string | null = null;

@@ -10,7 +10,6 @@ import {
   normalizarCodigo,
   salvarBonus,
   salvarPalpite,
-  salvarPix,
 } from "@/lib/bolao";
 
 export type BolaoState = { error?: string; ok?: string };
@@ -86,18 +85,6 @@ export async function salvarPalpitesAction(
   }
   if (!salvos) return { error: "Nenhum palpite para salvar — preencha algum placar." };
   return { ok: `${salvos} palpite(s) salvos. Boa sorte! 🍀` };
-}
-
-export async function salvarPixAction(_prev: BolaoState, formData: FormData): Promise<BolaoState> {
-  const auth = await exigirUsuario();
-  if ("error" in auth) return { error: auth.error };
-  const grupoId = Number(formData.get("grupoId"));
-  const pix = String(formData.get("pix") ?? "");
-  if (!Number.isInteger(grupoId)) return { error: "Grupo inválido." };
-  const erro = await salvarPix(auth.uid, grupoId, pix);
-  if (erro) return { error: erro };
-  revalidatePath("/painel/bolao");
-  return { ok: pix.trim() ? "PIX de entrada salvo! 💰" : "PIX removido." };
 }
 
 export async function salvarBonusAction(
