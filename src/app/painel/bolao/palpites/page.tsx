@@ -143,8 +143,8 @@ export default async function PalpitesPage() {
           <>
             <p className="mb-4 text-sm text-muted">
               Aposte na <strong>campeã (+10 pts)</strong> e no <strong>artilheiro (+5 pts)</strong>.
-              Pode mudar quantas vezes quiser até o início do mata-mata; os pontos entram no fim da
-              Copa.
+              ⚠️ <strong className="text-gold">Pense bem: depois de salvar é definitivo</strong> —
+              não dá para trocar. Os pontos entram no fim da Copa.
             </p>
             <BonusForm
               times={teams.map((t) => ({ fifa: t.fifa, nomePt: t.nomePt, flag: t.flag }))}

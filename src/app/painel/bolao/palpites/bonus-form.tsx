@@ -37,45 +37,61 @@ export function BonusForm({
   artilheiroAtual: string | null;
 }) {
   const [state, action] = useActionState<BolaoState, FormData>(salvarBonusAction, {});
+  const campeaoTravado = Boolean(campeaoAtual);
+  const artilheiroTravado = Boolean(artilheiroAtual);
+  const nomeCampeao = times.find((t) => t.fifa === campeaoAtual);
 
   return (
     <form action={action} className="grid gap-3 sm:grid-cols-[1fr_1fr_auto] sm:items-end">
       <div>
         <label htmlFor="campeao" className="mb-1.5 block text-xs font-medium text-muted">
-          🏆 Campeã da Copa (+10 pts)
+          🏆 Campeã da Copa (+10 pts){campeaoTravado && " · definitivo 🔒"}
         </label>
-        <select id="campeao" name="campeao" defaultValue={campeaoAtual ?? ""} className={INPUT}>
-          <option value="">— escolher seleção —</option>
-          {times.map((t) => (
-            <option key={t.fifa} value={t.fifa}>
-              {t.flag} {t.nomePt}
-            </option>
-          ))}
-        </select>
+        {campeaoTravado ? (
+          <p className="rounded-xl border border-gold/30 bg-gold/10 px-4 py-2.5 text-sm font-medium">
+            {nomeCampeao ? `${nomeCampeao.flag} ${nomeCampeao.nomePt}` : campeaoAtual}
+          </p>
+        ) : (
+          <select id="campeao" name="campeao" defaultValue="" className={INPUT}>
+            <option value="">— escolher seleção —</option>
+            {times.map((t) => (
+              <option key={t.fifa} value={t.fifa}>
+                {t.flag} {t.nomePt}
+              </option>
+            ))}
+          </select>
+        )}
       </div>
       <div>
         <label htmlFor="artilheiro" className="mb-1.5 block text-xs font-medium text-muted">
-          👟 Artilheiro da Copa (+5 pts)
+          👟 Artilheiro da Copa (+5 pts){artilheiroTravado && " · definitivo 🔒"}
         </label>
-        <input
-          id="artilheiro"
-          name="artilheiro"
-          type="text"
-          list="lista-convocados"
-          defaultValue={artilheiroAtual ?? ""}
-          placeholder="Comece a digitar o nome..."
-          maxLength={60}
-          className={INPUT}
-        />
-        <datalist id="lista-convocados">
-          {jogadores.map((j, i) => (
-            <option key={`${j.fifa}-${i}`} value={j.nome}>
-              {j.fifa}
-            </option>
-          ))}
-        </datalist>
+        {artilheiroTravado ? (
+          <p className="rounded-xl border border-brand/30 bg-brand/10 px-4 py-2.5 text-sm font-medium">
+            {artilheiroAtual}
+          </p>
+        ) : (
+          <>
+            <input
+              id="artilheiro"
+              name="artilheiro"
+              type="text"
+              list="lista-convocados"
+              placeholder="Comece a digitar o nome..."
+              maxLength={60}
+              className={INPUT}
+            />
+            <datalist id="lista-convocados">
+              {jogadores.map((j, i) => (
+                <option key={`${j.fifa}-${i}`} value={j.nome}>
+                  {j.fifa}
+                </option>
+              ))}
+            </datalist>
+          </>
+        )}
       </div>
-      <Botao />
+      {!(campeaoTravado && artilheiroTravado) && <Botao />}
       {state.ok && (
         <p className="flex items-center gap-1.5 text-sm text-brand sm:col-span-3">
           <CheckCircle2 className="h-4 w-4" /> {state.ok}

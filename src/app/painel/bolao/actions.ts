@@ -7,6 +7,7 @@ import { temBanco } from "@/lib/db";
 import {
   criarGrupo,
   entrarNoGrupo,
+  marcarPagamento,
   normalizarCodigo,
   salvarBonus,
   salvarPalpite,
@@ -85,6 +86,24 @@ export async function salvarPalpitesAction(
   }
   if (!salvos) return { error: "Nenhum palpite para salvar — preencha algum placar." };
   return { ok: `${salvos} palpite(s) salvos. Boa sorte! 🍀` };
+}
+
+export async function marcarPagamentoAction(
+  _prev: BolaoState,
+  formData: FormData,
+): Promise<BolaoState> {
+  const auth = await exigirUsuario();
+  if ("error" in auth) return { error: auth.error };
+  const grupoId = Number(formData.get("grupoId"));
+  const usuarioId = Number(formData.get("usuarioId"));
+  const pagou = String(formData.get("pagou")) === "true";
+  if (!Number.isInteger(grupoId) || !Number.isInteger(usuarioId)) {
+    return { error: "Dados inválidos." };
+  }
+  const erro = await marcarPagamento(auth.uid, grupoId, usuarioId, pagou);
+  if (erro) return { error: erro };
+  revalidatePath("/painel/bolao", "layout");
+  return { ok: pagou ? "Pagamento confirmado ✓" : "Pagamento desmarcado" };
 }
 
 export async function salvarBonusAction(

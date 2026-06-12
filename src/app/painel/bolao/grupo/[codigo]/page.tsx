@@ -16,12 +16,13 @@ import {
   pontosDoPalpite,
   rankingDoGrupo,
 } from "@/lib/bolao";
-import { lerPix } from "@/lib/bolao";
+import { lerPix, pagamentosDoGrupo } from "@/lib/bolao";
 import { RankingChart } from "@/components/charts/ranking-chart";
 import { getMatches, getTeams } from "@/lib/worldcup";
 import { TagAoVivo } from "@/components/painel/placar-fx";
 import { CompartilharConvite, CopiarCodigo } from "./copiar-codigo";
 import { CopiarPix } from "./pix-entrada";
+import { TogglePagou } from "./toggle-pagou";
 
 const MEDALHA = ["text-gold", "text-foreground/70", "text-amber-700"];
 
@@ -35,15 +36,19 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
   if (!grupo) notFound();
   if (!(await ehMembro(grupo.id, sessao.uid))) redirect("/painel/bolao");
 
-  const [ranking, porJogo, matches, bonusGrupo, teams, evolucao, conquistas] = await Promise.all([
-    rankingDoGrupo(grupo.id),
-    palpitesDoGrupo(grupo.id),
-    getMatches(),
-    getBonusDoGrupo(grupo.id),
-    getTeams(),
-    evolucaoDoGrupo(grupo.id).catch(() => ({ dias: [], nomes: [] })),
-    conquistasDoGrupo(grupo.id).catch(() => new Map<number, { emoji: string; titulo: string }[]>()),
-  ]);
+  const [ranking, porJogo, matches, bonusGrupo, teams, evolucao, conquistas, pagamentos] =
+    await Promise.all([
+      rankingDoGrupo(grupo.id),
+      palpitesDoGrupo(grupo.id),
+      getMatches(),
+      getBonusDoGrupo(grupo.id),
+      getTeams(),
+      evolucaoDoGrupo(grupo.id).catch(() => ({ dias: [], nomes: [] })),
+      conquistasDoGrupo(grupo.id).catch(() => new Map<number, { emoji: string; titulo: string }[]>()),
+      pagamentosDoGrupo(grupo.id).catch(() => new Map<number, boolean>()),
+    ]);
+  const ehDono = grupo.donoId === sessao.uid;
+  const mostraPagamento = Boolean(grupo.pix);
   const bonusFechado = bonusTravado(matches);
   const nomeTime = new Map(teams.map((t) => [t.fifa, `${t.flag} ${t.nomePt}`]));
 
@@ -127,6 +132,9 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                 <th className="pb-3 text-center" title="Placares exatos (3 pts)">Exatos</th>
                 <th className="pb-3 text-center" title="Acertou vencedor/empate (1 pt)">Resultados</th>
                 <th className="pb-3 text-center">Palpites</th>
+                {mostraPagamento && (
+                  <th className="pb-3 text-center" title="Pagou a entrada do bolão?">Entrada</th>
+                )}
                 <th className="pb-3 text-right">Pontos</th>
               </tr>
             </thead>
@@ -172,6 +180,25 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   <td className="py-3 text-center tabular-nums">{l.exatos}</td>
                   <td className="py-3 text-center tabular-nums">{l.resultados}</td>
                   <td className="py-3 text-center tabular-nums text-muted">{l.palpites}</td>
+                  {mostraPagamento && (
+                    <td className="py-3 text-center">
+                      {ehDono ? (
+                        <TogglePagou
+                          grupoId={grupo.id}
+                          usuarioId={l.usuarioId}
+                          pagou={pagamentos.get(l.usuarioId) ?? false}
+                        />
+                      ) : pagamentos.get(l.usuarioId) ? (
+                        <span className="rounded-full bg-success/15 px-2.5 py-0.5 text-xs font-medium text-success">
+                          💰 pago
+                        </span>
+                      ) : (
+                        <span className="rounded-full bg-surface-2 px-2.5 py-0.5 text-xs text-muted">
+                          pendente
+                        </span>
+                      )}
+                    </td>
+                  )}
                   <td className="py-3 text-right font-display text-base font-bold tabular-nums">
                     {l.pontos}
                     {l.bonus > 0 && (

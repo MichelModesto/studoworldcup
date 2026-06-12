@@ -177,6 +177,32 @@ export function lerPix(pix: string): { valor: string | null; nome: string | null
   return { valor, nome };
 }
 
+/** Quem já pagou a entrada (uid -> pagou), para exibir no ranking. */
+export async function pagamentosDoGrupo(grupoId: number): Promise<Map<number, boolean>> {
+  const rows = (await sql()`
+    SELECT usuario_id, pagou FROM grupo_membros WHERE grupo_id = ${grupoId}
+  `) as { usuario_id: number; pagou: boolean }[];
+  return new Map(rows.map((r) => [r.usuario_id, r.pagou]));
+}
+
+/** Marca/desmarca pagamento de um membro. Só o dono do grupo pode. */
+export async function marcarPagamento(
+  donoUid: number,
+  grupoId: number,
+  usuarioId: number,
+  pagou: boolean,
+): Promise<string | null> {
+  const rows = (await sql()`
+    SELECT dono_id FROM grupos WHERE id = ${grupoId}
+  `) as { dono_id: number }[];
+  if (rows[0]?.dono_id !== donoUid) return "Só o dono do grupo pode marcar pagamentos.";
+  await sql()`
+    UPDATE grupo_membros SET pagou = ${pagou}
+    WHERE grupo_id = ${grupoId} AND usuario_id = ${usuarioId}
+  `;
+  return null;
+}
+
 export async function ehMembro(grupoId: number, uid: number): Promise<boolean> {
   const rows = (await sql()`
     SELECT 1 FROM grupo_membros WHERE grupo_id = ${grupoId} AND usuario_id = ${uid}
@@ -293,12 +319,27 @@ export async function salvarBonus(
   const fifa = campeaoFifa.trim().toUpperCase();
   const art = artilheiro.trim().replace(/\s+/g, " ").slice(0, 60);
   if (fifa && !/^[A-Z]{3}$/.test(fifa)) return "Seleção campeã inválida.";
-  if (!fifa && !art) return "Escolha pelo menos um palpite bônus.";
+
+  // Bônus é DEFINITIVO: o que já foi salvo não muda mais, só completa o que falta.
+  const atual = await getBonus(uid);
+  if (atual.campeaoFifa && fifa && fifa !== atual.campeaoFifa) {
+    return "Palpite de campeã é definitivo — não dá mais para trocar. 🔒";
+  }
+  if (atual.artilheiro && art && chaveNome(art) !== chaveNome(atual.artilheiro)) {
+    return "Palpite de artilheiro é definitivo — não dá mais para trocar. 🔒";
+  }
+  const campeaoFinal = atual.campeaoFifa ?? (fifa || null);
+  const artilheiroFinal = atual.artilheiro ?? (art || null);
+  if (!campeaoFinal && !artilheiroFinal) return "Escolha pelo menos um palpite bônus.";
+  if (campeaoFinal === atual.campeaoFifa && artilheiroFinal === atual.artilheiro) {
+    return null; // nada novo para gravar
+  }
+
   await sql()`
     INSERT INTO palpites_bonus (usuario_id, campeao_fifa, artilheiro, atualizado_em)
-    VALUES (${uid}, ${fifa || null}, ${art || null}, now())
+    VALUES (${uid}, ${campeaoFinal}, ${artilheiroFinal}, now())
     ON CONFLICT (usuario_id)
-    DO UPDATE SET campeao_fifa = ${fifa || null}, artilheiro = ${art || null}, atualizado_em = now()
+    DO UPDATE SET campeao_fifa = ${campeaoFinal}, artilheiro = ${artilheiroFinal}, atualizado_em = now()
   `;
   return null;
 }

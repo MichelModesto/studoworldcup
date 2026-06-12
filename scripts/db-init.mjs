@@ -50,6 +50,8 @@ const DDL = [
   `ALTER TABLE usuarios ADD COLUMN IF NOT EXISTS recuperacao_hash text`,
   // PIX copia-e-cola da entrada do bolão (configurado pelo dono do grupo).
   `ALTER TABLE grupos ADD COLUMN IF NOT EXISTS pix text`,
+  // Controle de pagamento da entrada: o dono do grupo marca quem pagou.
+  `ALTER TABLE grupo_membros ADD COLUMN IF NOT EXISTS pagou boolean NOT NULL DEFAULT false`,
   // Palpites bônus: campeão (10 pts) e artilheiro da Copa (5 pts).
   `CREATE TABLE IF NOT EXISTS palpites_bonus (
     usuario_id     int PRIMARY KEY REFERENCES usuarios(id) ON DELETE CASCADE,
