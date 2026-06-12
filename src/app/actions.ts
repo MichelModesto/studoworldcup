@@ -86,3 +86,26 @@ export async function logout() {
   store.delete(SESSION_COOKIE);
   redirect("/login");
 }
+
+export type ContaState = { error?: string; ok?: string };
+
+/** Muda o nome de exibição (ranking, topo, push). Reemite o cookie de sessão. */
+export async function atualizarNome(_prev: ContaState, formData: FormData): Promise<ContaState> {
+  const { getSession } = await import("@/lib/auth");
+  const { sql, temBanco } = await import("@/lib/db");
+  const { revalidatePath } = await import("next/cache");
+
+  const sessao = await getSession();
+  if (!sessao || sessao.uid <= 0 || !temBanco()) {
+    return { error: "Disponível apenas para contas reais." };
+  }
+  const nome = String(formData.get("nome") ?? "").trim().replace(/\s+/g, " ");
+  if (nome.length < 2 || nome.length > 40) {
+    return { error: "Nome deve ter entre 2 e 40 caracteres." };
+  }
+
+  await sql()`UPDATE usuarios SET nome = ${nome} WHERE id = ${sessao.uid}`;
+  await abrirSessao({ ...sessao, nome });
+  revalidatePath("/painel", "layout");
+  return { ok: "Nome atualizado! 👊" };
+}

@@ -19,7 +19,7 @@ export default async function PainelLayout({
       <RegistrarSW />
       <Sidebar />
       <div className="flex min-w-0 flex-1 flex-col">
-        <Topbar nome={sessao.nome} />
+        <Topbar nome={sessao.nome} podeEditar={sessao.uid > 0} />
         <main className="flex-1 px-5 py-6 pb-24 lg:px-8 lg:py-8">
           <PageTransition>{children}</PageTransition>
         </main>
