@@ -86,7 +86,7 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
 
       <Card titulo="Classificação" className="mb-8">
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[480px] text-sm">
+          <table className="w-full min-w-[480px] text-sm tabela-zebra">
             <thead>
               <tr className="text-left text-xs uppercase tracking-wide text-muted">
                 <th className="pb-3 pl-1">#</th>

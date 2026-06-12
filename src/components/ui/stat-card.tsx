@@ -34,8 +34,8 @@ export function StatCard({
     <div className={`glass glass-hover group p-5 ${href ? "transition hover:border-brand/40" : ""}`}>
       <div className="flex items-start justify-between">
         <div className="min-w-0">
-          <p className="text-xs uppercase tracking-wide text-muted">{label}</p>
-          <p className="mt-2 font-display text-3xl font-bold tracking-tight">
+          <p className="text-xs uppercase tracking-[0.18em] text-muted">{label}</p>
+          <p className="mt-2 font-mono text-3xl font-bold tabular-nums tracking-tight">
             {typeof value === "number" ? (
               <Counter value={value} prefix={prefix} suffix={suffix} />
             ) : (

@@ -247,6 +247,11 @@ h1, h2, h3, .font-display {
   animation: acender 1.2s ease-in-out infinite;
 }
 
+/* Tabela zebrada (linhas alternadas sutis) */
+.tabela-zebra tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
 /* Shimmer para skeletons */
 .shimmer {
   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);

@@ -97,7 +97,13 @@ export default async function SelecaoDetalhePage({
       </Link>
 
       {/* Cabeçalho da seleção */}
-      <div className="glass neon-border mb-7 flex flex-wrap items-center gap-5 p-6">
+      <div className="glass neon-border relative mb-7 flex flex-wrap items-center gap-5 overflow-hidden p-6">
+        <span
+          aria-hidden
+          className="pointer-events-none absolute -right-8 -top-14 select-none text-[200px] opacity-[0.07] blur-[2px]"
+        >
+          {team.flag}
+        </span>
         <span className="text-6xl">{team.flag}</span>
         <div className="flex-1">
           <h1 className="font-display text-3xl font-bold tracking-tight">{team.nomePt}</h1>
