@@ -48,6 +48,8 @@ const DDL = [
   `CREATE INDEX IF NOT EXISTS idx_palpites_match ON palpites (match_id)`,
   // Recuperação de senha por código (mostrado uma única vez ao usuário).
   `ALTER TABLE usuarios ADD COLUMN IF NOT EXISTS recuperacao_hash text`,
+  // PIX copia-e-cola da entrada do bolão (configurado pelo dono do grupo).
+  `ALTER TABLE grupos ADD COLUMN IF NOT EXISTS pix text`,
   // Palpites bônus: campeão (10 pts) e artilheiro da Copa (5 pts).
   `CREATE TABLE IF NOT EXISTS palpites_bonus (
     usuario_id     int PRIMARY KEY REFERENCES usuarios(id) ON DELETE CASCADE,

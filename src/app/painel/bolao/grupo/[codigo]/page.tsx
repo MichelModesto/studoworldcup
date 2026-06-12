@@ -16,10 +16,12 @@ import {
   pontosDoPalpite,
   rankingDoGrupo,
 } from "@/lib/bolao";
+import { lerPix } from "@/lib/bolao";
 import { RankingChart } from "@/components/charts/ranking-chart";
 import { getMatches, getTeams } from "@/lib/worldcup";
 import { TagAoVivo } from "@/components/painel/placar-fx";
 import { CompartilharConvite, CopiarCodigo } from "./copiar-codigo";
+import { ConfigurarPix, CopiarPix } from "./pix-entrada";
 
 const MEDALHA = ["text-gold", "text-foreground/70", "text-amber-700"];
 
@@ -83,6 +85,49 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
           <ClipboardList className="h-4 w-4" /> Fazer meus palpites
         </Link>
       </div>
+
+      {(grupo.pix || grupo.donoId === sessao.uid) && (
+        <Card titulo="💰 Entrada do bolão (PIX)" className="mb-8">
+          {grupo.pix ? (
+            (() => {
+              const info = lerPix(grupo.pix!);
+              return (
+                <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                  <div>
+                    {info.valor && (
+                      <p className="font-mono text-3xl font-bold tabular-nums text-brand">
+                        R${" "}
+                        {Number(info.valor).toLocaleString("pt-BR", {
+                          minimumFractionDigits: 2,
+                        })}
+                      </p>
+                    )}
+                    <p className="mt-0.5 text-xs text-muted">
+                      {info.nome ? `PIX para ${info.nome}` : "PIX copia e cola"} · pague e avise no
+                      grupo 😉
+                    </p>
+                  </div>
+                  <CopiarPix pix={grupo.pix} />
+                  <p className="w-full text-xs text-muted/70">
+                    Copie o código e cole na opção <strong>PIX copia e cola</strong> do app do seu
+                    banco.
+                  </p>
+                </div>
+              );
+            })()
+          ) : (
+            <p className="text-sm text-muted">
+              Defina o valor da entrada: gere um PIX &quot;copia e cola&quot; no app do seu banco e
+              cole abaixo — todo participante verá o botão de pagar aqui.
+            </p>
+          )}
+          {grupo.donoId === sessao.uid && (
+            <div className="mt-3">
+              <ConfigurarPix grupoId={grupo.id} pixAtual={grupo.pix} />
+            </div>
+          )}
+        </Card>
+      )}
 
       <Card titulo="Classificação" className="mb-8">
         <div className="overflow-x-auto">

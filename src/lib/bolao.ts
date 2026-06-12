@@ -30,6 +30,8 @@ export type Grupo = {
   codigo: string;
   donoId: number;
   membros: number;
+  /** PIX copia-e-cola da entrada do bolão (opcional, definido pelo dono). */
+  pix: string | null;
 };
 
 export type Palpite = { golsMandante: number; golsVisitante: number };
@@ -93,7 +95,7 @@ export async function criarGrupo(uid: number, nome: string): Promise<Grupo | { e
       `) as { id: number }[];
       const id = rows[0].id;
       await sql()`INSERT INTO grupo_membros (grupo_id, usuario_id) VALUES (${id}, ${uid})`;
-      return { id, nome: nomeLimpo, codigo, donoId: uid, membros: 1 };
+      return { id, nome: nomeLimpo, codigo, donoId: uid, membros: 1, pix: null };
     } catch (e) {
       if (e instanceof Error && e.message.includes("grupos_codigo_key")) continue;
       throw e;
@@ -109,10 +111,10 @@ export async function entrarNoGrupo(
   const cod = normalizarCodigo(codigo);
   if (cod.length !== 6) return { erro: "Código inválido — são 6 letras/números." };
   const rows = (await sql()`
-    SELECT g.id, g.nome, g.codigo, g.dono_id,
+    SELECT g.id, g.nome, g.codigo, g.dono_id, g.pix,
            (SELECT count(*)::int FROM grupo_membros m WHERE m.grupo_id = g.id) AS membros
     FROM grupos g WHERE g.codigo = ${cod}
-  `) as { id: number; nome: string; codigo: string; dono_id: number; membros: number }[];
+  `) as { id: number; nome: string; codigo: string; dono_id: number; membros: number; pix: string | null }[];
   const g = rows[0];
   if (!g) return { erro: "Grupo não encontrado. Confira o código com quem te convidou." };
   await sql()`
@@ -120,37 +122,77 @@ export async function entrarNoGrupo(
     VALUES (${g.id}, ${uid})
     ON CONFLICT DO NOTHING
   `;
-  return { id: g.id, nome: g.nome, codigo: g.codigo, donoId: g.dono_id, membros: g.membros };
+  return { id: g.id, nome: g.nome, codigo: g.codigo, donoId: g.dono_id, membros: g.membros, pix: g.pix };
 }
 
 export async function meusGrupos(uid: number): Promise<Grupo[]> {
   const rows = (await sql()`
-    SELECT g.id, g.nome, g.codigo, g.dono_id,
+    SELECT g.id, g.nome, g.codigo, g.dono_id, g.pix,
            (SELECT count(*)::int FROM grupo_membros m2 WHERE m2.grupo_id = g.id) AS membros
     FROM grupos g
     JOIN grupo_membros m ON m.grupo_id = g.id AND m.usuario_id = ${uid}
     ORDER BY g.criado_em
-  `) as { id: number; nome: string; codigo: string; dono_id: number; membros: number }[];
+  `) as { id: number; nome: string; codigo: string; dono_id: number; membros: number; pix: string | null }[];
   return rows.map((g) => ({
     id: g.id,
     nome: g.nome,
     codigo: g.codigo,
     donoId: g.dono_id,
     membros: g.membros,
+    pix: g.pix,
   }));
 }
 
 export async function getGrupoPorCodigo(codigo: string): Promise<Grupo | null> {
   const cod = normalizarCodigo(codigo);
   const rows = (await sql()`
-    SELECT g.id, g.nome, g.codigo, g.dono_id,
+    SELECT g.id, g.nome, g.codigo, g.dono_id, g.pix,
            (SELECT count(*)::int FROM grupo_membros m WHERE m.grupo_id = g.id) AS membros
     FROM grupos g WHERE g.codigo = ${cod}
-  `) as { id: number; nome: string; codigo: string; dono_id: number; membros: number }[];
+  `) as { id: number; nome: string; codigo: string; dono_id: number; membros: number; pix: string | null }[];
   const g = rows[0];
   return g
-    ? { id: g.id, nome: g.nome, codigo: g.codigo, donoId: g.dono_id, membros: g.membros }
+    ? { id: g.id, nome: g.nome, codigo: g.codigo, donoId: g.dono_id, membros: g.membros, pix: g.pix }
     : null;
+}
+
+/** Define/remove o PIX de entrada do bolão. Só o dono do grupo pode. */
+export async function salvarPix(
+  uid: number,
+  grupoId: number,
+  pix: string,
+): Promise<string | null> {
+  const limpo = pix.trim();
+  if (limpo && (!limpo.startsWith("000201") || !/BR\.GOV\.BCB\.PIX/i.test(limpo) || limpo.length > 512)) {
+    return "Código PIX inválido — cole o 'copia e cola' inteiro gerado pelo seu banco.";
+  }
+  const rows = (await sql()`
+    SELECT dono_id FROM grupos WHERE id = ${grupoId}
+  `) as { dono_id: number }[];
+  if (rows[0]?.dono_id !== uid) return "Só o dono do grupo pode configurar o PIX.";
+  await sql()`UPDATE grupos SET pix = ${limpo || null} WHERE id = ${grupoId}`;
+  return null;
+}
+
+/** Extrai valor (tag 54) e nome do recebedor (tag 59) de um PIX copia-e-cola (EMV). */
+export function lerPix(pix: string): { valor: string | null; nome: string | null } {
+  let valor: string | null = null;
+  let nome: string | null = null;
+  try {
+    let i = 0;
+    while (i + 4 <= pix.length) {
+      const tag = pix.slice(i, i + 2);
+      const len = parseInt(pix.slice(i + 2, i + 4), 10);
+      if (Number.isNaN(len)) break;
+      const conteudo = pix.slice(i + 4, i + 4 + len);
+      if (tag === "54") valor = conteudo;
+      if (tag === "59") nome = conteudo;
+      i += 4 + len;
+    }
+  } catch {
+    /* código fora do padrão: mostra sem detalhes */
+  }
+  return { valor, nome };
 }
 
 export async function ehMembro(grupoId: number, uid: number): Promise<boolean> {
