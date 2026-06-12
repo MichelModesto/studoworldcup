@@ -17,11 +17,13 @@ export type GolESPN = {
 };
 
 export type ResultadoESPN = {
+  /** id do evento na ESPN (para a página lance a lance). */
+  id: string;
   homeFifa: string;
   awayFifa: string;
   homeGols: number;
   awayGols: number;
-  estado: "in" | "post";
+  estado: "pre" | "in" | "post";
   /** Instante UTC do início (ESPN). */
   dataISO: string;
   gols: GolESPN[];
@@ -62,7 +64,7 @@ export async function getResultadosESPN(): Promise<ResultadoESPN[]> {
       const c = e?.competitions?.[0];
       if (!c) continue;
       const estado = c.status?.type?.state;
-      if (estado !== "in" && estado !== "post") continue; // só rolando/encerrado
+      if (estado !== "pre" && estado !== "in" && estado !== "post") continue;
 
       type Comp = {
         homeAway?: string;
@@ -97,6 +99,7 @@ export async function getResultadosESPN(): Promise<ResultadoESPN[]> {
       }
 
       out.push({
+        id: String(e.id ?? ""),
         homeFifa,
         awayFifa,
         homeGols: Number(home?.score ?? 0),

@@ -32,13 +32,9 @@ export function MatchCard({ jogo }: { jogo: Match }) {
   const s = statusInfo[jogo.status];
   const temPlacar = jogo.placarMandante !== undefined;
   const hora = formatarHora(jogo);
-  const confronto =
-    jogo.fifaMandante && jogo.fifaVisitante
-      ? `/painel/confronto/${jogo.fifaMandante}-${jogo.fifaVisitante}`
-      : null;
 
   const card = (
-    <div className={`glass glass-hover p-4 ${confronto ? "transition group-hover:border-brand/40" : ""}`}>
+    <div className="glass glass-hover p-4 transition group-hover:border-brand/40">
       <div className="flex items-center justify-between text-xs text-muted">
         <span className="truncate">
           {jogo.fase}
@@ -87,24 +83,41 @@ export function MatchCard({ jogo }: { jogo: Match }) {
         </div>
       </div>
 
+      {jogo.gols.length > 0 && (
+        <p className="mt-2.5 truncate text-xs text-muted" title={resumoGols(jogo)}>
+          ⚽ {resumoGols(jogo)}
+        </p>
+      )}
+
       <div className="mt-3 flex items-center gap-1.5 border-t border-border/60 pt-3 text-xs text-muted">
         <MapPin className="h-3.5 w-3.5 shrink-0" />
         <span className="truncate">
           {jogo.estadio} · {jogo.cidade}
         </span>
-        {confronto && (
-          <span className="ml-auto inline-flex shrink-0 items-center gap-1 font-medium text-brand opacity-0 transition group-hover:opacity-100">
-            <Scale className="h-3.5 w-3.5" /> Comparar
-          </span>
-        )}
+        <span className="ml-auto inline-flex shrink-0 items-center gap-1 font-medium text-brand opacity-0 transition group-hover:opacity-100">
+          <Scale className="h-3.5 w-3.5" /> Detalhes
+        </span>
       </div>
     </div>
   );
 
-  if (!confronto) return card;
   return (
-    <Link href={confronto} className="group block" title="Comparar as duas seleções">
+    <Link
+      href={`/painel/jogos/${jogo.id}`}
+      className="group block"
+      title="Lance a lance, estatísticas e escalações"
+    >
       {card}
     </Link>
   );
+}
+
+/** "9' Quiñones · 67' Jiménez (pên.)" — compacto para o card. */
+function resumoGols(jogo: Match): string {
+  return jogo.gols
+    .map(
+      (g) =>
+        `${g.minuto}' ${g.jogador}${g.penalti ? " (pên.)" : ""}${g.golContra ? " (contra)" : ""}`,
+    )
+    .join(" · ");
 }

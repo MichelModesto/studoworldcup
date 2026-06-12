@@ -48,6 +48,8 @@ export type Match = {
   placarVisitante?: number;
   status: MatchStatus;
   gols: Goal[];
+  /** id do evento na ESPN (página lance a lance), quando casado. */
+  espnId?: string;
 };
 
 export type StandingRow = {

@@ -181,12 +181,15 @@ export async function getMatches(): Promise<Match[]> {
     let placarMandante = temPlacar ? ft![0] : undefined;
     let placarVisitante = temPlacar ? ft![1] : undefined;
     let status: Match["status"] = temPlacar ? "encerrado" : "agendado";
+    let espnId: string | undefined;
 
-    // openfootball ainda sem placar? Sobrepõe o resultado da ESPN (60s de cache).
-    if (!temPlacar) {
-      const hit = acharResultado(fifaMandante, fifaVisitante, kickoffISO, m.date);
-      if (hit) {
-        const { r, invertido } = hit;
+    // Casa o evento da ESPN (id p/ lance a lance) e, se o openfootball ainda
+    // não registrou o placar, sobrepõe resultado/status/gols (cache de 60s).
+    const hit = acharResultado(fifaMandante, fifaVisitante, kickoffISO, m.date);
+    if (hit) {
+      const { r, invertido } = hit;
+      espnId = r.id || undefined;
+      if (!temPlacar && r.estado !== "pre") {
         placarMandante = invertido ? r.awayGols : r.homeGols;
         placarVisitante = invertido ? r.homeGols : r.awayGols;
         status = r.estado === "post" ? "encerrado" : "ao-vivo";
@@ -223,6 +226,7 @@ export async function getMatches(): Promise<Match[]> {
       placarVisitante,
       status,
       gols,
+      espnId,
     } satisfies Match;
   });
 }
