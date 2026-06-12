@@ -228,22 +228,10 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   if (ps.length < 2) return null;
                   const lado = (s: number) => ps.filter((p) => Math.sign(p.palpite.golsMandante - p.palpite.golsVisitante) === s).length;
                   const pct = (n: number) => Math.round((n / ps.length) * 100);
-                  const contagem = new Map<string, number>();
-                  for (const p of ps) {
-                    const k = `${p.palpite.golsMandante}×${p.palpite.golsVisitante}`;
-                    contagem.set(k, (contagem.get(k) ?? 0) + 1);
-                  }
-                  const [maisApostado, vezes] = [...contagem.entries()].sort((a, b) => b[1] - a[1])[0];
                   return (
                     <p className="mt-2 text-[11px] text-muted/80">
                       {pct(lado(1))}% em {m.mandante} · {pct(lado(0))}% no empate · {pct(lado(-1))}%
                       em {m.visitante}
-                      {vezes > 1 && (
-                        <span>
-                          {" "}
-                          · placar mais apostado: <strong>{maisApostado}</strong> ({vezes}×)
-                        </span>
-                      )}
                     </p>
                   );
                 })()}
