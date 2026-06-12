@@ -20,6 +20,34 @@ function pct(v: number | undefined): string {
   return `${(v * 100).toFixed(0)}%`;
 }
 
+/** P(vitória A / empate / vitória B) via Poisson independente (0..10 gols). */
+function probabilidades(lambdaA: number, lambdaB: number) {
+  const pois = (l: number) => {
+    const p: number[] = [];
+    let fat = 1;
+    for (let k = 0; k <= 10; k++) {
+      if (k > 0) fat *= k;
+      p.push((Math.exp(-l) * Math.pow(l, k)) / fat);
+    }
+    return p;
+  };
+  const pa = pois(Math.max(0.05, lambdaA));
+  const pb = pois(Math.max(0.05, lambdaB));
+  let vA = 0;
+  let emp = 0;
+  let vB = 0;
+  for (let a = 0; a <= 10; a++) {
+    for (let b = 0; b <= 10; b++) {
+      const p = pa[a] * pb[b];
+      if (a > b) vA += p;
+      else if (a === b) emp += p;
+      else vB += p;
+    }
+  }
+  const total = vA + emp + vB;
+  return { vitoriaA: vA / total, empate: emp / total, vitoriaB: vB / total };
+}
+
 /** Barra comparativa de dois lados; destaca quem leva vantagem na métrica. */
 function CompareRow({
   label,
@@ -113,6 +141,14 @@ export default async function ConfrontoPage({
 
   const matchA = buildSquadMatcher(sqA);
   const matchB = buildSquadMatcher(sqB);
+
+  // ---- probabilidades (Poisson sobre gols esperados de cada lado) ----
+  const lambdaA = sA && sB ? (sA.porJogo.golsPro + sB.porJogo.golsContra) / 2 : undefined;
+  const lambdaB = sA && sB ? (sB.porJogo.golsPro + sA.porJogo.golsContra) / 2 : undefined;
+  const prob =
+    lambdaA !== undefined && lambdaB !== undefined
+      ? probabilidades(lambdaA, lambdaB)
+      : undefined;
 
   // ---- radar do apostador ----
   const golsEsperados =
@@ -221,6 +257,33 @@ export default async function ConfrontoPage({
             <h2 className="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-muted">
               <Flame className="h-4 w-4 text-gold" /> Radar do apostador
             </h2>
+
+            {prob && (
+              <div className="glass mb-4 p-5">
+                <p className="mb-3 text-xs uppercase tracking-wide text-muted">
+                  Probabilidades do confronto (modelo Poisson · histórico desde 2023)
+                </p>
+                <div className="mb-2 flex h-3 overflow-hidden rounded-full">
+                  <div className="btn-brand" style={{ width: `${prob.vitoriaA * 100}%` }} />
+                  <div className="bg-muted/40" style={{ width: `${prob.empate * 100}%` }} />
+                  <div className="bg-brand-2" style={{ width: `${prob.vitoriaB * 100}%` }} />
+                </div>
+                <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
+                  <span className="font-medium">
+                    {teamA.flag} {teamA.nomePt}{" "}
+                    <strong className="text-brand">{pct(prob.vitoriaA)}</strong>
+                  </span>
+                  <span className="text-muted">
+                    Empate <strong className="text-foreground">{pct(prob.empate)}</strong>
+                  </span>
+                  <span className="font-medium">
+                    <strong className="text-brand-2">{pct(prob.vitoriaB)}</strong> {teamB.nomePt}{" "}
+                    {teamB.flag}
+                  </span>
+                </div>
+              </div>
+            )}
+
             <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
               <div className="glass p-5">
                 <p className="text-xs uppercase tracking-wide text-muted">Gols esperados no jogo</p>

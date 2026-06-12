@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { FlaskConical } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
 import { getStandings } from "@/lib/worldcup";
 
@@ -18,6 +20,13 @@ export default async function GruposPage() {
             : "Os 12 grupos do sorteio. A classificação é calculada automaticamente conforme os jogos acontecem."
         }
       />
+
+      <Link
+        href="/painel/grupos/simulador"
+        className="mb-6 inline-flex items-center gap-2 rounded-xl border border-brand/30 bg-brand/10 px-4 py-2.5 text-sm font-medium text-brand transition hover:bg-brand/20"
+      >
+        <FlaskConical className="h-4 w-4" /> Simulador e se...? — teste cenários de classificação
+      </Link>
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {grupos.map((g) => (
