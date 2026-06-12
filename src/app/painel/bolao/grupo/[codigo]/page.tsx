@@ -15,7 +15,6 @@ import {
   rankingDoGrupo,
 } from "@/lib/bolao";
 import { getMatches, getTeams } from "@/lib/worldcup";
-import { ORACULO_NOME, atualizarOraculo } from "@/lib/oraculo";
 import { CompartilharConvite, CopiarCodigo } from "./copiar-codigo";
 
 const MEDALHA = ["text-gold", "text-foreground/70", "text-amber-700"];
@@ -29,8 +28,6 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
   const grupo = await getGrupoPorCodigo(codigo);
   if (!grupo) notFound();
   if (!(await ehMembro(grupo.id, sessao.uid))) redirect("/painel/bolao");
-
-  await atualizarOraculo().catch(() => {});
 
   const [ranking, porJogo, matches, bonusGrupo, teams] = await Promise.all([
     rankingDoGrupo(grupo.id),
@@ -110,14 +107,6 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   <td className="py-3 font-medium">
                     <span className="inline-flex items-center gap-1.5">
                       {l.nome}
-                      {l.nome === ORACULO_NOME && (
-                        <span
-                          className="rounded-full bg-violet/15 px-2 py-px text-[10px] font-medium text-violet"
-                          title="Bot oficial: palpita com as estatísticas reais do site. Consegue vencer a IA?"
-                        >
-                          IA
-                        </span>
-                      )}
                       {l.usuarioId === grupo.donoId && (
                         <span title="Dono do grupo">
                           <Crown className="h-3.5 w-3.5 text-gold" />

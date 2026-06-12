@@ -6,7 +6,6 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import { meusGrupos, rankingDoGrupo } from "@/lib/bolao";
-import { atualizarOraculo } from "@/lib/oraculo";
 import { AvisosBolao } from "@/components/painel/avisos-bolao";
 import { AtivarLembretes } from "@/components/painel/lembretes";
 import { CriarGrupoForm, EntrarGrupoForm } from "./forms";
@@ -51,7 +50,6 @@ export default async function BolaoPage() {
     );
   }
 
-  await atualizarOraculo().catch(() => {});
   const grupos = await meusGrupos(sessao.uid);
   // posição do usuário em cada grupo (poucos grupos por pessoa; ok calcular aqui)
   const posicoes = new Map<number, { pos: number; pontos: number }>();
