@@ -46,6 +46,23 @@ const DDL = [
     PRIMARY KEY (usuario_id, match_id)
   )`,
   `CREATE INDEX IF NOT EXISTS idx_palpites_match ON palpites (match_id)`,
+  // Recuperação de senha por código (mostrado uma única vez ao usuário).
+  `ALTER TABLE usuarios ADD COLUMN IF NOT EXISTS recuperacao_hash text`,
+  // Palpites bônus: campeão (10 pts) e artilheiro da Copa (5 pts).
+  `CREATE TABLE IF NOT EXISTS palpites_bonus (
+    usuario_id     int PRIMARY KEY REFERENCES usuarios(id) ON DELETE CASCADE,
+    campeao_fifa   text,
+    artilheiro     text,
+    atualizado_em  timestamptz NOT NULL DEFAULT now()
+  )`,
+  // Inscrições de push notification (lembretes do bolão).
+  `CREATE TABLE IF NOT EXISTS push_subscriptions (
+    endpoint    text PRIMARY KEY,
+    usuario_id  int NOT NULL REFERENCES usuarios(id) ON DELETE CASCADE,
+    p256dh      text NOT NULL,
+    auth        text NOT NULL,
+    criado_em   timestamptz NOT NULL DEFAULT now()
+  )`,
 ];
 
 for (const stmt of DDL) await sql.query(stmt);

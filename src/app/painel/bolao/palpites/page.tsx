@@ -1,12 +1,21 @@
 import Link from "next/link";
 import { ArrowLeft, Database, Dices, Lock } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
+import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
-import { jaComecou, palpitesDoUsuario, pontosDoPalpite } from "@/lib/bolao";
-import { getMatches } from "@/lib/worldcup";
+import {
+  bonusTravado,
+  getBonus,
+  jaComecou,
+  palpitesDoUsuario,
+  pontosDoPalpite,
+} from "@/lib/bolao";
+import { getMatches, getTeams } from "@/lib/worldcup";
+import { listConvocados } from "@/lib/worldcup/squads";
 import type { Match } from "@/lib/worldcup/types";
+import { BonusForm } from "./bonus-form";
 import { PalpitesForm, type JogoAberto } from "./palpites-form";
 
 const FUSO = "America/Sao_Paulo";
@@ -65,8 +74,16 @@ export default async function PalpitesPage() {
     );
   }
 
-  const [matches, meus] = await Promise.all([getMatches(), palpitesDoUsuario(sessao.uid)]);
+  const [matches, meus, bonus, teams, convocados] = await Promise.all([
+    getMatches(),
+    palpitesDoUsuario(sessao.uid),
+    getBonus(sessao.uid),
+    getTeams(),
+    listConvocados(),
+  ]);
   const ordenados = [...matches].sort((a, b) => a.sortKey.localeCompare(b.sortKey));
+  const bonusFechado = bonusTravado(matches);
+  const nomeTime = new Map(teams.map((t) => [t.fifa, `${t.flag} ${t.nomePt}`]));
 
   const abertos: JogoAberto[] = [];
   const fechados: Match[] = [];
@@ -99,6 +116,42 @@ export default async function PalpitesPage() {
         titulo="Meus palpites"
         descricao={`Placar exato vale 3 pts; vencedor/empate certo vale 1 pt. Palpites travam no apito inicial (horários de Brasília). ${palpitados}/${abertos.length} jogos abertos palpitados.`}
       />
+
+      <Card
+        titulo={`Palpites bônus ${bonusFechado ? "(fechados)" : "(abertos até o mata-mata)"}`}
+        className="mb-8"
+      >
+        {bonusFechado ? (
+          <div className="flex flex-wrap gap-4 text-sm">
+            <span>
+              🏆 Campeã:{" "}
+              <strong>
+                {bonus.campeaoFifa ? (nomeTime.get(bonus.campeaoFifa) ?? bonus.campeaoFifa) : "—"}
+              </strong>
+            </span>
+            <span>
+              👟 Artilheiro: <strong>{bonus.artilheiro ?? "—"}</strong>
+            </span>
+            <span className="text-xs text-muted">
+              Pontuam no fim da Copa: +10 campeã · +5 artilheiro.
+            </span>
+          </div>
+        ) : (
+          <>
+            <p className="mb-4 text-sm text-muted">
+              Aposte na <strong>campeã (+10 pts)</strong> e no <strong>artilheiro (+5 pts)</strong>.
+              Pode mudar quantas vezes quiser até o início do mata-mata; os pontos entram no fim da
+              Copa.
+            </p>
+            <BonusForm
+              times={teams.map((t) => ({ fifa: t.fifa, nomePt: t.nomePt, flag: t.flag }))}
+              jogadores={convocados}
+              campeaoAtual={bonus.campeaoFifa}
+              artilheiroAtual={bonus.artilheiro}
+            />
+          </>
+        )}
+      </Card>
 
       {abertos.length ? (
         <PalpitesForm jogos={abertos} />

@@ -3,6 +3,7 @@ import { getSession } from "@/lib/auth";
 import { Sidebar } from "@/components/painel/sidebar";
 import { Topbar } from "@/components/painel/topbar";
 import { PageTransition } from "@/components/painel/page-transition";
+import { RegistrarSW } from "@/components/painel/lembretes";
 
 export default async function PainelLayout({
   children,
@@ -14,6 +15,7 @@ export default async function PainelLayout({
 
   return (
     <div className="flex min-h-screen flex-1">
+      <RegistrarSW />
       <Sidebar />
       <div className="flex min-w-0 flex-1 flex-col">
         <Topbar nome={sessao.nome} />

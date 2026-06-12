@@ -8,7 +8,9 @@ Site com área pública (landing) e um **painel protegido por login** com vária
 
 ## 🎲 Bolão
 
-Cada pessoa cria a própria conta, monta um **grupo com código de convite** (6 caracteres) e todo mundo palpita nos 104 jogos. Pontuação: **placar exato = 3 pts**, acertou só o vencedor/empate = **1 pt**. Palpites travam no apito inicial e o ranking atualiza sozinho conforme os jogos terminam.
+Cada pessoa cria a própria conta, monta um **grupo com código de convite** (6 caracteres, ou link direto `/bolao/CODIGO`) e todo mundo palpita nos 104 jogos. Pontuação: **placar exato = 3 pts**, acertou só o vencedor/empate = **1 pt**, e bônus de fim de Copa: **campeã +10** e **artilheiro +5** (travam no início do mata-mata). Palpites travam no apito inicial e o ranking atualiza sozinho conforme os jogos terminam.
+
+Extras: o **🔮 Oráculo** (bot com modelo de gols esperados sobre as estatísticas reais) participa de todos os grupos; avisos ao logar mostram jogos do dia sem palpite e o resumo de ontem; recuperação de senha por código (mostrado uma vez no cadastro); PWA instalável com **push diário de lembrete** (cron da Vercel às 9h de Brasília — exige `NEXT_PUBLIC_VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` e `CRON_SECRET` nas envs).
 
 Para ativar é preciso de um Postgres gratuito (**Neon**):
 

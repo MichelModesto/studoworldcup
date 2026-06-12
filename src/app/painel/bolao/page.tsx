@@ -6,6 +6,9 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import { meusGrupos, rankingDoGrupo } from "@/lib/bolao";
+import { atualizarOraculo } from "@/lib/oraculo";
+import { AvisosBolao } from "@/components/painel/avisos-bolao";
+import { AtivarLembretes } from "@/components/painel/lembretes";
 import { CriarGrupoForm, EntrarGrupoForm } from "./forms";
 
 export default async function BolaoPage() {
@@ -48,6 +51,7 @@ export default async function BolaoPage() {
     );
   }
 
+  await atualizarOraculo().catch(() => {});
   const grupos = await meusGrupos(sessao.uid);
   // posição do usuário em cada grupo (poucos grupos por pessoa; ok calcular aqui)
   const posicoes = new Map<number, { pos: number; pontos: number }>();
@@ -64,6 +68,8 @@ export default async function BolaoPage() {
         descricao={`Olá, ${sessao.nome}! Placar exato vale 3 pontos; acertar o vencedor (ou empate), 1 ponto.`}
       />
 
+      <AvisosBolao />
+
       <div className="mb-8 flex flex-wrap items-center gap-3">
         <Link
           href="/painel/bolao/palpites"
@@ -71,6 +77,7 @@ export default async function BolaoPage() {
         >
           <ClipboardList className="h-4 w-4" /> Fazer meus palpites
         </Link>
+        <AtivarLembretes />
         <p className="text-xs text-muted">
           Seus palpites valem em todos os seus grupos e travam no apito inicial.
         </p>

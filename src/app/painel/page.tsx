@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { MatchCard } from "@/components/painel/match-card";
 import { LiveScores } from "@/components/painel/live-scores";
+import { AvisosBolao } from "@/components/painel/avisos-bolao";
 import { DonutChart } from "@/components/charts/donut-chart";
 import {
   getConfederationBreakdown,
@@ -82,6 +83,8 @@ export default async function VisaoGeralPage() {
         titulo="Visão geral"
         descricao="Resumo do torneio com dados reais — Copa do Mundo FIFA 2026."
       />
+
+      <AvisosBolao />
 
       <LiveScores initial={live} />
 

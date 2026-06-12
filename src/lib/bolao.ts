@@ -1,6 +1,8 @@
 import { randomInt } from "node:crypto";
 import { sql } from "./db";
-import { getMatches } from "./worldcup";
+import { temCodigoRecuperacao } from "./auth";
+import { getMatches, getScorers } from "./worldcup";
+import { chaveNome } from "./worldcup/squads";
 import type { Match } from "./worldcup/types";
 
 /**
@@ -31,6 +33,8 @@ export type LinhaRanking = {
   exatos: number;
   resultados: number;
   palpites: number;
+  /** Pontos de bônus (campeão/artilheiro), já somados em `pontos`. */
+  bonus: number;
 };
 
 // Sem 0/O/1/I/L para o código ser fácil de ditar no grupo da família.
@@ -218,16 +222,180 @@ export async function palpitesDoGrupo(
   return porJogo;
 }
 
+// ---------- palpites bônus (campeão 10 pts · artilheiro 5 pts) ----------
+
+export const PONTOS_CAMPEAO = 10;
+export const PONTOS_ARTILHEIRO = 5;
+
+export type Bonus = { campeaoFifa: string | null; artilheiro: string | null };
+
+/** Bônus travam quando o mata-mata começa (primeiro jogo fora da fase de grupos). */
+export function bonusTravado(matches: Match[], agora = Date.now()): boolean {
+  const mataMata = matches
+    .filter((m) => m.fase !== "Fase de Grupos" && m.kickoffISO)
+    .sort((a, b) => a.kickoffISO!.localeCompare(b.kickoffISO!));
+  const primeiro = mataMata[0];
+  if (!primeiro) return false;
+  return Date.parse(primeiro.kickoffISO!) <= agora;
+}
+
+export async function getBonus(uid: number): Promise<Bonus> {
+  const rows = (await sql()`
+    SELECT campeao_fifa, artilheiro FROM palpites_bonus WHERE usuario_id = ${uid}
+  `) as { campeao_fifa: string | null; artilheiro: string | null }[];
+  return {
+    campeaoFifa: rows[0]?.campeao_fifa ?? null,
+    artilheiro: rows[0]?.artilheiro ?? null,
+  };
+}
+
+export async function salvarBonus(
+  uid: number,
+  campeaoFifa: string,
+  artilheiro: string,
+): Promise<string | null> {
+  const matches = await getMatches();
+  if (bonusTravado(matches)) {
+    return "Palpites bônus fecharam no início do mata-mata.";
+  }
+  const fifa = campeaoFifa.trim().toUpperCase();
+  const art = artilheiro.trim().replace(/\s+/g, " ").slice(0, 60);
+  if (fifa && !/^[A-Z]{3}$/.test(fifa)) return "Seleção campeã inválida.";
+  if (!fifa && !art) return "Escolha pelo menos um palpite bônus.";
+  await sql()`
+    INSERT INTO palpites_bonus (usuario_id, campeao_fifa, artilheiro, atualizado_em)
+    VALUES (${uid}, ${fifa || null}, ${art || null}, now())
+    ON CONFLICT (usuario_id)
+    DO UPDATE SET campeao_fifa = ${fifa || null}, artilheiro = ${art || null}, atualizado_em = now()
+  `;
+  return null;
+}
+
+/** Resultado real dos bônus, quando já decidido. */
+export async function getBonusReal(matches: Match[]): Promise<{
+  campeaoFifa: string | null;
+  artilheiros: string[]; // chaves canônicas dos goleadores no topo
+  copaEncerrada: boolean;
+}> {
+  const final = matches.find((m) => m.fase === "Final");
+  const copaEncerrada = final?.status === "encerrado";
+  let campeaoFifa: string | null = null;
+  if (
+    copaEncerrada &&
+    final &&
+    final.placarMandante !== undefined &&
+    final.placarVisitante !== undefined &&
+    final.placarMandante !== final.placarVisitante
+  ) {
+    campeaoFifa =
+      final.placarMandante > final.placarVisitante ? (final.fifaMandante ?? null) : (final.fifaVisitante ?? null);
+  }
+  let artilheiros: string[] = [];
+  if (copaEncerrada) {
+    const scorers = await getScorers(30);
+    const topo = scorers[0]?.gols ?? 0;
+    artilheiros = scorers.filter((s) => s.gols === topo && topo > 0).map((s) => chaveNome(s.jogador));
+  }
+  return { campeaoFifa, artilheiros, copaEncerrada };
+}
+
+export type BonusDoGrupo = Map<number, Bonus>;
+
+export async function getBonusDoGrupo(grupoId: number): Promise<BonusDoGrupo> {
+  const rows = (await sql()`
+    SELECT b.usuario_id, b.campeao_fifa, b.artilheiro
+    FROM palpites_bonus b
+    JOIN grupo_membros m ON m.usuario_id = b.usuario_id AND m.grupo_id = ${grupoId}
+  `) as { usuario_id: number; campeao_fifa: string | null; artilheiro: string | null }[];
+  return new Map(
+    rows.map((r) => [r.usuario_id, { campeaoFifa: r.campeao_fifa, artilheiro: r.artilheiro }]),
+  );
+}
+
+// ---------- avisos ao logar ----------
+
+export type Avisos = {
+  /** Jogos nas próximas 24h ainda sem palpite. */
+  semPalpite: number;
+  /** Kickoff ISO do primeiro jogo sem palpite (para "fecha às HH:mm"). */
+  primeiroFecha: string | null;
+  /** Resumo de ontem (jogos encerrados no dia anterior, fuso de Brasília). */
+  ontem: { jogos: number; pontos: number; exatos: number } | null;
+  /** Posição do usuário em cada grupo (até 3). */
+  posicoes: { nome: string; codigo: string; pos: number; total: number; pontos: number }[];
+  /** false = conta ainda sem código de recuperação (avisar para gerar). */
+  temRecuperacao: boolean;
+};
+
+export async function getAvisos(uid: number): Promise<Avisos> {
+  const [matches, meus, grupos, temRecuperacao] = await Promise.all([
+    getMatches(),
+    palpitesDoUsuario(uid),
+    meusGrupos(uid),
+    temCodigoRecuperacao(uid),
+  ]);
+
+  const agora = Date.now();
+  const em24h = matches
+    .filter((m) => {
+      if (!m.kickoffISO) return false;
+      const k = Date.parse(m.kickoffISO);
+      return k > agora && k - agora < 24 * 3600_000;
+    })
+    .sort((a, b) => a.kickoffISO!.localeCompare(b.kickoffISO!));
+  const abertosSemPalpite = em24h.filter((m) => !meus.has(m.id));
+
+  // "ontem" no fuso de Brasília
+  const diaSP = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo" });
+  const ontemStr = diaSP.format(new Date(agora - 24 * 3600_000));
+  let jogosOntem = 0;
+  let pontosOntem = 0;
+  let exatosOntem = 0;
+  for (const m of matches) {
+    if (m.status !== "encerrado" || !m.kickoffISO) continue;
+    if (diaSP.format(new Date(m.kickoffISO)) !== ontemStr) continue;
+    jogosOntem++;
+    const p = meus.get(m.id);
+    if (!p) continue;
+    const v = pontosDoPalpite(p, m);
+    if (v) pontosOntem += v;
+    if (v === 3) exatosOntem++;
+  }
+
+  const posicoes: Avisos["posicoes"] = [];
+  for (const g of grupos.slice(0, 3)) {
+    const r = await rankingDoGrupo(g.id);
+    const i = r.findIndex((l) => l.usuarioId === uid);
+    if (i >= 0)
+      posicoes.push({
+        nome: g.nome,
+        codigo: g.codigo,
+        pos: i + 1,
+        total: r.length,
+        pontos: r[i].pontos,
+      });
+  }
+
+  return {
+    semPalpite: abertosSemPalpite.length,
+    primeiroFecha: abertosSemPalpite[0]?.kickoffISO ?? null,
+    ontem: jogosOntem > 0 ? { jogos: jogosOntem, pontos: pontosOntem, exatos: exatosOntem } : null,
+    posicoes,
+    temRecuperacao,
+  };
+}
+
 // ---------- ranking ----------
 
 export async function rankingDoGrupo(grupoId: number): Promise<LinhaRanking[]> {
-  const [membrosRaw, porJogo, matches] = await Promise.all([
+  const [membrosRaw, porJogo, matches, bonusGrupo] = await Promise.all([
     sql()`
       SELECT u.id, u.nome FROM grupo_membros m JOIN usuarios u ON u.id = m.usuario_id
       WHERE m.grupo_id = ${grupoId}
     `,
     palpitesDoGrupo(grupoId),
     getMatches(),
+    getBonusDoGrupo(grupoId),
   ]);
   const membros = membrosRaw as { id: number; nome: string }[];
   const byId = new Map(matches.map((m) => [m.id, m]));
@@ -235,7 +403,7 @@ export async function rankingDoGrupo(grupoId: number): Promise<LinhaRanking[]> {
   const linhas = new Map<number, LinhaRanking>(
     membros.map((u) => [
       u.id,
-      { usuarioId: u.id, nome: u.nome, pontos: 0, exatos: 0, resultados: 0, palpites: 0 },
+      { usuarioId: u.id, nome: u.nome, pontos: 0, exatos: 0, resultados: 0, palpites: 0, bonus: 0 },
     ]),
   );
   for (const [matchId, palpites] of porJogo) {
@@ -252,6 +420,23 @@ export async function rankingDoGrupo(grupoId: number): Promise<LinhaRanking[]> {
       else if (pts === 1) linha.resultados++;
     }
   }
+
+  // Bônus (campeão/artilheiro) entram quando a Copa termina.
+  const real = await getBonusReal(matches);
+  if (real.copaEncerrada) {
+    for (const [uid, b] of bonusGrupo) {
+      const linha = linhas.get(uid);
+      if (!linha) continue;
+      let ganho = 0;
+      if (b.campeaoFifa && real.campeaoFifa && b.campeaoFifa === real.campeaoFifa)
+        ganho += PONTOS_CAMPEAO;
+      if (b.artilheiro && real.artilheiros.includes(chaveNome(b.artilheiro)))
+        ganho += PONTOS_ARTILHEIRO;
+      linha.bonus = ganho;
+      linha.pontos += ganho;
+    }
+  }
+
   return [...linhas.values()].sort(
     (a, b) =>
       b.pontos - a.pontos || b.exatos - a.exatos || a.nome.localeCompare(b.nome, "pt-BR"),

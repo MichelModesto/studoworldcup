@@ -5,15 +5,18 @@ import { Card } from "@/components/ui/card";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import {
+  bonusTravado,
   ehMembro,
+  getBonusDoGrupo,
   getGrupoPorCodigo,
   jaComecou,
   palpitesDoGrupo,
   pontosDoPalpite,
   rankingDoGrupo,
 } from "@/lib/bolao";
-import { getMatches } from "@/lib/worldcup";
-import { CopiarCodigo } from "./copiar-codigo";
+import { getMatches, getTeams } from "@/lib/worldcup";
+import { ORACULO_NOME, atualizarOraculo } from "@/lib/oraculo";
+import { CompartilharConvite, CopiarCodigo } from "./copiar-codigo";
 
 const MEDALHA = ["text-gold", "text-foreground/70", "text-amber-700"];
 
@@ -27,11 +30,17 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
   if (!grupo) notFound();
   if (!(await ehMembro(grupo.id, sessao.uid))) redirect("/painel/bolao");
 
-  const [ranking, porJogo, matches] = await Promise.all([
+  await atualizarOraculo().catch(() => {});
+
+  const [ranking, porJogo, matches, bonusGrupo, teams] = await Promise.all([
     rankingDoGrupo(grupo.id),
     palpitesDoGrupo(grupo.id),
     getMatches(),
+    getBonusDoGrupo(grupo.id),
+    getTeams(),
   ]);
+  const bonusFechado = bonusTravado(matches);
+  const nomeTime = new Map(teams.map((t) => [t.fifa, `${t.flag} ${t.nomePt}`]));
 
   // Palpites do grupo só aparecem para jogos já iniciados (ninguém cola de ninguém).
   const iniciados = matches
@@ -56,9 +65,10 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
             resultado 1 pt
           </p>
         </div>
-        <div className="text-right">
-          <p className="mb-1.5 text-xs text-muted">Convide com este código:</p>
+        <div className="flex flex-col items-end gap-2 text-right">
+          <p className="text-xs text-muted">Convide com este código:</p>
           <CopiarCodigo codigo={grupo.codigo} />
+          <CompartilharConvite codigo={grupo.codigo} nomeGrupo={grupo.nome} />
         </div>
       </div>
 
@@ -100,6 +110,14 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   <td className="py-3 font-medium">
                     <span className="inline-flex items-center gap-1.5">
                       {l.nome}
+                      {l.nome === ORACULO_NOME && (
+                        <span
+                          className="rounded-full bg-violet/15 px-2 py-px text-[10px] font-medium text-violet"
+                          title="Bot oficial: palpita com as estatísticas reais do site. Consegue vencer a IA?"
+                        >
+                          IA
+                        </span>
+                      )}
                       {l.usuarioId === grupo.donoId && (
                         <span title="Dono do grupo">
                           <Crown className="h-3.5 w-3.5 text-gold" />
@@ -117,6 +135,11 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   <td className="py-3 text-center tabular-nums text-muted">{l.palpites}</td>
                   <td className="py-3 text-right font-display text-base font-bold tabular-nums">
                     {l.pontos}
+                    {l.bonus > 0 && (
+                      <span className="ml-1.5 rounded-full bg-gold/15 px-1.5 py-px align-middle text-[10px] font-medium text-gold">
+                        +{l.bonus} bônus
+                      </span>
+                    )}
                   </td>
                 </tr>
               ))}
@@ -124,9 +147,39 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
           </table>
         </div>
         <p className="mt-4 text-xs text-muted/70">
-          Desempate: mais placares exatos. Pontos contam só de jogos encerrados.
+          Desempate: mais placares exatos. Pontos contam só de jogos encerrados. Bônus: campeã +10
+          e artilheiro +5 no fim da Copa.
         </p>
       </Card>
+
+      {bonusGrupo.size > 0 && (
+        <Card titulo="Apostas bônus do grupo" className="mb-8">
+          {bonusFechado ? (
+            <div className="flex flex-wrap gap-2">
+              {ranking
+                .filter((l) => bonusGrupo.has(l.usuarioId))
+                .map((l) => {
+                  const b = bonusGrupo.get(l.usuarioId)!;
+                  return (
+                    <span
+                      key={l.usuarioId}
+                      className="rounded-full bg-surface-2 px-3 py-1.5 text-xs"
+                    >
+                      <strong>{l.nome}</strong>
+                      {b.campeaoFifa && ` · 🏆 ${nomeTime.get(b.campeaoFifa) ?? b.campeaoFifa}`}
+                      {b.artilheiro && ` · 👟 ${b.artilheiro}`}
+                    </span>
+                  );
+                })}
+            </div>
+          ) : (
+            <p className="text-sm text-muted">
+              🤫 {bonusGrupo.size} participante(s) já apostaram na campeã/artilheiro — as apostas
+              ficam secretas até o início do mata-mata.
+            </p>
+          )}
+        </Card>
+      )}
 
       {iniciados.length > 0 && (
         <Card titulo="Palpites do grupo (jogos já iniciados)">

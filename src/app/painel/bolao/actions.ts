@@ -4,9 +4,23 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
-import { criarGrupo, entrarNoGrupo, normalizarCodigo, salvarPalpite } from "@/lib/bolao";
+import {
+  criarGrupo,
+  entrarNoGrupo,
+  normalizarCodigo,
+  salvarBonus,
+  salvarPalpite,
+} from "@/lib/bolao";
 
 export type BolaoState = { error?: string; ok?: string };
+
+export async function gerarCodigoRecuperacaoAction(): Promise<BolaoState> {
+  const auth = await exigirUsuario();
+  if ("error" in auth) return { error: auth.error };
+  const { novoCodigoRecuperacao } = await import("@/lib/auth");
+  const codigo = await novoCodigoRecuperacao(auth.uid);
+  return { ok: codigo };
+}
 
 async function exigirUsuario(): Promise<{ uid: number } | { error: string }> {
   if (!temBanco()) return { error: "Banco de dados ainda não configurado (veja o README)." };
@@ -71,4 +85,20 @@ export async function salvarPalpitesAction(
   }
   if (!salvos) return { error: "Nenhum palpite para salvar — preencha algum placar." };
   return { ok: `${salvos} palpite(s) salvos. Boa sorte! 🍀` };
+}
+
+export async function salvarBonusAction(
+  _prev: BolaoState,
+  formData: FormData,
+): Promise<BolaoState> {
+  const auth = await exigirUsuario();
+  if ("error" in auth) return { error: auth.error };
+  const erro = await salvarBonus(
+    auth.uid,
+    String(formData.get("campeao") ?? ""),
+    String(formData.get("artilheiro") ?? ""),
+  );
+  if (erro) return { error: erro };
+  revalidatePath("/painel/bolao/palpites");
+  return { ok: "Palpites bônus salvos! 🏆" };
 }

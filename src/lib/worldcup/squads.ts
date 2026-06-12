@@ -36,8 +36,25 @@ export async function getSquad(fifa: string): Promise<Squad | null> {
   }
 }
 
+/** Todos os convocados da Copa (para autocomplete de artilheiro etc.). */
+export async function listConvocados(): Promise<{ nome: string; fifa: string }[]> {
+  const { readdir } = await import("node:fs/promises");
+  try {
+    const dir = path.join(process.cwd(), "data", "squads");
+    const files = (await readdir(dir)).filter((f) => f.endsWith(".json")).sort();
+    const out: { nome: string; fifa: string }[] = [];
+    for (const f of files) {
+      const squad = JSON.parse(await readFile(path.join(dir, f), "utf8")) as Squad;
+      for (const j of squad.jogadores) out.push({ nome: j.nome, fifa: squad.fifa });
+    }
+    return out;
+  } catch {
+    return [];
+  }
+}
+
 /** Chave canônica: minúsculas, sem acentos, tokens ordenados ("Lee Kang-In" = "Kang-in Lee"). */
-function chaveNome(nome: string): string {
+export function chaveNome(nome: string): string {
   return nome
     .toLowerCase()
     .normalize("NFD")

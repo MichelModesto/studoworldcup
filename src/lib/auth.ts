@@ -72,7 +72,73 @@ export async function getSession(): Promise<Sessao | null> {
 
 const DEMO = { email: "admin@studoworldcup.com", nome: "Treinador(a)", senha: "copa2026" };
 
-export type ResultadoAuth = { sessao?: Sessao; erro?: string };
+export type ResultadoAuth = { sessao?: Sessao; erro?: string; codigoRecuperacao?: string };
+
+// ---------- código de recuperação de senha ----------
+
+const ALFABETO_REC = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+
+/** Formato XXXX-XXXX-XXXX, fácil de anotar; guardamos só o hash. */
+export function gerarCodigoRecuperacao(): string {
+  const bloco = () =>
+    Array.from(randomBytes(4))
+      .map((b) => ALFABETO_REC[b % ALFABETO_REC.length])
+      .join("");
+  return `${bloco()}-${bloco()}-${bloco()}`;
+}
+
+function normalizarCodigoRec(codigo: string): string {
+  return codigo.trim().toUpperCase().replace(/[^A-Z0-9]/g, "");
+}
+
+/** Gera e grava um novo código de recuperação para o usuário; retorna o código. */
+export async function novoCodigoRecuperacao(uid: number): Promise<string> {
+  const codigo = gerarCodigoRecuperacao();
+  await sql()`
+    UPDATE usuarios SET recuperacao_hash = ${hashSenha(normalizarCodigoRec(codigo))}
+    WHERE id = ${uid}
+  `;
+  return codigo;
+}
+
+export async function temCodigoRecuperacao(uid: number): Promise<boolean> {
+  const rows = (await sql()`
+    SELECT recuperacao_hash FROM usuarios WHERE id = ${uid}
+  `) as { recuperacao_hash: string | null }[];
+  return Boolean(rows[0]?.recuperacao_hash);
+}
+
+/** Redefine a senha via e-mail + código de recuperação. Gera código novo. */
+export async function redefinirSenha(
+  email: string,
+  codigo: string,
+  novaSenha: string,
+): Promise<ResultadoAuth> {
+  if (!temBanco()) return { erro: "Banco de dados não configurado." };
+  if (novaSenha.length < 6 || novaSenha.length > 100) {
+    return { erro: "Nova senha deve ter pelo menos 6 caracteres." };
+  }
+  const mail = email.trim().toLowerCase();
+  const rows = (await sql()`
+    SELECT id, nome, email, recuperacao_hash FROM usuarios WHERE email = ${mail}
+  `) as { id: number; nome: string; email: string; recuperacao_hash: string | null }[];
+  const u = rows[0];
+  const erroGenerico = { erro: "E-mail ou código de recuperação inválidos." };
+  if (!u?.recuperacao_hash) return erroGenerico;
+  if (!verificarSenha(normalizarCodigoRec(codigo), u.recuperacao_hash)) return erroGenerico;
+
+  const novoCodigo = gerarCodigoRecuperacao();
+  await sql()`
+    UPDATE usuarios
+    SET senha_hash = ${hashSenha(novaSenha)},
+        recuperacao_hash = ${hashSenha(normalizarCodigoRec(novoCodigo))}
+    WHERE id = ${u.id}
+  `;
+  return {
+    sessao: { uid: u.id, nome: u.nome, email: u.email },
+    codigoRecuperacao: novoCodigo,
+  };
+}
 
 export async function autenticar(email: string, senha: string): Promise<ResultadoAuth> {
   const mail = email.trim().toLowerCase();
@@ -112,13 +178,17 @@ export async function registrar(
     return { erro: "Senha deve ter pelo menos 6 caracteres." };
   }
   try {
+    const codigo = gerarCodigoRecuperacao();
     const rows = (await sql()`
-      INSERT INTO usuarios (nome, email, senha_hash)
-      VALUES (${nomeLimpo}, ${mail}, ${hashSenha(senha)})
+      INSERT INTO usuarios (nome, email, senha_hash, recuperacao_hash)
+      VALUES (${nomeLimpo}, ${mail}, ${hashSenha(senha)}, ${hashSenha(normalizarCodigoRec(codigo))})
       RETURNING id, nome, email
     `) as { id: number; nome: string; email: string }[];
     const u = rows[0];
-    return { sessao: { uid: u.id, nome: u.nome, email: u.email } };
+    return {
+      sessao: { uid: u.id, nome: u.nome, email: u.email },
+      codigoRecuperacao: codigo,
+    };
   } catch (e) {
     if (e instanceof Error && e.message.includes("usuarios_email_key")) {
       return { erro: "Este e-mail já tem conta. Faça login." };
