@@ -1,4 +1,5 @@
 import { PageHeader } from "@/components/ui/page-header";
+import { AutoRefresh } from "@/components/painel/auto-refresh";
 import { MatchCard } from "@/components/painel/match-card";
 import { LiveScores } from "@/components/painel/live-scores";
 import { getMatches, type Match } from "@/lib/worldcup";
@@ -45,6 +46,7 @@ export default async function JogosPage() {
         titulo="Jogos"
         descricao={`Calendário completo da Copa 2026 — ${matches.length} partidas.`}
       />
+      <AutoRefresh segundos={60} />
 
       <LiveScores initial={live} />
 

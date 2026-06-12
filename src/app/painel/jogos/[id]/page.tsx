@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, CalendarClock, MapPin, Scale } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { AutoRefresh } from "@/components/painel/auto-refresh";
 import { PlayerAvatar } from "@/components/painel/player-avatar";
 import { getMatches } from "@/lib/worldcup";
 import { getPartidaESPN, type EventoPartida } from "@/lib/worldcup/partida";
@@ -70,6 +71,7 @@ export default async function JogoPage({ params }: { params: Promise<{ id: strin
       >
         <ArrowLeft className="h-4 w-4" /> Jogos
       </Link>
+      {jogo.status !== "encerrado" && <AutoRefresh segundos={45} />}
 
       {/* Cabeçalho */}
       <div className="glass neon-border mb-7 p-6">

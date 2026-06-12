@@ -86,11 +86,18 @@ async function main() {
   let ok = 0;
   for (const team of teams) {
     const out = path.join(DIR_SQUADS, `${team.fifa}.json`);
-    if (!FORCE && (await readJSON(out, null))) {
+    const anterior = await readJSON(out, null);
+    if (!FORCE && anterior) {
       console.log(`↩︎  ${team.fifa} já existe. Pulando.`);
       ok++;
       continue;
     }
+    // preserva fotos já resolvidas (scripts/fetch-photos.mjs) ao reescrever
+    const fotoAnterior = new Map(
+      (anterior?.jogadores ?? [])
+        .filter((j) => j.foto)
+        .map((j) => [normNomeTime(j.nome), j.foto]),
+    );
     const candidatos = [ESPN_NAME[team.fifa], team.name, team.name_normalised]
       .filter(Boolean)
       .map(normNomeTime);
@@ -117,12 +124,16 @@ async function main() {
       espnTeamId: Number(hit.id),
       copa: 2026,
       atualizadoEm: new Date().toISOString(),
-      jogadores: atletas.map((a) => ({
-        nome: limpaNome(a.displayName || a.fullName),
-        posicao: POSICAO_PT[a.position?.displayName] ?? a.position?.displayName ?? "—",
-        numero: a.jersey ? Number(a.jersey) : undefined,
-        idade: a.age ?? undefined,
-      })),
+      jogadores: atletas.map((a) => {
+        const nome = limpaNome(a.displayName || a.fullName);
+        return {
+          nome,
+          posicao: POSICAO_PT[a.position?.displayName] ?? a.position?.displayName ?? "—",
+          numero: a.jersey ? Number(a.jersey) : undefined,
+          idade: a.age ?? undefined,
+          foto: fotoAnterior.get(normNomeTime(nome)) ?? undefined,
+        };
+      }),
       fontes: ["ESPN"],
     };
     await writeFile(out, JSON.stringify(squad, null, 2));

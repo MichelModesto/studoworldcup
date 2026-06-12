@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FlaskConical } from "lucide-react";
 import { PageHeader } from "@/components/ui/page-header";
+import { AutoRefresh } from "@/components/painel/auto-refresh";
 import { getStandings } from "@/lib/worldcup";
 
 export default async function GruposPage() {
@@ -21,6 +22,7 @@ export default async function GruposPage() {
         }
       />
 
+      <AutoRefresh segundos={60} />
       <Link
         href="/painel/grupos/simulador"
         className="mb-6 inline-flex items-center gap-2 rounded-xl border border-brand/30 bg-brand/10 px-4 py-2.5 text-sm font-medium text-brand transition hover:bg-brand/20"

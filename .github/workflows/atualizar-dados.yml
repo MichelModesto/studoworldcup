@@ -1,0 +1,44 @@
+# Atualiza os dados da Copa toda segunda às 3h (Brasília) e commita se mudou.
+# O push na main dispara o deploy automático na Vercel.
+name: Atualizar dados da Copa
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # segunda 06:00 UTC = 03:00 Brasília
+  workflow_dispatch: {} # permite rodar na mão pela aba Actions
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Estatísticas das seleções (ESPN)
+        run: node scripts/ingest-espn.mjs
+
+      - name: Elencos convocados (preserva fotos já resolvidas)
+        run: node scripts/fetch-squads.mjs --force
+
+      - name: Fotos de jogadores novos (TheSportsDB)
+        run: node scripts/fetch-photos.mjs --delay=1300
+
+      - name: Commit e push se houver mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sem mudanças nos dados."
+          else
+            git commit -m "Dados da Copa: atualização automática semanal"
+            git push
+          fi
