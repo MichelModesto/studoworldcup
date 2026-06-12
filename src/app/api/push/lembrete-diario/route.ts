@@ -10,18 +10,27 @@ export const dynamic = "force-dynamic";
  * tem jogos HOJE ainda sem palpite. Protegido pelo CRON_SECRET.
  */
 export async function GET(req: Request) {
-  const segredo = process.env.CRON_SECRET;
+  const segredo = process.env.CRON_SECRET?.trim();
   if (segredo && req.headers.get("authorization") !== `Bearer ${segredo}`) {
     return NextResponse.json({ erro: "não autorizado" }, { status: 401 });
   }
   if (!temBanco()) return NextResponse.json({ erro: "sem banco" }, { status: 503 });
 
-  const publicKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
-  const privateKey = process.env.VAPID_PRIVATE_KEY;
+  // tolera espaços/aspas acidentais ao colar no painel da Vercel
+  const limpar = (v?: string) => v?.trim().replace(/^["']|["']$/g, "") ?? "";
+  const publicKey = limpar(process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY);
+  const privateKey = limpar(process.env.VAPID_PRIVATE_KEY);
   if (!publicKey || !privateKey) {
     return NextResponse.json({ erro: "VAPID não configurado" }, { status: 503 });
   }
-  webpush.setVapidDetails("mailto:dev@flexaseal.com.br", publicKey, privateKey);
+  try {
+    webpush.setVapidDetails("mailto:dev@flexaseal.com.br", publicKey, privateKey);
+  } catch (e) {
+    return NextResponse.json(
+      { erro: `chaves VAPID inválidas: ${e instanceof Error ? e.message : "?"}` },
+      { status: 503 },
+    );
+  }
 
   // jogos de hoje (fuso de Brasília) que ainda não começaram
   const matches = await getMatches();
