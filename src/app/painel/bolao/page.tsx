@@ -5,10 +5,13 @@ import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
-import { meusGrupos, rankingDoGrupo } from "@/lib/bolao";
+import { getJogoDoDia, jaComecou, meusGrupos, rankingDoGrupo } from "@/lib/bolao";
 import { AvisosBolao } from "@/components/painel/avisos-bolao";
 import { AtivarLembretes } from "@/components/painel/lembretes";
 import { CriarGrupoForm, EntrarGrupoForm } from "./forms";
+import { PalpiteRapido } from "./palpite-rapido";
+
+const FUSO = "America/Sao_Paulo";
 
 export default async function BolaoPage() {
   const sessao = await getSession();
@@ -50,7 +53,10 @@ export default async function BolaoPage() {
     );
   }
 
-  const grupos = await meusGrupos(sessao.uid);
+  const [grupos, jogoDoDia] = await Promise.all([
+    meusGrupos(sessao.uid),
+    getJogoDoDia(sessao.uid).catch(() => null),
+  ]);
   // posição do usuário em cada grupo (poucos grupos por pessoa; ok calcular aqui)
   const posicoes = new Map<number, { pos: number; pontos: number }>();
   for (const g of grupos) {
@@ -80,6 +86,42 @@ export default async function BolaoPage() {
           Seus palpites valem em todos os seus grupos e travam no apito inicial.
         </p>
       </div>
+
+      {jogoDoDia && !jaComecou(jogoDoDia.match) && (
+        <div className="glass neon-border mb-8 p-5">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted">
+            ⚡ Próximo jogo —{" "}
+            {jogoDoDia.match.kickoffISO &&
+              new Date(jogoDoDia.match.kickoffISO).toLocaleString("pt-BR", {
+                weekday: "short",
+                day: "2-digit",
+                month: "2-digit",
+                hour: "2-digit",
+                minute: "2-digit",
+                timeZone: FUSO,
+              })}
+            {jogoDoDia.colegas > 0 && (
+              <span className="ml-2 normal-case text-muted/80">
+                · {jogoDoDia.palpitaram}/{jogoDoDia.colegas} do grupo já palpitaram
+              </span>
+            )}
+          </p>
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <p className="flex items-center gap-2 font-display text-lg font-semibold">
+              <span className="text-3xl">{jogoDoDia.match.flagMandante}</span>
+              {jogoDoDia.match.mandante}
+              <span className="text-muted">×</span>
+              {jogoDoDia.match.visitante}
+              <span className="text-3xl">{jogoDoDia.match.flagVisitante}</span>
+            </p>
+            <PalpiteRapido
+              matchId={jogoDoDia.match.id}
+              gm={jogoDoDia.meuPalpite ? String(jogoDoDia.meuPalpite.golsMandante) : ""}
+              gv={jogoDoDia.meuPalpite ? String(jogoDoDia.meuPalpite.golsVisitante) : ""}
+            />
+          </div>
+        </div>
+      )}
 
       <div className="grid gap-4 lg:grid-cols-2">
         <Card titulo="Criar um grupo">

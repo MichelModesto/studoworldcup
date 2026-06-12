@@ -6,7 +6,9 @@ import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import {
   bonusTravado,
+  conquistasDoGrupo,
   ehMembro,
+  evolucaoDoGrupo,
   getBonusDoGrupo,
   getGrupoPorCodigo,
   jaComecou,
@@ -14,6 +16,7 @@ import {
   pontosDoPalpite,
   rankingDoGrupo,
 } from "@/lib/bolao";
+import { RankingChart } from "@/components/charts/ranking-chart";
 import { getMatches, getTeams } from "@/lib/worldcup";
 import { CompartilharConvite, CopiarCodigo } from "./copiar-codigo";
 
@@ -29,12 +32,14 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
   if (!grupo) notFound();
   if (!(await ehMembro(grupo.id, sessao.uid))) redirect("/painel/bolao");
 
-  const [ranking, porJogo, matches, bonusGrupo, teams] = await Promise.all([
+  const [ranking, porJogo, matches, bonusGrupo, teams, evolucao, conquistas] = await Promise.all([
     rankingDoGrupo(grupo.id),
     palpitesDoGrupo(grupo.id),
     getMatches(),
     getBonusDoGrupo(grupo.id),
     getTeams(),
+    evolucaoDoGrupo(grupo.id).catch(() => ({ dias: [], nomes: [] })),
+    conquistasDoGrupo(grupo.id).catch(() => new Map<number, { emoji: string; titulo: string }[]>()),
   ]);
   const bonusFechado = bonusTravado(matches);
   const nomeTime = new Map(teams.map((t) => [t.fifa, `${t.flag} ${t.nomePt}`]));
@@ -107,6 +112,11 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   <td className="py-3 font-medium">
                     <span className="inline-flex items-center gap-1.5">
                       {l.nome}
+                      {(conquistas.get(l.usuarioId) ?? []).map((c) => (
+                        <span key={c.emoji} title={c.titulo} className="cursor-help text-sm">
+                          {c.emoji}
+                        </span>
+                      ))}
                       {l.usuarioId === grupo.donoId && (
                         <span title="Dono do grupo">
                           <Crown className="h-3.5 w-3.5 text-gold" />
@@ -140,6 +150,12 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
           e artilheiro +5 no fim da Copa.
         </p>
       </Card>
+
+      {evolucao.dias.length >= 2 && (
+        <Card titulo="Evolução do ranking (pontos acumulados por dia)" className="mb-8">
+          <RankingChart dias={evolucao.dias} nomes={evolucao.nomes} />
+        </Card>
+      )}
 
       {bonusGrupo.size > 0 && (
         <Card titulo="Apostas bônus do grupo" className="mb-8">
@@ -207,6 +223,30 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                     );
                   })}
                 </div>
+                {(() => {
+                  const ps = porJogo.get(m.id) ?? [];
+                  if (ps.length < 2) return null;
+                  const lado = (s: number) => ps.filter((p) => Math.sign(p.palpite.golsMandante - p.palpite.golsVisitante) === s).length;
+                  const pct = (n: number) => Math.round((n / ps.length) * 100);
+                  const contagem = new Map<string, number>();
+                  for (const p of ps) {
+                    const k = `${p.palpite.golsMandante}×${p.palpite.golsVisitante}`;
+                    contagem.set(k, (contagem.get(k) ?? 0) + 1);
+                  }
+                  const [maisApostado, vezes] = [...contagem.entries()].sort((a, b) => b[1] - a[1])[0];
+                  return (
+                    <p className="mt-2 text-[11px] text-muted/80">
+                      {pct(lado(1))}% em {m.mandante} · {pct(lado(0))}% no empate · {pct(lado(-1))}%
+                      em {m.visitante}
+                      {vezes > 1 && (
+                        <span>
+                          {" "}
+                          · placar mais apostado: <strong>{maisApostado}</strong> ({vezes}×)
+                        </span>
+                      )}
+                    </p>
+                  );
+                })()}
               </div>
             ))}
           </div>

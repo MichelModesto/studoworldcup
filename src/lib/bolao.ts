@@ -3,7 +3,15 @@ import { sql } from "./db";
 import { temCodigoRecuperacao } from "./auth";
 import { getMatches, getScorers } from "./worldcup";
 import { chaveNome } from "./worldcup/squads";
+import { listTeamStats } from "./worldcup/team-stats";
 import type { Match } from "./worldcup/types";
+
+const DIA_SP = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo" });
+const DIA_CURTO = new Intl.DateTimeFormat("pt-BR", {
+  day: "2-digit",
+  month: "2-digit",
+  timeZone: "America/Sao_Paulo",
+});
 
 /**
  * Bolão: grupos com código de convite, palpites por jogo e ranking.
@@ -310,6 +318,154 @@ export async function getBonusDoGrupo(grupoId: number): Promise<BonusDoGrupo> {
   return new Map(
     rows.map((r) => [r.usuario_id, { campeaoFifa: r.campeao_fifa, artilheiro: r.artilheiro }]),
   );
+}
+
+// ---------- evolução do ranking (gráfico) ----------
+
+export type DiaEvolucao = { dia: string } & Record<string, number | string>;
+
+/**
+ * Pontos acumulados por participante a cada dia com jogos encerrados.
+ * Derivado na hora de palpites × resultados — sem tabela de histórico.
+ */
+export async function evolucaoDoGrupo(
+  grupoId: number,
+): Promise<{ dias: DiaEvolucao[]; nomes: string[] }> {
+  const [ranking, porJogo, matches] = await Promise.all([
+    rankingDoGrupo(grupoId),
+    palpitesDoGrupo(grupoId),
+    getMatches(),
+  ]);
+  const nomes = ranking.map((l) => l.nome);
+  const nomePorId = new Map(ranking.map((l) => [l.usuarioId, l.nome]));
+
+  const encerrados = matches
+    .filter((m) => m.status === "encerrado" && m.kickoffISO)
+    .sort((a, b) => a.kickoffISO!.localeCompare(b.kickoffISO!));
+  if (!encerrados.length) return { dias: [], nomes };
+
+  const acumulado = new Map<string, number>(nomes.map((n) => [n, 0]));
+  const dias: DiaEvolucao[] = [];
+  let diaAtual = "";
+  for (const m of encerrados) {
+    const dia = DIA_SP.format(new Date(m.kickoffISO!));
+    if (dia !== diaAtual) {
+      diaAtual = dia;
+      dias.push({
+        dia: DIA_CURTO.format(new Date(m.kickoffISO!)),
+        ...Object.fromEntries(acumulado),
+      });
+    }
+    for (const p of porJogo.get(m.id) ?? []) {
+      const nome = nomePorId.get(p.usuarioId);
+      if (!nome) continue;
+      const pts = pontosDoPalpite(p.palpite, m) ?? 0;
+      acumulado.set(nome, (acumulado.get(nome) ?? 0) + pts);
+    }
+    // atualiza a última entrada do dia com o acumulado pós-jogo
+    Object.assign(dias[dias.length - 1], Object.fromEntries(acumulado));
+  }
+  return { dias, nomes };
+}
+
+// ---------- conquistas (badges) ----------
+
+export type Conquista = { emoji: string; titulo: string };
+
+/** Badges calculados na hora a partir do histórico de cada participante. */
+export async function conquistasDoGrupo(grupoId: number): Promise<Map<number, Conquista[]>> {
+  const [ranking, porJogo, matches, allStats] = await Promise.all([
+    rankingDoGrupo(grupoId),
+    palpitesDoGrupo(grupoId),
+    getMatches(),
+    listTeamStats().catch(() => []),
+  ]);
+  const aproveitamento = new Map(
+    allStats.map((s) => {
+      const j = Math.max(1, s.jogos);
+      return [s.fifa, (3 * s.registro.v + s.registro.e) / (3 * j)];
+    }),
+  );
+
+  const encerrados = matches
+    .filter((m) => m.status === "encerrado" && m.kickoffISO)
+    .sort((a, b) => a.kickoffISO!.localeCompare(b.kickoffISO!));
+
+  const out = new Map<number, Conquista[]>();
+  for (const l of ranking) {
+    const historico: number[] = []; // pontos por jogo encerrado palpitado, em ordem
+    let zebras = 0;
+    let palpitados = 0;
+    for (const m of encerrados) {
+      const p = (porJogo.get(m.id) ?? []).find((x) => x.usuarioId === l.usuarioId);
+      if (!p) continue;
+      palpitados++;
+      const pts = pontosDoPalpite(p.palpite, m) ?? 0;
+      historico.push(pts);
+      // zebra: acertou resultado de vitória de um time historicamente mais fraco
+      if (pts > 0 && m.fifaMandante && m.fifaVisitante && m.placarMandante !== m.placarVisitante) {
+        const venceuMandante = (m.placarMandante ?? 0) > (m.placarVisitante ?? 0);
+        const vencedor = venceuMandante ? m.fifaMandante : m.fifaVisitante;
+        const perdedor = venceuMandante ? m.fifaVisitante : m.fifaMandante;
+        const av = aproveitamento.get(vencedor);
+        const ap = aproveitamento.get(perdedor);
+        if (av !== undefined && ap !== undefined && av + 0.1 < ap) zebras++;
+      }
+    }
+    const conquistas: Conquista[] = [];
+    if (l.exatos >= 1) conquistas.push({ emoji: "🎯", titulo: "Na mosca: acertou placar exato" });
+    const ult3 = historico.slice(-3);
+    if (ult3.length === 3 && ult3.every((p) => p > 0))
+      conquistas.push({ emoji: "🔥", titulo: "Em chamas: pontuou nos últimos 3 jogos" });
+    if (ult3.length === 3 && ult3.every((p) => p === 0))
+      conquistas.push({ emoji: "🥶", titulo: "Gelado: zerou os últimos 3 jogos" });
+    if (encerrados.length >= 3 && palpitados === encerrados.length)
+      conquistas.push({ emoji: "💯", titulo: "Assíduo: palpitou em todos os jogos até agora" });
+    if (zebras >= 1)
+      conquistas.push({ emoji: "🦓", titulo: "Zebrólogo: acertou vitória de azarão" });
+    if (conquistas.length) out.set(l.usuarioId, conquistas);
+  }
+  return out;
+}
+
+// ---------- jogo do dia ----------
+
+export type JogoDoDia = {
+  match: Match;
+  meuPalpite: Palpite | null;
+  /** Quantos dos meus colegas de grupo (todos os grupos) já palpitaram. */
+  palpitaram: number;
+  colegas: number;
+};
+
+export async function getJogoDoDia(uid: number): Promise<JogoDoDia | null> {
+  const [matches, meus, grupos] = await Promise.all([
+    getMatches(),
+    palpitesDoUsuario(uid),
+    meusGrupos(uid),
+  ]);
+  const agora = Date.now();
+  const proximo = matches
+    .filter((m) => m.kickoffISO && Date.parse(m.kickoffISO) > agora)
+    .sort((a, b) => a.kickoffISO!.localeCompare(b.kickoffISO!))[0];
+  if (!proximo) return null;
+
+  let palpitaram = 0;
+  let colegas = 0;
+  if (grupos.length) {
+    const gids = grupos.map((g) => g.id);
+    const rows = (await sql()`
+      SELECT count(DISTINCT m.usuario_id)::int AS colegas,
+             count(DISTINCT p.usuario_id)::int AS palpitaram
+      FROM grupo_membros m
+      LEFT JOIN palpites p
+        ON p.usuario_id = m.usuario_id AND p.match_id = ${proximo.id}
+      WHERE m.grupo_id = ANY(${gids}) AND m.usuario_id <> ${uid}
+    `) as { colegas: number; palpitaram: number }[];
+    colegas = rows[0]?.colegas ?? 0;
+    palpitaram = rows[0]?.palpitaram ?? 0;
+  }
+  return { match: proximo, meuPalpite: meus.get(proximo.id) ?? null, palpitaram, colegas };
 }
 
 // ---------- avisos ao logar ----------

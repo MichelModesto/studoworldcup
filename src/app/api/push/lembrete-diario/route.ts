@@ -32,10 +32,11 @@ export async function GET(req: Request) {
     );
   }
 
-  // jogos de hoje (fuso de Brasília) que ainda não começaram
+  // jogos de hoje (fuso de Brasília) que ainda não começaram + encerrados de ontem
   const matches = await getMatches();
   const diaSP = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo" });
   const hoje = diaSP.format(new Date());
+  const ontem = diaSP.format(new Date(Date.now() - 24 * 3600_000));
   const agora = Date.now();
   const jogosHoje = matches.filter(
     (m) =>
@@ -43,7 +44,13 @@ export async function GET(req: Request) {
       diaSP.format(new Date(m.kickoffISO)) === hoje &&
       Date.parse(m.kickoffISO) > agora,
   );
-  if (!jogosHoje.length) return NextResponse.json({ ok: true, enviados: 0, motivo: "sem jogos" });
+  const jogosOntem = matches.filter(
+    (m) =>
+      m.status === "encerrado" && m.kickoffISO && diaSP.format(new Date(m.kickoffISO)) === ontem,
+  );
+  if (!jogosHoje.length && !jogosOntem.length) {
+    return NextResponse.json({ ok: true, enviados: 0, motivo: "sem jogos" });
+  }
   const idsHoje = jogosHoje.map((m) => m.id);
 
   const subs = (await sql()`
@@ -52,27 +59,57 @@ export async function GET(req: Request) {
   `) as { endpoint: string; p256dh: string; auth: string; usuario_id: number; nome: string }[];
   if (!subs.length) return NextResponse.json({ ok: true, enviados: 0, motivo: "sem inscritos" });
 
-  // palpites já feitos para os jogos de hoje, por usuário
-  const feitos = (await sql()`
-    SELECT usuario_id, match_id FROM palpites WHERE match_id = ANY(${idsHoje})
-  `) as { usuario_id: number; match_id: number }[];
+  // palpites de hoje (lembrete) e de ontem (resumo de pontos), por usuário
+  const idsOntem = jogosOntem.map((m) => m.id);
+  const todosIds = [...idsHoje, ...idsOntem];
+  const feitos = todosIds.length
+    ? ((await sql()`
+        SELECT usuario_id, match_id, gols_mandante, gols_visitante
+        FROM palpites WHERE match_id = ANY(${todosIds})
+      `) as { usuario_id: number; match_id: number; gols_mandante: number; gols_visitante: number }[])
+    : [];
   const feitosPorUsuario = new Map<number, Set<number>>();
+  const pontosOntem = new Map<number, { pts: number; exatos: number }>();
+  const ontemById = new Map(jogosOntem.map((m) => [m.id, m]));
   for (const f of feitos) {
     (feitosPorUsuario.get(f.usuario_id) ?? feitosPorUsuario.set(f.usuario_id, new Set()).get(f.usuario_id)!).add(
       f.match_id,
     );
+    const m = ontemById.get(f.match_id);
+    if (m && m.placarMandante !== undefined && m.placarVisitante !== undefined) {
+      const exato = f.gols_mandante === m.placarMandante && f.gols_visitante === m.placarVisitante;
+      const acertou =
+        Math.sign(f.gols_mandante - f.gols_visitante) ===
+        Math.sign(m.placarMandante - m.placarVisitante);
+      const pts = exato ? 3 : acertou ? 1 : 0;
+      const acc = pontosOntem.get(f.usuario_id) ?? { pts: 0, exatos: 0 };
+      acc.pts += pts;
+      if (exato) acc.exatos++;
+      pontosOntem.set(f.usuario_id, acc);
+    }
   }
 
   let enviados = 0;
   for (const s of subs) {
     const ja = feitosPorUsuario.get(s.usuario_id) ?? new Set();
     const faltam = jogosHoje.filter((m) => !ja.has(m.id));
-    if (!faltam.length) continue;
-    const primeiro = faltam[0];
-    const corpo =
-      faltam.length === 1
-        ? `${primeiro.mandante} × ${primeiro.visitante} é hoje e você ainda não palpitou!`
-        : `${faltam.length} jogos hoje sem palpite — o primeiro é ${primeiro.mandante} × ${primeiro.visitante}.`;
+    const resumo = pontosOntem.get(s.usuario_id);
+    if (!faltam.length && !resumo) continue;
+    const partes: string[] = [];
+    if (resumo) {
+      partes.push(
+        `Ontem você fez ${resumo.pts} pt${resumo.pts === 1 ? "" : "s"}${resumo.exatos ? ` (${resumo.exatos} exato${resumo.exatos > 1 ? "s" : ""}! 🎯)` : ""}.`,
+      );
+    }
+    if (faltam.length) {
+      const primeiro = faltam[0];
+      partes.push(
+        faltam.length === 1
+          ? `${primeiro.mandante} × ${primeiro.visitante} é hoje e você ainda não palpitou!`
+          : `${faltam.length} jogos hoje sem palpite — o primeiro é ${primeiro.mandante} × ${primeiro.visitante}.`,
+      );
+    }
+    const corpo = partes.join(" ");
     try {
       await webpush.sendNotification(
         { endpoint: s.endpoint, keys: { p256dh: s.p256dh, auth: s.auth } },
