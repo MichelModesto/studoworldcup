@@ -91,7 +91,8 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
         </Link>
       </div>
 
-      {grupo.pix && (
+      {/* PIX some da tela de quem já pagou — mas nunca da tela do dono. */}
+      {grupo.pix && (ehDono || !(pagamentos.get(sessao.uid) ?? false)) && (
         <Card titulo="💰 Entrada do bolão (PIX)" className="mb-8">
           {(() => {
             const info = lerPix(grupo.pix!);
