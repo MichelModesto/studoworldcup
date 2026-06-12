@@ -123,7 +123,76 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
       )}
 
       <Card titulo="Classificação" className="mb-8">
-        <div className="overflow-x-auto">
+        {/* Celular: cards com os PONTOS em destaque (sem scroll lateral) */}
+        <ul className="sm:hidden">
+          {ranking.map((l, i) => (
+            <li
+              key={l.usuarioId}
+              className={`flex items-center gap-3 border-t border-border/60 py-3 first:border-0 ${
+                l.usuarioId === sessao.uid ? "bg-brand/5 -mx-2 rounded-lg px-2" : ""
+              }`}
+            >
+              <span className="w-7 shrink-0 text-center">
+                {i < 3 ? (
+                  <Medal className={`mx-auto h-5 w-5 ${MEDALHA[i]}`} />
+                ) : (
+                  <span className="text-sm text-muted">{i + 1}</span>
+                )}
+              </span>
+              <div className="min-w-0 flex-1">
+                <Link
+                  href={`/painel/bolao/grupo/${grupo.codigo}/membro/${l.usuarioId}`}
+                  className="flex flex-wrap items-center gap-1.5 font-medium"
+                >
+                  <span className="truncate">{l.nome}</span>
+                  {(conquistas.get(l.usuarioId) ?? []).map((c) => (
+                    <span key={c.emoji} title={c.titulo} className="text-sm">
+                      {c.emoji}
+                    </span>
+                  ))}
+                  {l.usuarioId === grupo.donoId && <Crown className="h-3.5 w-3.5 shrink-0 text-gold" />}
+                  {l.usuarioId === sessao.uid && (
+                    <span className="rounded-full bg-brand/15 px-2 py-px text-[10px] font-medium text-brand">
+                      você
+                    </span>
+                  )}
+                </Link>
+                <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
+                  <span>
+                    🎯 {l.exatos} · ✔ {l.resultados} · {l.palpites} palpite{l.palpites === 1 ? "" : "s"}
+                  </span>
+                  {mostraPagamento &&
+                    (ehDono ? (
+                      <TogglePagou
+                        grupoId={grupo.id}
+                        usuarioId={l.usuarioId}
+                        pagou={pagamentos.get(l.usuarioId) ?? false}
+                      />
+                    ) : pagamentos.get(l.usuarioId) ? (
+                      <span className="rounded-full bg-success/15 px-2 py-px text-[10px] font-medium text-success">
+                        💰 pago
+                      </span>
+                    ) : (
+                      <span className="rounded-full bg-surface-2 px-2 py-px text-[10px] text-muted">
+                        pendente
+                      </span>
+                    ))}
+                </p>
+              </div>
+              <div className="shrink-0 text-right">
+                <span className="block font-mono text-2xl font-bold tabular-nums text-brand">
+                  {l.pontos}
+                </span>
+                <span className="text-[10px] uppercase tracking-wide text-muted">
+                  pts{l.bonus > 0 ? ` (+${l.bonus})` : ""}
+                </span>
+              </div>
+            </li>
+          ))}
+        </ul>
+
+        {/* Desktop: tabela completa */}
+        <div className="hidden overflow-x-auto sm:block">
           <table className="w-full min-w-[480px] text-sm tabela-zebra">
             <thead>
               <tr className="text-left text-xs uppercase tracking-wide text-muted">
