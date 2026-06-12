@@ -13,9 +13,9 @@ import {
 } from "@/lib/worldcup";
 
 const PAIS_COR: Record<string, string> = {
-  "Estados Unidos": "#2fb8ff",
-  Canadá: "#ff2d78",
-  México: "#00f5a0",
+  "Estados Unidos": "#4e8ec9",
+  Canadá: "#e5484d",
+  México: "#3ddc84",
 };
 
 export default async function EstatisticasPage() {
@@ -84,7 +84,7 @@ export default async function EstatisticasPage() {
 
       <div className="mt-6 grid gap-6 lg:grid-cols-2">
         <Card titulo="Jogos por fase">
-          <SimpleBarChart data={faseData} color="#2fb8ff" />
+          <SimpleBarChart data={faseData} color="#4e8ec9" />
         </Card>
         <Card titulo="Estatísticas de jogo">
           <EmptyState

@@ -11,7 +11,7 @@ import {
   YAxis,
 } from "recharts";
 
-const CORES = ["#00f5a0", "#2fb8ff", "#ffd24a", "#ff2d78", "#a779ff", "#8ea0c6", "#ff9f43", "#00d2d3"];
+const CORES = ["#ffb300", "#4e8ec9", "#3ddc84", "#e5484d", "#a18be6", "#ffce4f", "#8c92a3", "#ff7849"];
 
 export type DiaEvolucao = { dia: string } & Record<string, number | string>;
 
@@ -21,11 +21,11 @@ export function RankingChart({ dias, nomes }: { dias: DiaEvolucao[]; nomes: stri
     <ResponsiveContainer width="100%" height={300}>
       <LineChart data={dias} margin={{ top: 10, right: 12, left: -18, bottom: 0 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="rgba(140,160,205,0.12)" />
-        <XAxis dataKey="dia" stroke="#8ea0c6" fontSize={12} tickLine={false} axisLine={false} />
-        <YAxis stroke="#8ea0c6" fontSize={12} tickLine={false} axisLine={false} allowDecimals={false} />
+        <XAxis dataKey="dia" stroke="#8c92a3" fontSize={12} tickLine={false} axisLine={false} />
+        <YAxis stroke="#8c92a3" fontSize={12} tickLine={false} axisLine={false} allowDecimals={false} />
         <Tooltip
           contentStyle={{
-            background: "#0b1020",
+            background: "#11141b",
             border: "1px solid rgba(140,160,205,0.2)",
             borderRadius: 12,
             color: "#eaf0ff",
@@ -33,7 +33,7 @@ export function RankingChart({ dias, nomes }: { dias: DiaEvolucao[]; nomes: stri
         />
         <Legend
           iconType="circle"
-          formatter={(v) => <span style={{ color: "#8ea0c6", fontSize: 12 }}>{v}</span>}
+          formatter={(v) => <span style={{ color: "#8c92a3", fontSize: 12 }}>{v}</span>}
         />
         {nomes.map((nome, i) => (
           <Line

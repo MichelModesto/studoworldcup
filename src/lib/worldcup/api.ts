@@ -403,16 +403,16 @@ export async function getConfederationBreakdown(): Promise<
 > {
   const teams = await getTeams();
   const cores: Record<string, string> = {
-    UEFA: "#2fb8ff",
-    CONMEBOL: "#00f5a0",
-    CONCACAF: "#ffd24a",
-    CAF: "#ff2d78",
-    AFC: "#a779ff",
-    OFC: "#8ea0c6",
+    UEFA: "#4e8ec9",
+    CONMEBOL: "#3ddc84",
+    CONCACAF: "#ffb300",
+    CAF: "#e5484d",
+    AFC: "#a18be6",
+    OFC: "#8c92a3",
   };
   const counts = new Map<string, number>();
   for (const t of teams) counts.set(t.confed, (counts.get(t.confed) ?? 0) + 1);
   return [...counts.entries()]
-    .map(([name, value]) => ({ name, value, color: cores[name] ?? "#8ea0c6" }))
+    .map(([name, value]) => ({ name, value, color: cores[name] ?? "#8c92a3" }))
     .sort((a, b) => b.value - a.value);
 }

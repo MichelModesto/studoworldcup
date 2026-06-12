@@ -1,26 +1,29 @@
 @import "tailwindcss";
 
 /* =========================================================
-   StudoWorldCup — Design System v2 "Futebol Futurista"
-   Dark glassmorphism · auroras neon · inner glow · bento
+   StudoWorldCup — Design System v3 "Placar Eletrônico"
+   Grafite de estádio à noite · âmbar de letreiro · dot-matrix
+   Regras: âmbar = marca/destaque · verde = vitória/acerto ·
+   vermelho = derrota/perigo · dourado-claro = placar exato.
    ========================================================= */
 
 :root {
   /* Base */
-  --background: #05070f;
-  --surface: #0b1020;
-  --surface-2: #111a30;
-  --foreground: #eaf0ff;
-  --muted: #8ea0c6;
-  --border: rgba(140, 160, 205, 0.14);
+  --background: #0b0d12;
+  --surface: #11141b;
+  --surface-2: #1a1f2a;
+  --foreground: #edede6;
+  --muted: #8c92a3;
+  --border: rgba(160, 170, 190, 0.14);
 
-  /* Acentos neon (identidade vibrante 2026) */
-  --brand: #00f5a0;     /* verde-esmeralda elétrico */
-  --brand-2: #2fb8ff;   /* azul ciano */
-  --accent: #ff2d78;    /* magenta */
-  --violet: #a779ff;    /* violeta */
-  --gold: #ffd24a;      /* dourado/troféu */
-  --danger: #ff5c6c;
+  /* Identidade */
+  --brand: #ffb300;     /* âmbar de painel — assinatura */
+  --brand-2: #4e8ec9;   /* azul-aço — lado B nas comparações */
+  --accent: #ff7849;    /* coral — destaques quentes secundários */
+  --violet: #a18be6;    /* violeta suave — chips informativos */
+  --gold: #ffce4f;      /* placar exato / troféu */
+  --success: #3ddc84;   /* vitória / acerto */
+  --danger: #e5484d;    /* derrota / perigo */
 
   --radius: 18px;
 }
@@ -37,6 +40,7 @@
   --color-accent: var(--accent);
   --color-violet: var(--violet);
   --color-gold: var(--gold);
+  --color-success: var(--success);
   --color-danger: var(--danger);
 
   --font-sans: var(--font-geist-sans);
@@ -78,10 +82,9 @@ h1, h2, h3, .font-display {
   inset: -20%;
   z-index: -2;
   background:
-    radial-gradient(40% 35% at 12% 8%, rgba(0, 245, 160, 0.16), transparent 60%),
-    radial-gradient(38% 34% at 88% 6%, rgba(47, 184, 255, 0.16), transparent 60%),
-    radial-gradient(45% 40% at 78% 92%, rgba(255, 45, 120, 0.13), transparent 60%),
-    radial-gradient(40% 38% at 18% 88%, rgba(167, 121, 255, 0.12), transparent 60%);
+    radial-gradient(42% 36% at 14% 6%, rgba(255, 179, 0, 0.09), transparent 60%),
+    radial-gradient(40% 36% at 86% 10%, rgba(78, 142, 201, 0.08), transparent 60%),
+    radial-gradient(45% 40% at 70% 94%, rgba(255, 179, 0, 0.05), transparent 60%);
   filter: blur(20px);
   animation: aurora 22s ease-in-out infinite alternate;
 }
@@ -122,13 +125,13 @@ h1, h2, h3, .font-display {
 }
 .glass-hover:hover {
   transform: translateY(-4px);
-  border-color: rgba(0, 245, 160, 0.4);
+  border-color: rgba(255, 179, 0, 0.38);
   box-shadow:
-    0 18px 50px -16px rgba(0, 245, 160, 0.32),
+    0 18px 50px -16px rgba(255, 179, 0, 0.22),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
-/* Borda gradiente neon (usar em destaque) */
+/* Borda de destaque (âmbar do letreiro) */
 .neon-border {
   position: relative;
 }
@@ -138,17 +141,17 @@ h1, h2, h3, .font-display {
   inset: 0;
   padding: 1px;
   border-radius: inherit;
-  background: linear-gradient(120deg, var(--brand), var(--brand-2), var(--violet), var(--accent));
+  background: linear-gradient(120deg, var(--brand), rgba(255, 179, 0, 0.25), var(--brand-2));
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  opacity: 0.6;
+  opacity: 0.55;
   pointer-events: none;
 }
 
 /* ===== Texto ===== */
 .text-gradient {
-  background: linear-gradient(110deg, var(--brand), var(--brand-2) 45%, var(--violet) 75%, var(--accent));
+  background: linear-gradient(110deg, var(--brand), var(--gold) 55%, #ffe9b3);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
@@ -156,7 +159,7 @@ h1, h2, h3, .font-display {
   animation: gradient-pan 6s linear infinite;
 }
 .text-glow {
-  text-shadow: 0 0 24px rgba(0, 245, 160, 0.35);
+  text-shadow: 0 0 24px rgba(255, 179, 0, 0.35);
 }
 
 @keyframes gradient-pan {
@@ -166,16 +169,16 @@ h1, h2, h3, .font-display {
 /* ===== Botão ===== */
 .btn-brand {
   position: relative;
-  background: linear-gradient(120deg, var(--brand), var(--brand-2));
-  color: #03130c;
+  background: linear-gradient(120deg, #ffc233, var(--brand));
+  color: #1a1205;
   font-weight: 600;
-  box-shadow: 0 8px 28px -10px rgba(0, 245, 160, 0.6);
+  box-shadow: 0 8px 28px -10px rgba(255, 179, 0, 0.55);
   transition: filter 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
 }
 .btn-brand:hover {
-  filter: brightness(1.08);
+  filter: brightness(1.06);
   transform: translateY(-2px);
-  box-shadow: 0 14px 40px -10px rgba(0, 245, 160, 0.7);
+  box-shadow: 0 14px 40px -10px rgba(255, 179, 0, 0.65);
 }
 .btn-brand:active {
   transform: translateY(0);
@@ -184,7 +187,7 @@ h1, h2, h3, .font-display {
 /* ===== Scrollbar ===== */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(var(--brand), var(--brand-2));
+  background: linear-gradient(var(--brand), #b97f00);
   border-radius: 999px;
   border: 2px solid var(--background);
 }

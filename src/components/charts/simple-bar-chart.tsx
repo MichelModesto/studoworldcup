@@ -14,7 +14,7 @@ export type BarDatum = { label: string; value: number; color?: string };
 
 export function SimpleBarChart({
   data,
-  color = "#00f5a0",
+  color = "#ffb300",
   height = 280,
 }: {
   data: BarDatum[];
@@ -24,12 +24,12 @@ export function SimpleBarChart({
   return (
     <ResponsiveContainer width="100%" height={height}>
       <BarChart data={data} margin={{ top: 10, right: 8, left: -18, bottom: 0 }}>
-        <XAxis dataKey="label" stroke="#8ea0c6" fontSize={12} tickLine={false} axisLine={false} />
-        <YAxis stroke="#8ea0c6" fontSize={12} tickLine={false} axisLine={false} />
+        <XAxis dataKey="label" stroke="#8c92a3" fontSize={12} tickLine={false} axisLine={false} />
+        <YAxis stroke="#8c92a3" fontSize={12} tickLine={false} axisLine={false} />
         <Tooltip
           cursor={{ fill: "rgba(140,160,205,0.08)" }}
           contentStyle={{
-            background: "#0b1020",
+            background: "#11141b",
             border: "1px solid rgba(140,160,205,0.2)",
             borderRadius: 12,
             color: "#eaf0ff",

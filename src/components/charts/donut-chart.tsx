@@ -10,7 +10,7 @@ export function DonutChart({ data, height = 280 }: { data: DonutSlice[]; height?
       <PieChart>
         <Tooltip
           contentStyle={{
-            background: "#0b1020",
+            background: "#11141b",
             border: "1px solid rgba(140,160,205,0.2)",
             borderRadius: 12,
             color: "#eaf0ff",
@@ -19,7 +19,7 @@ export function DonutChart({ data, height = 280 }: { data: DonutSlice[]; height?
         <Legend
           verticalAlign="bottom"
           iconType="circle"
-          formatter={(v) => <span style={{ color: "#8ea0c6", fontSize: 12 }}>{v}</span>}
+          formatter={(v) => <span style={{ color: "#8c92a3", fontSize: 12 }}>{v}</span>}
         />
         <Pie
           data={data}
