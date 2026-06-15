@@ -3,7 +3,7 @@
   "team": "Morocco",
   "espnTeamId": 2869,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:13.171Z",
+  "atualizadoEm": "2026-06-15T11:58:15.567Z",
   "jogadores": [
     {
       "nome": "Yassine Bounou",
@@ -187,7 +187,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

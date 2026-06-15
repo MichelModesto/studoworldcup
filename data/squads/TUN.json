@@ -3,13 +3,13 @@
   "team": "Tunisia",
   "espnTeamId": 659,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:24.945Z",
+  "atualizadoEm": "2026-06-15T11:58:21.751Z",
   "jogadores": [
     {
       "nome": "Sabri Ben Hessen",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/g8iirx1779038047.jpg"
     },
     {
@@ -99,7 +99,8 @@
       "nome": "Ellyes Skhiri",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/h4gvqo1779036403.jpg"
     },
     {
       "nome": "Mortadha Ben Ouanes",

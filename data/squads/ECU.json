@@ -3,7 +3,7 @@
   "team": "Ecuador",
   "espnTeamId": 209,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:21.975Z",
+  "atualizadoEm": "2026-06-15T11:58:19.958Z",
   "jogadores": [
     {
       "nome": "Gonzalo Valle",
@@ -65,13 +65,15 @@
       "nome": "Piero Hincapié",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/c7dpnp1769332212.jpg"
     },
     {
       "nome": "Yaimar Medina",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 21
+      "idade": 21,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/akphab1767540890.jpg"
     },
     {
       "nome": "Joel Ordóñez",

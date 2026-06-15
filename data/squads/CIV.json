@@ -3,7 +3,7 @@
   "team": "Ivory Coast",
   "espnTeamId": 4789,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:21.406Z",
+  "atualizadoEm": "2026-06-15T11:58:19.524Z",
   "jogadores": [
     {
       "nome": "Alban Lafont",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

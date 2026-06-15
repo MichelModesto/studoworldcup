@@ -3,7 +3,7 @@
   "team": "Saudi Arabia",
   "espnTeamId": 655,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:31.424Z",
+  "atualizadoEm": "2026-06-15T11:58:24.843Z",
   "jogadores": [
     {
       "nome": "Ahmed Al-Kassar",
@@ -166,13 +166,15 @@
       "nome": "Sultan Mandash",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 31
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2gjxk71780296299.jpg"
     },
     {
       "nome": "Khalid Al-Ghannam",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/nssbjo1750760511.jpg"
     },
     {
       "nome": "Abdullah Al-Hamdan",

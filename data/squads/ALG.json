@@ -3,7 +3,7 @@
   "team": "Algeria",
   "espnTeamId": 624,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:38.441Z",
+  "atualizadoEm": "2026-06-15T11:58:27.951Z",
   "jogadores": [
     {
       "nome": "Luca Zidane",
@@ -86,7 +86,7 @@
       "nome": "Achraf Abada",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 26
+      "idade": 27
     },
     {
       "nome": "Nabil Bentaleb",
@@ -187,7 +187,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

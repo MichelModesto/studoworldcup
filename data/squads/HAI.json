@@ -3,7 +3,7 @@
   "team": "Haiti",
   "espnTeamId": 2654,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:14.118Z",
+  "atualizadoEm": "2026-06-15T11:58:15.998Z",
   "jogadores": [
     {
       "nome": "Johny Placide",
@@ -154,15 +154,17 @@
     },
     {
       "nome": "Yassin Fortuné",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/szdenq1779119142.jpg"
     },
     {
       "nome": "Louicius Deedson",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4eduwv1702384072.jpg"
     },
     {
       "nome": "Lenny Joseph",

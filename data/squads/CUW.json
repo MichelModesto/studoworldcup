@@ -3,7 +3,7 @@
   "team": "Curaçao",
   "espnTeamId": 11678,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:20.489Z",
+  "atualizadoEm": "2026-06-15T11:58:19.095Z",
   "jogadores": [
     {
       "nome": "Eloy Room",
@@ -170,13 +170,15 @@
       "nome": "Sontje Hansen",
       "posicao": "Atacante",
       "numero": 12,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tgls171701019754.jpg"
     },
     {
       "nome": "Jearl Margaritha",
       "posicao": "Atacante",
       "numero": 16,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/41pyti1779193968.jpg"
     },
     {
       "nome": "Jeremy Antonisse",

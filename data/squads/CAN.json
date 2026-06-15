@@ -3,7 +3,7 @@
   "team": "Canada",
   "espnTeamId": 206,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:08.765Z",
+  "atualizadoEm": "2026-06-15T11:58:13.348Z",
   "jogadores": [
     {
       "nome": "Maxime Crépeau",
@@ -86,7 +86,7 @@
       "nome": "Jonathan Osorio",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 33,
+      "idade": 34,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/exyn7k1621866558.jpg"
     },
     {
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

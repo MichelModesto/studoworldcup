@@ -3,7 +3,7 @@
   "team": "South Korea",
   "espnTeamId": 451,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:06.802Z",
+  "atualizadoEm": "2026-06-15T11:58:12.436Z",
   "jogadores": [
     {
       "nome": "Kim Seung-Gyu",
@@ -72,7 +72,8 @@
       "nome": "Lee Gi-Hyuk",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/agkpej1778973039.jpg"
     },
     {
       "nome": "Cho Wi-Je",

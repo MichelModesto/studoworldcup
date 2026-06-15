@@ -3,19 +3,21 @@
   "team": "Scotland",
   "espnTeamId": 580,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:15.301Z",
+  "atualizadoEm": "2026-06-15T11:58:16.445Z",
   "jogadores": [
     {
       "nome": "Liam Kelly",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/g44nb91538731599.jpg"
     },
     {
       "nome": "Craig Gordon",
       "posicao": "Goleiro",
       "numero": 21,
-      "idade": 43
+      "idade": 43,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hptxnh1513016021.jpg"
     },
     {
       "nome": "Angus Gunn",

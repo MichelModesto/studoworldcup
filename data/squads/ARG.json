@@ -3,7 +3,7 @@
   "team": "Argentina",
   "espnTeamId": 202,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:37.406Z",
+  "atualizadoEm": "2026-06-15T11:58:27.507Z",
   "jogadores": [
     {
       "nome": "Emiliano Martínez",
@@ -182,7 +182,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

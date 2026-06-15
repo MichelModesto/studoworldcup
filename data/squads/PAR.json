@@ -3,7 +3,7 @@
   "team": "Paraguay",
   "espnTeamId": 210,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:17.220Z",
+  "atualizadoEm": "2026-06-15T11:58:17.319Z",
   "jogadores": [
     {
       "nome": "Gatito Fernández",
@@ -23,12 +23,13 @@
       "nome": "Orlando Gil",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 25
+      "idade": 26
     },
     {
-      "nome": "Juan Cáceres",
+      "nome": "Juan Jose Cáceres",
       "posicao": "Defensor",
-      "numero": 13,
+      "numero": 4,
+      "idade": 26,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i75q401754402141.jpg"
     },
     {
@@ -116,7 +117,7 @@
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/t3gn661661633873.jpg"
     },
     {
-      "nome": "Mauricio",
+      "nome": "Maurício",
       "posicao": "Meio-campista",
       "numero": 11,
       "idade": 24

@@ -3,7 +3,7 @@
   "team": "Switzerland",
   "espnTeamId": 475,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:11.597Z",
+  "atualizadoEm": "2026-06-15T11:58:14.660Z",
   "jogadores": [
     {
       "nome": "Yvon Mvogo",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

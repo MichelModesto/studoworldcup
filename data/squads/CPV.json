@@ -3,7 +3,7 @@
   "team": "Cape Verde",
   "espnTeamId": 2597,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:30.417Z",
+  "atualizadoEm": "2026-06-15T11:58:24.331Z",
   "jogadores": [
     {
       "nome": "Vozinha",
@@ -153,7 +153,7 @@
       "nome": "Jovane Cabral",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/5y820d1779126865.jpg"
     },
     {
@@ -186,7 +186,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

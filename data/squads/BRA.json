@@ -3,7 +3,7 @@
   "team": "Brazil",
   "espnTeamId": 205,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:12.603Z",
+  "atualizadoEm": "2026-06-15T11:58:15.099Z",
   "jogadores": [
     {
       "nome": "Ederson",
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

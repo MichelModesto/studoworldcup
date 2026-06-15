@@ -3,7 +3,7 @@
   "team": "France",
   "espnTeamId": 478,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:33.547Z",
+  "atualizadoEm": "2026-06-15T11:58:25.709Z",
   "jogadores": [
     {
       "nome": "Brice Samba",
@@ -156,13 +156,15 @@
       "nome": "Ousmane Dembélé",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 29
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2w39ps1778803599.jpg"
     },
     {
       "nome": "Kylian Mbappé",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/v08cj31778816426.jpg"
     },
     {
       "nome": "Jean-Philippe Mateta",

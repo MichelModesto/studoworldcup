@@ -3,7 +3,7 @@
   "team": "Iran",
   "espnTeamId": 469,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:27.777Z",
+  "atualizadoEm": "2026-06-15T11:58:23.028Z",
   "jogadores": [
     {
       "nome": "Hossein Hosseini",
@@ -181,7 +181,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

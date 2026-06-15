@@ -3,7 +3,7 @@
   "team": "Jordan",
   "espnTeamId": 2917,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:39.896Z",
+  "atualizadoEm": "2026-06-15T11:58:28.893Z",
   "jogadores": [
     {
       "nome": "Yazeed Abulaila",
@@ -185,7 +185,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

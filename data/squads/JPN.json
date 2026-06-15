@@ -3,7 +3,7 @@
   "team": "Japan",
   "espnTeamId": 627,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:23.103Z",
+  "atualizadoEm": "2026-06-15T11:58:20.879Z",
   "jogadores": [
     {
       "nome": "Keisuke Osako",
@@ -187,7 +187,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

@@ -3,7 +3,7 @@
   "team": "Colombia",
   "espnTeamId": 208,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:43.447Z",
+  "atualizadoEm": "2026-06-15T11:58:30.612Z",
   "jogadores": [
     {
       "nome": "David Ospina",
@@ -58,7 +58,7 @@
       "nome": "Davinson Sánchez",
       "posicao": "Defensor",
       "numero": 23,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ukweyz1703592911.jpg"
     },
     {
@@ -79,13 +79,15 @@
       "nome": "Willer Ditta",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 28
+      "idade": 28,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/155car1779753782.jpg"
     },
     {
       "nome": "James Rodríguez",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 34
+      "idade": 34,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/etpchw1779769101.jpg"
     },
     {
       "nome": "Juan Portilla",

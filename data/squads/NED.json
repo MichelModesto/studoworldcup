@@ -3,13 +3,13 @@
   "team": "Netherlands",
   "espnTeamId": 449,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:22.524Z",
+  "atualizadoEm": "2026-06-15T11:58:20.391Z",
   "jogadores": [
     {
       "nome": "Mark Flekken",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/98he2o1578087724.jpg"
     },
     {
@@ -162,7 +162,8 @@
       "nome": "Noa Lang",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0qp5m41623841295.jpg"
     },
     {
       "nome": "Donyell Malen",

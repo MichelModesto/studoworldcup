@@ -3,7 +3,7 @@
   "team": "Uzbekistan",
   "espnTeamId": 2570,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:42.425Z",
+  "atualizadoEm": "2026-06-15T11:58:30.179Z",
   "jogadores": [
     {
       "nome": "Botirali Ergashev",
@@ -147,7 +147,8 @@
       "nome": "Abbosbek Fayzullaev",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yvvqmt1712556763.jpg"
     },
     {
       "nome": "Abdulla Abdullaev",

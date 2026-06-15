@@ -3,7 +3,7 @@
   "team": "Senegal",
   "espnTeamId": 654,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:34.556Z",
+  "atualizadoEm": "2026-06-15T11:58:26.138Z",
   "jogadores": [
     {
       "nome": "Mory Diaw",
@@ -100,13 +100,15 @@
       "nome": "Pape Gueye",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 27
+      "idade": 27,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ncg6ba1609250975.jpg"
     },
     {
       "nome": "Pathé Ciss",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kc2uoj1631540627.jpg"
     },
     {
       "nome": "Pape Matar Sarr",

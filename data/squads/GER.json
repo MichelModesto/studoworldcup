@@ -3,7 +3,7 @@
   "team": "Germany",
   "espnTeamId": 481,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:19.576Z",
+  "atualizadoEm": "2026-06-15T11:58:18.654Z",
   "jogadores": [
     {
       "nome": "Manuel Neuer",
@@ -79,7 +79,7 @@
       "nome": "Pascal Gross",
       "posicao": "Meio-campista",
       "numero": 13,
-      "idade": 34,
+      "idade": 35,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/y996zi1779383066.jpg"
     },
     {
@@ -156,7 +156,7 @@
       "nome": "Kai Havertz",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 26,
+      "idade": 27,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/5c3h061780160105.jpg"
     },
     {
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

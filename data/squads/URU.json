@@ -3,7 +3,7 @@
   "team": "Uruguay",
   "espnTeamId": 212,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:32.474Z",
+  "atualizadoEm": "2026-06-15T11:58:25.274Z",
   "jogadores": [
     {
       "nome": "Fernando Muslera",
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

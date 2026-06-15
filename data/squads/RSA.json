@@ -3,7 +3,7 @@
   "team": "South Africa",
   "espnTeamId": 467,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:05.897Z",
+  "atualizadoEm": "2026-06-15T11:58:12.007Z",
   "jogadores": [
     {
       "nome": "Ricardo Goss",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

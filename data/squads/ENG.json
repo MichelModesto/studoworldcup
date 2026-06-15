@@ -3,7 +3,7 @@
   "team": "England",
   "espnTeamId": 448,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:44.464Z",
+  "atualizadoEm": "2026-06-15T11:58:31.043Z",
   "jogadores": [
     {
       "nome": "Jordan Pickford",
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

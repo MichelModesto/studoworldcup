@@ -3,7 +3,7 @@
   "team": "Mexico",
   "espnTeamId": 203,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:04.949Z",
+  "atualizadoEm": "2026-06-15T11:58:11.575Z",
   "jogadores": [
     {
       "nome": "Guillermo Ochoa",
@@ -72,13 +72,15 @@
       "nome": "Luis Chávez",
       "posicao": "Meio-campista",
       "numero": 24,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4aq1qz1668718584.jpg"
     },
     {
       "nome": "Orbelín Pineda",
       "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3c2r6l1718259818.jpg"
     },
     {
       "nome": "Edson Álvarez",
@@ -102,7 +104,7 @@
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/v808ql1740161876.jpg"
     },
     {
-      "nome": "Erik Lira",
+      "nome": "Érik Lira",
       "posicao": "Meio-campista",
       "numero": 6,
       "idade": 26,

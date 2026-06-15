@@ -3,7 +3,7 @@
   "team": "Croatia",
   "espnTeamId": 477,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:45.472Z",
+  "atualizadoEm": "2026-06-15T11:58:31.466Z",
   "jogadores": [
     {
       "nome": "Dominik Livakovic",
@@ -128,13 +128,15 @@
       "nome": "Martin Baturina",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vvqs031720451391.jpg"
     },
     {
       "nome": "Toni Fruk",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vgv7g31779217478.jpg"
     },
     {
       "nome": "Petar Sucic",

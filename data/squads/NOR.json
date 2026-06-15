@@ -3,7 +3,7 @@
   "team": "Norway",
   "espnTeamId": 464,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:36.450Z",
+  "atualizadoEm": "2026-06-15T11:58:27.012Z",
   "jogadores": [
     {
       "nome": "Ørjan Nyland",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

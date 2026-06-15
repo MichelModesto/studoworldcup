@@ -3,7 +3,7 @@
   "team": "USA",
   "espnTeamId": 660,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:16.319Z",
+  "atualizadoEm": "2026-06-15T11:58:16.880Z",
   "jogadores": [
     {
       "nome": "Matt Freese",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

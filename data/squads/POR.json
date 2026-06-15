@@ -3,7 +3,7 @@
   "team": "Portugal",
   "espnTeamId": 482,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:40.476Z",
+  "atualizadoEm": "2026-06-15T11:58:29.318Z",
   "jogadores": [
     {
       "nome": "Rui Silva",
@@ -29,7 +29,8 @@
       "nome": "João Cancelo",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/8vj8tm1771260403.jpg"
     },
     {
       "nome": "Nélson Semedo",

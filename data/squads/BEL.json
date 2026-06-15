@@ -3,7 +3,7 @@
   "team": "Belgium",
   "espnTeamId": 459,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:25.843Z",
+  "atualizadoEm": "2026-06-15T11:58:22.175Z",
   "jogadores": [
     {
       "nome": "Thibaut Courtois",
@@ -65,7 +65,7 @@
       "nome": "Koni De Winter",
       "posicao": "Defensor",
       "numero": 16,
-      "idade": 23,
+      "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5h062e1667323389.jpg"
     },
     {
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

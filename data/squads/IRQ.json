@@ -3,7 +3,7 @@
   "team": "Iraq",
   "espnTeamId": 4375,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:35.503Z",
+  "atualizadoEm": "2026-06-15T11:58:26.573Z",
   "jogadores": [
     {
       "nome": "Fahad Talib",
@@ -69,7 +69,8 @@
       "nome": "Mustafa Saadoon",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tzmqn71780446976.jpg"
     },
     {
       "nome": "Akam Hashim",

@@ -3,7 +3,7 @@
   "team": "Austria",
   "espnTeamId": 474,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:39.346Z",
+  "atualizadoEm": "2026-06-15T11:58:28.381Z",
   "jogadores": [
     {
       "nome": "Alexander Schlager",
@@ -182,7 +182,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

@@ -3,7 +3,7 @@
   "team": "Ghana",
   "espnTeamId": 4469,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:46.383Z",
+  "atualizadoEm": "2026-06-15T11:58:31.896Z",
   "jogadores": [
     {
       "nome": "Lawrence Ati Zigi",
@@ -65,13 +65,15 @@
       "nome": "Alidu Seidu",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/l81x0t1631706928.jpg"
     },
     {
       "nome": "Marvin Senaya",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 25
+      "idade": 25,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/a9wwjo1660839704.jpg"
     },
     {
       "nome": "Jonas Adjetey",
@@ -91,7 +93,7 @@
       "nome": "Thomas Partey",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lnsxw11705917605.jpg"
     },
     {
@@ -110,7 +112,7 @@
     },
     {
       "nome": "Augustine Boakye",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 20,
       "idade": 25,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ig77t01780607013.jpg"
@@ -133,7 +135,7 @@
       "nome": "Iñaki Williams",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 31,
+      "idade": 32,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bjgctf1503241984.jpg"
     },
     {

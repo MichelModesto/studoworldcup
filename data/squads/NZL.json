@@ -3,7 +3,7 @@
   "team": "New Zealand",
   "espnTeamId": 2666,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:28.330Z",
+  "atualizadoEm": "2026-06-15T11:58:23.450Z",
   "jogadores": [
     {
       "nome": "Max Crocombe",
@@ -100,7 +100,7 @@
       "nome": "Alex Rufer",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/rpbtce1778733816.jpg"
     },
     {
@@ -135,13 +135,15 @@
       "nome": "Matthew Garbett",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 24
+      "idade": 24,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/x9yoaj1778731232.jpg"
     },
     {
       "nome": "Lachlan Bayliss",
       "posicao": "Meio-campista",
       "numero": 25,
-      "idade": 23
+      "idade": 23,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/go5u0p1778730188.jpg"
     },
     {
       "nome": "Chris Wood",
@@ -168,7 +170,7 @@
       "nome": "Ben Waine",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 24,
+      "idade": 25,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/uhiydo1778735455.jpg"
     },
     {

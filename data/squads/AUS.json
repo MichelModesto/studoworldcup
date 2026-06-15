@@ -3,7 +3,7 @@
   "team": "Australia",
   "espnTeamId": 628,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:18.117Z",
+  "atualizadoEm": "2026-06-15T11:58:17.766Z",
   "jogadores": [
     {
       "nome": "Mathew Ryan",
@@ -187,7 +187,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

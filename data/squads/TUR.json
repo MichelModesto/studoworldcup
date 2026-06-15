@@ -3,7 +3,7 @@
   "team": "Turkey",
   "espnTeamId": 465,
   "copa": 2026,
-  "atualizadoEm": "2026-06-10T15:09:18.668Z",
+  "atualizadoEm": "2026-06-15T11:58:18.214Z",
   "jogadores": [
     {
       "nome": "Mert Günok",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }
