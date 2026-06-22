@@ -3,13 +3,13 @@
   "team": "Senegal",
   "espnTeamId": 654,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:26.138Z",
+  "atualizadoEm": "2026-06-22T11:48:17.464Z",
   "jogadores": [
     {
       "nome": "Mory Diaw",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fzowpd1629969971.jpg"
     },
     {
@@ -30,7 +30,7 @@
       "nome": "Kalidou Koulibaly",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 34,
+      "idade": 35,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fplctn1669799779.jpg"
     },
     {
@@ -163,7 +163,7 @@
       "nome": "Nicolas Jackson",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 24,
+      "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5bv5ob1770543405.jpg"
     },
     {
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

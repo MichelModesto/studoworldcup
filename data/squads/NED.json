@@ -3,7 +3,7 @@
   "team": "Netherlands",
   "espnTeamId": 449,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:20.391Z",
+  "atualizadoEm": "2026-06-22T11:48:11.612Z",
   "jogadores": [
     {
       "nome": "Mark Flekken",
@@ -127,7 +127,7 @@
     {
       "nome": "Quinten Timber",
       "posicao": "Meio-campista",
-      "idade": 24,
+      "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/knniw71679243113.jpg"
     },
     {
@@ -162,7 +162,7 @@
       "nome": "Noa Lang",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 26,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/0qp5m41623841295.jpg"
     },
     {
@@ -181,14 +181,13 @@
     },
     {
       "nome": "Crysencio Summerville",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 24,
       "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/wqapie1772133945.jpg"
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

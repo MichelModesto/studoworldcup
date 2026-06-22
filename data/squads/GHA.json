@@ -3,7 +3,7 @@
   "team": "Ghana",
   "espnTeamId": 4469,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:31.896Z",
+  "atualizadoEm": "2026-06-22T11:48:23.423Z",
   "jogadores": [
     {
       "nome": "Lawrence Ati Zigi",
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

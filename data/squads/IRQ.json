@@ -3,7 +3,7 @@
   "team": "Iraq",
   "espnTeamId": 4375,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:26.573Z",
+  "atualizadoEm": "2026-06-22T11:48:17.906Z",
   "jogadores": [
     {
       "nome": "Fahad Talib",
@@ -54,7 +54,7 @@
     },
     {
       "nome": "Merchas Doski",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 23,
       "idade": 26,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/o2awsq1780441403.jpg"
@@ -144,7 +144,7 @@
       "nome": "Mohanad Ali",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 25,
+      "idade": 26,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ptoxm31780440519.jpg"
     },
     {
@@ -182,7 +182,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

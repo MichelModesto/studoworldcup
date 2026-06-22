@@ -3,7 +3,7 @@
   "team": "New Zealand",
   "espnTeamId": 2666,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:23.450Z",
+  "atualizadoEm": "2026-06-22T11:48:14.797Z",
   "jogadores": [
     {
       "nome": "Max Crocombe",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

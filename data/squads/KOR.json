@@ -3,7 +3,7 @@
   "team": "South Korea",
   "espnTeamId": 451,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:12.436Z",
+  "atualizadoEm": "2026-06-22T11:48:03.578Z",
   "jogadores": [
     {
       "nome": "Kim Seung-Gyu",
@@ -58,7 +58,7 @@
       "nome": "Lee Han-Beom",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 23,
+      "idade": 24,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/7xq5l01778973330.jpg"
     },
     {
@@ -187,7 +187,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

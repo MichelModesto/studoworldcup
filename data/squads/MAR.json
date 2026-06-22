@@ -3,7 +3,7 @@
   "team": "Morocco",
   "espnTeamId": 2869,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:15.567Z",
+  "atualizadoEm": "2026-06-22T11:48:06.698Z",
   "jogadores": [
     {
       "nome": "Yassine Bounou",
@@ -64,7 +64,7 @@
       "nome": "Chadi Riad",
       "posicao": "Defensor",
       "numero": 18,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/r0xljm1779840041.jpg"
     },
     {
@@ -127,7 +127,8 @@
       "nome": "Bilal El Khannouss",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 22
+      "idade": 22,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7btikn1668954686.jpg"
     },
     {
       "nome": "Ayyoub Bouaddi",
@@ -187,6 +188,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

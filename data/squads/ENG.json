@@ -3,7 +3,7 @@
   "team": "England",
   "espnTeamId": 448,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:31.043Z",
+  "atualizadoEm": "2026-06-22T11:48:22.487Z",
   "jogadores": [
     {
       "nome": "Jordan Pickford",
@@ -47,6 +47,13 @@
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cklwjy1770796429.jpg"
     },
     {
+      "nome": "Trevoh Chalobah",
+      "posicao": "Defensor",
+      "numero": 12,
+      "idade": 26,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tiw8lz1608388237.jpg"
+    },
+    {
       "nome": "Ezri Konsa",
       "posicao": "Defensor",
       "numero": 2,
@@ -75,13 +82,6 @@
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7jbg9y1697712464.jpg"
     },
     {
-      "nome": "Tino Livramento",
-      "posicao": "Defensor",
-      "numero": 12,
-      "idade": 23,
-      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gs2z9r1629228185.jpg"
-    },
-    {
       "nome": "Nico O'Reilly",
       "posicao": "Defensor",
       "numero": 3,
@@ -92,7 +92,7 @@
       "nome": "Jordan Henderson",
       "posicao": "Meio-campista",
       "numero": 14,
-      "idade": 35,
+      "idade": 36,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4betej1705696564.jpg"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "nome": "Morgan Rogers",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 17,
       "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cvq4kw1770201491.jpg"
@@ -188,6 +188,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

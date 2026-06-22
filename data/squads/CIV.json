@@ -3,7 +3,7 @@
   "team": "Ivory Coast",
   "espnTeamId": 4789,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:19.524Z",
+  "atualizadoEm": "2026-06-22T11:48:10.721Z",
   "jogadores": [
     {
       "nome": "Alban Lafont",
@@ -65,7 +65,7 @@
       "nome": "Emmanuel Agbadou",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 28,
+      "idade": 29,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1qojn71674743693.jpg"
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "nome": "Parfait Guiagon",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 25,
       "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/r4paxx1767727388.jpg"
@@ -133,14 +133,14 @@
     },
     {
       "nome": "Evann Guessand",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 22,
       "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/2jox8i1770200799.jpg"
     },
     {
       "nome": "Amad Diallo",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 15,
       "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/f8maua1706525745.jpg"

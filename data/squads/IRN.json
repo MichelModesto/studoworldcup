@@ -3,7 +3,7 @@
   "team": "Iran",
   "espnTeamId": 469,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:23.028Z",
+  "atualizadoEm": "2026-06-22T11:48:14.352Z",
   "jogadores": [
     {
       "nome": "Hossein Hosseini",
@@ -29,7 +29,8 @@
       "nome": "Shoja Khalilzadeh",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 37
+      "idade": 37,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jho1jx1668783800.jpg"
     },
     {
       "nome": "Ehsan Hajsafi",
@@ -181,6 +182,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

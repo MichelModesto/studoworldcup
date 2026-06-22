@@ -3,7 +3,7 @@
   "team": "Spain",
   "espnTeamId": 164,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:23.886Z",
+  "atualizadoEm": "2026-06-22T11:48:15.247Z",
   "jogadores": [
     {
       "nome": "David Raya",
@@ -64,7 +64,7 @@
       "nome": "Marc Pubill",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vf6tbv1701166662.jpg"
     },
     {
@@ -85,7 +85,7 @@
       "nome": "Mikel Merino",
       "posicao": "Meio-campista",
       "numero": 6,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/m01iqo1779732489.jpg"
     },
     {
@@ -106,7 +106,7 @@
       "nome": "Rodri",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 29
+      "idade": 30
     },
     {
       "nome": "Pedri",
@@ -184,7 +184,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

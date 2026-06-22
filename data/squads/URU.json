@@ -3,13 +3,13 @@
   "team": "Uruguay",
   "espnTeamId": 212,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:25.274Z",
+  "atualizadoEm": "2026-06-22T11:48:16.578Z",
   "jogadores": [
     {
       "nome": "Fernando Muslera",
       "posicao": "Goleiro",
       "numero": 23,
-      "idade": 39,
+      "idade": 40,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ymi2401611385822.jpg"
     },
     {
@@ -167,7 +167,7 @@
     },
     {
       "nome": "Agustín Canobbio",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 14,
       "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rz2mg31767539718.jpg"

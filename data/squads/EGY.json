@@ -3,7 +3,7 @@
   "team": "Egypt",
   "espnTeamId": 2620,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:22.603Z",
+  "atualizadoEm": "2026-06-22T11:48:13.909Z",
   "jogadores": [
     {
       "nome": "Mohamed El Shenawy",
@@ -183,7 +183,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

@@ -3,7 +3,7 @@
   "team": "Uzbekistan",
   "espnTeamId": 2570,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:30.179Z",
+  "atualizadoEm": "2026-06-22T11:48:21.599Z",
   "jogadores": [
     {
       "nome": "Botirali Ergashev",
@@ -119,7 +119,7 @@
       "nome": "Otabek Shukurov",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6eajoq1712353720.jpg"
     },
     {
@@ -186,7 +186,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

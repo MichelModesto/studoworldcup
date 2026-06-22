@@ -3,7 +3,7 @@
   "team": "Qatar",
   "espnTeamId": 4398,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:14.228Z",
+  "atualizadoEm": "2026-06-22T11:48:05.358Z",
   "jogadores": [
     {
       "nome": "Meshaal Barsham",
@@ -182,12 +182,11 @@
       "nome": "Tahsin Jamshid",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 19,
+      "idade": 20,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/7034aa1780378285.jpg"
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

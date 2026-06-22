@@ -3,7 +3,7 @@
   "team": "Tunisia",
   "espnTeamId": 659,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:21.751Z",
+  "atualizadoEm": "2026-06-22T11:48:13.023Z",
   "jogadores": [
     {
       "nome": "Sabri Ben Hessen",
@@ -29,7 +29,7 @@
       "nome": "Dylan Bronn",
       "posicao": "Defensor",
       "numero": 6,
-      "idade": 30,
+      "idade": 31,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/9pge671778903504.jpg"
     },
     {
@@ -169,7 +169,7 @@
       "nome": "Hazem Mastouri",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 28,
+      "idade": 29,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/a8pyvu1778975439.jpg"
     },
     {
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

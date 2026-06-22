@@ -3,7 +3,7 @@
   "team": "Curaçao",
   "espnTeamId": 11678,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:19.095Z",
+  "atualizadoEm": "2026-06-22T11:48:10.275Z",
   "jogadores": [
     {
       "nome": "Eloy Room",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

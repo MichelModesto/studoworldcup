@@ -3,7 +3,7 @@
   "team": "Paraguay",
   "espnTeamId": 210,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:17.319Z",
+  "atualizadoEm": "2026-06-22T11:48:08.484Z",
   "jogadores": [
     {
       "nome": "Gatito Fernández",
@@ -120,7 +120,7 @@
       "nome": "Maurício",
       "posicao": "Meio-campista",
       "numero": 11,
-      "idade": 24
+      "idade": 25
     },
     {
       "nome": "Matías Galarza",
@@ -168,7 +168,7 @@
       "nome": "Alex Arce",
       "posicao": "Atacante",
       "numero": 18,
-      "idade": 30,
+      "idade": 31,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jzznyw1723918235.jpg"
     },
     {
@@ -187,7 +187,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

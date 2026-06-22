@@ -3,7 +3,7 @@
   "team": "France",
   "espnTeamId": 478,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:25.709Z",
+  "atualizadoEm": "2026-06-22T11:48:17.020Z",
   "jogadores": [
     {
       "nome": "Brice Samba",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

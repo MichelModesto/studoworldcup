@@ -3,7 +3,7 @@
   "team": "Haiti",
   "espnTeamId": 2654,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:15.998Z",
+  "atualizadoEm": "2026-06-22T11:48:07.143Z",
   "jogadores": [
     {
       "nome": "Johny Placide",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

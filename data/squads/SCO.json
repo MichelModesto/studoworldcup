@@ -3,7 +3,7 @@
   "team": "Scotland",
   "espnTeamId": 580,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:16.445Z",
+  "atualizadoEm": "2026-06-22T11:48:07.589Z",
   "jogadores": [
     {
       "nome": "Liam Kelly",
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

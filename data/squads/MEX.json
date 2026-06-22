@@ -3,7 +3,7 @@
   "team": "Mexico",
   "espnTeamId": 203,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:11.575Z",
+  "atualizadoEm": "2026-06-22T11:48:02.691Z",
   "jogadores": [
     {
       "nome": "Guillermo Ochoa",
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Mateo Chávez",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 20,
       "idade": 22,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bo0wlq1759781128.jpg"
@@ -121,7 +121,7 @@
       "nome": "Brian Gutiérrez",
       "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xvievy1641399205.jpg"
     },
     {
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

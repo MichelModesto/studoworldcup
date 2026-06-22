@@ -3,7 +3,7 @@
   "team": "Panama",
   "espnTeamId": 2659,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:32.317Z",
+  "atualizadoEm": "2026-06-22T11:48:23.867Z",
   "jogadores": [
     {
       "nome": "Luis Mejía",
@@ -128,7 +128,7 @@
       "nome": "José Luis Rodríguez",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 27
+      "idade": 28
     },
     {
       "nome": "Carlos Harvey",
@@ -183,12 +183,11 @@
       "nome": "Azarias Londoño",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 24,
+      "idade": 25,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/lbclvs1779819176.jpg"
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

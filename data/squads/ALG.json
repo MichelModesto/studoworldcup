@@ -3,7 +3,7 @@
   "team": "Algeria",
   "espnTeamId": 624,
   "copa": 2026,
-  "atualizadoEm": "2026-06-15T11:58:27.951Z",
+  "atualizadoEm": "2026-06-22T11:48:19.235Z",
   "jogadores": [
     {
       "nome": "Luca Zidane",
@@ -125,7 +125,7 @@
     },
     {
       "nome": "Yassine Titraoui",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 24,
       "idade": 22
     },
@@ -159,7 +159,7 @@
     },
     {
       "nome": "Adil Boulbina",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 20,
       "idade": 23,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/hz3nql1780251870.jpg"
