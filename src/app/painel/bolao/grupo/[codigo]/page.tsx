@@ -1,30 +1,57 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { ArrowLeft, ClipboardList, Crown, Medal, Trophy, Users } from "lucide-react";
+import { ArrowLeft, ChevronUp, ChevronDown, ClipboardList, Crown, Medal, Trophy, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import {
   bonusTravado,
-  conquistasDoGrupo,
+  classificacaoAoVivo,
   ehMembro,
-  evolucaoDoGrupo,
+  formaDoGrupo,
   getBonusDoGrupo,
   getGrupoPorCodigo,
   jaComecou,
+  liderReconhecido,
   palpitesDoGrupo,
-  pontosDoPalpite,
   rankingDoGrupo,
 } from "@/lib/bolao";
 import { lerPix, pagamentosDoGrupo } from "@/lib/bolao";
-import { RankingChart } from "@/components/charts/ranking-chart";
+import { Forma } from "@/components/painel/forma-bolao";
+import { PalpitesJogo } from "@/components/painel/palpites-jogo";
+import { AutoRefresh } from "@/components/painel/auto-refresh";
 import { getMatches, getTeams } from "@/lib/worldcup";
-import { TagAoVivo } from "@/components/painel/placar-fx";
 import { CompartilharConvite, CopiarCodigo } from "./copiar-codigo";
 import { CopiarPix } from "./pix-entrada";
 import { TogglePagou } from "./toggle-pagou";
+import { AvisoLider } from "./aviso-lider";
 
 const MEDALHA = ["text-gold", "text-foreground/70", "text-amber-700"];
+
+/** Seta de quem subiu/desceu na classificação provisória ao vivo. */
+function SetaVariacao({ v }: { v: number }) {
+  if (v === 0) return null;
+  const sobe = v > 0;
+  return (
+    <span
+      className={`inline-flex items-center text-[10px] font-bold tabular-nums ${sobe ? "text-success" : "text-danger"}`}
+      title={sobe ? `subiu ${v} posição(ões) ao vivo` : `caiu ${-v} posição(ões) ao vivo`}
+    >
+      {sobe ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
+      {Math.abs(v)}
+    </span>
+  );
+}
+
+/** Selo "+N ao vivo" com pulso, pra deixar claro que o ponto é provisório. */
+function PilulaAoVivo({ pts }: { pts: number }) {
+  if (pts <= 0) return null;
+  return (
+    <span className="inline-flex items-center gap-1 rounded-full bg-danger/15 px-1.5 py-px text-[10px] font-semibold text-danger">
+      <span className="h-1 w-1 animate-pulse rounded-full bg-danger" />+{pts} ao vivo
+    </span>
+  );
+}
 
 export default async function GrupoPage({ params }: { params: Promise<{ codigo: string }> }) {
   const { codigo } = await params;
@@ -36,21 +63,33 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
   if (!grupo) notFound();
   if (!(await ehMembro(grupo.id, sessao.uid))) redirect("/painel/bolao");
 
-  const [ranking, porJogo, matches, bonusGrupo, teams, evolucao, conquistas, pagamentos] =
+  const [ranking, porJogo, matches, bonusGrupo, teams, forma, pagamentos] =
     await Promise.all([
       rankingDoGrupo(grupo.id),
       palpitesDoGrupo(grupo.id),
       getMatches(),
       getBonusDoGrupo(grupo.id),
       getTeams(),
-      evolucaoDoGrupo(grupo.id).catch(() => ({ dias: [], nomes: [] })),
-      conquistasDoGrupo(grupo.id).catch(() => new Map<number, { emoji: string; titulo: string }[]>()),
+      formaDoGrupo(grupo.id).catch(() => new Map()),
       pagamentosDoGrupo(grupo.id).catch(() => new Map<number, boolean>()),
     ]);
   const ehDono = grupo.donoId === sessao.uid;
   const mostraPagamento = Boolean(grupo.pix);
   const bonusFechado = bonusTravado(matches);
   const nomeTime = new Map(teams.map((t) => [t.fifa, `${t.flag} ${t.nomePt}`]));
+
+  // Classificação provisória: já incorpora os pontos dos jogos ao vivo ("se acabar agora").
+  const { linhas, temAoVivo } = classificacaoAoVivo(ranking, porJogo, matches);
+
+  // Aviso de "novo líder": só quando a liderança TROCA de mãos. Se já é o líder
+  // reconhecido (segue líder), não repete. Baseado no ranking OFICIAL (confirmado).
+  const lider = ranking[0];
+  const souLider = !!lider && lider.usuarioId === sessao.uid && lider.pontos > 0;
+  // .catch → na falta da coluna (sem migração), devolve o próprio líder ⇒ não avisa.
+  const reconhecido = souLider
+    ? await liderReconhecido(grupo.id).catch(() => lider!.usuarioId)
+    : null;
+  const avisarLider = souLider && reconhecido !== lider!.usuarioId;
 
   // Palpites do grupo só aparecem para jogos já iniciados (ninguém cola de ninguém).
   const iniciados = matches
@@ -66,6 +105,10 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
       >
         <ArrowLeft className="h-4 w-4" /> Bolão
       </Link>
+
+      {avisarLider && lider && (
+        <AvisoLider nome={lider.nome.split(" ")[0]} pontos={lider.pontos} grupoId={grupo.id} />
+      )}
 
       <div className="glass neon-border mb-7 flex flex-wrap items-center gap-5 p-6">
         <div className="flex-1">
@@ -123,22 +166,37 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
         </Card>
       )}
 
-      <Card titulo="Classificação" className="mb-8">
+      <Card
+        titulo="Classificação"
+        className="mb-8"
+        acao={
+          temAoVivo ? (
+            <span className="inline-flex items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-danger/15 px-2.5 py-0.5 text-xs font-medium text-danger">
+                <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-danger" />
+                provisória · ao vivo
+              </span>
+              <AutoRefresh segundos={45} />
+            </span>
+          ) : undefined
+        }
+      >
         {/* Celular: cards com os PONTOS em destaque (sem scroll lateral) */}
         <ul className="sm:hidden">
-          {ranking.map((l, i) => (
+          {linhas.map((l, i) => (
             <li
               key={l.usuarioId}
               className={`flex items-center gap-3 border-t border-border/60 py-3 first:border-0 ${
                 l.usuarioId === sessao.uid ? "bg-brand/5 -mx-2 rounded-lg px-2" : ""
               }`}
             >
-              <span className="w-7 shrink-0 text-center">
+              <span className="flex w-7 shrink-0 flex-col items-center text-center">
                 {i < 3 ? (
                   <Medal className={`mx-auto h-5 w-5 ${MEDALHA[i]}`} />
                 ) : (
                   <span className="text-sm text-muted">{i + 1}</span>
                 )}
+                <SetaVariacao v={l.variacao} />
               </span>
               <div className="min-w-0 flex-1">
                 <Link
@@ -146,11 +204,7 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   className="flex flex-wrap items-center gap-1.5 font-medium"
                 >
                   <span className="truncate">{l.nome}</span>
-                  {(conquistas.get(l.usuarioId) ?? []).map((c) => (
-                    <span key={c.emoji} title={c.titulo} className="text-sm">
-                      {c.emoji}
-                    </span>
-                  ))}
+                  <Forma jogos={forma.get(l.usuarioId) ?? []} />
                   {l.usuarioId === grupo.donoId && <Crown className="h-3.5 w-3.5 shrink-0 text-gold" />}
                   {l.usuarioId === sessao.uid && (
                     <span className="rounded-full bg-brand/15 px-2 py-px text-[10px] font-medium text-brand">
@@ -181,12 +235,19 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                 </p>
               </div>
               <div className="shrink-0 text-right">
-                <span className="block font-mono text-2xl font-bold tabular-nums text-brand">
-                  {l.pontos}
+                <span
+                  className={`block font-mono text-2xl font-bold tabular-nums ${l.aoVivo > 0 ? "text-gold" : "text-brand"}`}
+                >
+                  {l.total}
                 </span>
                 <span className="text-[10px] uppercase tracking-wide text-muted">
                   pts{l.bonus > 0 ? ` (+${l.bonus})` : ""}
                 </span>
+                {l.aoVivo > 0 && (
+                  <span className="mt-1 block">
+                    <PilulaAoVivo pts={l.aoVivo} />
+                  </span>
+                )}
               </div>
             </li>
           ))}
@@ -209,17 +270,20 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
               </tr>
             </thead>
             <tbody>
-              {ranking.map((l, i) => (
+              {linhas.map((l, i) => (
                 <tr
                   key={l.usuarioId}
                   className={`border-t border-border/60 ${l.usuarioId === sessao.uid ? "bg-brand/5" : ""}`}
                 >
                   <td className="py-3 pl-1">
-                    {i < 3 ? (
-                      <Medal className={`h-5 w-5 ${MEDALHA[i]}`} />
-                    ) : (
-                      <span className="pl-1 text-muted">{i + 1}</span>
-                    )}
+                    <span className="inline-flex items-center gap-1">
+                      {i < 3 ? (
+                        <Medal className={`h-5 w-5 ${MEDALHA[i]}`} />
+                      ) : (
+                        <span className="pl-1 text-muted">{i + 1}</span>
+                      )}
+                      <SetaVariacao v={l.variacao} />
+                    </span>
                   </td>
                   <td className="py-3 font-medium">
                     <Link
@@ -230,11 +294,7 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                       <span className="transition group-hover/membro:text-brand group-hover/membro:underline">
                         {l.nome}
                       </span>
-                      {(conquistas.get(l.usuarioId) ?? []).map((c) => (
-                        <span key={c.emoji} title={c.titulo} className="cursor-help text-sm">
-                          {c.emoji}
-                        </span>
-                      ))}
+                      <Forma jogos={forma.get(l.usuarioId) ?? []} />
                       {l.usuarioId === grupo.donoId && (
                         <span title="Dono do grupo">
                           <Crown className="h-3.5 w-3.5 text-gold" />
@@ -270,7 +330,12 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                     </td>
                   )}
                   <td className="py-3 text-right font-display text-base font-bold tabular-nums">
-                    {l.pontos}
+                    <span className={l.aoVivo > 0 ? "text-gold" : ""}>{l.total}</span>
+                    {l.aoVivo > 0 && (
+                      <span className="ml-1.5 align-middle">
+                        <PilulaAoVivo pts={l.aoVivo} />
+                      </span>
+                    )}
                     {l.bonus > 0 && (
                       <span className="ml-1.5 rounded-full bg-gold/15 px-1.5 py-px align-middle text-[10px] font-medium text-gold">
                         +{l.bonus} bônus
@@ -283,17 +348,18 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
           </table>
         </div>
         <p className="mt-4 text-xs text-muted/70">
+          {temAoVivo ? (
+            <>
+              🔴 Classificação <strong>provisória</strong>: já inclui os pontos dos jogos ao vivo
+              (vale o placar de agora) — os pontos só ficam <strong>definitivos</strong> quando o
+              jogo encerra.{" "}
+            </>
+          ) : null}
           Desempate: mais placares exatos. Pontos contam só de jogos encerrados. Bônus: campeã +10
           e artilheiro +5 no fim da Copa. 👀 Clique num participante para ver todos os palpites
           dele nos jogos já iniciados.
         </p>
       </Card>
-
-      {evolucao.dias.length >= 2 && (
-        <Card titulo="Evolução do ranking (pontos acumulados por dia)" className="mb-8">
-          <RankingChart dias={evolucao.dias} nomes={evolucao.nomes} />
-        </Card>
-      )}
 
       {bonusGrupo.size > 0 && (
         <Card titulo="Apostas bônus do grupo" className="mb-8">
@@ -328,48 +394,12 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
         <Card titulo="Palpites do grupo (jogos já iniciados)">
           <div className="space-y-4">
             {iniciados.map((m) => (
-              <div key={m.id} className="border-b border-border/40 pb-4 last:border-0 last:pb-0">
-                <p className="mb-2 flex flex-wrap items-center gap-2 text-sm font-medium">
-                  <span>{m.flagMandante}</span> {m.mandante}
-                  <span className="font-display font-bold tabular-nums">
-                    {m.placarMandante ?? "–"} × {m.placarVisitante ?? "–"}
-                  </span>
-                  {m.visitante} <span>{m.flagVisitante}</span>
-                  {m.status === "ao-vivo" && <TagAoVivo texto="ao vivo" />}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {(porJogo.get(m.id) ?? []).map((p) => {
-                    const pts = pontosDoPalpite(p.palpite, m);
-                    const cls =
-                      pts === 3
-                        ? "bg-gold/15 text-gold"
-                        : pts === 1
-                          ? "bg-brand/15 text-brand"
-                          : "bg-surface-2 text-muted";
-                    return (
-                      <span
-                        key={p.usuarioId}
-                        className={`rounded-full px-2.5 py-1 text-xs ${cls}`}
-                        title={pts !== null ? `${pts} ponto(s)` : "aguardando fim do jogo"}
-                      >
-                        {p.nome}: {p.palpite.golsMandante}×{p.palpite.golsVisitante}
-                      </span>
-                    );
-                  })}
-                </div>
-                {(() => {
-                  const ps = porJogo.get(m.id) ?? [];
-                  if (ps.length < 2) return null;
-                  const lado = (s: number) => ps.filter((p) => Math.sign(p.palpite.golsMandante - p.palpite.golsVisitante) === s).length;
-                  const pct = (n: number) => Math.round((n / ps.length) * 100);
-                  return (
-                    <p className="mt-2 text-[11px] text-muted/80">
-                      {pct(lado(1))}% em {m.mandante} · {pct(lado(0))}% no empate · {pct(lado(-1))}%
-                      em {m.visitante}
-                    </p>
-                  );
-                })()}
-              </div>
+              <PalpitesJogo
+                key={m.id}
+                m={m}
+                palpites={porJogo.get(m.id) ?? []}
+                meuId={sessao.uid}
+              />
             ))}
           </div>
         </Card>

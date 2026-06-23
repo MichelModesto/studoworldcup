@@ -9,11 +9,19 @@ import {
   entrarNoGrupo,
   marcarPagamento,
   normalizarCodigo,
+  reconhecerLider,
   salvarBonus,
   salvarPalpite,
 } from "@/lib/bolao";
 
 export type BolaoState = { error?: string; ok?: string };
+
+/** Coroa o líder atual do grupo — chamado quando o novo líder vê o aviso (não repete). */
+export async function reconhecerLiderAction(grupoId: number): Promise<void> {
+  const auth = await exigirUsuario();
+  if ("error" in auth) return;
+  await reconhecerLider(grupoId);
+}
 
 export async function gerarCodigoRecuperacaoAction(): Promise<BolaoState> {
   const auth = await exigirUsuario();

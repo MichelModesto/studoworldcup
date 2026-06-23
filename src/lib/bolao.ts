@@ -3,8 +3,7 @@ import { sql } from "./db";
 import { temCodigoRecuperacao } from "./auth";
 import { getMatches, getScorers } from "./worldcup";
 import { chaveNome } from "./worldcup/squads";
-import { listTeamStats } from "./worldcup/team-stats";
-import type { Match } from "./worldcup/types";
+import type { Goal, Match } from "./worldcup/types";
 
 const DIA_SP = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo" });
 const DIA_CURTO = new Intl.DateTimeFormat("pt-BR", {
@@ -67,14 +66,120 @@ export function jaComecou(m: Match, agora = Date.now()): boolean {
   return m.status !== "agendado";
 }
 
-/** Pontos de um palpite num jogo: 3 exato, 1 resultado, 0 errou, null se não encerrou. */
+/**
+ * Minuto-base do gol, ignorando o acréscimo. As fontes divergem no formato:
+ * openfootball manda string ("90+5", "45+3"); ESPN manda number já saturado (90).
+ * Em ambos, a prorrogação tem base > 90 ("108", 108) e o acréscimo fica em 90/45.
+ */
+function minutoBase(minuto: Goal["minuto"]): number {
+  const m = /^(\d+)/.exec(String(minuto ?? ""));
+  return m ? Number(m[1]) : 0;
+}
+
+/** Gols marcados na prorrogação (base > 90'), por lado. Acréscimo (90'+x) NÃO entra aqui. */
+function golsAposNoventa(m: Match): { mandante: number; visitante: number } {
+  let mandante = 0;
+  let visitante = 0;
+  for (const g of m.gols) {
+    if (minutoBase(g.minuto) <= 90) continue; // 90'+x e 45'+x são tempo normal → contam
+    if (g.selecao === m.mandante) mandante++;
+    else if (g.selecao === m.visitante) visitante++;
+  }
+  return { mandante, visitante };
+}
+
+/**
+ * Placar que VALE para o bolão: só o tempo normal (90'), sem prorrogação nem pênaltis.
+ * Parte do placar oficial e desconta apenas os gols marcados depois dos 90'.
+ * Retorna null enquanto não há placar.
+ */
+export function placarValido(m: Match): { mandante: number; visitante: number } | null {
+  if (m.placarMandante === undefined || m.placarVisitante === undefined) return null;
+  const extra = golsAposNoventa(m);
+  return {
+    mandante: Math.max(0, m.placarMandante - extra.mandante),
+    visitante: Math.max(0, m.placarVisitante - extra.visitante),
+  };
+}
+
+function comparar(p: Palpite, mandante: number, visitante: number): number {
+  if (p.golsMandante === mandante && p.golsVisitante === visitante) return 3;
+  return Math.sign(p.golsMandante - p.golsVisitante) === Math.sign(mandante - visitante) ? 1 : 0;
+}
+
+/**
+ * Pontos de um palpite num jogo ENCERRADO: 3 exato, 1 resultado, 0 errou, null se não encerrou.
+ * Vale o placar dos 90' — prorrogação e pênaltis não contam.
+ */
 export function pontosDoPalpite(p: Palpite, m: Match): number | null {
-  if (m.status !== "encerrado" || m.placarMandante === undefined || m.placarVisitante === undefined)
-    return null;
-  if (p.golsMandante === m.placarMandante && p.golsVisitante === m.placarVisitante) return 3;
-  const palpite = Math.sign(p.golsMandante - p.golsVisitante);
-  const real = Math.sign(m.placarMandante - m.placarVisitante);
-  return palpite === real ? 1 : 0;
+  if (m.status !== "encerrado") return null;
+  const placar = placarValido(m);
+  if (!placar) return null;
+  return comparar(p, placar.mandante, placar.visitante);
+}
+
+/**
+ * Pontos "se acabar agora": igual a {@link pontosDoPalpite}, mas conta também em jogo
+ * AO VIVO usando o placar parcial (sempre nos 90'). Retorna null só enquanto não há placar.
+ */
+export function pontosParciais(p: Palpite, m: Match): number | null {
+  if (m.status === "agendado") return null;
+  const placar = placarValido(m);
+  if (!placar) return null;
+  return comparar(p, placar.mandante, placar.visitante);
+}
+
+export type LinhaAoVivo = LinhaRanking & {
+  /** Pontos provisórios somados dos jogos ao vivo ("se acabar agora"). */
+  aoVivo: number;
+  /** Quantos pontos provisórios são placar exato (pra dar destaque). */
+  exatosAoVivo: number;
+  /** `pontos` + `aoVivo`: base da ordenação provisória. */
+  total: number;
+  /** Variação de posição vs. ranking oficial: >0 subiu, <0 caiu, 0 igual. */
+  variacao: number;
+};
+
+/**
+ * Classificação PROVISÓRIA: parte do ranking oficial e soma os pontos parciais
+ * dos jogos ao vivo, reordenando. `variacao` diz quantas posições cada um sobe
+ * (>0) ou desce (<0) em relação ao oficial. `temAoVivo` indica se há jogo rolando.
+ */
+export function classificacaoAoVivo(
+  ranking: LinhaRanking[],
+  porJogo: Map<number, { usuarioId: number; nome: string; palpite: Palpite }[]>,
+  matches: Match[],
+): { linhas: LinhaAoVivo[]; temAoVivo: boolean } {
+  const aoVivoMatches = matches.filter((m) => m.status === "ao-vivo");
+  const delta = new Map<number, { pts: number; exatos: number }>();
+  for (const m of aoVivoMatches) {
+    for (const p of porJogo.get(m.id) ?? []) {
+      const pts = pontosParciais(p.palpite, m);
+      if (!pts) continue;
+      const cur = delta.get(p.usuarioId) ?? { pts: 0, exatos: 0 };
+      cur.pts += pts;
+      if (pts === 3) cur.exatos++;
+      delta.set(p.usuarioId, cur);
+    }
+  }
+
+  const posOficial = new Map(ranking.map((l, i) => [l.usuarioId, i]));
+  const linhas: LinhaAoVivo[] = ranking
+    .map((l) => {
+      const d = delta.get(l.usuarioId) ?? { pts: 0, exatos: 0 };
+      return { ...l, aoVivo: d.pts, exatosAoVivo: d.exatos, total: l.pontos + d.pts, variacao: 0 };
+    })
+    .sort(
+      (a, b) =>
+        b.total - a.total ||
+        b.exatos + b.exatosAoVivo - (a.exatos + a.exatosAoVivo) ||
+        a.nome.localeCompare(b.nome, "pt-BR"),
+    );
+  linhas.forEach((l, i) => {
+    l.variacao = (posOficial.get(l.usuarioId) ?? i) - i;
+  });
+
+  return { linhas, temAoVivo: aoVivoMatches.length > 0 };
 }
 
 // ---------- grupos ----------
@@ -186,6 +291,32 @@ export async function pagamentosDoGrupo(grupoId: number): Promise<Map<number, bo
 }
 
 /** Marca/desmarca pagamento de um membro. Só o dono do grupo pode. */
+/** Quem o grupo já reconhece como líder (último a ser "coroado"). null = ninguém ainda. */
+export async function liderReconhecido(grupoId: number): Promise<number | null> {
+  const rows = (await sql()`
+    SELECT lider_atual_id FROM grupos WHERE id = ${grupoId}
+  `) as { lider_atual_id: number | null }[];
+  return rows[0]?.lider_atual_id ?? null;
+}
+
+/**
+ * "Coroa" o líder OFICIAL atual do grupo (chamado quando o novo líder vê o aviso).
+ * Idempotente: só grava se mudou de mãos. Sem líder com pontos, não faz nada.
+ */
+export async function reconhecerLider(grupoId: number): Promise<void> {
+  try {
+    const ranking = await rankingDoGrupo(grupoId);
+    const lider = ranking[0];
+    if (!lider || lider.pontos <= 0) return;
+    await sql()`
+      UPDATE grupos SET lider_atual_id = ${lider.usuarioId}
+      WHERE id = ${grupoId} AND lider_atual_id IS DISTINCT FROM ${lider.usuarioId}
+    `;
+  } catch {
+    /* coluna ainda não migrada — ignora */
+  }
+}
+
 export async function marcarPagamento(
   donoUid: number,
   grupoId: number,
@@ -435,60 +566,38 @@ export async function evolucaoDoGrupo(
 
 // ---------- conquistas (badges) ----------
 
-export type Conquista = { emoji: string; titulo: string };
+/** Pontuação de um jogo na forma recente: 3 = placar exato, 1 = resultado, 0 = errou. */
+export type FormaJogo = { pts: number; adversarios: string };
 
-/** Badges calculados na hora a partir do histórico de cada participante. */
-export async function conquistasDoGrupo(grupoId: number): Promise<Map<number, Conquista[]>> {
-  const [ranking, porJogo, matches, allStats] = await Promise.all([
+/**
+ * Forma recente de cada participante: os últimos jogos encerrados que ele palpitou,
+ * em ordem cronológica (mais antigo → mais recente). Substitui o "saco de emojis".
+ */
+export async function formaDoGrupo(grupoId: number, ultimos = 3): Promise<Map<number, FormaJogo[]>> {
+  const [ranking, porJogo, matches] = await Promise.all([
     rankingDoGrupo(grupoId),
     palpitesDoGrupo(grupoId),
     getMatches(),
-    listTeamStats().catch(() => []),
   ]);
-  const aproveitamento = new Map(
-    allStats.map((s) => {
-      const j = Math.max(1, s.jogos);
-      return [s.fifa, (3 * s.registro.v + s.registro.e) / (3 * j)];
-    }),
-  );
 
   const encerrados = matches
     .filter((m) => m.status === "encerrado" && m.kickoffISO)
     .sort((a, b) => a.kickoffISO!.localeCompare(b.kickoffISO!));
 
-  const out = new Map<number, Conquista[]>();
+  const out = new Map<number, FormaJogo[]>();
   for (const l of ranking) {
-    const historico: number[] = []; // pontos por jogo encerrado palpitado, em ordem
-    let zebras = 0;
-    let palpitados = 0;
+    const historico: FormaJogo[] = [];
     for (const m of encerrados) {
       const p = (porJogo.get(m.id) ?? []).find((x) => x.usuarioId === l.usuarioId);
       if (!p) continue;
-      palpitados++;
       const pts = pontosDoPalpite(p.palpite, m) ?? 0;
-      historico.push(pts);
-      // zebra: acertou resultado de vitória de um time historicamente mais fraco
-      if (pts > 0 && m.fifaMandante && m.fifaVisitante && m.placarMandante !== m.placarVisitante) {
-        const venceuMandante = (m.placarMandante ?? 0) > (m.placarVisitante ?? 0);
-        const vencedor = venceuMandante ? m.fifaMandante : m.fifaVisitante;
-        const perdedor = venceuMandante ? m.fifaVisitante : m.fifaMandante;
-        const av = aproveitamento.get(vencedor);
-        const ap = aproveitamento.get(perdedor);
-        if (av !== undefined && ap !== undefined && av + 0.1 < ap) zebras++;
-      }
+      historico.push({
+        pts,
+        adversarios: `${m.fifaMandante ?? "?"} ${m.placarMandante ?? "-"}×${m.placarVisitante ?? "-"} ${m.fifaVisitante ?? "?"}`,
+      });
     }
-    const conquistas: Conquista[] = [];
-    if (l.exatos >= 1) conquistas.push({ emoji: "🎯", titulo: "Na mosca: acertou placar exato" });
-    const ult3 = historico.slice(-3);
-    if (ult3.length === 3 && ult3.every((p) => p > 0))
-      conquistas.push({ emoji: "🔥", titulo: "Em chamas: pontuou nos últimos 3 jogos" });
-    if (ult3.length === 3 && ult3.every((p) => p === 0))
-      conquistas.push({ emoji: "🥶", titulo: "Gelado: zerou os últimos 3 jogos" });
-    if (encerrados.length >= 3 && palpitados === encerrados.length)
-      conquistas.push({ emoji: "💯", titulo: "Assíduo: palpitou em todos os jogos até agora" });
-    if (zebras >= 1)
-      conquistas.push({ emoji: "🦓", titulo: "Zebrólogo: acertou vitória de azarão" });
-    if (conquistas.length) out.set(l.usuarioId, conquistas);
+    const forma = historico.slice(-ultimos);
+    if (forma.length) out.set(l.usuarioId, forma);
   }
   return out;
 }

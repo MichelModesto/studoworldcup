@@ -6,14 +6,15 @@ import { TagAoVivo } from "@/components/painel/placar-fx";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import {
-  conquistasDoGrupo,
   ehMembro,
+  formaDoGrupo,
   getGrupoPorCodigo,
   jaComecou,
   palpitesDoUsuario,
   pontosDoPalpite,
   rankingDoGrupo,
 } from "@/lib/bolao";
+import { Forma } from "@/components/painel/forma-bolao";
 import { getMatches } from "@/lib/worldcup";
 
 export const metadata = { title: "Palpites do participante" };
@@ -45,9 +46,9 @@ export default async function MembroPage({
   if (!(await ehMembro(grupo.id, sessao.uid))) redirect("/painel/bolao");
 
   const alvoId = Number(usuarioId);
-  const [ranking, conquistas, matches] = await Promise.all([
+  const [ranking, forma, matches] = await Promise.all([
     rankingDoGrupo(grupo.id),
-    conquistasDoGrupo(grupo.id).catch(() => new Map<number, { emoji: string; titulo: string }[]>()),
+    formaDoGrupo(grupo.id).catch(() => new Map()),
     getMatches(),
   ]);
   const posicao = ranking.findIndex((l) => l.usuarioId === alvoId);
@@ -85,11 +86,7 @@ export default async function MembroPage({
         <div className="flex-1">
           <h1 className="flex flex-wrap items-center gap-2 font-display text-2xl font-bold tracking-tight">
             {linha.nome}
-            {(conquistas.get(alvoId) ?? []).map((c) => (
-              <span key={c.emoji} title={c.titulo} className="cursor-help text-lg">
-                {c.emoji}
-              </span>
-            ))}
+            <Forma jogos={forma.get(alvoId) ?? []} tamanho="md" />
             {alvoId === grupo.donoId && <Crown className="h-5 w-5 text-gold" />}
             {souEu && (
               <span className="rounded-full bg-brand/15 px-2 py-px text-xs font-medium text-brand">
