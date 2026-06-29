@@ -3,7 +3,7 @@
   "team": "Ecuador",
   "espnTeamId": 209,
   "copa": 2026,
-  "atualizadoEm": "2026-06-22T11:48:11.166Z",
+  "atualizadoEm": "2026-06-29T10:51:29.851Z",
   "jogadores": [
     {
       "nome": "Gonzalo Valle",
@@ -142,7 +142,7 @@
       "nome": "John Yeboah",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 25,
+      "idade": 26,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xv21mj1735536238.jpg"
     },
     {
@@ -154,9 +154,9 @@
     },
     {
       "nome": "Kevin Rodríguez",
-      "posicao": "Atacante",
+      "posicao": "Defensor",
       "numero": 11,
-      "idade": 26
+      "idade": 20
     },
     {
       "nome": "Anthony Valencia",
@@ -167,7 +167,7 @@
     },
     {
       "nome": "Nilson Angulo",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 20,
       "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/txm8bi1687618707.jpg"

@@ -3,7 +3,7 @@
   "team": "Haiti",
   "espnTeamId": 2654,
   "copa": 2026,
-  "atualizadoEm": "2026-06-22T11:48:07.143Z",
+  "atualizadoEm": "2026-06-29T10:51:25.389Z",
   "jogadores": [
     {
       "nome": "Johny Placide",
@@ -37,7 +37,7 @@
       "nome": "Carlens Arcus",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tm8vet1701459658.jpg"
     },
     {
@@ -69,6 +69,12 @@
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/6bwz171779119675.jpg"
     },
     {
+      "nome": "Garven Metusala",
+      "posicao": "Defensor",
+      "numero": 14,
+      "idade": 26
+    },
+    {
       "nome": "Wilguens Paugain",
       "posicao": "Defensor",
       "numero": 24,
@@ -86,15 +92,8 @@
       "nome": "Jean-Ricner Bellegarde",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 27,
-      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4raydv1772032154.jpg"
-    },
-    {
-      "nome": "Leverton Pierre",
-      "posicao": "Meio-campista",
-      "numero": 14,
       "idade": 28,
-      "foto": "https://www.thesportsdb.com/images/media/player/thumb/3obry91779132157.jpg"
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/4raydv1772032154.jpg"
     },
     {
       "nome": "Carl Sainté",
@@ -154,7 +153,7 @@
     },
     {
       "nome": "Yassin Fortuné",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 19,
       "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/szdenq1779119142.jpg"

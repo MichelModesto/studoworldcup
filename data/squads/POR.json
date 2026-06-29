@@ -3,7 +3,7 @@
   "team": "Portugal",
   "espnTeamId": 482,
   "copa": 2026,
-  "atualizadoEm": "2026-06-22T11:48:20.641Z",
+  "atualizadoEm": "2026-06-29T10:51:40.274Z",
   "jogadores": [
     {
       "nome": "Rui Silva",
@@ -76,7 +76,7 @@
     },
     {
       "nome": "Renato Veiga",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 13,
       "idade": 22,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1u0amz1678362097.jpg"
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

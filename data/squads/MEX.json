@@ -3,7 +3,7 @@
   "team": "Mexico",
   "espnTeamId": 203,
   "copa": 2026,
-  "atualizadoEm": "2026-06-22T11:48:02.691Z",
+  "atualizadoEm": "2026-06-29T10:51:20.606Z",
   "jogadores": [
     {
       "nome": "Guillermo Ochoa",
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Mateo Chávez",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 20,
       "idade": 22,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/bo0wlq1759781128.jpg"

@@ -3,7 +3,7 @@
   "team": "England",
   "espnTeamId": 448,
   "copa": 2026,
-  "atualizadoEm": "2026-06-22T11:48:22.487Z",
+  "atualizadoEm": "2026-06-29T10:51:42.237Z",
   "jogadores": [
     {
       "nome": "Jordan Pickford",
@@ -113,7 +113,7 @@
       "nome": "Eberechi Eze",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/9kldty1780012419.jpg"
     },
     {
@@ -127,7 +127,7 @@
       "nome": "Jude Bellingham",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rfg8xd1771263826.jpg"
     },
     {
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

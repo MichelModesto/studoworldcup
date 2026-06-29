@@ -3,7 +3,7 @@
   "team": "Morocco",
   "espnTeamId": 2869,
   "copa": 2026,
-  "atualizadoEm": "2026-06-22T11:48:06.698Z",
+  "atualizadoEm": "2026-06-29T10:51:24.893Z",
   "jogadores": [
     {
       "nome": "Yassine Bounou",
@@ -148,7 +148,7 @@
       "nome": "Ayoub El Kaabi",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/psf4u71639671597.jpg"
     },
     {
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

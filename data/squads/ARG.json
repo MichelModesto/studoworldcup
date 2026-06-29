@@ -3,7 +3,7 @@
   "team": "Argentina",
   "espnTeamId": 202,
   "copa": 2026,
-  "atualizadoEm": "2026-06-22T11:48:18.792Z",
+  "atualizadoEm": "2026-06-29T10:51:38.364Z",
   "jogadores": [
     {
       "nome": "Emiliano Martínez",
@@ -79,7 +79,7 @@
       "nome": "Leandro Paredes",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 31,
+      "idade": 32,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/32tyaf1780010678.jpg"
     },
     {
@@ -135,7 +135,7 @@
       "nome": "Lionel Messi",
       "posicao": "Atacante",
       "numero": 10,
-      "idade": 38,
+      "idade": 39,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kpfsvp1725295651.jpg"
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "nome": "Nico Paz",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 18,
       "idade": 21,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ol1v8l1780010884.jpg"
