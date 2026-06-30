@@ -122,8 +122,59 @@ export default async function PalpitesPage() {
       {voltar}
       <PageHeader
         titulo="Meus palpites"
-        descricao={`Placar exato vale 3 pts; vencedor/empate certo vale 1 pt. No mata-mata, palpitou empate? Escolha quem avança: +1 pt se acertar. Palpites travam no apito inicial (horários de Brasília). ${palpitados}/${abertos.length} jogos abertos palpitados.`}
+        descricao={`Placar exato vale 3 pts; vencedor/empate certo vale 1 pt. Palpites travam no apito inicial (horários de Brasília). ${palpitados}/${abertos.length} jogos abertos palpitados.`}
       />
+
+      <Card titulo="Como pontua" className="mb-8">
+        <ul className="space-y-1.5 text-sm">
+          <li>
+            🎯 <strong className="text-gold">Placar exato</strong> = 3 pts
+          </li>
+          <li>
+            ✅ Acertou só o <strong className="text-brand">resultado</strong> (vencedor ou empate) = 1
+            pt
+          </li>
+          <li>❌ Errou o resultado = 0</li>
+        </ul>
+        <div className="mt-4 rounded-xl border border-gold/30 bg-gold/5 p-3.5">
+          <p className="text-sm font-medium text-gold">
+            🏆 Mata-mata: palpitou empate? Escolha quem avança (opcional) — vale{" "}
+            <strong>+1 BÔNUS</strong> se o jogo empatar nos 90 min e você acertar quem passou.
+          </p>
+          <p className="mt-1.5 text-xs text-muted">
+            O +1 é só bônus: <strong>errar (ou não escolher) o vencedor nunca tira</strong> os pontos
+            do placar/resultado.
+          </p>
+          <div className="mt-3 overflow-x-auto">
+            <table className="w-full text-left text-xs">
+              <thead className="text-muted">
+                <tr className="border-b border-border/60">
+                  <th className="py-1.5 pr-3 font-medium">Palpite</th>
+                  <th className="py-1.5 pr-3 font-medium">Deu nos 90&apos;</th>
+                  <th className="py-1.5 pr-3 font-medium">Vencedor</th>
+                  <th className="py-1.5 font-medium">Pontos</th>
+                </tr>
+              </thead>
+              <tbody className="tabular-nums">
+                {[
+                  ["1×1", "1×1", "acertou quem passou", "3 + 1 = 4", "text-gold font-semibold"],
+                  ["1×1", "1×1", "errou / não escolheu", "3", "text-foreground"],
+                  ["1×1", "2×2", "acertou quem passou", "1 + 1 = 2", "text-brand font-semibold"],
+                  ["1×1", "2×2", "errou / não escolheu", "1", "text-foreground"],
+                  ["1×1", "2×1 (decidiu nos 90')", "—", "0", "text-muted"],
+                ].map(([pa, deu, venc, pts, cls], k) => (
+                  <tr key={k} className="border-b border-border/30 last:border-0">
+                    <td className="py-1.5 pr-3">{pa}</td>
+                    <td className="py-1.5 pr-3">{deu}</td>
+                    <td className="py-1.5 pr-3">{venc}</td>
+                    <td className={`py-1.5 ${cls}`}>{pts}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </Card>
 
       <Card
         titulo={`Palpites bônus ${bonusFechado ? "(fechados)" : "(abertos até o mata-mata)"}`}
