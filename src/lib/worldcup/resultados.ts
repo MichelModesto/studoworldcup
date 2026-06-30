@@ -27,6 +27,11 @@ export type ResultadoESPN = {
   /** Instante UTC do início (ESPN). */
   dataISO: string;
   gols: GolESPN[];
+  /**
+   * FIFA de quem AVANÇOU no mata-mata (vence incl. prorrogação/pênaltis),
+   * quando o jogo terminou. undefined em jogos de grupo, em andamento ou indefinidos.
+   */
+  vencedorFifa?: string;
 };
 
 const SCOREBOARD =
@@ -70,6 +75,8 @@ export async function getResultadosESPN(): Promise<ResultadoESPN[]> {
         homeAway?: string;
         score?: string;
         team?: { id?: string; abbreviation?: string };
+        winner?: boolean;
+        shootoutScore?: number | string;
       };
       const comps = (c.competitors ?? []) as Comp[];
       const home = comps.find((x) => x.homeAway === "home");
@@ -77,6 +84,19 @@ export async function getResultadosESPN(): Promise<ResultadoESPN[]> {
       const homeFifa = home?.team?.abbreviation?.toUpperCase();
       const awayFifa = away?.team?.abbreviation?.toUpperCase();
       if (!homeFifa || !awayFifa) continue;
+
+      // Quem avançou (mata-mata): flag `winner` da ESPN; senão, decide pelos pênaltis.
+      let vencedorFifa: string | undefined;
+      if (estado === "post") {
+        if (home?.winner) vencedorFifa = homeFifa;
+        else if (away?.winner) vencedorFifa = awayFifa;
+        else {
+          const hp = Number(home?.shootoutScore);
+          const ap = Number(away?.shootoutScore);
+          if (!Number.isNaN(hp) && !Number.isNaN(ap) && hp !== ap)
+            vencedorFifa = hp > ap ? homeFifa : awayFifa;
+        }
+      }
 
       const fifaPorTeamId = new Map<string, string>();
       if (home?.team?.id) fifaPorTeamId.set(home.team.id, homeFifa);
@@ -107,6 +127,7 @@ export async function getResultadosESPN(): Promise<ResultadoESPN[]> {
         estado,
         dataISO: e.date ?? "",
         gols: gols.sort((a, b) => a.minuto - b.minuto),
+        vencedorFifa,
       });
     }
     return out;

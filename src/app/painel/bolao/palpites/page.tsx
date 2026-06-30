@@ -7,10 +7,11 @@ import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import {
   bonusTravado,
+  detalhePalpite,
+  ehMataMata,
   getBonus,
   jaComecou,
   palpitesDoUsuario,
-  pontosDoPalpite,
 } from "@/lib/bolao";
 import { getMatches, getTeams } from "@/lib/worldcup";
 import { listConvocados } from "@/lib/worldcup/squads";
@@ -108,6 +109,10 @@ export default async function PalpitesPage() {
       flagVisitante: m.flagVisitante,
       gm: p ? String(p.golsMandante) : "",
       gv: p ? String(p.golsVisitante) : "",
+      mataMata: ehMataMata(m),
+      fifaMandante: m.fifaMandante,
+      fifaVisitante: m.fifaVisitante,
+      vencedorAtual: p?.vencedorFifa ?? null,
     });
   }
   const palpitados = abertos.filter((j) => j.gm !== "").length;
@@ -117,7 +122,7 @@ export default async function PalpitesPage() {
       {voltar}
       <PageHeader
         titulo="Meus palpites"
-        descricao={`Placar exato vale 3 pts; vencedor/empate certo vale 1 pt. Palpites travam no apito inicial (horários de Brasília). ${palpitados}/${abertos.length} jogos abertos palpitados.`}
+        descricao={`Placar exato vale 3 pts; vencedor/empate certo vale 1 pt. No mata-mata, palpitou empate? Escolha quem avança: +1 pt se acertar. Palpites travam no apito inicial (horários de Brasília). ${palpitados}/${abertos.length} jogos abertos palpitados.`}
       />
 
       <Card
@@ -170,8 +175,8 @@ export default async function PalpitesPage() {
           <div className="space-y-2">
             {fechados.map((m) => {
               const p = meus.get(m.id);
-              const pts = p ? pontosDoPalpite(p, m) : null;
-              const badge = pts !== null ? badgePontos[pts] : null;
+              const d = p && m.status === "encerrado" ? detalhePalpite(p, m) : null;
+              const badge = d ? badgePontos[d.base] : null;
               return (
                 <div key={m.id} className="glass flex flex-wrap items-center gap-3 p-3.5 text-sm">
                   <span className="hidden w-28 shrink-0 text-xs text-muted sm:block">
@@ -194,6 +199,16 @@ export default async function PalpitesPage() {
                   {badge && (
                     <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${badge.cls}`}>
                       {badge.txt}
+                    </span>
+                  )}
+                  {d && d.bonus > 0 && (
+                    <span className="shrink-0 rounded-full bg-gold/15 px-2.5 py-0.5 text-xs font-medium text-gold">
+                      +1 vencedor 🏆
+                    </span>
+                  )}
+                  {p?.vencedorFifa && (
+                    <span className="shrink-0 text-xs text-muted">
+                      avança: {p.vencedorFifa}
                     </span>
                   )}
                   {m.status === "ao-vivo" && <TagAoVivo texto="ao vivo" />}

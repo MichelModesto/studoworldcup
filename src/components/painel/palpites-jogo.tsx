@@ -1,4 +1,4 @@
-import { pontosParciais, type Palpite } from "@/lib/bolao";
+import { detalhePalpite, type Palpite } from "@/lib/bolao";
 import type { Match } from "@/lib/worldcup/types";
 import { TagAoVivo } from "@/components/painel/placar-fx";
 
@@ -8,8 +8,8 @@ const lado = (p: Palpite) => Math.sign(p.golsMandante - p.golsVisitante);
 
 /** Cor do chip conforme os pontos (parciais em jogo ao vivo, finais em encerrado). */
 function corPts(pts: number | null): string {
-  if (pts === 3) return "bg-gold/15 text-gold ring-gold/30";
-  if (pts === 1) return "bg-brand/15 text-brand ring-brand/20";
+  if (pts !== null && pts >= 3) return "bg-gold/15 text-gold ring-gold/30";
+  if (pts !== null && pts >= 1) return "bg-brand/15 text-brand ring-brand/20";
   return "bg-surface-2 text-muted ring-transparent";
 }
 
@@ -48,8 +48,8 @@ export function PalpitesJogo({
       ? ladosComGente.find((s) => ladoCount[s] === minCount)!
       : null;
 
-  const selo = (p: PalpiteGrupo, pts: number | null) => {
-    if (pts === 3) return aoVivo ? { e: "🎯", t: "cravando o placar agora" } : { e: "🎯", t: "cravou o placar" };
+  const selo = (p: PalpiteGrupo, base: number | null) => {
+    if (base === 3) return aoVivo ? { e: "🎯", t: "cravando o placar agora" } : { e: "🎯", t: "cravou o placar" };
     if (ladoMinoritario !== null && lado(p.palpite) === ladoMinoritario)
       return { e: "🧨", t: "foi na contramão do grupo" };
     if (placarCount.get(`${p.palpite.golsMandante}x${p.palpite.golsVisitante}`) === 1 && total >= 3)
@@ -61,8 +61,8 @@ export function PalpitesJogo({
   const ordenados = [...palpites].sort((a, b) => {
     if (a.usuarioId === meuId) return -1;
     if (b.usuarioId === meuId) return 1;
-    const pa = pontosParciais(a.palpite, m) ?? -1;
-    const pb = pontosParciais(b.palpite, m) ?? -1;
+    const pa = detalhePalpite(a.palpite, m)?.total ?? -1;
+    const pb = detalhePalpite(b.palpite, m)?.total ?? -1;
     return pb - pa || a.nome.localeCompare(b.nome, "pt-BR");
   });
 
@@ -79,9 +79,10 @@ export function PalpitesJogo({
 
       <div className="flex flex-wrap gap-2">
         {ordenados.map((p) => {
-          const pts = pontosParciais(p.palpite, m);
+          const d = detalhePalpite(p.palpite, m);
+          const pts = d?.total ?? null;
           const souEu = p.usuarioId === meuId;
-          const s = selo(p, pts);
+          const s = selo(p, d?.base ?? null);
           return (
             <span
               key={p.usuarioId}
@@ -98,6 +99,7 @@ export function PalpitesJogo({
                 {souEu ? "Você" : p.nome}: {p.palpite.golsMandante}×{p.palpite.golsVisitante}
               </span>
               {s && <span title={s.t}>{s.e}</span>}
+              {d && d.bonus > 0 && <span title="acertou quem avançou (+1)">🏆</span>}
               {pts !== null && (
                 <span className="font-display font-semibold tabular-nums opacity-80">
                   +{pts}

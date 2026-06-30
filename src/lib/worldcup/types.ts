@@ -50,6 +50,11 @@ export type Match = {
   gols: Goal[];
   /** id do evento na ESPN (página lance a lance), quando casado. */
   espnId?: string;
+  /**
+   * No mata-mata, FIFA de quem AVANÇOU (vence incl. prorrogação/pênaltis),
+   * já com o jogo encerrado. undefined na fase de grupos ou enquanto não decidido.
+   */
+  vencedorFifa?: string;
 };
 
 export type StandingRow = {

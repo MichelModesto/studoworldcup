@@ -46,6 +46,8 @@ const DDL = [
     PRIMARY KEY (usuario_id, match_id)
   )`,
   `CREATE INDEX IF NOT EXISTS idx_palpites_match ON palpites (match_id)`,
+  // Mata-mata: ao palpitar empate, o usuário escolhe quem avança (FIFA). Vale +1.
+  `ALTER TABLE palpites ADD COLUMN IF NOT EXISTS vencedor_fifa text`,
   // Recuperação de senha por código (mostrado uma única vez ao usuário).
   `ALTER TABLE usuarios ADD COLUMN IF NOT EXISTS recuperacao_hash text`,
   // PIX copia-e-cola da entrada do bolão (configurado pelo dono do grupo).

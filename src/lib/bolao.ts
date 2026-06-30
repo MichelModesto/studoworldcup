@@ -18,6 +18,9 @@ const DIA_CURTO = new Intl.DateTimeFormat("pt-BR", {
  * Pontuação:
  *  - placar exato  -> 3 pontos
  *  - acertou só o resultado (vencedor ou empate) -> 1 ponto
+ *  - mata-mata, palpitou EMPATE e o jogo terminou empatado nos 90' (foi p/
+ *    prorrogação/pênaltis): +1 se acertou quem AVANÇOU. Ex.: 1×1 cravado +
+ *    vencedor certo = 3+1 = 4; palpitou 1×1, deu 2×2 + vencedor certo = 1+1 = 2.
  *
  * O palpite é do usuário e vale em todos os grupos em que ele está.
  * Palpites travam no horário do pontapé inicial (kickoffISO).
@@ -33,7 +36,12 @@ export type Grupo = {
   pix: string | null;
 };
 
-export type Palpite = { golsMandante: number; golsVisitante: number };
+export type Palpite = {
+  golsMandante: number;
+  golsVisitante: number;
+  /** Mata-mata: FIFA escolhido p/ avançar quando o palpite é empate. */
+  vencedorFifa?: string | null;
+};
 
 export type LinhaRanking = {
   usuarioId: number;
@@ -42,9 +50,16 @@ export type LinhaRanking = {
   exatos: number;
   resultados: number;
   palpites: number;
+  /** Quantos +1 por acertar quem avançou no mata-mata. */
+  vencedores: number;
   /** Pontos de bônus (campeão/artilheiro), já somados em `pontos`. */
   bonus: number;
 };
+
+/** Mata-mata = qualquer fase fora da fase de grupos (16-avos até a final). */
+export function ehMataMata(m: Match): boolean {
+  return m.fase !== "Fase de Grupos";
+}
 
 // Sem 0/O/1/I/L para o código ser fácil de ditar no grupo da família.
 const ALFABETO_CODIGO = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
@@ -108,14 +123,47 @@ function comparar(p: Palpite, mandante: number, visitante: number): number {
 }
 
 /**
- * Pontos de um palpite num jogo ENCERRADO: 3 exato, 1 resultado, 0 errou, null se não encerrou.
- * Vale o placar dos 90' — prorrogação e pênaltis não contam.
+ * +1 do mata-mata: o usuário palpitou EMPATE, escolheu quem avança e o jogo
+ * realmente terminou empatado nos 90' (foi p/ prorrogação/pênaltis), com o time
+ * escolhido sendo quem venceu. Fora desse cenário (jogo decidido nos 90', palpite
+ * que não era empate, ou sem escolha de vencedor) vale 0.
+ */
+function bonusVencedor(
+  p: Palpite,
+  m: Match,
+  placar: { mandante: number; visitante: number },
+): number {
+  if (!ehMataMata(m)) return 0;
+  if (p.golsMandante !== p.golsVisitante) return 0; // não palpitou empate
+  if (placar.mandante !== placar.visitante) return 0; // o jogo não empatou nos 90'
+  if (!p.vencedorFifa || !m.vencedorFifa) return 0;
+  return p.vencedorFifa === m.vencedorFifa ? 1 : 0;
+}
+
+/** Decomposição dos pontos de um palpite: placar/resultado (`base`) + `bonus` do vencedor. */
+export type DetalhePalpite = { base: number; bonus: number; total: number };
+
+/**
+ * Detalhe dos pontos: vale o placar dos 90' (prorrogação/pênaltis não contam no `base`),
+ * mais o +1 do vencedor no mata-mata. Conta também AO VIVO (placar parcial); o `bonus`
+ * só aparece com o jogo encerrado, quando se sabe quem avançou. null enquanto não há placar.
+ */
+export function detalhePalpite(p: Palpite, m: Match): DetalhePalpite | null {
+  if (m.status === "agendado") return null;
+  const placar = placarValido(m);
+  if (!placar) return null;
+  const base = comparar(p, placar.mandante, placar.visitante);
+  const bonus = bonusVencedor(p, m, placar);
+  return { base, bonus, total: base + bonus };
+}
+
+/**
+ * Pontos de um palpite num jogo ENCERRADO: base (3 exato / 1 resultado / 0) + bônus do
+ * vencedor no mata-mata. null se não encerrou. Vale o placar dos 90'.
  */
 export function pontosDoPalpite(p: Palpite, m: Match): number | null {
   if (m.status !== "encerrado") return null;
-  const placar = placarValido(m);
-  if (!placar) return null;
-  return comparar(p, placar.mandante, placar.visitante);
+  return detalhePalpite(p, m)?.total ?? null;
 }
 
 /**
@@ -123,10 +171,7 @@ export function pontosDoPalpite(p: Palpite, m: Match): number | null {
  * AO VIVO usando o placar parcial (sempre nos 90'). Retorna null só enquanto não há placar.
  */
 export function pontosParciais(p: Palpite, m: Match): number | null {
-  if (m.status === "agendado") return null;
-  const placar = placarValido(m);
-  if (!placar) return null;
-  return comparar(p, placar.mandante, placar.visitante);
+  return detalhePalpite(p, m)?.total ?? null;
 }
 
 export type LinhaAoVivo = LinhaRanking & {
@@ -348,6 +393,7 @@ export async function salvarPalpite(
   matchId: number,
   golsMandante: number,
   golsVisitante: number,
+  vencedorFifa: string | null = null,
 ): Promise<string | null> {
   if (
     !Number.isInteger(golsMandante) ||
@@ -363,21 +409,42 @@ export async function salvarPalpite(
   const m = matches.find((x) => x.id === matchId);
   if (!m) return "Jogo não encontrado.";
   if (jaComecou(m)) return `Palpite fechado: ${m.mandante} × ${m.visitante} já começou.`;
+
+  // No mata-mata, palpite de empate exige escolher quem avança (vale +1).
+  let venc: string | null = null;
+  if (ehMataMata(m) && golsMandante === golsVisitante) {
+    venc = (vencedorFifa ?? "").trim().toUpperCase() || null;
+    if (!venc) {
+      return `Mata-mata não termina em empate: escolha quem avança em ${m.mandante} × ${m.visitante}.`;
+    }
+    if (venc !== m.fifaMandante && venc !== m.fifaVisitante) {
+      return "Escolha de vencedor inválida — tem de ser um dos dois times.";
+    }
+  }
+
   await sql()`
-    INSERT INTO palpites (usuario_id, match_id, gols_mandante, gols_visitante, atualizado_em)
-    VALUES (${uid}, ${matchId}, ${golsMandante}, ${golsVisitante}, now())
+    INSERT INTO palpites (usuario_id, match_id, gols_mandante, gols_visitante, vencedor_fifa, atualizado_em)
+    VALUES (${uid}, ${matchId}, ${golsMandante}, ${golsVisitante}, ${venc}, now())
     ON CONFLICT (usuario_id, match_id)
-    DO UPDATE SET gols_mandante = ${golsMandante}, gols_visitante = ${golsVisitante}, atualizado_em = now()
+    DO UPDATE SET gols_mandante = ${golsMandante}, gols_visitante = ${golsVisitante}, vencedor_fifa = ${venc}, atualizado_em = now()
   `;
   return null;
 }
 
 export async function palpitesDoUsuario(uid: number): Promise<Map<number, Palpite>> {
   const rows = (await sql()`
-    SELECT match_id, gols_mandante, gols_visitante FROM palpites WHERE usuario_id = ${uid}
-  `) as { match_id: number; gols_mandante: number; gols_visitante: number }[];
+    SELECT match_id, gols_mandante, gols_visitante, vencedor_fifa FROM palpites WHERE usuario_id = ${uid}
+  `) as {
+    match_id: number;
+    gols_mandante: number;
+    gols_visitante: number;
+    vencedor_fifa: string | null;
+  }[];
   return new Map(
-    rows.map((r) => [r.match_id, { golsMandante: r.gols_mandante, golsVisitante: r.gols_visitante }]),
+    rows.map((r) => [
+      r.match_id,
+      { golsMandante: r.gols_mandante, golsVisitante: r.gols_visitante, vencedorFifa: r.vencedor_fifa },
+    ]),
   );
 }
 
@@ -386,7 +453,7 @@ export async function palpitesDoGrupo(
   grupoId: number,
 ): Promise<Map<number, { usuarioId: number; nome: string; palpite: Palpite }[]>> {
   const rows = (await sql()`
-    SELECT p.match_id, p.gols_mandante, p.gols_visitante, u.id AS usuario_id, u.nome
+    SELECT p.match_id, p.gols_mandante, p.gols_visitante, p.vencedor_fifa, u.id AS usuario_id, u.nome
     FROM palpites p
     JOIN grupo_membros m ON m.usuario_id = p.usuario_id AND m.grupo_id = ${grupoId}
     JOIN usuarios u ON u.id = p.usuario_id
@@ -395,6 +462,7 @@ export async function palpitesDoGrupo(
     match_id: number;
     gols_mandante: number;
     gols_visitante: number;
+    vencedor_fifa: string | null;
     usuario_id: number;
     nome: string;
   }[];
@@ -404,7 +472,11 @@ export async function palpitesDoGrupo(
     lista.push({
       usuarioId: r.usuario_id,
       nome: r.nome,
-      palpite: { golsMandante: r.gols_mandante, golsVisitante: r.gols_visitante },
+      palpite: {
+        golsMandante: r.gols_mandante,
+        golsVisitante: r.gols_visitante,
+        vencedorFifa: r.vencedor_fifa,
+      },
     });
     porJogo.set(r.match_id, lista);
   }
@@ -733,7 +805,16 @@ export async function rankingDoGrupo(grupoId: number): Promise<LinhaRanking[]> {
   const linhas = new Map<number, LinhaRanking>(
     membros.map((u) => [
       u.id,
-      { usuarioId: u.id, nome: u.nome, pontos: 0, exatos: 0, resultados: 0, palpites: 0, bonus: 0 },
+      {
+        usuarioId: u.id,
+        nome: u.nome,
+        pontos: 0,
+        exatos: 0,
+        resultados: 0,
+        palpites: 0,
+        vencedores: 0,
+        bonus: 0,
+      },
     ]),
   );
   for (const [matchId, palpites] of porJogo) {
@@ -743,11 +824,13 @@ export async function rankingDoGrupo(grupoId: number): Promise<LinhaRanking[]> {
       const linha = linhas.get(p.usuarioId);
       if (!linha) continue;
       linha.palpites++;
-      const pts = pontosDoPalpite(p.palpite, m);
-      if (pts === null) continue;
-      linha.pontos += pts;
-      if (pts === 3) linha.exatos++;
-      else if (pts === 1) linha.resultados++;
+      if (m.status !== "encerrado") continue;
+      const d = detalhePalpite(p.palpite, m);
+      if (!d) continue;
+      linha.pontos += d.total;
+      if (d.base === 3) linha.exatos++;
+      else if (d.base === 1) linha.resultados++;
+      if (d.bonus > 0) linha.vencedores++;
     }
   }
 

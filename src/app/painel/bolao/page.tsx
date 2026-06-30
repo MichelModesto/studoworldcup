@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
-import { getJogoDoDia, jaComecou, meusGrupos, rankingDoGrupo } from "@/lib/bolao";
+import { ehMataMata, getJogoDoDia, jaComecou, meusGrupos, rankingDoGrupo } from "@/lib/bolao";
 import { AvisosBolao } from "@/components/painel/avisos-bolao";
 import { AtivarLembretes } from "@/components/painel/lembretes";
 import { CriarGrupoForm, EntrarGrupoForm } from "./forms";
@@ -120,6 +120,14 @@ export default async function BolaoPage() {
               matchId={jogoDoDia.match.id}
               gm={jogoDoDia.meuPalpite ? String(jogoDoDia.meuPalpite.golsMandante) : ""}
               gv={jogoDoDia.meuPalpite ? String(jogoDoDia.meuPalpite.golsVisitante) : ""}
+              mataMata={ehMataMata(jogoDoDia.match)}
+              fifaMandante={jogoDoDia.match.fifaMandante}
+              fifaVisitante={jogoDoDia.match.fifaVisitante}
+              mandante={jogoDoDia.match.mandante}
+              visitante={jogoDoDia.match.visitante}
+              flagMandante={jogoDoDia.match.flagMandante}
+              flagVisitante={jogoDoDia.match.flagVisitante}
+              vencedorAtual={jogoDoDia.meuPalpite?.vencedorFifa ?? null}
             />
           </div>
         </div>

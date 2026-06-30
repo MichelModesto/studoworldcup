@@ -178,10 +178,12 @@ export async function getMatches(): Promise<Match[]> {
     const fifaMandante = byName.get(m.team1)?.fifa;
     const fifaVisitante = byName.get(m.team2)?.fifa;
 
+    const fase = faseFromRound(m.round);
     let placarMandante = temPlacar ? ft![0] : undefined;
     let placarVisitante = temPlacar ? ft![1] : undefined;
     let status: Match["status"] = temPlacar ? "encerrado" : "agendado";
     let espnId: string | undefined;
+    let vencedorFifa: string | undefined;
 
     // Casa o evento da ESPN (id p/ lance a lance) e, se o openfootball ainda
     // não registrou o placar, sobrepõe resultado/status/gols (cache de 60s).
@@ -203,11 +205,26 @@ export async function getMatches(): Promise<Match[]> {
           }));
         }
       }
+      // Vencedor do mata-mata vem da ESPN mesmo quando o placar é do openfootball.
+      if (r.vencedorFifa) vencedorFifa = r.vencedorFifa;
+    }
+
+    // Sem flag da ESPN: no mata-mata decidido ainda no tempo normal/prorrogação,
+    // quem avançou é simplesmente quem fez mais gols no total.
+    if (
+      !vencedorFifa &&
+      status === "encerrado" &&
+      fase !== "Fase de Grupos" &&
+      placarMandante !== undefined &&
+      placarVisitante !== undefined &&
+      placarMandante !== placarVisitante
+    ) {
+      vencedorFifa = placarMandante > placarVisitante ? fifaMandante : fifaVisitante;
     }
 
     return {
       id: i + 1,
-      fase: faseFromRound(m.round),
+      fase,
       rodada: m.round,
       grupo: m.group?.replace(/Group\s*/i, "").trim() || undefined,
       dataISO: m.date,
@@ -227,6 +244,7 @@ export async function getMatches(): Promise<Match[]> {
       status,
       gols,
       espnId,
+      vencedorFifa,
     } satisfies Match;
   });
 }

@@ -6,12 +6,12 @@ import { TagAoVivo } from "@/components/painel/placar-fx";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import {
+  detalhePalpite,
   ehMembro,
   formaDoGrupo,
   getGrupoPorCodigo,
   jaComecou,
   palpitesDoUsuario,
-  pontosDoPalpite,
   rankingDoGrupo,
 } from "@/lib/bolao";
 import { Forma } from "@/components/painel/forma-bolao";
@@ -96,8 +96,9 @@ export default async function MembroPage({
           </h1>
           <p className="mt-1 text-sm text-muted">
             {posicao + 1}º no {grupo.nome} · {linha.exatos} exato{linha.exatos === 1 ? "" : "s"} ·{" "}
-            {linha.resultados} resultado{linha.resultados === 1 ? "" : "s"} · {linha.palpites}{" "}
-            palpite{linha.palpites === 1 ? "" : "s"}
+            {linha.resultados} resultado{linha.resultados === 1 ? "" : "s"}
+            {linha.vencedores > 0 && ` · ${linha.vencedores} vencedor${linha.vencedores === 1 ? "" : "es"} 🏆`}{" "}
+            · {linha.palpites} palpite{linha.palpites === 1 ? "" : "s"}
           </p>
         </div>
         <p className="text-right">
@@ -123,8 +124,8 @@ export default async function MembroPage({
           <div className="space-y-2">
             {iniciados.map((m) => {
               const p = palpites.get(m.id);
-              const pts = p ? pontosDoPalpite(p, m) : null;
-              const badge = pts !== null ? badgePontos[pts] : null;
+              const d = p && m.status === "encerrado" ? detalhePalpite(p, m) : null;
+              const badge = d ? badgePontos[d.base] : null;
               return (
                 <div
                   key={m.id}
@@ -166,6 +167,11 @@ export default async function MembroPage({
                       className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${badge.cls}`}
                     >
                       {badge.txt}
+                    </span>
+                  )}
+                  {d && d.bonus > 0 && (
+                    <span className="shrink-0 rounded-full bg-gold/15 px-2.5 py-0.5 text-xs font-medium text-gold">
+                      +1 vencedor 🏆
                     </span>
                   )}
                   {m.status === "ao-vivo" && <TagAoVivo texto="ao vivo" />}

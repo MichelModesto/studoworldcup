@@ -80,7 +80,8 @@ export async function salvarPalpitesAction(
       erros.push(`Jogo ${id}: preencha os dois lados do placar.`);
       continue;
     }
-    const erro = await salvarPalpite(auth.uid, id, Number(gm), Number(gv));
+    const vencedor = String(formData.get(`vencedor-${id}`) ?? "").trim() || null;
+    const erro = await salvarPalpite(auth.uid, id, Number(gm), Number(gv), vencedor);
     if (erro) erros.push(erro);
     else salvos++;
   }
