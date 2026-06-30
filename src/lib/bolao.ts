@@ -410,16 +410,15 @@ export async function salvarPalpite(
   if (!m) return "Jogo não encontrado.";
   if (jaComecou(m)) return `Palpite fechado: ${m.mandante} × ${m.visitante} já começou.`;
 
-  // No mata-mata, palpite de empate exige escolher quem avança (vale +1).
+  // No mata-mata, palpite de empate PODE escolher quem avança (vale +1, opcional).
+  // Sem escolha o palpite conta normal — empate certo segue valendo (1 ou 3 pts).
   let venc: string | null = null;
   if (ehMataMata(m) && golsMandante === golsVisitante) {
-    venc = (vencedorFifa ?? "").trim().toUpperCase() || null;
-    if (!venc) {
-      return `Mata-mata não termina em empate: escolha quem avança em ${m.mandante} × ${m.visitante}.`;
-    }
-    if (venc !== m.fifaMandante && venc !== m.fifaVisitante) {
+    const v = (vencedorFifa ?? "").trim().toUpperCase();
+    if (v && v !== m.fifaMandante && v !== m.fifaVisitante) {
       return "Escolha de vencedor inválida — tem de ser um dos dois times.";
     }
+    venc = v || null;
   }
 
   await sql()`
