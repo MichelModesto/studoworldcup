@@ -52,6 +52,8 @@ export type LinhaRanking = {
   palpites: number;
   /** Quantos +1 por acertar quem avançou no mata-mata. */
   vencedores: number;
+  /** Acertou só o resultado (empate) + quem avançou (+1 bônus), sem placar exato. */
+  resultadoVencedor: number;
   /** Pontos de bônus (campeão/artilheiro), já somados em `pontos`. */
   bonus: number;
 };
@@ -903,6 +905,7 @@ export async function rankingDoGrupo(grupoId: number): Promise<LinhaRanking[]> {
         resultados: 0,
         palpites: 0,
         vencedores: 0,
+        resultadoVencedor: 0,
         bonus: 0,
       },
     ]),
@@ -919,6 +922,7 @@ export async function rankingDoGrupo(grupoId: number): Promise<LinhaRanking[]> {
       if (!d) continue;
       linha.pontos += d.total;
       if (d.base === 3) linha.exatos++;
+      else if (d.base === 1 && d.bonus > 0) linha.resultadoVencedor++;
       else if (d.base === 1) linha.resultados++;
       if (d.bonus > 0) linha.vencedores++;
     }

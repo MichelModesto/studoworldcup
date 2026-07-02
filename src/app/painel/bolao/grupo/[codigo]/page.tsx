@@ -214,7 +214,17 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                 </Link>
                 <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted">
                   <span>
-                    🎯 {l.exatos} · ✔ {l.resultados} · {l.palpites} palpite{l.palpites === 1 ? "" : "s"}
+                    🎯 {l.exatos} · ✔ {l.resultados}
+                    {l.resultadoVencedor > 0 && (
+                      <>
+                        {" "}
+                        ·{" "}
+                        <span className="font-medium text-brand" title="Acertou empate + quem avançou">
+                          🏆 {l.resultadoVencedor}
+                        </span>
+                      </>
+                    )}{" "}
+                    · {l.palpites} palpite{l.palpites === 1 ? "" : "s"}
                   </span>
                   {mostraPagamento &&
                     (ehDono ? (
@@ -262,6 +272,12 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                 <th className="pb-3">Participante</th>
                 <th className="pb-3 text-center" title="Placares exatos (3 pts)">Exatos</th>
                 <th className="pb-3 text-center" title="Acertou vencedor/empate (1 pt)">Resultados</th>
+                <th
+                  className="pb-3 text-center text-brand"
+                  title="Acertou empate nos 90' + quem avançou (+1 bônus)"
+                >
+                  Res.+Venc.
+                </th>
                 <th className="pb-3 text-center">Palpites</th>
                 {mostraPagamento && (
                   <th className="pb-3 text-center" title="Pagou a entrada do bolão?">Entrada</th>
@@ -309,6 +325,9 @@ export default async function GrupoPage({ params }: { params: Promise<{ codigo: 
                   </td>
                   <td className="py-3 text-center tabular-nums">{l.exatos}</td>
                   <td className="py-3 text-center tabular-nums">{l.resultados}</td>
+                  <td className="py-3 text-center tabular-nums font-medium text-brand">
+                    {l.resultadoVencedor > 0 ? l.resultadoVencedor : "–"}
+                  </td>
                   <td className="py-3 text-center tabular-nums text-muted">{l.palpites}</td>
                   {mostraPagamento && (
                     <td className="py-3 text-center">

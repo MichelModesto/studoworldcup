@@ -99,7 +99,22 @@ export default async function MembroPage({
           <p className="mt-1 text-sm text-muted">
             {posicao + 1}º no {grupo.nome} · {linha.exatos} exato{linha.exatos === 1 ? "" : "s"} ·{" "}
             {linha.resultados} resultado{linha.resultados === 1 ? "" : "s"}
-            {linha.vencedores > 0 && ` · ${linha.vencedores} vencedor${linha.vencedores === 1 ? "" : "es"} 🏆`}{" "}
+            {linha.resultadoVencedor > 0 && (
+              <>
+                {" "}
+                ·{" "}
+                <span className="text-brand">
+                  {linha.resultadoVencedor} res.+venc. 🏆
+                </span>
+              </>
+            )}
+            {linha.vencedores > linha.resultadoVencedor && (
+              <>
+                {" "}
+                · {linha.vencedores - linha.resultadoVencedor} exato
+                {linha.vencedores - linha.resultadoVencedor === 1 ? "" : "s"}+venc. 🏆
+              </>
+            )}{" "}
             · {linha.palpites} palpite{linha.palpites === 1 ? "" : "s"}
           </p>
         </div>
