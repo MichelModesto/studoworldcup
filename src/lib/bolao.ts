@@ -172,9 +172,43 @@ function comparar(p: Palpite, mandante: number, visitante: number): number {
 /**
  * +1 do mata-mata: o usuário palpitou EMPATE, escolheu quem avança e o jogo
  * realmente terminou empatado nos 90' (foi p/ prorrogação/pênaltis), com o time
- * escolhido sendo quem venceu. Fora desse cenário (jogo decidido nos 90', palpite
- * que não era empate, ou sem escolha de vencedor) vale 0.
+ * escolhido sendo quem venceu. Ao vivo na prorrogação, o bônus aparece assim que
+ * o time escolhido passa a liderar no placar total (antes do apito final).
  */
+function vencedorEfetivo(
+  m: Match,
+  placar90: { mandante: number; visitante: number },
+): string | undefined {
+  if (m.vencedorFifa) return m.vencedorFifa;
+  if (m.status !== "ao-vivo" || !ehMataMata(m)) return undefined;
+  if (placar90.mandante !== placar90.visitante) return undefined;
+  if (m.placarMandante === undefined || m.placarVisitante === undefined) return undefined;
+  // Ainda empatado no total (prorrogação sem gol ou indo p/ pênaltis).
+  if (m.placarMandante === placar90.mandante && m.placarVisitante === placar90.visitante) {
+    return undefined;
+  }
+  if (m.placarMandante > m.placarVisitante) return m.fifaMandante;
+  if (m.placarVisitante > m.placarMandante) return m.fifaVisitante;
+  return undefined;
+}
+
+/** Jogo empatou nos 90' e já entrou na prorrogação (ou acabou com gol na prorrogação). */
+export function emProrrogacao(m: Match): boolean {
+  if (m.status === "agendado") return false;
+  const placar90 = placarValido(m);
+  if (!placar90 || placar90.mandante !== placar90.visitante) return false;
+  const et = golsAposNoventa(m);
+  if (et.mandante > 0 || et.visitante > 0) return true;
+  if (
+    m.placarMandante !== undefined &&
+    m.placarVisitante !== undefined &&
+    (m.placarMandante !== placar90.mandante || m.placarVisitante !== placar90.visitante)
+  ) {
+    return true;
+  }
+  return false;
+}
+
 function bonusVencedor(
   p: Palpite,
   m: Match,
@@ -184,17 +218,25 @@ function bonusVencedor(
   if (!ehMataMata(m)) return 0;
   if (p.golsMandante !== p.golsVisitante) return 0; // não palpitou empate
   if (placar.mandante !== placar.visitante) return 0; // o jogo não empatou nos 90'
-  if (!p.vencedorFifa || !m.vencedorFifa) return 0;
-  return p.vencedorFifa === m.vencedorFifa ? 1 : 0;
+  if (!p.vencedorFifa) return 0;
+  const vencedor = vencedorEfetivo(m, placar);
+  if (!vencedor) return 0;
+  return p.vencedorFifa === vencedor ? 1 : 0;
 }
 
 /** Decomposição dos pontos de um palpite: placar/resultado (`base`) + `bonus` do vencedor. */
-export type DetalhePalpite = { base: number; bonus: number; total: number };
+export type DetalhePalpite = {
+  base: number;
+  bonus: number;
+  total: number;
+  /** Bônus ainda não confirmado — jogo ao vivo na prorrogação. */
+  bonusProvisorio?: boolean;
+};
 
 /**
  * Detalhe dos pontos: vale o placar dos 90' (prorrogação/pênaltis não contam no `base`),
- * mais o +1 do vencedor no mata-mata. Conta também AO VIVO (placar parcial); o `bonus`
- * só aparece com o jogo encerrado, quando se sabe quem avançou. null enquanto não há placar.
+ * mais o +1 do vencedor no mata-mata. Conta também AO VIVO; na prorrogação o bônus
+ * aparece assim que o time escolhido passa a liderar. null enquanto não há placar.
  */
 export function detalhePalpite(p: Palpite, m: Match): DetalhePalpite | null {
   if (m.status === "agendado") return null;
@@ -202,7 +244,8 @@ export function detalhePalpite(p: Palpite, m: Match): DetalhePalpite | null {
   if (!placar) return null;
   const base = comparar(p, placar.mandante, placar.visitante);
   const bonus = bonusVencedor(p, m, placar);
-  return { base, bonus, total: base + bonus };
+  const bonusProvisorio = bonus > 0 && m.status === "ao-vivo" && !m.vencedorFifa;
+  return { base, bonus, total: base + bonus, bonusProvisorio: bonusProvisorio || undefined };
 }
 
 /**

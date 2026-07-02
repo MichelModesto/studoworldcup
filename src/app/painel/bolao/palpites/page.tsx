@@ -9,9 +9,11 @@ import {
   bonusTravado,
   detalhePalpite,
   ehMataMata,
+  emProrrogacao,
   getBonus,
   jaComecou,
   palpitesDoUsuario,
+  placarValido,
 } from "@/lib/bolao";
 import { getMatches, getTeams } from "@/lib/worldcup";
 import { listConvocados } from "@/lib/worldcup/squads";
@@ -226,8 +228,10 @@ export default async function PalpitesPage() {
           <div className="space-y-2">
             {fechados.map((m) => {
               const p = meus.get(m.id);
-              const d = p && m.status === "encerrado" ? detalhePalpite(p, m) : null;
+              const d = p && m.status !== "agendado" ? detalhePalpite(p, m) : null;
               const badge = d ? badgePontos[d.base] : null;
+              const prorrogacao = emProrrogacao(m);
+              const placar90 = placarValido(m);
               return (
                 <div key={m.id} className="glass flex flex-wrap items-center gap-3 p-3.5 text-sm">
                   <span className="hidden w-28 shrink-0 text-xs text-muted sm:block">
@@ -239,6 +243,11 @@ export default async function PalpitesPage() {
                   </span>
                   <span className="shrink-0 font-display text-base font-bold tabular-nums">
                     {m.placarMandante ?? "–"} × {m.placarVisitante ?? "–"}
+                    {prorrogacao && placar90 && (
+                      <span className="ml-1.5 text-xs font-normal text-muted">
+                        (90&apos;: {placar90.mandante}×{placar90.visitante})
+                      </span>
+                    )}
                   </span>
                   <span className="flex min-w-0 flex-1 items-center gap-2">
                     <span className="text-xl">{m.flagVisitante}</span>
@@ -254,7 +263,12 @@ export default async function PalpitesPage() {
                   )}
                   {d && d.bonus > 0 && (
                     <span className="shrink-0 rounded-full bg-gold/15 px-2.5 py-0.5 text-xs font-medium text-gold">
-                      +1 vencedor 🏆
+                      {d.bonusProvisorio ? "+1 provisório 🏆" : "+1 vencedor 🏆"}
+                    </span>
+                  )}
+                  {d && m.status === "ao-vivo" && (
+                    <span className="shrink-0 font-display text-xs font-semibold tabular-nums text-brand">
+                      +{d.total} ao vivo
                     </span>
                   )}
                   {p?.vencedorFifa && (
@@ -262,7 +276,9 @@ export default async function PalpitesPage() {
                       avança: {p.vencedorFifa}
                     </span>
                   )}
-                  {m.status === "ao-vivo" && <TagAoVivo texto="ao vivo" />}
+                  {m.status === "ao-vivo" && (
+                    <TagAoVivo texto={prorrogacao ? "prorrogação" : "ao vivo"} />
+                  )}
                 </div>
               );
             })}

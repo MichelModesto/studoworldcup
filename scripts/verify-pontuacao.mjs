@@ -76,13 +76,28 @@ function comparar(p, mandante, visitante) {
   return Math.sign(p.golsMandante - p.golsVisitante) === Math.sign(mandante - visitante) ? 1 : 0;
 }
 
+function vencedorEfetivo(m, placar90) {
+  if (m.vencedorFifa) return m.vencedorFifa;
+  if (m.status !== "ao-vivo" || !ehMataMata(m)) return undefined;
+  if (placar90.mandante !== placar90.visitante) return undefined;
+  if (m.placarMandante === undefined || m.placarVisitante === undefined) return undefined;
+  if (m.placarMandante === placar90.mandante && m.placarVisitante === placar90.visitante) {
+    return undefined;
+  }
+  if (m.placarMandante > m.placarVisitante) return m.fifaMandante;
+  if (m.placarVisitante > m.placarMandante) return m.fifaVisitante;
+  return undefined;
+}
+
 function bonusVencedor(p, m, placar) {
   if (!usaNovaPontuacao(m)) return 0;
   if (!ehMataMata(m)) return 0;
   if (p.golsMandante !== p.golsVisitante) return 0;
   if (placar.mandante !== placar.visitante) return 0;
-  if (!p.vencedorFifa || !m.vencedorFifa) return 0;
-  return p.vencedorFifa === m.vencedorFifa ? 1 : 0;
+  if (!p.vencedorFifa) return 0;
+  const vencedor = vencedorEfetivo(m, placar);
+  if (!vencedor) return 0;
+  return p.vencedorFifa === vencedor ? 1 : 0;
 }
 
 function detalhePalpite(p, m) {
@@ -90,7 +105,8 @@ function detalhePalpite(p, m) {
   if (!placar) return null;
   const base = comparar(p, placar.mandante, placar.visitante);
   const bonus = bonusVencedor(p, m, placar);
-  return { base, bonus, total: base + bonus, placar };
+  const bonusProvisorio = bonus > 0 && m.status === "ao-vivo" && !m.vencedorFifa;
+  return { base, bonus, total: base + bonus, bonusProvisorio, placar };
 }
 
 function assertPlacar(nome, m, esperado) {
@@ -260,6 +276,82 @@ ok &= assertPontos(
     gols: [],
   },
   3,
+);
+
+// 9) Ao vivo na prorrogação: time escolhido faz gol → bônus provisório
+ok &= assertPontos(
+  "ao vivo ET: bônus quando time escolhido lidera",
+  { golsMandante: 1, golsVisitante: 1, vencedorFifa: "BEL" },
+  {
+    dataISO: "2026-07-03",
+    fase: "16-avos de final",
+    status: "ao-vivo",
+    mandante: "Bélgica",
+    visitante: "Senegal",
+    fifaMandante: "BEL",
+    fifaVisitante: "SEN",
+    placarMandante: 3,
+    placarVisitante: 2,
+    placarDos90: false,
+    gols: [
+      { selecao: "Bélgica", minuto: 86 },
+      { selecao: "Bélgica", minuto: 89 },
+      { selecao: "Senegal", minuto: 25 },
+      { selecao: "Senegal", minuto: 51 },
+      { selecao: "Bélgica", minuto: 108 },
+    ],
+  },
+  2,
+);
+
+// 10) Ao vivo na prorrogação sem gol ainda: sem bônus
+ok &= assertPontos(
+  "ao vivo ET sem gol: sem bônus",
+  { golsMandante: 1, golsVisitante: 1, vencedorFifa: "BEL" },
+  {
+    dataISO: "2026-07-03",
+    fase: "16-avos de final",
+    status: "ao-vivo",
+    mandante: "Bélgica",
+    visitante: "Senegal",
+    fifaMandante: "BEL",
+    fifaVisitante: "SEN",
+    placarMandante: 2,
+    placarVisitante: 2,
+    placarDos90: false,
+    gols: [
+      { selecao: "Bélgica", minuto: 86 },
+      { selecao: "Bélgica", minuto: 89 },
+      { selecao: "Senegal", minuto: 25 },
+      { selecao: "Senegal", minuto: 51 },
+    ],
+  },
+  1,
+);
+
+// 11) Ao vivo: adversário empata na prorrogação → perde bônus
+ok &= assertPontos(
+  "ao vivo ET: adversário empata → sem bônus",
+  { golsMandante: 1, golsVisitante: 1, vencedorFifa: "BEL" },
+  {
+    dataISO: "2026-07-03",
+    fase: "16-avos de final",
+    status: "ao-vivo",
+    mandante: "Bélgica",
+    visitante: "Senegal",
+    fifaMandante: "BEL",
+    fifaVisitante: "SEN",
+    placarMandante: 3,
+    placarVisitante: 3,
+    placarDos90: false,
+    gols: [
+      { selecao: "Bélgica", minuto: 86 },
+      { selecao: "Senegal", minuto: 51 },
+      { selecao: "Bélgica", minuto: 108 },
+      { selecao: "Senegal", minuto: 115 },
+    ],
+  },
+  1,
 );
 
 console.log(ok ? "\nTodos os cenários passaram." : "\nFalhou.");

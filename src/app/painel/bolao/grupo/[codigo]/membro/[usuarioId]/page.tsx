@@ -8,10 +8,12 @@ import { temBanco } from "@/lib/db";
 import {
   detalhePalpite,
   ehMembro,
+  emProrrogacao,
   formaDoGrupo,
   getGrupoPorCodigo,
   jaComecou,
   palpitesDoUsuario,
+  placarValido,
   rankingDoGrupo,
 } from "@/lib/bolao";
 import { Forma } from "@/components/painel/forma-bolao";
@@ -124,8 +126,10 @@ export default async function MembroPage({
           <div className="space-y-2">
             {iniciados.map((m) => {
               const p = palpites.get(m.id);
-              const d = p && m.status === "encerrado" ? detalhePalpite(p, m) : null;
+              const d = p && m.status !== "agendado" ? detalhePalpite(p, m) : null;
               const badge = d ? badgePontos[d.base] : null;
+              const prorrogacao = emProrrogacao(m);
+              const placar90 = placarValido(m);
               return (
                 <div
                   key={m.id}
@@ -145,6 +149,11 @@ export default async function MembroPage({
                   </span>
                   <span className="shrink-0 font-mono text-base font-bold tabular-nums">
                     {m.placarMandante ?? "–"} × {m.placarVisitante ?? "–"}
+                    {prorrogacao && placar90 && (
+                      <span className="ml-1.5 text-xs font-normal text-muted">
+                        (90&apos;: {placar90.mandante}×{placar90.visitante})
+                      </span>
+                    )}
                   </span>
                   <span className="flex min-w-0 flex-1 items-center gap-2">
                     <span className="text-xl">{m.flagVisitante}</span>
@@ -171,10 +180,17 @@ export default async function MembroPage({
                   )}
                   {d && d.bonus > 0 && (
                     <span className="shrink-0 rounded-full bg-gold/15 px-2.5 py-0.5 text-xs font-medium text-gold">
-                      +1 vencedor 🏆
+                      {d.bonusProvisorio ? "+1 provisório 🏆" : "+1 vencedor 🏆"}
                     </span>
                   )}
-                  {m.status === "ao-vivo" && <TagAoVivo texto="ao vivo" />}
+                  {d && m.status === "ao-vivo" && (
+                    <span className="shrink-0 font-mono text-xs font-semibold tabular-nums text-brand">
+                      +{d.total} ao vivo
+                    </span>
+                  )}
+                  {m.status === "ao-vivo" && (
+                    <TagAoVivo texto={prorrogacao ? "prorrogação" : "ao vivo"} />
+                  )}
                 </div>
               );
             })}

@@ -1,4 +1,4 @@
-import { detalhePalpite, type Palpite } from "@/lib/bolao";
+import { detalhePalpite, emProrrogacao, placarValido, type Palpite } from "@/lib/bolao";
 import type { Match } from "@/lib/worldcup/types";
 import { TagAoVivo } from "@/components/painel/placar-fx";
 
@@ -27,6 +27,8 @@ export function PalpitesJogo({
   meuId: number;
 }) {
   const aoVivo = m.status === "ao-vivo";
+  const prorrogacao = emProrrogacao(m);
+  const placar90 = placarValido(m);
   const total = palpites.length;
 
   // Quantos cravaram cada placar exato (pra achar os "solo").
@@ -74,7 +76,12 @@ export function PalpitesJogo({
           {m.placarMandante ?? "–"} × {m.placarVisitante ?? "–"}
         </span>
         {m.visitante} <span>{m.flagVisitante}</span>
-        {aoVivo && <TagAoVivo texto="ao vivo" />}
+        {prorrogacao && placar90 && (
+          <span className="text-xs font-normal text-muted">
+            (90&apos;: {placar90.mandante}×{placar90.visitante})
+          </span>
+        )}
+        {aoVivo && <TagAoVivo texto={prorrogacao ? "prorrogação" : "ao vivo"} />}
       </p>
 
       <div className="flex flex-wrap gap-2">
@@ -91,7 +98,7 @@ export function PalpitesJogo({
               }`}
               title={
                 pts !== null
-                  ? `${pts} ponto(s)${aoVivo ? " se acabar agora" : ""}`
+                  ? `${pts} ponto(s)${aoVivo ? (d?.bonusProvisorio ? " — bônus provisório na prorrogação" : " se acabar agora") : ""}`
                   : "aguardando o jogo"
               }
             >
@@ -99,7 +106,15 @@ export function PalpitesJogo({
                 {souEu ? "Você" : p.nome}: {p.palpite.golsMandante}×{p.palpite.golsVisitante}
               </span>
               {s && <span title={s.t}>{s.e}</span>}
-              {d && d.bonus > 0 && <span title="acertou quem avançou (+1)">🏆</span>}
+              {d && d.bonus > 0 && (
+                <span
+                  title={
+                    d.bonusProvisorio ? "time escolhido na frente na prorrogação (+1)" : "acertou quem avançou (+1)"
+                  }
+                >
+                  🏆
+                </span>
+              )}
               {pts !== null && (
                 <span className="font-display font-semibold tabular-nums opacity-80">
                   +{pts}
