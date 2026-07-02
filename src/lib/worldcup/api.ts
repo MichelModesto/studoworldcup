@@ -181,6 +181,8 @@ export async function getMatches(): Promise<Match[]> {
     const fase = faseFromRound(m.round);
     let placarMandante = temPlacar ? ft![0] : undefined;
     let placarVisitante = temPlacar ? ft![1] : undefined;
+    /** openfootball score.ft já é placar dos 90'; não descontar prorrogação de novo. */
+    let placarDos90 = temPlacar;
     let status: Match["status"] = temPlacar ? "encerrado" : "agendado";
     let espnId: string | undefined;
     let vencedorFifa: string | undefined;
@@ -194,6 +196,7 @@ export async function getMatches(): Promise<Match[]> {
       if (!temPlacar && r.estado !== "pre") {
         placarMandante = invertido ? r.awayGols : r.homeGols;
         placarVisitante = invertido ? r.homeGols : r.awayGols;
+        placarDos90 = false; // ESPN pode incluir prorrogação no total
         status = r.estado === "post" ? "encerrado" : "ao-vivo";
         if (r.gols.length) {
           gols = r.gols.map((g) => ({
@@ -241,6 +244,7 @@ export async function getMatches(): Promise<Match[]> {
       cidade: stadium?.cidade ?? cidadePt(cidadeRaw),
       placarMandante,
       placarVisitante,
+      placarDos90: placarDos90 || undefined,
       status,
       gols,
       espnId,

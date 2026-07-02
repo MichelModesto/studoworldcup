@@ -46,6 +46,8 @@ export type Match = {
   cidade: string;
   placarMandante?: number;
   placarVisitante?: number;
+  /** true quando placarMandante/Visitante vêm do score.ft (já são os 90'). */
+  placarDos90?: boolean;
   status: MatchStatus;
   gols: Goal[];
   /** id do evento na ESPN (página lance a lance), quando casado. */

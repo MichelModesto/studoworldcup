@@ -61,6 +61,13 @@ export function ehMataMata(m: Match): boolean {
   return m.fase !== "Fase de Grupos";
 }
 
+/** Nova pontuação (90' + bônus de vencedor no mata-mata) vale a partir desta data. */
+const INICIO_NOVA_PONTUACAO = "2026-07-01";
+
+function usaNovaPontuacao(m: Match): boolean {
+  return m.dataISO >= INICIO_NOVA_PONTUACAO;
+}
+
 // Sem 0/O/1/I/L para o código ser fácil de ditar no grupo da família.
 const ALFABETO_CODIGO = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
 
@@ -110,6 +117,14 @@ function golsAposNoventa(m: Match): { mandante: number; visitante: number } {
  */
 export function placarValido(m: Match): { mandante: number; visitante: number } | null {
   if (m.placarMandante === undefined || m.placarVisitante === undefined) return null;
+  // Jogos anteriores à nova regra: placar oficial sem ajuste de prorrogação.
+  if (!usaNovaPontuacao(m)) {
+    return { mandante: m.placarMandante, visitante: m.placarVisitante };
+  }
+  // score.ft do openfootball já é o placar dos 90' — não descontar gols de prorrogação.
+  if (m.placarDos90) {
+    return { mandante: m.placarMandante, visitante: m.placarVisitante };
+  }
   const extra = golsAposNoventa(m);
   return {
     mandante: Math.max(0, m.placarMandante - extra.mandante),
@@ -133,6 +148,7 @@ function bonusVencedor(
   m: Match,
   placar: { mandante: number; visitante: number },
 ): number {
+  if (!usaNovaPontuacao(m)) return 0;
   if (!ehMataMata(m)) return 0;
   if (p.golsMandante !== p.golsVisitante) return 0; // não palpitou empate
   if (placar.mandante !== placar.visitante) return 0; // o jogo não empatou nos 90'
