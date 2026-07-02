@@ -111,6 +111,35 @@ function golsAposNoventa(m: Match): { mandante: number; visitante: number } {
 }
 
 /**
+ * Placar dos 90' reconstruído pela timeline de gols (ignora prorrogação).
+ * Só é usado quando a soma dos gols bate com o placar total (ou total − ET).
+ */
+function placarPorGols(m: Match): { mandante: number; visitante: number } | null {
+  if (!m.gols.length || m.placarMandante === undefined || m.placarVisitante === undefined) {
+    return null;
+  }
+  let mandante = 0;
+  let visitante = 0;
+  let etMandante = 0;
+  let etVisitante = 0;
+  for (const g of m.gols) {
+    if (minutoBase(g.minuto) > 90) {
+      if (g.selecao === m.mandante) etMandante++;
+      else if (g.selecao === m.visitante) etVisitante++;
+      continue;
+    }
+    if (g.selecao === m.mandante) mandante++;
+    else if (g.selecao === m.visitante) visitante++;
+  }
+  const totalM = m.placarMandante;
+  const totalV = m.placarVisitante;
+  const bateTotal = mandante === totalM && visitante === totalV;
+  const bateComEt = mandante + etMandante === totalM && visitante + etVisitante === totalV;
+  if (!bateTotal && !bateComEt) return null;
+  return { mandante, visitante };
+}
+
+/**
  * Placar que VALE para o bolão: só o tempo normal (90'), sem prorrogação nem pênaltis.
  * Parte do placar oficial e desconta apenas os gols marcados depois dos 90'.
  * Retorna null enquanto não há placar.
@@ -125,6 +154,9 @@ export function placarValido(m: Match): { mandante: number; visitante: number } 
   if (m.placarDos90) {
     return { mandante: m.placarMandante, visitante: m.placarVisitante };
   }
+  // ESPN / ao vivo: timeline de gols é a fonte mais confiável p/ separar 90' de ET.
+  const porGols = placarPorGols(m);
+  if (porGols) return porGols;
   const extra = golsAposNoventa(m);
   return {
     mandante: Math.max(0, m.placarMandante - extra.mandante),

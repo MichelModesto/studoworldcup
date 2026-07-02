@@ -18,7 +18,8 @@ export type Team = {
 
 export type Goal = {
   jogador: string;
-  minuto: number;
+  /** Número (ESPN) ou string com acréscimo ("90+5", "120+5" no openfootball). */
+  minuto: number | string;
   penalti: boolean;
   golContra: boolean;
   selecao: string; // nomePt da seleção que marcou

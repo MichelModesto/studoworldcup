@@ -52,7 +52,7 @@ type RawTeam = {
 
 type RawGoal = {
   name: string;
-  minute?: number;
+  minute?: number | string;
   score?: number;
   penalty?: boolean;
   owngoal?: boolean;
@@ -170,7 +170,7 @@ export async function getMatches(): Promise<Match[]> {
     let gols: Goal[] = [
       ...(m.goals1 ?? []).map((g) => mapGoal(g, ptOf(m.team1))),
       ...(m.goals2 ?? []).map((g) => mapGoal(g, ptOf(m.team2))),
-    ].sort((a, b) => a.minuto - b.minuto);
+    ].sort((a, b) => minutoOrdenacao(a.minuto) - minutoOrdenacao(b.minuto));
 
     const hora = (m.time ?? "").trim();
     const horaCurta = hora.slice(0, 5) || "00:00";
@@ -264,6 +264,11 @@ function toKickoffISO(date: string, time: string): string | undefined {
   // hora local = UTC + offset  =>  UTC = local - offset
   const utcMs = Date.UTC(y, mo - 1, d, Number(hh) - offset, Number(mm));
   return new Date(utcMs).toISOString();
+}
+
+function minutoOrdenacao(minuto: Goal["minuto"]): number {
+  const m = /^(\d+)/.exec(String(minuto ?? ""));
+  return m ? Number(m[1]) : 0;
 }
 
 function mapGoal(g: RawGoal, selecao: string): Goal {

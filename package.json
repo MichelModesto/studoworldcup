@@ -11,7 +11,8 @@
     "ingest:espn": "node scripts/ingest-espn.mjs",
     "fetch:squads": "node scripts/fetch-squads.mjs",
     "fetch:photos": "node scripts/fetch-photos.mjs",
-    "db:init": "node --env-file=.env.local scripts/db-init.mjs"
+    "db:init": "node --env-file=.env.local scripts/db-init.mjs",
+    "test:pontuacao": "node scripts/verify-pontuacao.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
