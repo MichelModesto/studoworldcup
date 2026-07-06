@@ -3,7 +3,7 @@
   "team": "Colombia",
   "espnTeamId": 208,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:41.767Z",
+  "atualizadoEm": "2026-07-06T10:12:29.707Z",
   "jogadores": [
     {
       "nome": "David Ospina",
@@ -35,9 +35,9 @@
     },
     {
       "nome": "Santiago Arias",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 4,
-      "idade": 31,
+      "idade": 34,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/eqzorn1779751673.jpg"
     },
     {

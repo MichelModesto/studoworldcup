@@ -3,7 +3,7 @@
   "team": "Belgium",
   "espnTeamId": 459,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:32.269Z",
+  "atualizadoEm": "2026-07-06T10:12:21.585Z",
   "jogadores": [
     {
       "nome": "Thibaut Courtois",
@@ -98,7 +98,7 @@
     },
     {
       "nome": "Axel Witsel",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 6,
       "idade": 37,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/gex6yt1706956962.jpg"

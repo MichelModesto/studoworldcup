@@ -3,7 +3,7 @@
   "team": "Spain",
   "espnTeamId": 164,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:34.126Z",
+  "atualizadoEm": "2026-07-06T10:12:23.309Z",
   "jogadores": [
     {
       "nome": "David Raya",
@@ -44,7 +44,8 @@
       "nome": "Alejandro Grimaldo",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5wd4cv1779731139.jpg"
     },
     {
       "nome": "Marc Cucurella",
@@ -184,6 +185,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

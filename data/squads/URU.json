@@ -3,7 +3,7 @@
   "team": "Uruguay",
   "espnTeamId": 212,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:35.783Z",
+  "atualizadoEm": "2026-07-06T10:12:24.596Z",
   "jogadores": [
     {
       "nome": "Fernando Muslera",
@@ -183,7 +183,7 @@
       "nome": "Federico Viñas",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/q4sqjo1762199487.jpg"
     }
   ],

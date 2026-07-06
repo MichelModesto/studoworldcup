@@ -3,7 +3,7 @@
   "team": "Canada",
   "espnTeamId": 206,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:22.504Z",
+  "atualizadoEm": "2026-07-06T10:12:12.992Z",
   "jogadores": [
     {
       "nome": "Maxime Crépeau",
@@ -183,7 +183,7 @@
       "nome": "Promise David",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 24,
+      "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yzzpeb1733608784.jpg"
     }
   ],

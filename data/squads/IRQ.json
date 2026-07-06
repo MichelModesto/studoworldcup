@@ -3,7 +3,7 @@
   "team": "Iraq",
   "espnTeamId": 4375,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:37.198Z",
+  "atualizadoEm": "2026-07-06T10:12:25.882Z",
   "jogadores": [
     {
       "nome": "Fahad Talib",
@@ -30,7 +30,8 @@
       "nome": "Frans Putros",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 32
+      "idade": 32,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ehxpy81780446585.jpg"
     },
     {
       "nome": "Rebin Sulaka",
@@ -54,7 +55,7 @@
     },
     {
       "nome": "Merchas Doski",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 23,
       "idade": 26,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/o2awsq1780441403.jpg"
@@ -182,6 +183,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

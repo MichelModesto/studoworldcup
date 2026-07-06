@@ -3,7 +3,7 @@
   "team": "Ecuador",
   "espnTeamId": 209,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:29.851Z",
+  "atualizadoEm": "2026-07-06T10:12:19.463Z",
   "jogadores": [
     {
       "nome": "Gonzalo Valle",
@@ -154,9 +154,9 @@
     },
     {
       "nome": "Kevin Rodríguez",
-      "posicao": "Defensor",
+      "posicao": "Atacante",
       "numero": 11,
-      "idade": 20
+      "idade": 26
     },
     {
       "nome": "Anthony Valencia",

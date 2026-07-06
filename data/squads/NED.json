@@ -3,7 +3,7 @@
   "team": "Netherlands",
   "espnTeamId": 449,
   "copa": 2026,
-  "atualizadoEm": "2026-06-29T10:51:30.317Z",
+  "atualizadoEm": "2026-07-06T10:12:19.890Z",
   "jogadores": [
     {
       "nome": "Mark Flekken",
@@ -127,6 +127,7 @@
     {
       "nome": "Quinten Timber",
       "posicao": "Meio-campista",
+      "numero": 26,
       "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/knniw71679243113.jpg"
     },
