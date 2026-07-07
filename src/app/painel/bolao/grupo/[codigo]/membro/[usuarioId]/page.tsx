@@ -3,6 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { ArrowLeft, Crown, EyeOff } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { TagAoVivo } from "@/components/painel/placar-fx";
+import { IndicadorVencedorEmpate } from "@/components/painel/indicador-vencedor-empate";
 import { getSession } from "@/lib/auth";
 import { temBanco } from "@/lib/db";
 import {
@@ -174,13 +175,14 @@ export default async function MembroPage({
                     <span className="text-xl">{m.flagVisitante}</span>
                     <span className="truncate font-medium">{m.visitante}</span>
                   </span>
-                  <span className="shrink-0 text-xs text-muted">
+                  <span className="flex shrink-0 flex-wrap items-center gap-1.5 text-xs text-muted">
                     {p ? (
                       <>
                         palpite:{" "}
                         <strong className="text-foreground">
                           {p.golsMandante}×{p.golsVisitante}
                         </strong>
+                        <IndicadorVencedorEmpate m={m} palpite={p} compact />
                       </>
                     ) : (
                       "não palpitou"

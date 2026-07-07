@@ -20,6 +20,7 @@ import { listConvocados } from "@/lib/worldcup/squads";
 import type { Match } from "@/lib/worldcup/types";
 import { BonusForm } from "./bonus-form";
 import { TagAoVivo } from "@/components/painel/placar-fx";
+import { IndicadorVencedorEmpate } from "@/components/painel/indicador-vencedor-empate";
 import { PalpitesForm, type JogoAberto } from "./palpites-form";
 
 export const metadata = { title: "Meus palpites" };
@@ -253,8 +254,17 @@ export default async function PalpitesPage() {
                     <span className="text-xl">{m.flagVisitante}</span>
                     <span className="truncate font-medium">{m.visitante}</span>
                   </span>
-                  <span className="shrink-0 text-xs text-muted">
-                    {p ? `seu palpite: ${p.golsMandante}×${p.golsVisitante}` : "sem palpite"}
+                  <span className="flex shrink-0 flex-wrap items-center gap-1.5 text-xs text-muted">
+                    {p ? (
+                      <>
+                        <span>
+                          seu palpite: {p.golsMandante}×{p.golsVisitante}
+                        </span>
+                        <IndicadorVencedorEmpate m={m} palpite={p} compact />
+                      </>
+                    ) : (
+                      "sem palpite"
+                    )}
                   </span>
                   {badge && (
                     <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${badge.cls}`}>
@@ -269,11 +279,6 @@ export default async function PalpitesPage() {
                   {d && m.status === "ao-vivo" && (
                     <span className="shrink-0 font-display text-xs font-semibold tabular-nums text-brand">
                       +{d.total} ao vivo
-                    </span>
-                  )}
-                  {p?.vencedorFifa && (
-                    <span className="shrink-0 text-xs text-muted">
-                      avança: {p.vencedorFifa}
                     </span>
                   )}
                   {m.status === "ao-vivo" && (

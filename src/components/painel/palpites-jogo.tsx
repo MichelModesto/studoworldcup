@@ -1,6 +1,11 @@
-import { detalhePalpite, emProrrogacao, placarValido, type Palpite } from "@/lib/bolao";
+import { detalhePalpite, emProrrogacao, ehMataMata, placarValido, type Palpite } from "@/lib/bolao";
 import type { Match } from "@/lib/worldcup/types";
 import { TagAoVivo } from "@/components/painel/placar-fx";
+import {
+  IndicadorVencedorEmpate,
+  palpiteEmpate,
+  resolveTimeVencedor,
+} from "@/components/painel/indicador-vencedor-empate";
 
 type PalpiteGrupo = { usuarioId: number; nome: string; palpite: Palpite };
 
@@ -30,6 +35,22 @@ export function PalpitesJogo({
   const prorrogacao = emProrrogacao(m);
   const placar90 = placarValido(m);
   const total = palpites.length;
+  const temEmpateMataMata = ehMataMata(m) && palpites.some((p) => palpiteEmpate(p.palpite));
+
+  const tituloChip = (p: PalpiteGrupo, d: ReturnType<typeof detalhePalpite>) => {
+    const pts = d?.total ?? null;
+    const time = resolveTimeVencedor(m, p.palpite.vencedorFifa);
+    const partes: string[] = [];
+    if (pts !== null) {
+      partes.push(
+        `${pts} ponto(s)${aoVivo ? (d?.bonusProvisorio ? " — bônus provisório na prorrogação" : " se acabar agora") : ""}`,
+      );
+    } else partes.push("aguardando o jogo");
+    if (palpiteEmpate(p.palpite) && time) {
+      partes.push(`aposta que ${time.nome} avança se empatar`);
+    }
+    return partes.join(" · ");
+  };
 
   // Quantos cravaram cada placar exato (pra achar os "solo").
   const placarCount = new Map<string, number>();
@@ -96,14 +117,13 @@ export function PalpitesJogo({
               className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs ring-1 ${corPts(pts)} ${
                 souEu ? "ring-2 ring-brand/60" : ""
               }`}
-              title={
-                pts !== null
-                  ? `${pts} ponto(s)${aoVivo ? (d?.bonusProvisorio ? " — bônus provisório na prorrogação" : " se acabar agora") : ""}`
-                  : "aguardando o jogo"
-              }
+              title={tituloChip(p, d)}
             >
-              <span className={souEu ? "font-semibold" : ""}>
-                {souEu ? "Você" : p.nome}: {p.palpite.golsMandante}×{p.palpite.golsVisitante}
+              <span className={`inline-flex flex-wrap items-center gap-1 ${souEu ? "font-semibold" : ""}`}>
+                <span>
+                  {souEu ? "Você" : p.nome}: {p.palpite.golsMandante}×{p.palpite.golsVisitante}
+                </span>
+                <IndicadorVencedorEmpate m={m} palpite={p.palpite} compact />
               </span>
               {s && <span title={s.t}>{s.e}</span>}
               {d && d.bonus > 0 && (
@@ -124,6 +144,13 @@ export function PalpitesJogo({
           );
         })}
       </div>
+
+      {temEmpateMataMata && (
+        <p className="mt-2 text-[10px] text-muted/70">
+          Empates no mata-mata: a etiqueta dourada <span className="text-gold">→ bandeira</span> indica
+          em quem apostou para avançar (prorrogação/pênaltis).
+        </p>
+      )}
 
       {total >= 2 &&
         (() => {
