@@ -3,7 +3,7 @@
   "team": "Iraq",
   "espnTeamId": 4375,
   "copa": 2026,
-  "atualizadoEm": "2026-07-06T10:12:25.882Z",
+  "atualizadoEm": "2026-07-13T09:19:50.927Z",
   "jogadores": [
     {
       "nome": "Fahad Talib",
@@ -149,10 +149,10 @@
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ptoxm31780440519.jpg"
     },
     {
-      "nome": "Ali Yousif",
+      "nome": "Hashim Ali",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 30
+      "idade": 25
     },
     {
       "nome": "Ali Jasim",
@@ -165,7 +165,7 @@
       "nome": "Ahmed Qasim",
       "posicao": "Atacante",
       "numero": 11,
-      "idade": 22
+      "idade": 23
     },
     {
       "nome": "Youssef Amyn",
@@ -183,7 +183,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

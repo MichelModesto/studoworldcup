@@ -3,7 +3,7 @@
   "team": "Paraguay",
   "espnTeamId": 210,
   "copa": 2026,
-  "atualizadoEm": "2026-07-06T10:12:16.826Z",
+  "atualizadoEm": "2026-07-13T09:19:39.800Z",
   "jogadores": [
     {
       "nome": "Gatito Fernández",
@@ -134,7 +134,7 @@
       "nome": "Damián Bobadilla",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 24,
+      "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/fhquot1767799708.jpg"
     },
     {
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

@@ -3,7 +3,7 @@
   "team": "Spain",
   "espnTeamId": 164,
   "copa": 2026,
-  "atualizadoEm": "2026-07-06T10:12:23.309Z",
+  "atualizadoEm": "2026-07-13T09:19:47.901Z",
   "jogadores": [
     {
       "nome": "David Raya",
@@ -167,25 +167,24 @@
       "nome": "Nico Williams",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 23,
+      "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ubc6yn1629190504.jpg"
     },
     {
       "nome": "Lamine Yamal",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 18,
+      "idade": 19,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/ukerpq1692551634.jpg"
     },
     {
       "nome": "Víctor Muñoz",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 22
+      "idade": 23
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

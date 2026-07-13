@@ -3,7 +3,7 @@
   "team": "Haiti",
   "espnTeamId": 2654,
   "copa": 2026,
-  "atualizadoEm": "2026-07-06T10:12:15.554Z",
+  "atualizadoEm": "2026-07-13T09:19:38.066Z",
   "jogadores": [
     {
       "nome": "Johny Placide",
@@ -51,7 +51,7 @@
       "nome": "Jean-Kévin Duverne",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 28,
+      "idade": 29,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/riv0pr1607794428.jpg"
     },
     {
@@ -183,7 +183,7 @@
       "nome": "Ruben Providence",
       "posicao": "Atacante",
       "numero": 15,
-      "idade": 24,
+      "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/p8q3py1726603880.jpg"
     }
   ],

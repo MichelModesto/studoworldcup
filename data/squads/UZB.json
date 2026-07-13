@@ -3,7 +3,7 @@
   "team": "Uzbekistan",
   "espnTeamId": 2570,
   "copa": 2026,
-  "atualizadoEm": "2026-07-06T10:12:29.277Z",
+  "atualizadoEm": "2026-07-13T09:19:55.850Z",
   "jogadores": [
     {
       "nome": "Botirali Ergashev",
@@ -30,7 +30,7 @@
       "nome": "Rustam Ashurmatov",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tc1s7a1712554231.jpg"
     },
     {
@@ -138,7 +138,7 @@
     },
     {
       "nome": "Oston Urunov",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 11,
       "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cztim31712354680.jpg"

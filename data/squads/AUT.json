@@ -3,7 +3,7 @@
   "team": "Austria",
   "espnTeamId": 474,
   "copa": 2026,
-  "atualizadoEm": "2026-07-06T10:12:27.575Z",
+  "atualizadoEm": "2026-07-13T09:19:53.527Z",
   "jogadores": [
     {
       "nome": "Alexander Schlager",
@@ -37,7 +37,7 @@
       "nome": "Philipp Lienhart",
       "posicao": "Defensor",
       "numero": 15,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mqy4ri1622122767.jpg"
     },
     {
@@ -177,7 +177,7 @@
       "nome": "Sasa Kalajdzic",
       "posicao": "Atacante",
       "numero": 14,
-      "idade": 28,
+      "idade": 29,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y4zkcg1609169729.jpg"
     }
   ],
