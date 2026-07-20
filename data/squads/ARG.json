@@ -3,8 +3,22 @@
   "team": "Argentina",
   "espnTeamId": 202,
   "copa": 2026,
-  "atualizadoEm": "2026-07-13T09:19:52.133Z",
+  "atualizadoEm": "2026-07-20T08:52:30.990Z",
   "jogadores": [
+    {
+      "nome": "José Manuel López",
+      "posicao": "Atacante",
+      "numero": 21,
+      "idade": 25,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/iqhcwm1780009588.jpg"
+    },
+    {
+      "nome": "Giuliano Simeone",
+      "posicao": "Atacante",
+      "numero": 17,
+      "idade": 23,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/c24ms91780010953.jpg"
+    },
     {
       "nome": "Emiliano Martínez",
       "posicao": "Goleiro",
@@ -67,6 +81,13 @@
       "numero": 6,
       "idade": 28,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/62xrby1770994011.jpg"
+    },
+    {
+      "nome": "Marcos Senesi",
+      "posicao": "Defensor",
+      "numero": 2,
+      "idade": 29,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3hid8v1771752083.jpg"
     },
     {
       "nome": "Facundo Medina",
@@ -160,20 +181,6 @@
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rm3tj11741979331.jpg"
     },
     {
-      "nome": "José Manuel López",
-      "posicao": "Atacante",
-      "numero": 21,
-      "idade": 25,
-      "foto": "https://www.thesportsdb.com/images/media/player/thumb/iqhcwm1780009588.jpg"
-    },
-    {
-      "nome": "Giuliano Simeone",
-      "posicao": "Atacante",
-      "numero": 17,
-      "idade": 23,
-      "foto": "https://www.thesportsdb.com/images/media/player/thumb/c24ms91780010953.jpg"
-    },
-    {
       "nome": "Nico Paz",
       "posicao": "Meio-campista",
       "numero": 18,
@@ -182,6 +189,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

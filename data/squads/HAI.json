@@ -3,7 +3,7 @@
   "team": "Haiti",
   "espnTeamId": 2654,
   "copa": 2026,
-  "atualizadoEm": "2026-07-13T09:19:38.066Z",
+  "atualizadoEm": "2026-07-20T08:52:19.688Z",
   "jogadores": [
     {
       "nome": "Johny Placide",
@@ -72,7 +72,8 @@
       "nome": "Garven Metusala",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 26
+      "idade": 26,
+      "foto": "https://www.thesportsdb.com/images/media/player/thumb/ejf2d61783940523.jpg"
     },
     {
       "nome": "Wilguens Paugain",
@@ -188,6 +189,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

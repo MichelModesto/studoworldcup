@@ -3,7 +3,7 @@
   "team": "New Zealand",
   "espnTeamId": 2666,
   "copa": 2026,
-  "atualizadoEm": "2026-07-13T09:19:47.336Z",
+  "atualizadoEm": "2026-07-20T08:52:27.116Z",
   "jogadores": [
     {
       "nome": "Max Crocombe",
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Callan Elliot",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 24,
       "idade": 27,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/400kj61778731124.jpg"
@@ -133,7 +133,7 @@
     },
     {
       "nome": "Matthew Garbett",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 7,
       "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/x9yoaj1778731232.jpg"
@@ -175,7 +175,7 @@
     },
     {
       "nome": "Jesse Randall",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 21,
       "idade": 23,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/tkqmms1778733518.jpg"
