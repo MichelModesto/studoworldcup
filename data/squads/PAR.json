@@ -3,7 +3,7 @@
   "team": "Paraguay",
   "espnTeamId": 210,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:21.059Z",
+  "atualizadoEm": "2026-07-27T09:43:46.212Z",
   "jogadores": [
     {
       "nome": "Gatito Fernández",
@@ -27,10 +27,9 @@
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/48pr1v1765311760.jpg"
     },
     {
-      "nome": "Juan Jose Cáceres",
+      "nome": "Juan Cáceres",
       "posicao": "Defensor",
       "numero": 4,
-      "idade": 26,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i75q401754402141.jpg"
     },
     {
@@ -79,7 +78,7 @@
       "nome": "Alexandro Maidana",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 20,
+      "idade": 21,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/bggh3h1780334854.jpg"
     },
     {
@@ -188,6 +187,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

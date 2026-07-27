@@ -3,7 +3,7 @@
   "team": "Sweden",
   "espnTeamId": 466,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:25.001Z",
+  "atualizadoEm": "2026-07-27T09:43:50.066Z",
   "jogadores": [
     {
       "nome": "Kristoffer Nordfeldt",
@@ -35,7 +35,7 @@
     },
     {
       "nome": "Eric Smith",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 20,
       "idade": 29,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/u2enyz1778627381.jpg"

@@ -3,7 +3,7 @@
   "team": "Egypt",
   "espnTeamId": 2620,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:26.271Z",
+  "atualizadoEm": "2026-07-27T09:43:51.350Z",
   "jogadores": [
     {
       "nome": "Mohamed El Shenawy",
@@ -128,7 +128,7 @@
     },
     {
       "nome": "Mostafa Zico",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 11,
       "idade": 29
     },
@@ -148,7 +148,7 @@
     },
     {
       "nome": "Zizo",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 25,
       "idade": 30,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/l4l7271705485290.jpg"

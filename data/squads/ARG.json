@@ -3,7 +3,7 @@
   "team": "Argentina",
   "espnTeamId": 202,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:30.990Z",
+  "atualizadoEm": "2026-07-27T09:43:56.064Z",
   "jogadores": [
     {
       "nome": "José Manuel López",
@@ -149,7 +149,7 @@
       "nome": "Valentín Barco",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 21,
+      "idade": 22,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/tu2bsa1780009387.jpg"
     },
     {
@@ -182,14 +182,13 @@
     },
     {
       "nome": "Nico Paz",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 18,
       "idade": 21,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ol1v8l1780010884.jpg"
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

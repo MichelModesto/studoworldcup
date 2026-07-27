@@ -3,7 +3,7 @@
   "team": "Ecuador",
   "espnTeamId": 209,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:23.703Z",
+  "atualizadoEm": "2026-07-27T09:43:48.785Z",
   "jogadores": [
     {
       "nome": "Gonzalo Valle",
@@ -162,12 +162,12 @@
       "nome": "Anthony Valencia",
       "posicao": "Atacante",
       "numero": 8,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9o97hw1767979562.jpg"
     },
     {
       "nome": "Nilson Angulo",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 20,
       "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/txm8bi1687618707.jpg"

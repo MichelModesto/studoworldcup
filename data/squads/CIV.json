@@ -3,7 +3,7 @@
   "team": "Ivory Coast",
   "espnTeamId": 4789,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:23.225Z",
+  "atualizadoEm": "2026-07-27T09:43:48.360Z",
   "jogadores": [
     {
       "nome": "Alban Lafont",
@@ -140,7 +140,7 @@
     },
     {
       "nome": "Amad Diallo",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 15,
       "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/f8maua1706525745.jpg"

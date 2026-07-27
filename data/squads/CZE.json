@@ -3,7 +3,7 @@
   "team": "Czech Republic",
   "espnTeamId": 450,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:16.704Z",
+  "atualizadoEm": "2026-07-27T09:43:41.907Z",
   "jogadores": [
     {
       "nome": "Jindrich Stanek",
@@ -27,7 +27,7 @@
       "nome": "Ladislav Krejcí",
       "posicao": "Defensor",
       "numero": 7,
-      "idade": 27
+      "idade": 34
     },
     {
       "nome": "Vladimír Coufal",
@@ -147,7 +147,7 @@
       "nome": "Adam Hlozek",
       "posicao": "Atacante",
       "numero": 9,
-      "idade": 23
+      "idade": 24
     },
     {
       "nome": "Jan Kuchta",

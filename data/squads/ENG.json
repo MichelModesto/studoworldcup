@@ -3,7 +3,7 @@
   "team": "England",
   "espnTeamId": 448,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:34.575Z",
+  "atualizadoEm": "2026-07-27T09:43:59.506Z",
   "jogadores": [
     {
       "nome": "Jordan Pickford",
@@ -118,9 +118,9 @@
     },
     {
       "nome": "Morgan Rogers",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 17,
-      "idade": 23,
+      "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cvq4kw1770201491.jpg"
     },
     {

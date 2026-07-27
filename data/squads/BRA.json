@@ -3,7 +3,7 @@
   "team": "Brazil",
   "espnTeamId": 205,
   "copa": 2026,
-  "atualizadoEm": "2026-07-20T08:52:18.839Z",
+  "atualizadoEm": "2026-07-27T09:43:44.063Z",
   "jogadores": [
     {
       "nome": "Ederson",
@@ -168,7 +168,7 @@
     },
     {
       "nome": "Luiz Henrique",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 21,
       "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kqp6jb1673688710.jpg"
@@ -177,7 +177,7 @@
       "nome": "Endrick",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 19,
+      "idade": 20,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/7tn5xc1724608312.jpg"
     },
     {
