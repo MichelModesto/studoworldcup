@@ -3,7 +3,7 @@
   "team": "Brazil",
   "espnTeamId": 205,
   "copa": 2026,
-  "atualizadoEm": "2026-07-27T09:43:44.063Z",
+  "atualizadoEm": "2026-08-03T09:37:00.048Z",
   "jogadores": [
     {
       "nome": "Ederson",
@@ -184,7 +184,7 @@
       "nome": "Rayan",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 19
+      "idade": 20
     }
   ],
   "fontes": [

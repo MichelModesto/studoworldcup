@@ -3,7 +3,7 @@
   "team": "Egypt",
   "espnTeamId": 2620,
   "copa": 2026,
-  "atualizadoEm": "2026-07-27T09:43:51.350Z",
+  "atualizadoEm": "2026-08-03T09:37:08.461Z",
   "jogadores": [
     {
       "nome": "Mohamed El Shenawy",
@@ -111,7 +111,7 @@
       "nome": "Mahmoud Saber",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 24,
+      "idade": 25,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/nhqow31780118931.jpg"
     },
     {
@@ -124,7 +124,7 @@
       "nome": "Marawan Attia",
       "posicao": "Meio-campista",
       "numero": 19,
-      "idade": 27
+      "idade": 28
     },
     {
       "nome": "Mostafa Zico",

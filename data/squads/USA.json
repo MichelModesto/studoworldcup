@@ -3,7 +3,7 @@
   "team": "USA",
   "espnTeamId": 660,
   "copa": 2026,
-  "atualizadoEm": "2026-07-27T09:43:45.787Z",
+  "atualizadoEm": "2026-08-03T09:37:02.043Z",
   "jogadores": [
     {
       "nome": "Matt Freese",
@@ -147,7 +147,7 @@
     },
     {
       "nome": "Max Arfsten",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 18,
       "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5h0jko1688388866.jpg"

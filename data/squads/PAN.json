@@ -3,7 +3,7 @@
   "team": "Panama",
   "espnTeamId": 2659,
   "copa": 2026,
-  "atualizadoEm": "2026-07-27T09:44:00.788Z",
+  "atualizadoEm": "2026-08-03T09:37:19.325Z",
   "jogadores": [
     {
       "nome": "Luis Mejía",
@@ -42,9 +42,9 @@
     },
     {
       "nome": "Andrés Andrade",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 16,
-      "idade": 37,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pgbqmf1769545609.jpg"
     },
     {
@@ -77,9 +77,9 @@
     },
     {
       "nome": "José Córdoba",
-      "posicao": "Atacante",
+      "posicao": "Defensor",
       "numero": 3,
-      "idade": 27,
+      "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uk6yfg1726080105.jpg"
     },
     {
@@ -167,9 +167,9 @@
     },
     {
       "nome": "Tomás Rodríguez",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 9,
-      "idade": 24,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1a45ue1779820732.jpg"
     },
     {

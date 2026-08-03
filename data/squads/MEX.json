@@ -3,7 +3,7 @@
   "team": "Mexico",
   "espnTeamId": 203,
   "copa": 2026,
-  "atualizadoEm": "2026-07-27T09:43:40.604Z",
+  "atualizadoEm": "2026-08-03T09:36:56.329Z",
   "jogadores": [
     {
       "nome": "Guillermo Ochoa",
@@ -119,9 +119,9 @@
     },
     {
       "nome": "Brian Gutiérrez",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 19,
+      "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xvievy1641399205.jpg"
     },
     {
