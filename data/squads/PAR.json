@@ -3,7 +3,7 @@
   "team": "Paraguay",
   "espnTeamId": 210,
   "copa": 2026,
-  "atualizadoEm": "2026-08-03T09:37:02.502Z",
+  "atualizadoEm": "2026-08-10T07:25:05.237Z",
   "jogadores": [
     {
       "nome": "Gatito Fernández",
@@ -188,7 +188,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }

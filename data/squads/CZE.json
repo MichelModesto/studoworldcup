@@ -3,7 +3,7 @@
   "team": "Czech Republic",
   "espnTeamId": 450,
   "copa": 2026,
-  "atualizadoEm": "2026-08-03T09:36:57.717Z",
+  "atualizadoEm": "2026-08-10T07:25:00.700Z",
   "jogadores": [
     {
       "nome": "Jindrich Stanek",
@@ -63,7 +63,7 @@
       "nome": "David Jurásek",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 25
+      "idade": 26
     },
     {
       "nome": "Stepán Chaloupek",
@@ -75,7 +75,7 @@
       "nome": "Vladimír Darida",
       "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 35
+      "idade": 36
     },
     {
       "nome": "Tomás Soucek",

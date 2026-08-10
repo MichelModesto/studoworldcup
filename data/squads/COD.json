@@ -3,7 +3,7 @@
   "team": "DR Congo",
   "espnTeamId": 2850,
   "copa": 2026,
-  "atualizadoEm": "2026-08-03T09:37:16.273Z",
+  "atualizadoEm": "2026-08-10T07:25:18.119Z",
   "jogadores": [
     {
       "nome": "Lionel Mpasi",
@@ -37,14 +37,14 @@
       "nome": "Chancel Mbemba",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 31,
+      "idade": 32,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/tzqzvt1509807886.jpg"
     },
     {
       "nome": "Joris Kayembe",
       "posicao": "Defensor",
       "numero": 12,
-      "idade": 31,
+      "idade": 32,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lkogd31717948211.jpg"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "nome": "Théo Bongonda",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 10,
       "idade": 30,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m1btlv1678629225.jpg"
@@ -163,7 +163,7 @@
       "nome": "Meschack Elia",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 28
+      "idade": 29
     },
     {
       "nome": "Nathanaël Mbuku",

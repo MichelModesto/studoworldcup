@@ -3,7 +3,7 @@
   "team": "Spain",
   "espnTeamId": 164,
   "copa": 2026,
-  "atualizadoEm": "2026-08-03T09:37:09.867Z",
+  "atualizadoEm": "2026-08-10T07:25:12.169Z",
   "jogadores": [
     {
       "nome": "David Raya",
@@ -140,7 +140,7 @@
       "nome": "Gavi",
       "posicao": "Meio-campista",
       "numero": 9,
-      "idade": 21
+      "idade": 22
     },
     {
       "nome": "Borja Iglesias",
