@@ -3,13 +3,13 @@
   "team": "New Zealand",
   "espnTeamId": 2666,
   "copa": 2026,
-  "atualizadoEm": "2026-08-10T07:25:11.716Z",
+  "atualizadoEm": "2026-08-17T06:46:23.062Z",
   "jogadores": [
     {
       "nome": "Max Crocombe",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/fhenxj1778730751.jpg"
     },
     {
@@ -184,7 +184,7 @@
       "nome": "Ben Old",
       "posicao": "Atacante",
       "numero": 19,
-      "idade": 23,
+      "idade": 24,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/5hsb761778732035.jpg"
     }
   ],

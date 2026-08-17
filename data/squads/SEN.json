@@ -3,7 +3,7 @@
   "team": "Senegal",
   "espnTeamId": 654,
   "copa": 2026,
-  "atualizadoEm": "2026-08-10T07:25:14.473Z",
+  "atualizadoEm": "2026-08-17T06:46:25.904Z",
   "jogadores": [
     {
       "nome": "Mory Diaw",
@@ -77,9 +77,9 @@
     },
     {
       "nome": "Lamine Camara",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 8,
-      "idade": 22,
+      "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vlxxzg1705489304.jpg"
     },
     {

@@ -3,7 +3,7 @@
   "team": "Cape Verde",
   "espnTeamId": 2597,
   "copa": 2026,
-  "atualizadoEm": "2026-08-10T07:25:12.618Z",
+  "atualizadoEm": "2026-08-17T06:46:23.957Z",
   "jogadores": [
     {
       "nome": "Vozinha",
@@ -36,7 +36,7 @@
       "nome": "Steven Moreira",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 31,
+      "idade": 32,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/m7dkfl1691077984.jpg"
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "nome": "Willy Semedo",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 17,
       "idade": 32,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/bk61bz1779197059.jpg"

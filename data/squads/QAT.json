@@ -3,7 +3,7 @@
   "team": "Qatar",
   "espnTeamId": 4398,
   "copa": 2026,
-  "atualizadoEm": "2026-08-10T07:25:02.062Z",
+  "atualizadoEm": "2026-08-17T06:46:12.940Z",
   "jogadores": [
     {
       "nome": "Meshaal Barsham",
@@ -78,7 +78,7 @@
       "nome": "Al-Hashmi Al-Hussain",
       "posicao": "Defensor",
       "numero": 25,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/5vbemh1780376354.jpg"
     },
     {
@@ -111,7 +111,7 @@
     },
     {
       "nome": "Ahmed Fathy",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 20,
       "idade": 33,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pg5pys1709571300.jpg"

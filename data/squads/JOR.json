@@ -3,7 +3,7 @@
   "team": "Jordan",
   "espnTeamId": 2917,
   "copa": 2026,
-  "atualizadoEm": "2026-08-10T07:25:17.204Z",
+  "atualizadoEm": "2026-08-17T06:46:28.747Z",
   "jogadores": [
     {
       "nome": "Yazeed Abulaila",
@@ -138,7 +138,7 @@
     },
     {
       "nome": "Amer Jamous",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 6,
       "idade": 24,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/jwpn051780556645.jpg"
