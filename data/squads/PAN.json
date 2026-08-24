@@ -3,7 +3,7 @@
   "team": "Panama",
   "espnTeamId": 2659,
   "copa": 2026,
-  "atualizadoEm": "2026-08-17T06:46:32.418Z",
+  "atualizadoEm": "2026-08-24T06:51:17.366Z",
   "jogadores": [
     {
       "nome": "Luis Mejía",
@@ -162,14 +162,14 @@
       "nome": "José Fajardo",
       "posicao": "Atacante",
       "numero": 17,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/h1f27n1691153916.jpg"
     },
     {
       "nome": "Tomás Rodríguez",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 9,
-      "idade": 27,
+      "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1a45ue1779820732.jpg"
     },
     {

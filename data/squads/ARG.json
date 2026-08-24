@@ -3,7 +3,7 @@
   "team": "Argentina",
   "espnTeamId": 202,
   "copa": 2026,
-  "atualizadoEm": "2026-08-17T06:46:27.300Z",
+  "atualizadoEm": "2026-08-24T06:51:12.087Z",
   "jogadores": [
     {
       "nome": "José Manuel López",
@@ -170,7 +170,7 @@
       "nome": "Lautaro Martínez",
       "posicao": "Atacante",
       "numero": 22,
-      "idade": 28,
+      "idade": 29,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/y9j7e11719034723.jpg"
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "nome": "Nico Paz",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 18,
       "idade": 21,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ol1v8l1780010884.jpg"

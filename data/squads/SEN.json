@@ -3,7 +3,7 @@
   "team": "Senegal",
   "espnTeamId": 654,
   "copa": 2026,
-  "atualizadoEm": "2026-08-17T06:46:25.904Z",
+  "atualizadoEm": "2026-08-24T06:51:10.549Z",
   "jogadores": [
     {
       "nome": "Mory Diaw",
@@ -51,7 +51,7 @@
       "nome": "Ismail Jakobs",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 26,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/hdt64h1609169603.jpg"
     },
     {
@@ -77,9 +77,9 @@
     },
     {
       "nome": "Lamine Camara",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 24,
+      "idade": 22,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vlxxzg1705489304.jpg"
     },
     {

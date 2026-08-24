@@ -3,7 +3,7 @@
   "team": "Iraq",
   "espnTeamId": 4375,
   "copa": 2026,
-  "atualizadoEm": "2026-08-17T06:46:26.351Z",
+  "atualizadoEm": "2026-08-24T06:51:11.043Z",
   "jogadores": [
     {
       "nome": "Fahad Talib",
@@ -23,7 +23,7 @@
       "nome": "Ahmed Basil",
       "posicao": "Goleiro",
       "numero": 22,
-      "idade": 29,
+      "idade": 30,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/rc1x111780440705.jpg"
     },
     {
@@ -61,7 +61,7 @@
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/o2awsq1780441403.jpg"
     },
     {
-      "nome": "Ahmed Maknazi",
+      "nome": "Ahmed Hasan",
       "posicao": "Defensor",
       "numero": 15,
       "idade": 24
@@ -123,7 +123,7 @@
     },
     {
       "nome": "Marko Farji",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 21,
       "idade": 22,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/7cnypv1780441522.jpg"
@@ -152,7 +152,7 @@
       "nome": "Hashim Ali",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 25
+      "idade": 26
     },
     {
       "nome": "Ali Jasim",
@@ -171,7 +171,7 @@
       "nome": "Youssef Amyn",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/prr9521780440625.jpg"
     },
     {

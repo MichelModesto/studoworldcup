@@ -3,7 +3,7 @@
   "team": "Czech Republic",
   "espnTeamId": 450,
   "copa": 2026,
-  "atualizadoEm": "2026-08-17T06:46:11.568Z",
+  "atualizadoEm": "2026-08-24T06:50:56.026Z",
   "jogadores": [
     {
       "nome": "Jindrich Stanek",
@@ -33,13 +33,13 @@
       "nome": "Vladimír Coufal",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 33
+      "idade": 34
     },
     {
       "nome": "Jaroslav Zelený",
       "posicao": "Defensor",
       "numero": 20,
-      "idade": 33
+      "idade": 34
     },
     {
       "nome": "Tomás Holes",

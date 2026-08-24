@@ -3,7 +3,7 @@
   "team": "Uruguay",
   "espnTeamId": 212,
   "copa": 2026,
-  "atualizadoEm": "2026-08-17T06:46:24.920Z",
+  "atualizadoEm": "2026-08-24T06:51:09.615Z",
   "jogadores": [
     {
       "nome": "Fernando Muslera",
@@ -79,14 +79,14 @@
       "nome": "Sebastián Cáceres",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 26,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i0d9zo1718085441.jpg"
     },
     {
       "nome": "Emiliano Martínez",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 26
+      "idade": 27
     },
     {
       "nome": "Giorgian de Arrascaeta",
