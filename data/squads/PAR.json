@@ -3,7 +3,7 @@
   "team": "Paraguay",
   "espnTeamId": 210,
   "copa": 2026,
-  "atualizadoEm": "2026-08-24T06:51:00.809Z",
+  "atualizadoEm": "2026-08-31T12:35:55.368Z",
   "jogadores": [
     {
       "nome": "Gatito Fernández",
@@ -183,7 +183,7 @@
       "nome": "Ramón Sosa",
       "posicao": "Atacante",
       "numero": 7,
-      "idade": 26,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/i47sag1767691355.jpg"
     }
   ],
