@@ -3,7 +3,7 @@
   "team": "Colombia",
   "espnTeamId": 208,
   "copa": 2026,
-  "atualizadoEm": "2026-08-31T12:36:10.736Z",
+  "atualizadoEm": "2026-09-07T11:29:41.766Z",
   "jogadores": [
     {
       "nome": "David Ospina",
@@ -30,7 +30,7 @@
       "nome": "Daniel Muñoz",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 20,
+      "idade": 30,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/bb6uua1779766697.jpg"
     },
     {
@@ -65,7 +65,7 @@
       "nome": "Deiver Machado",
       "posicao": "Defensor",
       "numero": 22,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ygplav1779755083.jpg"
     },
     {

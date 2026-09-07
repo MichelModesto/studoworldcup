@@ -3,7 +3,7 @@
   "team": "Mexico",
   "espnTeamId": 203,
   "copa": 2026,
-  "atualizadoEm": "2026-08-31T12:35:49.219Z",
+  "atualizadoEm": "2026-09-07T11:29:18.281Z",
   "jogadores": [
     {
       "nome": "Guillermo Ochoa",
@@ -119,9 +119,9 @@
     },
     {
       "nome": "Brian Gutiérrez",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 26,
-      "idade": 19,
+      "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/xvievy1641399205.jpg"
     },
     {
@@ -156,7 +156,7 @@
       "nome": "Roberto Alvarado",
       "posicao": "Atacante",
       "numero": 25,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/87rtz01630164375.jpg"
     },
     {

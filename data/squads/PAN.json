@@ -3,7 +3,7 @@
   "team": "Panama",
   "espnTeamId": 2659,
   "copa": 2026,
-  "atualizadoEm": "2026-08-31T12:36:12.658Z",
+  "atualizadoEm": "2026-09-07T11:29:43.946Z",
   "jogadores": [
     {
       "nome": "Luis Mejía",
@@ -72,14 +72,14 @@
       "nome": "Jorge Gutiérrez",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/nx5va61779819051.jpg"
     },
     {
       "nome": "José Córdoba",
-      "posicao": "Defensor",
+      "posicao": "Atacante",
       "numero": 3,
-      "idade": 25,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uk6yfg1726080105.jpg"
     },
     {
@@ -167,9 +167,9 @@
     },
     {
       "nome": "Tomás Rodríguez",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 9,
-      "idade": 24,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1a45ue1779820732.jpg"
     },
     {
