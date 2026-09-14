@@ -3,7 +3,7 @@
   "team": "Japan",
   "espnTeamId": 627,
   "copa": 2026,
-  "atualizadoEm": "2026-09-07T11:29:29.602Z",
+  "atualizadoEm": "2026-09-14T11:41:34.812Z",
   "jogadores": [
     {
       "nome": "Keisuke Osako",
@@ -37,7 +37,7 @@
       "nome": "Yuto Nagatomo",
       "posicao": "Defensor",
       "numero": 5,
-      "idade": 39,
+      "idade": 40,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/t21vp01608496592.jpg"
     },
     {
@@ -113,7 +113,7 @@
       "nome": "Ao Tanaka",
       "posicao": "Meio-campista",
       "numero": 7,
-      "idade": 27
+      "idade": 28
     },
     {
       "nome": "Yuito Suzuki",

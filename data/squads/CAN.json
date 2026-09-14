@@ -3,7 +3,7 @@
   "team": "Canada",
   "espnTeamId": 206,
   "copa": 2026,
-  "atualizadoEm": "2026-09-07T11:29:20.312Z",
+  "atualizadoEm": "2026-09-14T11:41:24.731Z",
   "jogadores": [
     {
       "nome": "Maxime Crépeau",
@@ -56,7 +56,7 @@
     },
     {
       "nome": "Alfie Jones",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 3,
       "idade": 28,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/mmihis1628708983.jpg"
@@ -127,7 +127,7 @@
       "nome": "Niko Sigur",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 22,
+      "idade": 23,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/hxkkoz1780106563.jpg"
     },
     {

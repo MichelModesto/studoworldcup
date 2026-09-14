@@ -3,7 +3,7 @@
   "team": "Croatia",
   "espnTeamId": 477,
   "copa": 2026,
-  "atualizadoEm": "2026-09-07T11:29:42.925Z",
+  "atualizadoEm": "2026-09-14T11:41:48.192Z",
   "jogadores": [
     {
       "nome": "Dominik Livakovic",
@@ -44,7 +44,7 @@
       "nome": "Marin Pongracic",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 28,
+      "idade": 29,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/3tfxp51585496031.jpg"
     },
     {
@@ -79,7 +79,7 @@
       "nome": "Luka Modric",
       "posicao": "Meio-campista",
       "numero": 10,
-      "idade": 40,
+      "idade": 41,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/6j40781707595475.jpg"
     },
     {
@@ -121,7 +121,7 @@
       "nome": "Luka Sucic",
       "posicao": "Meio-campista",
       "numero": 21,
-      "idade": 23,
+      "idade": 24,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/kdhx3f1634810422.jpg"
     },
     {
@@ -184,7 +184,7 @@
       "nome": "Marco Pasalic",
       "posicao": "Atacante",
       "numero": 24,
-      "idade": 25,
+      "idade": 26,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/eg07131720451596.jpg"
     }
   ],

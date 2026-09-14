@@ -3,7 +3,7 @@
   "team": "Ecuador",
   "espnTeamId": 209,
   "copa": 2026,
-  "atualizadoEm": "2026-09-07T11:29:28.600Z",
+  "atualizadoEm": "2026-09-14T11:41:33.701Z",
   "jogadores": [
     {
       "nome": "Gonzalo Valle",
@@ -23,7 +23,7 @@
       "nome": "Moisés Ramírez",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 25,
+      "idade": 26,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/o5h2k91717175779.jpg"
     },
     {
@@ -154,9 +154,9 @@
     },
     {
       "nome": "Kevin Rodríguez",
-      "posicao": "Defensor",
+      "posicao": "Atacante",
       "numero": 11,
-      "idade": 20
+      "idade": 26
     },
     {
       "nome": "Anthony Valencia",

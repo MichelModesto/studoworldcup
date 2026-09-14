@@ -3,7 +3,7 @@
   "team": "Sweden",
   "espnTeamId": 466,
   "copa": 2026,
-  "atualizadoEm": "2026-09-07T11:29:30.096Z",
+  "atualizadoEm": "2026-09-14T11:41:35.408Z",
   "jogadores": [
     {
       "nome": "Kristoffer Nordfeldt",
@@ -16,7 +16,7 @@
       "nome": "Viktor Johansson",
       "posicao": "Goleiro",
       "numero": 12,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lyiar11778608310.jpg"
     },
     {
@@ -184,7 +184,7 @@
       "nome": "Alexander Bernhardsson",
       "posicao": "Atacante",
       "numero": 21,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/lwn6g21695280173.jpg"
     }
   ],

@@ -3,7 +3,7 @@
   "team": "Colombia",
   "espnTeamId": 208,
   "copa": 2026,
-  "atualizadoEm": "2026-09-07T11:29:41.766Z",
+  "atualizadoEm": "2026-09-14T11:41:46.926Z",
   "jogadores": [
     {
       "nome": "David Ospina",
@@ -93,7 +93,7 @@
       "nome": "Juan Portilla",
       "posicao": "Meio-campista",
       "numero": 15,
-      "idade": 27,
+      "idade": 28,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/uo7dbs1779767007.jpg"
     },
     {
@@ -154,9 +154,9 @@
     },
     {
       "nome": "Jhon Córdoba",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 9,
-      "idade": 33,
+      "idade": 26,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/v6ymwt1779753424.jpg"
     },
     {
@@ -176,7 +176,7 @@
       "nome": "Andrés Gómez",
       "posicao": "Atacante",
       "numero": 26,
-      "idade": 23
+      "idade": 24
     },
     {
       "nome": "Cucho Hernández",
