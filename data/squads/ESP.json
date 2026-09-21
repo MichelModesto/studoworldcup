@@ -3,13 +3,13 @@
   "team": "Spain",
   "espnTeamId": 164,
   "copa": 2026,
-  "atualizadoEm": "2026-09-14T11:41:38.703Z",
+  "atualizadoEm": "2026-09-21T11:54:22.659Z",
   "jogadores": [
     {
       "nome": "David Raya",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 30,
+      "idade": 31,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/877ews1779732793.jpg"
     },
     {
@@ -44,7 +44,7 @@
       "nome": "Alejandro Grimaldo",
       "posicao": "Defensor",
       "numero": 3,
-      "idade": 30,
+      "idade": 31,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5wd4cv1779731139.jpg"
     },
     {

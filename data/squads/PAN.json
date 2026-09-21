@@ -3,7 +3,7 @@
   "team": "Panama",
   "espnTeamId": 2659,
   "copa": 2026,
-  "atualizadoEm": "2026-09-14T11:41:49.401Z",
+  "atualizadoEm": "2026-09-21T11:54:32.055Z",
   "jogadores": [
     {
       "nome": "Luis Mejía",
@@ -77,9 +77,9 @@
     },
     {
       "nome": "José Córdoba",
-      "posicao": "Atacante",
+      "posicao": "Defensor",
       "numero": 3,
-      "idade": 27,
+      "idade": 25,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/uk6yfg1726080105.jpg"
     },
     {

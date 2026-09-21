@@ -3,7 +3,7 @@
   "team": "Iraq",
   "espnTeamId": 4375,
   "copa": 2026,
-  "atualizadoEm": "2026-09-14T11:41:41.714Z",
+  "atualizadoEm": "2026-09-21T11:54:25.759Z",
   "jogadores": [
     {
       "nome": "Fahad Talib",
@@ -149,10 +149,10 @@
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/ptoxm31780440519.jpg"
     },
     {
-      "nome": "Hashim Ali",
+      "nome": "Ali Yousif",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 26
+      "idade": 30
     },
     {
       "nome": "Ali Jasim",
