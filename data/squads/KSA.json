@@ -3,7 +3,7 @@
   "team": "Saudi Arabia",
   "espnTeamId": 655,
   "copa": 2026,
-  "atualizadoEm": "2026-09-21T11:54:23.815Z",
+  "atualizadoEm": "2026-09-28T12:49:06.513Z",
   "jogadores": [
     {
       "nome": "Ahmed Al-Kassar",
@@ -30,7 +30,7 @@
       "nome": "Hassan Kadish",
       "posicao": "Defensor",
       "numero": 14,
-      "idade": 33
+      "idade": 34
     },
     {
       "nome": "Hassan Al-Tambakti",
@@ -99,7 +99,7 @@
       "nome": "Mohamed Kanno",
       "posicao": "Meio-campista",
       "numero": 23,
-      "idade": 31,
+      "idade": 32,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/jergmq1668799922.jpg"
     },
     {

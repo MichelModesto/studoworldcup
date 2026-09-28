@@ -3,7 +3,7 @@
   "team": "Bosnia & Herzegovina",
   "espnTeamId": 452,
   "copa": 2026,
-  "atualizadoEm": "2026-09-21T11:54:11.193Z",
+  "atualizadoEm": "2026-09-28T12:48:53.949Z",
   "jogadores": [
     {
       "nome": "Nikola Vasilj",
@@ -189,7 +189,6 @@
     }
   ],
   "fontes": [
-    "ESPN",
-    "TheSportsDB"
+    "ESPN"
   ]
 }
