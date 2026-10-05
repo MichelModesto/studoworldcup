@@ -3,7 +3,7 @@
   "team": "Senegal",
   "espnTeamId": 654,
   "copa": 2026,
-  "atualizadoEm": "2026-09-28T12:49:08.076Z",
+  "atualizadoEm": "2026-10-05T13:30:33.781Z",
   "jogadores": [
     {
       "nome": "Mory Diaw",
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Mamadou Sarr",
-      "posicao": "Defensor",
+      "posicao": "Atacante",
       "numero": 2,
       "idade": 21,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5cqufd1770721142.jpg"
@@ -77,9 +77,9 @@
     },
     {
       "nome": "Lamine Camara",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 8,
-      "idade": 24,
+      "idade": 22,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/vlxxzg1705489304.jpg"
     },
     {

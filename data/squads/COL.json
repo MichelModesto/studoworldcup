@@ -3,7 +3,7 @@
   "team": "Colombia",
   "espnTeamId": 208,
   "copa": 2026,
-  "atualizadoEm": "2026-09-28T12:49:13.642Z",
+  "atualizadoEm": "2026-10-05T13:30:38.570Z",
   "jogadores": [
     {
       "nome": "David Ospina",
@@ -30,14 +30,14 @@
       "nome": "Daniel Muñoz",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 30,
+      "idade": 20,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/bb6uua1779766697.jpg"
     },
     {
       "nome": "Santiago Arias",
-      "posicao": "Meio-campista",
+      "posicao": "Defensor",
       "numero": 4,
-      "idade": 31,
+      "idade": 34,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/eqzorn1779751673.jpg"
     },
     {
@@ -142,7 +142,7 @@
       "nome": "Kevin Castaño",
       "posicao": "Meio-campista",
       "numero": 5,
-      "idade": 25,
+      "idade": 26,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/re6wit1723963135.jpg"
     },
     {
@@ -154,9 +154,9 @@
     },
     {
       "nome": "Jhon Córdoba",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 9,
-      "idade": 33,
+      "idade": 26,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/v6ymwt1779753424.jpg"
     },
     {
