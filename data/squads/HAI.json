@@ -3,7 +3,7 @@
   "team": "Haiti",
   "espnTeamId": 2654,
   "copa": 2026,
-  "atualizadoEm": "2026-10-12T14:20:03.112Z",
+  "atualizadoEm": "2026-10-19T12:00:46.884Z",
   "jogadores": [
     {
       "nome": "Johny Placide",
@@ -44,7 +44,7 @@
       "nome": "Markhus Lacroix",
       "posicao": "Defensor",
       "numero": 13,
-      "idade": 32,
+      "idade": 33,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/23aioz1779119028.jpg"
     },
     {
@@ -139,10 +139,11 @@
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/yv4k1k1548617647.jpg"
     },
     {
-      "nome": "Frantz Pierrot",
+      "nome": "Frantzdy Pierrot",
       "posicao": "Atacante",
       "numero": 20,
-      "idade": 27
+      "idade": 31,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/36p4t91779133633.jpg"
     },
     {
       "nome": "Wilson Isidor",
@@ -188,6 +189,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

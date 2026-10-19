@@ -3,7 +3,7 @@
   "team": "Colombia",
   "espnTeamId": 208,
   "copa": 2026,
-  "atualizadoEm": "2026-10-12T14:20:21.258Z",
+  "atualizadoEm": "2026-10-19T12:01:01.853Z",
   "jogadores": [
     {
       "nome": "David Ospina",
@@ -154,9 +154,9 @@
     },
     {
       "nome": "Jhon Córdoba",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 9,
-      "idade": 26,
+      "idade": 33,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/v6ymwt1779753424.jpg"
     },
     {
