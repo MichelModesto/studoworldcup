@@ -3,13 +3,14 @@
   "team": "Bosnia & Herzegovina",
   "espnTeamId": 452,
   "copa": 2026,
-  "atualizadoEm": "2026-10-19T12:00:44.647Z",
+  "atualizadoEm": "2026-10-26T12:11:38.922Z",
   "jogadores": [
     {
-      "nome": "Nikola Vasiljevic",
+      "nome": "Nikola Vasilj",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 30
+      "idade": 30,
+      "foto": "https://r2.thesportsdb.com/images/media/player/thumb/cu1aj51778541706.jpg"
     },
     {
       "nome": "Martin Zlomislic",
@@ -188,6 +189,7 @@
     }
   ],
   "fontes": [
-    "ESPN"
+    "ESPN",
+    "TheSportsDB"
   ]
 }

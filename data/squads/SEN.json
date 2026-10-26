@@ -3,7 +3,7 @@
   "team": "Senegal",
   "espnTeamId": 654,
   "copa": 2026,
-  "atualizadoEm": "2026-10-19T12:00:57.274Z",
+  "atualizadoEm": "2026-10-26T12:11:51.390Z",
   "jogadores": [
     {
       "nome": "Mory Diaw",
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Mamadou Sarr",
-      "posicao": "Defensor",
+      "posicao": "Atacante",
       "numero": 2,
       "idade": 21,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5cqufd1770721142.jpg"

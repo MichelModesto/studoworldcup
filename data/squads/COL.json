@@ -3,7 +3,7 @@
   "team": "Colombia",
   "espnTeamId": 208,
   "copa": 2026,
-  "atualizadoEm": "2026-10-19T12:01:01.853Z",
+  "atualizadoEm": "2026-10-26T12:11:55.998Z",
   "jogadores": [
     {
       "nome": "David Ospina",
@@ -30,12 +30,12 @@
       "nome": "Daniel Muñoz",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 20,
+      "idade": 30,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/bb6uua1779766697.jpg"
     },
     {
       "nome": "Santiago Arias",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 4,
       "idade": 31,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/eqzorn1779751673.jpg"
@@ -107,7 +107,7 @@
       "nome": "Jefferson Lerma",
       "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 31,
+      "idade": 32,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/9cq4jt1779754842.jpg"
     },
     {
