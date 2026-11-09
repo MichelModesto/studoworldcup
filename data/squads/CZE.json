@@ -3,7 +3,7 @@
   "team": "Czech Republic",
   "espnTeamId": 450,
   "copa": 2026,
-  "atualizadoEm": "2026-11-02T14:40:54.398Z",
+  "atualizadoEm": "2026-11-09T15:04:07.484Z",
   "jogadores": [
     {
       "nome": "Jindrich Stanek",
@@ -51,7 +51,7 @@
       "nome": "David Zima",
       "posicao": "Defensor",
       "numero": 2,
-      "idade": 25
+      "idade": 26
     },
     {
       "nome": "Robin Hranác",

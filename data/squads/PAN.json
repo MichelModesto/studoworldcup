@@ -3,7 +3,7 @@
   "team": "Panama",
   "espnTeamId": 2659,
   "copa": 2026,
-  "atualizadoEm": "2026-11-02T14:41:15.034Z",
+  "atualizadoEm": "2026-11-09T15:04:28.748Z",
   "jogadores": [
     {
       "nome": "Luis Mejía",
@@ -167,9 +167,9 @@
     },
     {
       "nome": "Tomás Rodríguez",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 9,
-      "idade": 24,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1a45ue1779820732.jpg"
     },
     {

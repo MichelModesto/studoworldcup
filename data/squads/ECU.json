@@ -3,7 +3,7 @@
   "team": "Ecuador",
   "espnTeamId": 209,
   "copa": 2026,
-  "atualizadoEm": "2026-11-02T14:41:01.865Z",
+  "atualizadoEm": "2026-11-09T15:04:14.654Z",
   "jogadores": [
     {
       "nome": "Gonzalo Valle",
@@ -72,7 +72,7 @@
       "nome": "Yaimar Medina",
       "posicao": "Defensor",
       "numero": 26,
-      "idade": 21,
+      "idade": 22,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/akphab1767540890.jpg"
     },
     {
@@ -128,7 +128,7 @@
       "nome": "Enner Valencia",
       "posicao": "Atacante",
       "numero": 13,
-      "idade": 36,
+      "idade": 37,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/dakcfv1767607482.jpg"
     },
     {
@@ -154,9 +154,9 @@
     },
     {
       "nome": "Kevin Rodríguez",
-      "posicao": "Atacante",
+      "posicao": "Defensor",
       "numero": 11,
-      "idade": 26
+      "idade": 21
     },
     {
       "nome": "Anthony Valencia",
