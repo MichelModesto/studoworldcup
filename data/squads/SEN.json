@@ -3,7 +3,7 @@
   "team": "Senegal",
   "espnTeamId": 654,
   "copa": 2026,
-  "atualizadoEm": "2026-11-09T15:04:20.989Z",
+  "atualizadoEm": "2026-11-16T14:40:53.005Z",
   "jogadores": [
     {
       "nome": "Mory Diaw",
@@ -23,7 +23,7 @@
       "nome": "Yehvann Diouf",
       "posicao": "Goleiro",
       "numero": 1,
-      "idade": 26,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pl2wxd1608640902.jpg"
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "nome": "Mamadou Sarr",
-      "posicao": "Atacante",
+      "posicao": "Defensor",
       "numero": 2,
       "idade": 21,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/5cqufd1770721142.jpg"

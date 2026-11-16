@@ -3,7 +3,7 @@
   "team": "Panama",
   "espnTeamId": 2659,
   "copa": 2026,
-  "atualizadoEm": "2026-11-09T15:04:28.748Z",
+  "atualizadoEm": "2026-11-16T14:40:59.293Z",
   "jogadores": [
     {
       "nome": "Luis Mejía",
@@ -42,9 +42,9 @@
     },
     {
       "nome": "Andrés Andrade",
-      "posicao": "Defensor",
+      "posicao": "Meio-campista",
       "numero": 16,
-      "idade": 28,
+      "idade": 37,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/pgbqmf1769545609.jpg"
     },
     {

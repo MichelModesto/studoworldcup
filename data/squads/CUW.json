@@ -3,7 +3,7 @@
   "team": "Curaçao",
   "espnTeamId": 11678,
   "copa": 2026,
-  "atualizadoEm": "2026-11-09T15:04:13.766Z",
+  "atualizadoEm": "2026-11-16T14:40:45.625Z",
   "jogadores": [
     {
       "nome": "Eloy Room",
@@ -107,7 +107,7 @@
       "nome": "Kevin Felida",
       "posicao": "Meio-campista",
       "numero": 22,
-      "idade": 26,
+      "idade": 27,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/rjgevz1701120574.jpg"
     },
     {
@@ -119,14 +119,14 @@
     },
     {
       "nome": "Tahith Chong",
-      "posicao": "Meio-campista",
+      "posicao": "Atacante",
       "numero": 21,
       "idade": 26,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/1aygqk1585668693.jpg"
     },
     {
       "nome": "Ar'jany Martha",
-      "posicao": "Defensor",
+      "posicao": "Atacante",
       "numero": 15,
       "idade": 23,
       "foto": "https://r2.thesportsdb.com/images/media/player/thumb/9rkwa51700835641.jpg"
@@ -182,7 +182,7 @@
     },
     {
       "nome": "Jeremy Antonisse",
-      "posicao": "Atacante",
+      "posicao": "Meio-campista",
       "numero": 11,
       "idade": 24,
       "foto": "https://www.thesportsdb.com/images/media/player/thumb/9gntnl1779489919.jpg"
